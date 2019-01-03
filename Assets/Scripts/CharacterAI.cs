@@ -52,14 +52,13 @@ public class CharacterAI : MonoBehaviour {
     private float panSpeed = 0.5f;  // Speed the camera moves at
     private Vector3 currentPosition;
     private Vector3 newPosition;
-    private Quaternion rotation;
 
     private int assigned = 0;
     private bool beingMoved = false;
 
     public GameObject currentRoom;          // Store the room assigned to
     GameObject previousRoom;                // Store previous room for when resting
-    private float wanderDelay = 10.0f;
+    public float wanderDelay = 10.0f;
     public Vector3 destination;
     public bool wandering = false;
 
@@ -73,7 +72,6 @@ public class CharacterAI : MonoBehaviour {
         speechCanvas.enabled = false;
 
         gameObject.name = characterName;
-        rotation = speechCanvas.transform.rotation;
 
         // Set starting room
         GameObject[] rooms = GameObject.FindGameObjectsWithTag("Room");
@@ -115,9 +113,15 @@ public class CharacterAI : MonoBehaviour {
                 break;
         }
 
-        // Reset canvas rotation
-        speechCanvas.transform.rotation = rotation;
-	}
+        // Reset scientist rotation to be upright
+        var angles = transform.rotation.eulerAngles;
+        angles.x = -90.0f;
+        transform.rotation = Quaternion.Euler(angles);
+
+        // reverse any rotation applied by parent object
+        speechCanvas.transform.rotation = Quaternion.Euler(gameObject.transform.rotation.x * -1.0f,
+            gameObject.transform.rotation.y * -1.0f, gameObject.transform.rotation.z * -1.0f);
+    }
 
     private void IdleUpdate()
     {
@@ -217,7 +221,7 @@ public class CharacterAI : MonoBehaviour {
         // Using negative to simulate drag motion rather than following mouse
         Vector3 move = new Vector3(position.x * panSpeed, position.y * panSpeed, 0);
 
-        transform.Translate(move, Space.World);
+        transform.Translate(move, Space.World);        
     }
 
     private void OnMouseUp()
@@ -728,6 +732,7 @@ public class CharacterAI : MonoBehaviour {
         destination.z = currentRoom.transform.position.z + zFactor;
         return destination;
     }
+
     public Vector3 WanderComplex()
     {
         GameObject[] rooms = GameObject.FindGameObjectsWithTag("Room");
