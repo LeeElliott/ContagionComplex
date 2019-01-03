@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 5325a13cc406adf45acc896a430f955a
+timeCreated: 1544130057
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: ArcadeMachine_001
+    100002: ArcadeMachine_002
+    100004: DrinksMachine_001
+    100006: PoolCue_001
+    100008: PoolCue_002
+    100010: PoolCue_003
+    100012: PoolCue_004
+    100014: PoolCueMount_001
+    100016: PoolCueMount_002
+    100018: PoolTable_001
+    100020: //RootNode
+    100022: Sofa_001
+    100024: Sofa_002
+    100026: TV_001
+    100028: TVStand_001
+    100030: VendingMachine_001
+    400000: ArcadeMachine_001
+    400002: ArcadeMachine_002
+    400004: DrinksMachine_001
+    400006: PoolCue_001
+    400008: PoolCue_002
+    400010: PoolCue_003
+    400012: PoolCue_004
+    400014: PoolCueMount_001
+    400016: PoolCueMount_002
+    400018: PoolTable_001
+    400020: //RootNode
+    400022: Sofa_001
+    400024: Sofa_002
+    400026: TV_001
+    400028: TVStand_001
+    400030: VendingMachine_001
+    2300000: ArcadeMachine_001
+    2300002: ArcadeMachine_002
+    2300004: DrinksMachine_001
+    2300006: PoolCue_001
+    2300008: PoolCue_002
+    2300010: PoolCue_003
+    2300012: PoolCue_004
+    2300014: PoolCueMount_001
+    2300016: PoolCueMount_002
+    2300018: PoolTable_001
+    2300020: Sofa_001
+    2300022: Sofa_002
+    2300024: TV_001
+    2300026: TVStand_001
+    2300028: VendingMachine_001
+    3300000: ArcadeMachine_001
+    3300002: ArcadeMachine_002
+    3300004: DrinksMachine_001
+    3300006: PoolCue_001
+    3300008: PoolCue_002
+    3300010: PoolCue_003
+    3300012: PoolCue_004
+    3300014: PoolCueMount_001
+    3300016: PoolCueMount_002
+    3300018: PoolTable_001
+    3300020: Sofa_001
+    3300022: Sofa_002
+    3300024: TV_001
+    3300026: TVStand_001
+    3300028: VendingMachine_001
+    4300000: ArcadeMachine_002
+    4300002: ArcadeMachine_001
+    4300004: DrinksMachine_001
+    4300006: PoolCueMount_001
+    4300008: PoolCueMount_002
+    4300010: PoolCue_001
+    4300012: PoolCue_002
+    4300014: PoolCue_003
+    4300016: PoolCue_004
+    4300018: PoolTable_001
+    4300020: Sofa_001
+    4300022: Sofa_002
+    4300024: TVStand_001
+    4300026: TV_001
+    4300028: VendingMachine_001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

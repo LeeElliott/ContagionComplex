@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Grind\Documents\GitHub\LabRatZ\LabRatZ_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Grind\Documents\GitHub\LabRatZ\LabRatZ_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Grind\Documents\GitHub\LabRatZ\LabRatZ_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Grind\Documents\GitHub\LabRatZ\LabRatZ_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1802970371" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\FX</ObjectPath>
+			<ShortName>FX</ShortName>
+			<Path>FX.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Play_Ambience"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="642911673" Language="SFX">
+					<ShortName>Experiment Room ambience 1 v2 w. fades.wav</ShortName>
+					<Path>SFX\Experiment Room ambience 1 v2 w. fades_8956FC97.wem</Path>
+				</File>
+				<File Id="657947365" Language="SFX">
+					<ShortName>ID Room ambience 1.wav</ShortName>
+					<Path>SFX\ID Room ambience 1_8956FC97.wem</Path>
+				</File>
+				<File Id="738384050" Language="SFX">
+					<ShortName>Conference Room Ambience 1.wav</ShortName>
+					<Path>SFX\Conference Room Ambience 1_8956FC97.wem</Path>
+				</File>
+				<File Id="1033296678" Language="SFX">
+					<ShortName>Rec Room Ambience 1.wav</ShortName>
+					<Path>SFX\Rec Room Ambience 1_8956FC97.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

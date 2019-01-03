@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30df59be9bddee0438c5f24f1dddcda9, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
+  m_lastPopulateTimePart2: 0
+  m_lastPopulateTimePsrt1: 0
+  AcousticTextureWwu:
+  - Guid: '{009F92A6-69ED-4E4E-84CE-20657C011C29}'
+    m_lastTimePart2: -1999219215
+    m_lastTimePsrt1: -381895545
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
+  AuxBusWwu:
+  - Guid: '{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}'
+    m_lastTimePart2: -1999219215
+    m_lastTimePsrt1: -382255768
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{D3A9E9A7-B300-484E-BDB1-838FFA860A82}'
+    m_lastTimePart2: -1999219214
+    m_lastTimePsrt1: -544885819
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List:
+    - Guid: 7b141bc24229ee45add129815e8b5ece
+      ID: 1802970371
+      Name: FX
+      Path: Default Work Unit\FX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FX
+        ObjectType: 7
+  EventWwu:
+  - Guid: '{6374D344-E35D-4D33-994F-103C8C9CA3D9}'
+    m_lastTimePart2: -1999219215
+    m_lastTimePsrt1: -382455918
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List: []
+  ExpandedItems:
+  - /LabRatZ_WwiseProject
+  RtpcWwu:
+  - Guid: '{130B3285-951B-41BA-A58A-A484FE9D5B61}'
+    m_lastTimePart2: -1999219215
+    m_lastTimePsrt1: -382435911
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List: []
+  StateWwu:
+  - Guid: '{84E291A4-9C90-4615-AC50-3474CD080280}'
+    m_lastTimePart2: -1999219215
+    m_lastTimePsrt1: -382005601
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List: []
+  SwitchWwu:
+  - Guid: '{56857A99-5C06-45E7-B6A5-AC03B60EABB5}'
+    m_lastTimePart2: -1999219215
+    m_lastTimePsrt1: -381955585
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List: []
+  TriggerWwu:
+  - Guid: '{ECDC4411-0B64-4485-94B2-53692E5A3B5B}'
+    m_lastTimePart2: -1999219215
+    m_lastTimePsrt1: -381925576
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []

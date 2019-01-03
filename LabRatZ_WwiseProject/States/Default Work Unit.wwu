@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{84E291A4-9C90-4615-AC50-3474CD080280}" SchemaVersion="89">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{84E291A4-9C90-4615-AC50-3474CD080280}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Ambience_switch" ID="{F6350608-2E0D-42AC-A643-B83BF6D0DDBE}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{EDEBBDD5-9535-4FD3-B456-DA924841744C}"/>
+						<State Name="Conference" ID="{88FA82C3-1E1F-4057-98BB-F1F3CA3C9FEB}"/>
+						<State Name="Production" ID="{CF07BE6C-6E95-4E3B-9D4D-FFB8A2A74231}"/>
+						<State Name="ID" ID="{AE9347CF-4DF9-4591-9A24-E88E55015BE9}"/>
+						<State Name="Rec" ID="{CBBA4BC6-34FA-47A2-BBC1-97B48B7C0AA2}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

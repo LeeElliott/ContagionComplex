@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Ambience" ID="{624E756C-8D6B-4886-A6C4-8C348AC5C81E}">
+					<ChildrenList>
+						<Action Name="" ID="{FE738E54-5FE2-4FDD-BEBE-3EEBB027369D}" ShortID="893402075">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience Switch" ID="{7B71ABC5-46CC-43D7-A74E-93A482610BE1}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

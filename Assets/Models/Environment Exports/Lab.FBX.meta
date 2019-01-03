@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 13c0941c285a439429f03117bfc611e3
+timeCreated: 1544130054
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Canister_001
+    100002: Canister_002
+    100004: CentreLabDesk_002
+    100006: ChemistryEquipment_002
+    100008: ChemistryEquipment_003
+    100010: ChemistryEquipment_004
+    100012: ChemistryEquipment_005
+    100014: Clamp_001
+    100016: Clamp_002
+    100018: Clamp_003
+    100020: Clamp_004
+    100022: //RootNode
+    100024: LabDesk_001
+    100026: LabDesk_002
+    100028: LabShelf_001
+    100030: LabShelf_002
+    100032: LabShelf_003
+    100034: LabShelf_004
+    100036: Scales_001
+    100038: Scales_002
+    100040: Tap_001
+    100042: Tap_002
+    100044: VentilationBooth_001
+    100046: VentilationBooth_002
+    400000: Canister_001
+    400002: Canister_002
+    400004: CentreLabDesk_002
+    400006: ChemistryEquipment_002
+    400008: ChemistryEquipment_003
+    400010: ChemistryEquipment_004
+    400012: ChemistryEquipment_005
+    400014: Clamp_001
+    400016: Clamp_002
+    400018: Clamp_003
+    400020: Clamp_004
+    400022: //RootNode
+    400024: LabDesk_001
+    400026: LabDesk_002
+    400028: LabShelf_001
+    400030: LabShelf_002
+    400032: LabShelf_003
+    400034: LabShelf_004
+    400036: Scales_001
+    400038: Scales_002
+    400040: Tap_001
+    400042: Tap_002
+    400044: VentilationBooth_001
+    400046: VentilationBooth_002
+    2300000: Canister_001
+    2300002: Canister_002
+    2300004: CentreLabDesk_002
+    2300006: ChemistryEquipment_002
+    2300008: ChemistryEquipment_003
+    2300010: ChemistryEquipment_004
+    2300012: ChemistryEquipment_005
+    2300014: Clamp_001
+    2300016: Clamp_002
+    2300018: Clamp_003
+    2300020: Clamp_004
+    2300022: LabDesk_001
+    2300024: LabDesk_002
+    2300026: LabShelf_001
+    2300028: LabShelf_002
+    2300030: LabShelf_003
+    2300032: LabShelf_004
+    2300034: Scales_001
+    2300036: Scales_002
+    2300038: Tap_001
+    2300040: Tap_002
+    2300042: VentilationBooth_001
+    2300044: VentilationBooth_002
+    3300000: Canister_001
+    3300002: Canister_002
+    3300004: CentreLabDesk_002
+    3300006: ChemistryEquipment_002
+    3300008: ChemistryEquipment_003
+    3300010: ChemistryEquipment_004
+    3300012: ChemistryEquipment_005
+    3300014: Clamp_001
+    3300016: Clamp_002
+    3300018: Clamp_003
+    3300020: Clamp_004
+    3300022: LabDesk_001
+    3300024: LabDesk_002
+    3300026: LabShelf_001
+    3300028: LabShelf_002
+    3300030: LabShelf_003
+    3300032: LabShelf_004
+    3300034: Scales_001
+    3300036: Scales_002
+    3300038: Tap_001
+    3300040: Tap_002
+    3300042: VentilationBooth_001
+    3300044: VentilationBooth_002
+    4300000: Canister_002
+    4300002: Canister_001
+    4300004: CentreLabDesk_002
+    4300006: ChemistryEquipment_002
+    4300008: ChemistryEquipment_003
+    4300010: ChemistryEquipment_005
+    4300012: ChemistryEquipment_004
+    4300014: Clamp_001
+    4300016: Clamp_004
+    4300018: Clamp_002
+    4300020: Clamp_003
+    4300022: Tap_001
+    4300024: Tap_002
+    4300026: LabDesk_001
+    4300028: LabDesk_002
+    4300030: LabShelf_001
+    4300032: LabShelf_002
+    4300034: LabShelf_003
+    4300036: LabShelf_004
+    4300038: Scales_001
+    4300040: Scales_002
+    4300042: VentilationBooth_001
+    4300044: VentilationBooth_002
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
