@@ -4,6 +4,8 @@
 //
 // A script designed to hold all
 // AI related functionality.
+//
+// EDIT - 17/01/2019 - Name generation moved to CSV (LE)
 //-------------------------------
 
 using System.Collections;
@@ -445,213 +447,24 @@ public class CharacterAI : MonoBehaviour {
         if(characterGender == "Female")
         {
 			int forename = Random.Range(1, 11);
+            int surname = Random.Range(1, 21);
 
-            switch(forename)
-            {
-                case 1:
-                    result = "Mary";
-                    break;
-                case 2:
-                    result = "Patricia";
-                    break;
-                case 3:
-                    result = "Jennifer";
-                    break;
-                case 4:
-                    result = "Linda";
-                    break;
-                case 5:
-                    result = "Elizabeth";
-                    break;
-                case 6:
-                    result = "Barbara";
-                    break;
-                case 7:
-                    result = "Susan";
-                    break;
-                case 8:
-                    result = "Jessica";
-                    break;
-                case 9:
-                    result = "Sarah";
-                    break;
-                case 10:
-                    result = "Margaret";
-                    break;
-            }
-
-			int surname = Random.Range(1, 21);
-
-            switch(surname)
-            {
-                case 1:
-                    result += " Smith";
-                    break;
-                case 2:
-                    result += " Johnson";
-                    break;
-                case 3:
-                    result += " Williams";
-                    break;
-                case 4:
-                    result += " Jones";
-                    break;
-                case 5:
-                    result += " Brown";
-                    break;
-                case 6:
-                    result += " Davis";
-                    break;
-                case 7:
-                    result += " Miller";
-                    break;
-                case 8:
-                    result += " Wilson";
-                    break;
-                case 9:
-                    result += " Moore";
-                    break;
-                case 10:
-                    result += " Taylor";
-                    break;
-                case 11:
-                    result += " Anderson";
-                    break;
-                case 12:
-                    result += " Thomas";
-                    break;
-                case 13:
-                    result += " Jackson";
-                    break;
-                case 14:
-                    result += " White";
-                    break;
-                case 15:
-                    result += " Harris";
-                    break;
-                case 16:
-                    result += " Martin";
-                    break;
-                case 17:
-                    result += " Thompson";
-                    break;
-                case 18:
-                    result += " Garcia";
-                    break;
-                case 19:
-                    result += " Martinez";
-                    break;
-                case 20:
-                    result += " Robinson";
-                    break;
-            }
+            // Loads data from csv file and stores as a string
+            scriptA = GetComponent<LoadFromCSV>();
+            result = scriptA.LoadName(forename, 0);
+            result += scriptA.LoadName(surname, 2);
         }
         else
         {
-			int forename = Random.Range(1, 11);
-
-            switch(forename)
-            {
-                case 1:
-                    result = "James";
-                    break;
-                case 2:
-                    result = "John";
-                    break;
-                case 3:
-                    result = "Robert";
-                    break;
-                case 4:
-                    result = "Michael";
-                    break;
-                case 5:
-                    result = "William";
-                    break;
-                case 6:
-                    result = "David";
-                    break;
-                case 7:
-                    result = "Richard";
-                    break;
-                case 8:
-                    result = "Joseph";
-                    break;
-                case 9:
-                    result = "Thomas";
-                    break;
-                case 10:
-                    result = "Charles";
-                    break;
-            }
-
+            int forename = Random.Range(1, 11);
             int surname = Random.Range(1, 21);
 
-			switch(surname)
-            {
-                case 1:
-                    result += " Smith";
-                    break;
-                case 2:
-                    result += " Johnson";
-                    break;
-                case 3:
-                    result += " Williams";
-                    break;
-                case 4:
-                    result += " Jones";
-                    break;
-                case 5:
-                    result += " Brown";
-                    break;
-                case 6:
-                    result += " Davis";
-                    break;
-                case 7:
-                    result += " Miller";
-                    break;
-                case 8:
-                    result += " Wilson";
-                    break;
-                case 9:
-                    result += " Moore";
-                    break;
-                case 10:
-                    result += " Taylor";
-                    break;
-                case 11:
-                    result += " Anderson";
-                    break;
-                case 12:
-                    result += " Thomas";
-                    break;
-                case 13:
-                    result += " Jackson";
-                    break;
-                case 14:
-                    result += " White";
-                    break;
-                case 15:
-                    result += " Harris";
-                    break;
-                case 16:
-                    result += " Martin";
-                    break;
-                case 17:
-                    result += " Thompson";
-                    break;
-                case 18:
-                    result += " Garcia";
-                    break;
-                case 19:
-                    result += " Martinez";
-                    break;
-                case 20:
-                    result += " Robinson";
-                    break;
-            }
+            // Loads data from csv file and stores as a string
+            scriptA = GetComponent<LoadFromCSV>();
+            result = scriptA.LoadName(forename, 1);
+            result += scriptA.LoadName(surname, 2);
         }
-
-        
+                
         return result;
     }
 
