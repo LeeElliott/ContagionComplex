@@ -423,6 +423,568 @@
 										</MusicPlaylistItem>
 									</Playlist>
 								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Main Forest Ambience" ID="{35E6B883-A48B-40C9-B4A5-822E6812707D}" ShortID="1071180218">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Track 1" ID="{54711C81-2560-406E-A2CA-C93332A58679}" ShortID="332235253">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="104534.333333333"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="building noise" ID="{CCBDE17D-CA6B-4418-8BA6-EE086C80FD7E}" ShortID="706163296">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="building noise" ID="{6C10348F-8686-407F-9447-D40ECDAA9372}" ShortID="655755780">
+															<Language>SFX</Language>
+															<AudioFile>building noise.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="509907097"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{7DC7B55F-A763-453F-BC42-A4DEE0B18F6D}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{7CD111DB-DDB7-49C9-BC17-BE8BB59EB7BC}">
+															<ClipList>
+																<MusicClip Name="building noise" ID="{43B765C2-0089-4A8D-A545-ADBF63707667}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="29515.7708333333"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="building noise" ID="{6C10348F-8686-407F-9447-D40ECDAA9372}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="wind loop" ID="{706FB3C8-D730-4329-A53C-EC14B445B5F5}" ShortID="933433701">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wind loop" ID="{E2362062-2ABD-4C91-9A45-7A067A44B97A}" ShortID="219205936">
+															<Language>SFX</Language>
+															<AudioFile>wind loop.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="889374317"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{F9ACC9CA-9423-4742-BD07-A8C32C3E6452}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{B58A6996-1E89-4DD0-8EC8-C4B00CCC4A93}">
+															<ClipList>
+																<MusicClip Name="wind loop" ID="{A84F46F6-E316-41A5-AB1A-54095E52FDAF}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="29515.7708333333"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="wind loop" ID="{E2362062-2ABD-4C91-9A45-7A067A44B97A}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="Forest ambience Track 1" ID="{867254EF-482E-4DB2-B7FD-8BCE60005B53}" ShortID="373148029">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Forest ambience Track 1" ID="{20202B91-CF00-406F-BB7F-A9B105052BBC}" ShortID="532243596">
+															<Language>SFX</Language>
+															<AudioFile>Forest ambience Track 1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{6A0D8566-BCDE-4A91-802C-DC6487709C2B}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{EFB43866-F649-406D-B4D4-6FAEC8F20C53}">
+															<ClipList>
+																<MusicClip Name="Forest ambience Track 1" ID="{1DA493A0-BA4E-4C26-A823-3408C255B738}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="104534.333333333"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Forest ambience Track 1" ID="{20202B91-CF00-406F-BB7F-A9B105052BBC}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+											</ChildrenList>
+											<CueList>
+												<MusicCue Name="Entry Cue" ID="{E5995AFE-D983-4EBE-A4FD-CBDAA3FE7B1F}"/>
+												<MusicCue Name="Exit Cue" ID="{BB51A064-8884-43F7-B51B-5F898B49C360}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="1"/>
+														<Property Name="TimeMs" Type="Real64" Value="1000"/>
+													</PropertyList>
+												</MusicCue>
+											</CueList>
+										</MusicSegment>
+										<MusicSegment Name="Track 2" ID="{C3EB0B8B-9641-414B-898E-92F2B37B4975}" ShortID="517458833">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="37517.5625"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="building noise" ID="{CCCE9C7F-9B45-4DD1-B1B4-112E6E4D5BA4}" ShortID="946421810">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="building noise" ID="{8D5A8616-23F6-4A4F-AB87-A32EDE19B614}" ShortID="936953527">
+															<Language>SFX</Language>
+															<AudioFile>building noise.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="509907097"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{0A74B466-C523-4303-9A37-F177BB3F5781}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{6881D136-EBE2-4B80-9A84-B4D59414D562}">
+															<ClipList>
+																<MusicClip Name="building noise" ID="{1B9964B9-4DC4-4410-A7B2-BC3F100DFB9C}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="29515.7708333333"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="building noise" ID="{8D5A8616-23F6-4A4F-AB87-A32EDE19B614}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="wind loop" ID="{74B6205B-DA1B-4A3D-869D-BA9DB655B379}" ShortID="343279405">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wind loop" ID="{7C91BCF5-EFFF-4492-A550-DE4A503E2C1A}" ShortID="146122133">
+															<Language>SFX</Language>
+															<AudioFile>wind loop.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="889374317"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{0E6737A4-7B6C-4541-914B-AA311C7DD871}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{8B3FB3A0-22EE-4125-A778-513DD8339767}">
+															<ClipList>
+																<MusicClip Name="wind loop" ID="{7547CE8E-901F-46A3-AFD1-CD46BEC316B8}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="29515.7708333333"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="wind loop" ID="{7C91BCF5-EFFF-4492-A550-DE4A503E2C1A}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="Forest ambience Track 2" ID="{40A6C2E3-D97F-47B0-BD19-15270685065C}" ShortID="39346339">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Forest ambience Track 2" ID="{9EFFEF3E-EFCD-4438-B642-C5C4A9FAAC04}" ShortID="872071021">
+															<Language>SFX</Language>
+															<AudioFile>Forest ambience Track 2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{67A31239-CE48-4114-94EC-49C5451E5D19}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{7F598D4B-EBD7-4ADF-9B1D-3257476CEED0}">
+															<ClipList>
+																<MusicClip Name="Forest ambience Track 2" ID="{C6017F6F-0BFD-470D-8EB4-D6197393E18E}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="37517.5625"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Forest ambience Track 2" ID="{9EFFEF3E-EFCD-4438-B642-C5C4A9FAAC04}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+											</ChildrenList>
+											<CueList>
+												<MusicCue Name="Entry Cue" ID="{FB80B0B9-84D2-42C5-AA48-52EE397DD59F}"/>
+												<MusicCue Name="Exit Cue" ID="{F9FE2825-3A8D-4436-8176-6E79A3198A72}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="1"/>
+														<Property Name="TimeMs" Type="Real64" Value="1000"/>
+													</PropertyList>
+												</MusicCue>
+											</CueList>
+										</MusicSegment>
+										<MusicSegment Name="Track 3" ID="{16B35916-A354-460B-AE3E-28A77797917B}" ShortID="133955621">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="42859.7916666667"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="building noise" ID="{D4BBC7A0-D142-4672-9482-784779F059F4}" ShortID="924928693">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="building noise" ID="{984BD83A-7D1D-46E3-9FA0-110C68B3C1F2}" ShortID="171486268">
+															<Language>SFX</Language>
+															<AudioFile>building noise.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="509907097"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{635B43BF-3BCB-4E19-8998-D56FCD452330}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{2B02B06B-089D-4DC9-8995-DFCC0A8266E6}">
+															<ClipList>
+																<MusicClip Name="building noise" ID="{F4632E17-B7BD-45B3-AA97-AE6D598889F8}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="29515.7708333333"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="building noise" ID="{984BD83A-7D1D-46E3-9FA0-110C68B3C1F2}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="wind loop" ID="{E421F08F-8ED6-491A-851D-6D88EEE24874}" ShortID="83625269">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wind loop" ID="{421B8E24-6D52-4948-886D-3AA37A19F2FE}" ShortID="232160948">
+															<Language>SFX</Language>
+															<AudioFile>wind loop.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="889374317"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{1ABFC48C-4581-4FDF-8A95-0427C72C2E14}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{CE60DAB6-DE00-41E6-9558-FA7B85DCE6BD}">
+															<ClipList>
+																<MusicClip Name="wind loop" ID="{3CD0F737-3573-43A2-A1A4-B8F4186F4EC6}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="29515.7708333333"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="wind loop" ID="{421B8E24-6D52-4948-886D-3AA37A19F2FE}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="Forest ambience Track 3" ID="{00E31AA3-5859-4DC5-8984-6231715B0977}" ShortID="138200932">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Forest ambience Track 3" ID="{DEB1D3D3-1328-4B33-B83E-558EDD4C430F}" ShortID="9889232">
+															<Language>SFX</Language>
+															<AudioFile>Forest ambience Track 3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{8482BFA6-B04F-4703-9980-CCCC3E1526BD}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{7DB5FD1F-8472-48E5-8EDA-5E12DC8FD270}">
+															<ClipList>
+																<MusicClip Name="Forest ambience Track 3" ID="{B2ED896A-A0D4-4DC8-A5F7-9E89A8A6F958}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="42859.7916666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Forest ambience Track 3" ID="{DEB1D3D3-1328-4B33-B83E-558EDD4C430F}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+											</ChildrenList>
+											<CueList>
+												<MusicCue Name="Entry Cue" ID="{073FF35D-187B-49A2-A61F-8EAFD01A74E4}"/>
+												<MusicCue Name="Exit Cue" ID="{9AC9A616-97B3-4C62-8F05-849FC4398B1E}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="1"/>
+														<Property Name="TimeMs" Type="Real64" Value="1000"/>
+													</PropertyList>
+												</MusicCue>
+											</CueList>
+										</MusicSegment>
+										<MusicSegment Name="Track 4" ID="{DAE0AF61-BC9D-4982-9862-FCBDEBA5DB15}" ShortID="806394579">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="73724.0625"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Forest ambience Track 4" ID="{7D173CB7-4C8A-4FE6-A9CA-2C6207B1EA37}" ShortID="30378155">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Forest ambience Track 4" ID="{BD8C3FFB-1B26-4832-B966-EEDE3346FA3C}" ShortID="8553173">
+															<Language>SFX</Language>
+															<AudioFile>Forest ambience Track 4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{7D99B6C5-2EC9-4C1E-920B-6158B1F3DEC8}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{3072DFA3-6391-4E03-907E-215399E5209E}">
+															<ClipList>
+																<MusicClip Name="Forest ambience Track 4" ID="{53AC10DE-05A4-4544-9E41-FC4BF02D793E}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="73724.0625"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Forest ambience Track 4" ID="{BD8C3FFB-1B26-4832-B966-EEDE3346FA3C}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="building noise" ID="{6DF6551B-3692-498F-8E7B-30C97B196686}" ShortID="696306034">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="building noise" ID="{3F7A607E-3C17-4B0A-ABBA-E6FC44F7127A}" ShortID="509907097">
+															<Language>SFX</Language>
+															<AudioFile>building noise.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{7EEAC457-8D47-4FE6-A9DB-A0D7491C98EF}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{EE5E5F10-B0CA-448C-935A-4ADCEC5A5695}">
+															<ClipList>
+																<MusicClip Name="building noise" ID="{8B747B74-DC2E-4D9E-B571-A18FF5618D2A}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="29515.7708333333"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="building noise" ID="{3F7A607E-3C17-4B0A-ABBA-E6FC44F7127A}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="wind loop" ID="{F7874710-1CB2-40AD-A2B3-C7308C7CAC73}" ShortID="903310815">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wind loop" ID="{813795D1-2D52-4B66-AE36-C9FEA9C5738E}" ShortID="889374317">
+															<Language>SFX</Language>
+															<AudioFile>wind loop.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{8677E07F-92E8-4131-B373-CB729B283B62}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{CBF5DD60-F046-4410-909F-E005DEE0FDAE}">
+															<ClipList>
+																<MusicClip Name="wind loop" ID="{02EF41A3-757D-42BD-864C-2959DDAB0161}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="29515.7708333333"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="wind loop" ID="{813795D1-2D52-4B66-AE36-C9FEA9C5738E}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+											</ChildrenList>
+											<CueList>
+												<MusicCue Name="Entry Cue" ID="{2BF3B7DD-59CA-4936-B49E-129780BA0F36}"/>
+												<MusicCue Name="Exit Cue" ID="{620B8665-23C1-496F-BED0-0A842599B6A2}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="1"/>
+														<Property Name="TimeMs" Type="Real64" Value="1000"/>
+													</PropertyList>
+												</MusicCue>
+											</CueList>
+										</MusicSegment>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6A4FC4C4-25CE-4467-B536-35F048CA7B77}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{AE4B16CF-C4AC-4048-BD59-26F766626F1B}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<Playlist>
+										<MusicPlaylistItem Name="" ID="{67BC40F4-265B-452D-83CF-6E17AB07D665}" ShortID="444126111"/>
+									</Playlist>
+								</MusicPlaylistContainer>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
