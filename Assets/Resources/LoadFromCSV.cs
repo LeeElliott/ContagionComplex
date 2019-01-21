@@ -6,7 +6,6 @@
 // a specific phrase from
 // a CSV file.
 //
-// EDIT - 17/01/2019 - Function added to read names from CSV (LE)
 //-------------------------------
 
 using System.Collections;

@@ -6,7 +6,6 @@
 // functionality of the game
 // controller.
 //
-// EDIT - 17/01/2019 - Small edit to scientist spawn position, removed random scientists from startup. (LE)
 //-------------------------------
 
 using System.Collections;
@@ -14,12 +13,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ControllerScript : MonoBehaviour {
+public class ControllerScript : MonoBehaviour
+{
     // Empty used as container
     private GameObject scientists;
 
     // Used for spawning
-    private float spawnDelay = Random.Range(20.0f, 100.0f);
+    private float spawnDelay;
     private bool canSpawn = false;
     public Transform scientist;
 
@@ -27,6 +27,8 @@ public class ControllerScript : MonoBehaviour {
 	void Start()
     {
         InitialiseGame();
+
+        spawnDelay = Random.Range(20.0f, 100.0f);
     }
 
     // Update is called once per frame

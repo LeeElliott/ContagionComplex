@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\CharacterAI.cs" />
     <Compile Include="Assets\Scripts\ControllerScript.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
+    <Compile Include="Assets\Scripts\MissionController.cs" />
     <Compile Include="Assets\Scripts\RoomScript.cs" />
     <Compile Include="Assets\Scripts\SplashController.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />

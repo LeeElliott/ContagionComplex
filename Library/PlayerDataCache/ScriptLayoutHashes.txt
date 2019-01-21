@@ -174,7 +174,8 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 30a2089effdb622993c4825e331cf91a Assembly-CSharp.dll:.AkBank
 053f84d62eddb8301304c9f2c2d85cdb Assembly-CSharp.dll:.AkEvent
 b1029a9616ad7b52123ba44e6457d025 Assembly-CSharp.dll:.AkSpatialAudioEmitter
-e3244fc10cefdeaec6094cc620327394 Assembly-CSharp.dll:.CharacterAI
+37d530e8df11f3057796dac589e1e823 Assembly-CSharp.dll:.CharacterAI
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AkDragDropHelper
 03b325cf737a582077f3a40573dece46 Assembly-CSharp.dll:.RoomScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AkTriggerEnable
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MissionController
