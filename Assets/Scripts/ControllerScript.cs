@@ -62,7 +62,7 @@ public class ControllerScript : MonoBehaviour
 
     private void SpawnScientist()
     {
-        Transform rand = Instantiate(scientist, new Vector3(-17.0f, 1.0f, 0.0f), Quaternion.identity);
+        Transform rand = Instantiate(scientist, new Vector3(-30.0f, 1.0f, 0.0f), Quaternion.identity);
         rand.GetComponent<CharacterAI>().SetRandomStats();
         rand.tag = "Scientist";
         rand.transform.SetParent(scientists.transform);
@@ -71,10 +71,9 @@ public class ControllerScript : MonoBehaviour
 
     private void SpawnScientist(int ident, int form, int prod, string name, int age, string gender)
     {
-        Transform temp = Instantiate(scientist, new Vector3(-17.0f, 1.0f, 0.0f), Quaternion.identity) as Transform;
+        Transform temp = Instantiate(scientist, new Vector3(-20.0f, 1.0f, 0.0f), Quaternion.identity) as Transform;
         temp.GetComponent<CharacterAI>().SetUniqueStats(ident, form, prod, name, age, gender);
         temp.tag = "Scientist";
         temp.transform.SetParent(scientists.transform);
-        temp.transform.SetPositionAndRotation(transform.position, new Quaternion(-90, 0, 0, 0));
     }
 }
