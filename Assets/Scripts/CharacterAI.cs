@@ -5,7 +5,6 @@
 // A script designed to hold all
 // AI related functionality.
 //
-// EDIT - 17/01/2019 - Name generation moved to CSV (LE)
 //-------------------------------
 
 using System.Collections;
@@ -14,7 +13,8 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 
-public class CharacterAI : MonoBehaviour {
+public class CharacterAI : MonoBehaviour
+{
 
     // Keeps track of characters current behaviour
     public enum BehaviourState
@@ -51,22 +51,23 @@ public class CharacterAI : MonoBehaviour {
 
     // For movement
     private Vector3 mouseOrigin;
-    private float panSpeed = 0.5f;  // Speed the camera moves at
+    // Speed the camera moves at
+    private float panSpeed = 0.5f;
     private Vector3 currentPosition;
     private Vector3 newPosition;
 
     private int assigned = 0;
     private bool beingMoved = false;
 
-    public GameObject currentRoom;          // Store the room assigned to
-    GameObject previousRoom;                // Store previous room for when resting
+    // Store the room assigned to
+    public GameObject currentRoom;
+    // Store previous room for when resting
+    GameObject previousRoom;                
     public float wanderDelay = 10.0f;
     public Vector3 destination;
     public bool wandering = false;
 
-    // Use this for initialization of random scientists
-    // Must call GenerateInfo()
-	void Start()
+    void Start()
     {
         // Initialise speech text
         speechText.text = " ";
@@ -86,10 +87,6 @@ public class CharacterAI : MonoBehaviour {
         }
     }
 
-    // Used to create preset scientists
-    // The starting four will use this
-    // Must not call GenerateInfo()
-   
     // Update is called once per frame
     void Update()
     {
@@ -215,7 +212,8 @@ public class CharacterAI : MonoBehaviour {
 
         // Disable NavMeshAgent
         gameObject.GetComponent<NavMeshAgent>().enabled = false;
-        gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 0);
+        gameObject.transform.position = new Vector3(gameObject.transform.position.x,
+            gameObject.transform.position.y, 0);
 
         // Move respective to mouse position
         
@@ -226,6 +224,8 @@ public class CharacterAI : MonoBehaviour {
         transform.Translate(move, Space.World);        
     }
 
+    // *********************************************** //
+    // THIS NEEDS FORMATTED TO ADHERE TO CODING STANDARDS
     private void OnMouseUp()
     {
         if(beingMoved)
@@ -536,6 +536,8 @@ public class CharacterAI : MonoBehaviour {
         behaviourState = BehaviourState.notHired;
     }
 
+    // ************ //
+    // THIS NEEDS WORK
     public Vector3 WanderRoom()
     {
         float xFactor = Random.Range(-2.0f, 2.0f);
@@ -546,6 +548,8 @@ public class CharacterAI : MonoBehaviour {
         return destination;
     }
 
+    // ************ //
+    // THIS NEEDS WORK
     public Vector3 WanderComplex()
     {
         GameObject[] rooms = GameObject.FindGameObjectsWithTag("Room");

@@ -4,6 +4,7 @@
 //
 // A script designed to hold all
 // camera related functions.
+//
 //-------------------------------
 
 using System.Collections;

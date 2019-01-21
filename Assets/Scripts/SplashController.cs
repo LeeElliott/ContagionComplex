@@ -5,6 +5,7 @@
 // A script designed to hold all
 // functionality of the splash
 // screen controller.
+//
 //-------------------------------
 
 using System.Collections;
@@ -31,7 +32,8 @@ public class SplashController : MonoBehaviour {
             splashText.text = "St Andrews\nUniversity";
             
         }
-        else if(timer >= 0.0f)
+
+        if(timer >= 0.0f)
         {
             timer -= Time.deltaTime;
         }

@@ -5,6 +5,7 @@
 // A script designed to hold all
 // functionality of the menu
 // controller.
+//
 //-------------------------------
 
 using System.Collections;
