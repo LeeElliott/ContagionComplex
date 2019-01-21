@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Grind\Documents\GitHub\LabRatZ\LabRatZ_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Grind\Documents\GitHub\LabRatZ\LabRatZ_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Grind\Documents\GitHub\LabRatZ\LabRatZ_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Grind\Documents\GitHub\LabRatZ\LabRatZ_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -20,6 +20,37 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\FX</ObjectPath>
 			<ShortName>FX</ShortName>
 			<Path>FX.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3921499158" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainAmbience</ObjectPath>
+			<ShortName>MainAmbience</ShortName>
+			<Path>MainAmbience.bnk</Path>
+			<IncludedMemoryFiles>
+				<File Id="8553173" Language="SFX">
+					<ShortName>Forest ambience Track 4.wav</ShortName>
+					<Path>SFX\Forest ambience Track 4_8956FC97.wem</Path>
+				</File>
+				<File Id="9889232" Language="SFX">
+					<ShortName>Forest ambience Track 3.wav</ShortName>
+					<Path>SFX\Forest ambience Track 3_8956FC97.wem</Path>
+				</File>
+				<File Id="509907097" Language="SFX">
+					<ShortName>building noise.wav</ShortName>
+					<Path>SFX\building noise_8956FC97.wem</Path>
+				</File>
+				<File Id="532243596" Language="SFX">
+					<ShortName>Forest ambience Track 1.wav</ShortName>
+					<Path>SFX\Forest ambience Track 1_8956FC97.wem</Path>
+				</File>
+				<File Id="872071021" Language="SFX">
+					<ShortName>Forest ambience Track 2.wav</ShortName>
+					<Path>SFX\Forest ambience Track 2_8956FC97.wem</Path>
+				</File>
+				<File Id="889374317" Language="SFX">
+					<ShortName>wind loop.wav</ShortName>
+					<Path>SFX\wind loop_8956FC97.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="3991942870" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
