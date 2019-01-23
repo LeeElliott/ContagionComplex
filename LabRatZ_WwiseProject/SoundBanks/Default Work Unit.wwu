@@ -22,7 +22,20 @@
 						<ObjectRef Name="ID Room" ID="{D32957D9-5A04-4DDC-AD64-94F01F7FF575}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Rec Room Ambience 1" ID="{61199DE6-E588-4E35-9B3D-0931C38A901F}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
-					<ObjectExclusionList/>
+					<ObjectExclusionList>
+						<ObjectRef Name="Forest ambience Track 1" ID="{20202B91-CF00-406F-BB7F-A9B105052BBC}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="building noise" ID="{6C10348F-8686-407F-9447-D40ECDAA9372}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="Forest ambience Track 2" ID="{9EFFEF3E-EFCD-4438-B642-C5C4A9FAAC04}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="wind loop" ID="{7C91BCF5-EFFF-4492-A550-DE4A503E2C1A}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="building noise" ID="{984BD83A-7D1D-46E3-9FA0-110C68B3C1F2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="Forest ambience Track 4" ID="{BD8C3FFB-1B26-4832-B966-EEDE3346FA3C}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="wind loop" ID="{421B8E24-6D52-4948-886D-3AA37A19F2FE}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="building noise" ID="{8D5A8616-23F6-4A4F-AB87-A32EDE19B614}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="building noise" ID="{3F7A607E-3C17-4B0A-ABBA-E6FC44F7127A}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="Forest ambience Track 3" ID="{DEB1D3D3-1328-4B33-B83E-558EDD4C430F}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="wind loop" ID="{813795D1-2D52-4B66-AE36-C9FEA9C5738E}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="wind loop" ID="{E2362062-2ABD-4C91-9A45-7A067A44B97A}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+					</ObjectExclusionList>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="MainAmbience" ID="{8D54EB23-EB7E-48C3-8065-96ADB4E7BBAA}">
