@@ -15,7 +15,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicPlaylistContainer Name="Conference Room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" ShortID="665728529">
+								<MusicPlaylistContainer Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" ShortID="665728529">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -1570,7 +1570,7 @@
 								</StateGroupList>
 								<CustomStateList>
 									<CustomState>
-										<StateRef Name="Conference" ID="{88FA82C3-1E1F-4057-98BB-F1F3CA3C9FEB}"/>
+										<StateRef Name="Experimentation" ID="{88FA82C3-1E1F-4057-98BB-F1F3CA3C9FEB}"/>
 										<State Name="" ID="{00E841F4-BE43-4329-A384-1F18F42E61F6}" ShortID="984867607"/>
 									</CustomState>
 									<CustomState>
@@ -1614,7 +1614,7 @@
 													<ObjectRef Name="ID Room" ID="{D32957D9-5A04-4DDC-AD64-94F01F7FF575}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 												</Reference>
 												<Reference Name="SourceContextObject">
-													<ObjectRef Name="Conference Room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+													<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 												</Reference>
 											</ReferenceList>
 											<TransitionInfo>
@@ -1651,7 +1651,7 @@
 													<ObjectRef Name="Production Room" ID="{0994145A-9F38-4433-BDF9-F5B0C1B85E35}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 												</Reference>
 												<Reference Name="SourceContextObject">
-													<ObjectRef Name="Conference Room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+													<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 												</Reference>
 											</ReferenceList>
 											<TransitionInfo>
@@ -1688,7 +1688,7 @@
 													<ObjectRef Name="Rec Room" ID="{D34D1510-4BD1-48D5-AC4F-8D27FBE63AC4}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 												</Reference>
 												<Reference Name="SourceContextObject">
-													<ObjectRef Name="Conference Room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+													<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 												</Reference>
 											</ReferenceList>
 											<TransitionInfo>
@@ -1722,7 +1722,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="DestinationContextObject">
-													<ObjectRef Name="Conference Room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+													<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 												</Reference>
 												<Reference Name="SourceContextObject">
 													<ObjectRef Name="ID Room" ID="{D32957D9-5A04-4DDC-AD64-94F01F7FF575}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
@@ -1833,7 +1833,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="DestinationContextObject">
-													<ObjectRef Name="Conference Room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+													<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 												</Reference>
 												<Reference Name="SourceContextObject">
 													<ObjectRef Name="Production Room" ID="{0994145A-9F38-4433-BDF9-F5B0C1B85E35}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
@@ -1944,7 +1944,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="DestinationContextObject">
-													<ObjectRef Name="Conference Room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+													<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 												</Reference>
 												<Reference Name="SourceContextObject">
 													<ObjectRef Name="Rec Room" ID="{D34D1510-4BD1-48D5-AC4F-8D27FBE63AC4}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
@@ -2055,7 +2055,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="DestinationContextObject">
-													<ObjectRef Name="Conference Room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+													<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 												</Reference>
 												<Reference Name="SourceContextObject">
 													<ObjectRef Name="Main Forest Ambience" ID="{35E6B883-A48B-40C9-B4A5-822E6812707D}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
@@ -2206,7 +2206,7 @@
 													<ObjectRef Name="Main Forest Ambience" ID="{35E6B883-A48B-40C9-B4A5-822E6812707D}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 												</Reference>
 												<Reference Name="SourceContextObject">
-													<ObjectRef Name="Conference Room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+													<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 												</Reference>
 											</ReferenceList>
 											<TransitionInfo>
@@ -2530,18 +2530,10 @@
 							<EntryList>
 								<Entry>
 									<Path>
-										<PathElementRef Name="Ambience_switch" ID="{F6350608-2E0D-42AC-A643-B83BF6D0DDBE}"/>
+										<PathElementRef Name="Experimentation" ID="{88FA82C3-1E1F-4057-98BB-F1F3CA3C9FEB}"/>
 									</Path>
 									<AudioNodeInfo>
-										<NoObject Platform="Linked"/>
-									</AudioNodeInfo>
-								</Entry>
-								<Entry>
-									<Path>
-										<PathElementRef Name="Conference" ID="{88FA82C3-1E1F-4057-98BB-F1F3CA3C9FEB}"/>
-									</Path>
-									<AudioNodeInfo>
-										<AudioNodeRef Name="Conference Room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Platform="Linked"/>
+										<AudioNodeRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Platform="Linked"/>
 									</AudioNodeInfo>
 								</Entry>
 								<Entry>
@@ -2574,6 +2566,14 @@
 									</Path>
 									<AudioNodeInfo>
 										<AudioNodeRef Name="Main Forest Ambience" ID="{35E6B883-A48B-40C9-B4A5-822E6812707D}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="Ambience_switch" ID="{F6350608-2E0D-42AC-A643-B83BF6D0DDBE}"/>
+									</Path>
+									<AudioNodeInfo>
+										<NoObject Platform="Linked"/>
 									</AudioNodeInfo>
 								</Entry>
 							</EntryList>

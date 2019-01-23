@@ -8,13 +8,13 @@ State	ID	Name	State Group			Notes
 	0	None	Ambience_switch			
 	980603541	Rec	Ambience_switch			
 	1752637606	ID	Ambience_switch			
+	2009569955	Experimentation	Ambience_switch			
 	2189352272	Production	Ambience_switch			
 	3161908922	Main	Ambience_switch			
-	3976733995	Conference	Ambience_switch			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	642911673	Experiment Room ambience 1 v2 w_ fades	C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Experiment Room ambience 1 v2 w. fades_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\New Virtual Folder\Ambience Switch\Production Room\Experiment Room ambience 1 v2 w_ fades\Experiment Room ambience 1 v2 w_ fades		11289664
 	657947365	ID Room ambience 1	C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\ID Room ambience 1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\New Virtual Folder\Ambience Switch\ID Room\ID Room ambience 1\ID Room ambience 1		11289664
-	738384050	Conference Room Ambience 1	C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Conference Room Ambience 1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\New Virtual Folder\Ambience Switch\Conference Room\Conference Room Ambience 1\Conference Room Ambience 1		12288064
+	738384050	Conference Room Ambience 1	C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Conference Room Ambience 1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\New Virtual Folder\Ambience Switch\Experimentation room\Conference Room Ambience 1\Conference Room Ambience 1		12288064
 	1033296678	Rec Room Ambience 1	C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Rec Room Ambience 1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\New Virtual Folder\Ambience Switch\Rec Room\Rec Room Ambience 1\Rec Room Ambience 1		32440388
 

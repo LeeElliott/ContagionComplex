@@ -17,22 +17,22 @@ MonoBehaviour:
   m_lastPopulateTimePsrt1: 0
   AcousticTextureWwu:
   - Guid: '{009F92A6-69ED-4E4E-84CE-20657C011C29}'
-    m_lastTimePart2: -1999219215
-    m_lastTimePsrt1: -381895545
+    m_lastTimePart2: -1999209371
+    m_lastTimePsrt1: 777307784
     ParentPhysicalPath: 
     PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     List: []
   AuxBusWwu:
   - Guid: '{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}'
-    m_lastTimePart2: -1999219215
-    m_lastTimePsrt1: -382255768
+    m_lastTimePart2: -1999209371
+    m_lastTimePsrt1: 709840655
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{D3A9E9A7-B300-484E-BDB1-838FFA860A82}'
-    m_lastTimePart2: -1999219214
-    m_lastTimePsrt1: -544885819
+    m_lastTimePart2: -1999208124
+    m_lastTimePsrt1: 1126708078
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -45,40 +45,107 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: FX
         ObjectType: 7
+    - Guid: 23eb548d7eebc348806596adb4e7bbaa
+      ID: -373468138
+      Name: MainAmbience
+      Path: Default Work Unit\MainAmbience
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MainAmbience
+        ObjectType: 7
+    - Guid: 9a279ff1b9906541ae33eff5924489c6
+      ID: -303024426
+      Name: Music
+      Path: Default Work Unit\Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
   EventWwu:
   - Guid: '{6374D344-E35D-4D33-994F-103C8C9CA3D9}'
-    m_lastTimePart2: -1999219215
-    m_lastTimePsrt1: -382455918
+    m_lastTimePart2: -1999208114
+    m_lastTimePsrt1: -879256887
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
-    List: []
+    List:
+    - Guid: 6c754e626b8d8648a6c48c348ac5c81e
+      ID: 278617630
+      Name: Play_Ambience
+      Path: Default Work Unit\Play_Ambience
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Ambience
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   ExpandedItems:
   - /LabRatZ_WwiseProject
   RtpcWwu:
   - Guid: '{130B3285-951B-41BA-A58A-A484FE9D5B61}'
-    m_lastTimePart2: -1999219215
-    m_lastTimePsrt1: -382435911
+    m_lastTimePart2: -1999209371
+    m_lastTimePsrt1: 631476489
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   StateWwu:
   - Guid: '{84E291A4-9C90-4615-AC50-3474CD080280}'
-    m_lastTimePart2: -1999219215
-    m_lastTimePsrt1: -382005601
+    m_lastTimePart2: -1999208114
+    m_lastTimePsrt1: -879146903
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
-    List: []
+    List:
+    - Guid: 080635f60d2eac42a643b83bf6d0ddbe
+      ID: 1162348424
+      Name: Ambience_switch
+      Path: Default Work Unit\Ambience_switch
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience_switch
+        ObjectType: 9
+      ValueGuids:
+      - bytes: c382fa881f1e574098bbf1f3ca3c9feb
+      - bytes: cf4793aef94d91459a24e88e55015be9
+      - bytes: 37cc2201b1f09f4e97a14ad2cefdf9ec
+      - bytes: d5bdebed3595d34fb456da924841744c
+      - bytes: 6cbe07cf956e3b4e9d4dffb8a2a74231
+      - bytes: c64bbacbfa34a247bbc197b48b7c0aa2
+      ValueIcons:
+      - ElementName: Experimentation
+        ObjectType: 8
+      - ElementName: ID
+        ObjectType: 8
+      - ElementName: Main
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Production
+        ObjectType: 8
+      - ElementName: Rec
+        ObjectType: 8
+      valueIDs: a39ac777a6207768bae676bcdb3ba32c50dd7e8295d2723a
+      values:
+      - Experimentation
+      - ID
+      - Main
+      - None
+      - Production
+      - Rec
   SwitchWwu:
   - Guid: '{56857A99-5C06-45E7-B6A5-AC03B60EABB5}'
-    m_lastTimePart2: -1999219215
-    m_lastTimePsrt1: -381955585
+    m_lastTimePart2: -1999209371
+    m_lastTimePsrt1: 777257817
     ParentPhysicalPath: 
     PhysicalPath: Switches\Default Work Unit.wwu
     List: []
   TriggerWwu:
   - Guid: '{ECDC4411-0B64-4485-94B2-53692E5A3B5B}'
-    m_lastTimePart2: -1999219215
-    m_lastTimePsrt1: -381925576
+    m_lastTimePart2: -1999209371
+    m_lastTimePsrt1: 777287805
     ParentPhysicalPath: 
     PhysicalPath: Triggers\Default Work Unit.wwu
     List: []
