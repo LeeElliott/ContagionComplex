@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 2351
+  controlID: 1344
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 2352
+  controlID: 1345
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 2246
+  controlID: 1254
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -310,7 +310,7 @@ MonoBehaviour:
     y: 467
     width: 714
     height: 327
-  m_MaximizeOnPlay: 1
+  m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -387,14 +387,14 @@ MonoBehaviour:
     width: 714
     height: 346
   m_SceneLighting: 1
-  lastFramingTime: 1767.5488653726698
+  lastFramingTime: 539.0045780467952
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 357, y: 105, z: 0}
+    m_Target: {x: 0, y: 9.599999, z: 0}
     speed: 2
-    m_Value: {x: 357, y: 105, z: 0}
+    m_Value: {x: 0, y: 9.599999, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -419,17 +419,17 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: -1}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 324.1229
+    m_Target: 53.634262
     speed: 2
-    m_Value: 324.1229
+    m_Value: 53.634262
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
-  m_LastSceneViewRotation: {x: -0.12889281, y: 0.13639274, z: -0.01790099, w: -0.9820709}
-  m_LastSceneViewOrtho: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
@@ -462,9 +462,9 @@ MonoBehaviour:
     height: 311
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 12300000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 14e5feff3ef0feffd8f0feff20f2feff2cf2feff34f2feff38f2feff3ef2feff44f2feffb4fbfeff4efcfeff96fdfeffa2fdfeffaafdfeffaefdfeffb4fdfeffbafdfeff3c43ffffb27bffff2482ffffbc82ffff0484ffff1084ffff1884ffff1c84ffff2484ffff2884ffffdea5ffff8cadffff78aeffffc0afffffc4afffffccafffffd0afffffd6afffffdcafffffd6b4ffffc2b5ffff0ab7ffff0eb7ffff16b7ffff1ab7ffff20b7ffff26b7ffff3afbffff00000000d233000062340000163500003035000082620000a4630000f0770000
+    m_SelectedIDs: 7489ffff
+    m_LastClickedID: -30348
+    m_ExpandedIDs: 7889ffff14fcffff00000000ae300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -525,19 +525,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs/Rooms
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Rooms
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\Documents\GitHub\ContagionComplex
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 28310000
-    m_LastClickedID: 12584
-    m_ExpandedIDs: 00000000f82e0000a036000000ca9a3bffffff7f
+    m_SelectedIDs: a82c0000
+    m_LastClickedID: 11432
+    m_ExpandedIDs: 00000000382a0000b22a00001c32000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -565,7 +565,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f82e0000a036000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000382a0000b22a00001c32000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
