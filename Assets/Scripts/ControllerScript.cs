@@ -15,13 +15,17 @@ using UnityEngine.UI;
 
 public class ControllerScript : MonoBehaviour
 {
-    // Empty used as container
+    // Empty used as container in editor
     private GameObject scientists;
+    private GameObject delivery;
 
     // Used for spawning
     private float spawnDelay;
     private bool canSpawn = false;
+    private bool missionStart = true;
     public Transform scientist;
+    public Transform escort;
+    public Transform patient;
 
 	// Use this for initialization
 	void Start()
@@ -46,6 +50,22 @@ public class ControllerScript : MonoBehaviour
                 // Decrement timer
                 spawnDelay -= Time.deltaTime;
             }
+        }
+
+        if (missionStart)
+        {
+            delivery = new GameObject();
+            delivery.name = "Delivery";
+
+            // Spawn patients
+            SpawnEscort(-70.0f);
+            SpawnPatient(-71.0f);
+            SpawnPatient(-72.0f);
+            SpawnPatient(-73.0f);
+            SpawnPatient(-74.0f);
+            SpawnEscort(-75.0f);
+
+            missionStart = false;
         }
     }
 
@@ -75,5 +95,27 @@ public class ControllerScript : MonoBehaviour
         temp.GetComponent<CharacterAI>().SetUniqueStats(ident, form, prod, name, age, gender);
         temp.tag = "Scientist";
         temp.transform.SetParent(scientists.transform);
+    }
+
+    private void SpawnEscort(float xPos)
+    {
+        Vector3 spawnPoint = new Vector3(xPos, 0.0f, 0.0f);
+
+        Transform spawn = Instantiate(escort, spawnPoint, Quaternion.identity);
+        spawn.tag = "Escort";
+        spawn.name = "Escort";
+        //spawn.transform.SetParent(delivery.transform);
+        spawn.transform.SetPositionAndRotation(spawnPoint, new Quaternion(-90, 0, 0, 0));
+    }
+
+    private void SpawnPatient(float xPos)
+    {
+        Vector3 spawnPoint = new Vector3(xPos, 0.0f, 0.0f);
+
+        Transform spawn = Instantiate(patient, spawnPoint, Quaternion.identity);
+        spawn.tag = "Patient";
+        spawn.name = "Patient";
+        //spawn.transform.SetParent(delivery.transform);
+        spawn.transform.SetPositionAndRotation(spawnPoint, new Quaternion(-90, 90, 0, 0));
     }
 }
