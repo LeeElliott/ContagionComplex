@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1520
     height: 765
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 53
+  controlID: 693
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 10
+  controlID: 694
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 126
+  controlID: 765
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -310,7 +310,7 @@ MonoBehaviour:
     y: 467
     width: 714
     height: 327
-  m_MaximizeOnPlay: 0
+  m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -421,9 +421,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.02987812, y: -0.088344954, z: -0.0026511445, w: -0.99563825}
   m_Size:
-    m_Target: 39.199245
+    m_Target: 19.544895
     speed: 2
-    m_Value: 39.199245
+    m_Value: 19.544895
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -462,9 +462,9 @@ MonoBehaviour:
     height: 311
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d22d0000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: d029ffff8c86ffffc09bffff50dbffffdef8ffff18fcffff00000000d62e0000342f0000722f0000d2300000da300000fe300000
+    m_ExpandedIDs: 98adffff8caeffffd0afffffd4afffffdcafffffe2afffffe8afffffeeafffffccf6ffff0000000086310000ec320000f4320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -525,19 +525,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/2D Graphics/UI
+    - Assets/Models
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/2D Graphics/UI
+  - Assets/Models
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\Documents\GitHub\ContagionComplex
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9c2a0000
-    m_LastClickedID: 10908
-    m_ExpandedIDs: 000000001c2a0000402a0000422a0000962a0000a62c00005632000000ca9a3bffffff7f
+    m_SelectedIDs: e02c0000
+    m_LastClickedID: 11488
+    m_ExpandedIDs: 00000000c22c0000e02c0000e22c0000342d00001c2f00007034000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -565,7 +565,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c2a0000402a0000422a0000962a000056320000
+    m_ExpandedIDs: 00000000c22c0000e22c0000342d00001c2f00007034000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -617,7 +617,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 254}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 133
 --- !u!114 &17
