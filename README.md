@@ -15,7 +15,24 @@ Instructions on how to install project locally.
 Instructions on how to use project after installing.
 
 ## Contributors
-Ross Stewart, Lee Elliott, Lewis Whiteman, Lewis Hodgkin, Paul Wilson, Paul Burns, Jonny Miller
+Producer/Team Leader
+Ross Stewart
+
+Designer
+Adam Rae
+
+Programmers
+Lee Elliott
+Lewis Whiteman
+Chris Pohler
+
+Audio
+Lewis Hodgkin
+
+Artists
+Paul Wilson
+Paul Burns
+Jonny Miller
 
 ## License
 Contagion Complex is the intellectual property of Orthrus Studios and Saint Andrews University. 
