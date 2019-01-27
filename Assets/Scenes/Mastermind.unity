@@ -508,7 +508,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 844689879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cfb9c7c545e4ce4b860d1b2a9fec11b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b36b9f0bc8603a419aee974036b8907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &844689881
@@ -896,7 +896,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 940403605}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cfb9c7c545e4ce4b860d1b2a9fec11b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b36b9f0bc8603a419aee974036b8907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &940403607
@@ -1396,7 +1396,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1511995650}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 875f949d2e55d364bbf09f978fac3ad6, type: 3}
+  m_Script: {fileID: 11500000, guid: ada78438669de6841b68b5a0031f783d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hasWon: 0
@@ -1406,22 +1406,10 @@ MonoBehaviour:
   incorrectPosition: 0
   incorrect: 0
   successTableText: {fileID: 903135453}
-  buttons:
-  - {fileID: 1909491648}
-  - {fileID: 940403605}
-  - {fileID: 1733018146}
-  - {fileID: 844689879}
-  anchors:
-  - {fileID: 328174194}
-  - {fileID: 2127719428}
-  - {fileID: 856855198}
-  - {fileID: 858905545}
-  - {fileID: 1453383650}
-  - {fileID: 1163992461}
-  - {fileID: 201426013}
-  - {fileID: 786297843}
+  buttons: []
+  anchors: []
   anchorsInPlay: []
-  elementPrefab: {fileID: 1193822314230492, guid: 350baead9c325534f964c88b8bb5fe92,
+  elementPrefab: {fileID: 1193822314230492, guid: ee62f1e305e8a55439ff52aee8790d2c,
     type: 2}
   timerBar: {fileID: 1130680837}
   timerLength: 60
@@ -1473,7 +1461,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1733018146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cfb9c7c545e4ce4b860d1b2a9fec11b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b36b9f0bc8603a419aee974036b8907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &1733018148
@@ -1567,7 +1555,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1909491648}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cfb9c7c545e4ce4b860d1b2a9fec11b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b36b9f0bc8603a419aee974036b8907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &1909491650

@@ -96,6 +96,8 @@
     <Compile Include="Assets\Scripts\ControllerScript.cs" />
     <Compile Include="Assets\Scripts\EscortScript.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
+    <Compile Include="Assets\Scripts\Minigame\Button.cs" />
+    <Compile Include="Assets\Scripts\Minigame\MastermindController.cs" />
     <Compile Include="Assets\Scripts\MissionController.cs" />
     <Compile Include="Assets\Scripts\PatientScript.cs" />
     <Compile Include="Assets\Scripts\RoomScript.cs" />
