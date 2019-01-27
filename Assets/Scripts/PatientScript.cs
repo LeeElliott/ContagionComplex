@@ -5,13 +5,12 @@ using UnityEngine.AI;
 
 public class PatientScript : MonoBehaviour
 {
-    public Vector3 target = new Vector3(105.0f, 0.0f, 0.0f);
+    public Vector3 target;
 
     // Use this for initialization
     void Start ()
     {
         // Start moving instantly
-        target += transform.position;
         NavMeshAgent agent = GetComponent<NavMeshAgent>();
         agent.destination = target;
     }
@@ -23,5 +22,10 @@ public class PatientScript : MonoBehaviour
         var angles = transform.rotation.eulerAngles;
         angles.x = -90.0f;
         transform.rotation = Quaternion.Euler(angles);
+    }
+
+    public void SetTarget(Vector3 targetPoint)
+    {
+        target = targetPoint;
     }
 }

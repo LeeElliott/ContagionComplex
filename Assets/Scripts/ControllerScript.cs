@@ -12,6 +12,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.AI;
 
 public class ControllerScript : MonoBehaviour
 {
@@ -59,11 +60,11 @@ public class ControllerScript : MonoBehaviour
 
             // Spawn patients
             SpawnEscort(-70.0f);
-            SpawnPatient(-71.0f);
             SpawnPatient(-72.0f);
-            SpawnPatient(-73.0f);
             SpawnPatient(-74.0f);
-            SpawnEscort(-75.0f);
+            SpawnPatient(-76.0f);
+            SpawnPatient(-78.0f);
+            SpawnEscort(-80.0f);
 
             missionStart = false;
         }
@@ -99,23 +100,33 @@ public class ControllerScript : MonoBehaviour
 
     private void SpawnEscort(float xPos)
     {
-        Vector3 spawnPoint = new Vector3(xPos, 0.0f, 0.0f);
+        Vector3 spawnPoint = new Vector3(xPos, 0.0f, -2.5f);
 
         Transform spawn = Instantiate(escort, spawnPoint, Quaternion.identity);
         spawn.tag = "Escort";
         spawn.name = "Escort";
-        //spawn.transform.SetParent(delivery.transform);
+
+        NavMeshAgent agent = spawn.GetComponent<NavMeshAgent>();
+        agent.nextPosition = spawnPoint;
+        agent.GetComponent<EscortScript>().SetTarget(new Vector3(xPos + 120, 0.0f, -2.5f));
+
+        spawn.transform.SetParent(delivery.transform);
         spawn.transform.SetPositionAndRotation(spawnPoint, new Quaternion(-90, 0, 0, 0));
     }
 
     private void SpawnPatient(float xPos)
     {
-        Vector3 spawnPoint = new Vector3(xPos, 0.0f, 0.0f);
+        Vector3 spawnPoint = new Vector3(xPos, 0.0f, -2.5f);
 
         Transform spawn = Instantiate(patient, spawnPoint, Quaternion.identity);
         spawn.tag = "Patient";
         spawn.name = "Patient";
-        //spawn.transform.SetParent(delivery.transform);
-        spawn.transform.SetPositionAndRotation(spawnPoint, new Quaternion(-90, 90, 0, 0));
+
+        NavMeshAgent agent = spawn.GetComponent<NavMeshAgent>();
+        agent.nextPosition = spawnPoint;
+        agent.GetComponent<PatientScript>().SetTarget(new Vector3(xPos + 120, 0.0f, -2.5f));
+
+        spawn.transform.SetParent(delivery.transform);
+        spawn.transform.SetPositionAndRotation(spawnPoint, new Quaternion(-90, 0, 0, 0));
     }
 }
