@@ -190,6 +190,7 @@ GameObject:
   - component: {fileID: 4948627528585886}
   - component: {fileID: 65975238177681690}
   - component: {fileID: 114440518338077132}
+  - component: {fileID: 114475375912836512}
   m_Layer: 0
   m_Name: Experimentation
   m_TagString: Untagged
@@ -778,10 +779,10 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1950390837788140}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 8, y: 4, z: 18}
+  m_Size: {x: 6.8, y: 4, z: 18}
   m_Center: {x: 0, y: 2.2, z: -10}
 --- !u!95 &95235852836881690
 Animator:
@@ -817,3 +818,20 @@ MonoBehaviour:
   valueID: 2009569955
   groupGuid: 080635f60d2eac42a643b83bf6d0ddbe
   valueGuid: c382fa881f1e574098bbf1f3ca3c9feb
+--- !u!114 &114475375912836512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1950390837788140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9111249d0432c34bb01d23ad9586777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 3f2ff36a
+  useOtherObject: 0
+  groupID: 1162348424
+  valueID: 2099572494
+  groupGuid: 080635f60d2eac42a643b83bf6d0ddbe
+  valueGuid: 9ba8a50bab77184c954ff0db40ce40d9

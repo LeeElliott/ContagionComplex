@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 4824228214479658}
   - component: {fileID: 65378352360369814}
   - component: {fileID: 114731187644780198}
+  - component: {fileID: 114364170583255388}
   m_Layer: 0
   m_Name: Production
   m_TagString: Untagged
@@ -1688,10 +1689,10 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1643448588379626}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 8, y: 4, z: 18}
+  m_Size: {x: 6.8, y: 4, z: 18}
   m_Center: {x: 0, y: 2.2, z: -10}
 --- !u!95 &95368003231177918
 Animator:
@@ -1710,6 +1711,23 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114364170583255388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1643448588379626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9111249d0432c34bb01d23ad9586777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 3f2ff36a
+  useOtherObject: 0
+  groupID: 1162348424
+  valueID: 2099572494
+  groupGuid: 080635f60d2eac42a643b83bf6d0ddbe
+  valueGuid: 9ba8a50bab77184c954ff0db40ce40d9
 --- !u!114 &114731187644780198
 MonoBehaviour:
   m_ObjectHideFlags: 1
