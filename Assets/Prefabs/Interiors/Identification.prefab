@@ -105,6 +105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4715034832589092}
   - component: {fileID: 65949178734875992}
+  - component: {fileID: 114062747300241622}
   m_Layer: 0
   m_Name: Identification
   m_TagString: Untagged
@@ -780,7 +781,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 8, y: 4, z: 30}
+  m_Size: {x: 8, y: 4, z: 18}
   m_Center: {x: 0, y: 2.2, z: -10}
 --- !u!95 &95077697806148982
 Animator:
@@ -799,3 +800,20 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114062747300241622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1660193853531152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9111249d0432c34bb01d23ad9586777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6
+  useOtherObject: 0
+  groupID: 1162348424
+  valueID: 1752637606
+  groupGuid: 080635f60d2eac42a643b83bf6d0ddbe
+  valueGuid: cf4793aef94d91459a24e88e55015be9

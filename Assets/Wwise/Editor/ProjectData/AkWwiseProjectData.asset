@@ -84,6 +84,9 @@ MonoBehaviour:
       minDuration: 0
   ExpandedItems:
   - /LabRatZ_WwiseProject
+  - /LabRatZ_WwiseProject/States
+  - /LabRatZ_WwiseProject/States/Default Work Unit
+  - /LabRatZ_WwiseProject/States/Default Work Unit/Ambience_switch
   RtpcWwu:
   - Guid: '{130B3285-951B-41BA-A58A-A484FE9D5B61}'
     m_lastTimePart2: -1999209371
