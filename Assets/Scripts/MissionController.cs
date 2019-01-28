@@ -19,7 +19,7 @@ public class MissionController : MonoBehaviour
     // Update is called once per frame
     public void MissionOneClicked()
     {
-        // Switch scene to menu
+        // Switch scene to main game
         SceneManager.LoadScene("MainGame");
     }
 }

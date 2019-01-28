@@ -11,7 +11,9 @@ public class PatientScript : MonoBehaviour
     void Start ()
     {
         // Start moving instantly
+        // Reference to navmeshagent attached to this object
         NavMeshAgent agent = GetComponent<NavMeshAgent>();
+        // Set the navmeshagent's target destination
         agent.destination = target;
     }
 
@@ -24,6 +26,7 @@ public class PatientScript : MonoBehaviour
         transform.rotation = Quaternion.Euler(angles);
     }
 
+    // Set the initial target destination
     public void SetTarget(Vector3 targetPoint)
     {
         target = targetPoint;

@@ -39,27 +39,36 @@ public class CameraScript : MonoBehaviour
             // Store mouse position
             mouseOrigin = Input.mousePosition;
 
+            // Less than a double click
             if(clickCount < 2)
             {
+                // Increment click counter
                 clickCount++;
 
                 // Double click times out in half a second
                 Invoke("CancelClick", 0.5f);
             }
 
+            // Double click or more
             if(clickCount > 1)
             {
+                // Toggle zoom level
                 Zoom(mouseOrigin);
+
+                // Reset click counter
                 clickCount = 0;
             }
            
             return;
         }
 
+        // If mouse left button not clicked ignore rest of function
         if(!Input.GetMouseButton(0)) return;
 
+        // Convert cursor screen position to world space
         Vector3 pos = Camera.main.ScreenToViewportPoint(Input.mousePosition - mouseOrigin);
         // Using negative to simulate drag motion rather than following mouse
+        // Vector3 move = new Vector3(pos.x * -panSpeed, pos.y * -panSpeed, 0);
         Vector3 move = new Vector3(pos.x * panSpeed, pos.y * panSpeed, 0);
 
         transform.Translate(move, Space.World);
@@ -67,6 +76,7 @@ public class CameraScript : MonoBehaviour
         // Clamp used to limit distance camera can pan
         if(isZoomed)
         {
+            // Clamp position to within these values
             transform.position = new Vector3(
             Mathf.Clamp(transform.position.x, -27.0f, 30.0f),
             Mathf.Clamp(transform.position.y, 2.0f, 25.0f),
@@ -74,6 +84,7 @@ public class CameraScript : MonoBehaviour
         }
         else
         {
+            // Clamp position to within these values
             transform.position = new Vector3(
             Mathf.Clamp(transform.position.x, -16.0f, 21.0f),
             Mathf.Clamp(transform.position.y, 6.0f, 17.0f),
@@ -93,18 +104,22 @@ public class CameraScript : MonoBehaviour
 
             if(Physics.Raycast(ray, out hit, 100))
             {
-                transform.position = new Vector3(hit.transform.position.x, hit.transform.position.y + 3, -10);
+                transform.position = new Vector3(hit.transform.position.x,
+                    hit.transform.position.y + 3, -10);
             }
         }
         // Zooms back out to preset location
         else
         {
+            // This can be changed
             transform.position = new Vector3(5, 10, -30);
         }
 
+        // Reverse the value of boolean
         isZoomed = !isZoomed;
     }
 
+    // Max time between clicks has exceeded reset counter
     void CancelClick()
     {
         clickCount = 0;

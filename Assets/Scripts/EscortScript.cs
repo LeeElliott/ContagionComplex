@@ -10,8 +10,10 @@ public class EscortScript : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-        // Start moving instantly
+        // Start moving instantly upon spawning
+        // Reference to navmeshagent attached to this object
         NavMeshAgent agent = GetComponent<NavMeshAgent>();
+        // Set the navmeshagent's target destination
         agent.destination = target;
     }
 	
@@ -20,7 +22,7 @@ public class EscortScript : MonoBehaviour
     {
         NavMeshAgent agent = GetComponent<NavMeshAgent>();
 
-        // Reset scientist rotation to be upright
+        // Reset character rotation to be upright
         var angles = transform.rotation.eulerAngles;
         angles.x = -90.0f;
         transform.rotation = Quaternion.Euler(angles);
@@ -38,6 +40,7 @@ public class EscortScript : MonoBehaviour
         }
     }
 
+    // Set the initial target destination
     public void SetTarget(Vector3 targetPoint)
     {
         target = targetPoint;

@@ -17,11 +17,13 @@ public class MenuController : MonoBehaviour {
 
 	public void MissionsClicked()
     {
+        // Load mission menu
         SceneManager.LoadScene("MissionsMenu");
     }
 
     public void SettingsClicked()
     {
+        // Load settings menu
         SceneManager.LoadScene("SettingsMenu");
     }
 
