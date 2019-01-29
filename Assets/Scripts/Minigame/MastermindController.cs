@@ -366,7 +366,7 @@ public class MastermindController : MonoBehaviour
     /// </summary>
     void Win()
     {
-        GameObject.FindObjectOfType<MinigameController>().Win();
+        GameObject.FindObjectOfType<Experimentation>().Win();
         SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("Mastermind"));
     }
 
@@ -375,7 +375,7 @@ public class MastermindController : MonoBehaviour
     /// </summary>
     void Lose()
     {
-        GameObject.FindObjectOfType<MinigameController>().Lose();
+        GameObject.FindObjectOfType<Experimentation>().Lose();
         SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("Mastermind"));
     }
 }

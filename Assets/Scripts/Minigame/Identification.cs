@@ -2,33 +2,28 @@
 // Created by Lewis Whiteman
 // 29/01/2019
 //
-// Updates the MinigameController script when 
-// Scientists and Patients enter and exit
-// The BoxColliders attached to this GameObject
+// Stores a boolean whether there is a working scientist in the room
 //-------------------------------
 using UnityEngine;
 
-public class MinigameHitboxScript : MonoBehaviour
+public class Identification : MonoBehaviour
 {
+
+    public bool workingScientistInIdentification;
+
     /// <summary>
     /// Called every frame that a Rigidbody collides with this BoxCollider
     /// </summary>
     /// <param name="other">The Collider that is intersecting this trigger</param>
     private void OnTriggerStay(Collider other)
     {
-        // Checks if the patient is in quarantine
-        if(other.tag == "Patient" && gameObject.name == "Quarantine")
-        {
-            GetComponentInParent<MinigameController>().patientInQuarantine = true;
-        }
-
         // Checks if the scientist is in the experimentation room
-        if (other.tag == "Scientist" && gameObject.name == "Experimentation")
+        if (other.tag == "Scientist" && !workingScientistInIdentification)
         {
             // Checks if the scientist is working
             if (other.GetComponent<CharacterAI>().behaviourState == CharacterAI.BehaviourState.working)
             {
-                GetComponentInParent<MinigameController>().workingScientistInExperimentation = true;
+                workingScientistInIdentification = true;
             }
         }
     }
@@ -39,16 +34,10 @@ public class MinigameHitboxScript : MonoBehaviour
     /// <param name="other">The Collider that is intersecting this trigger</param>
     private void OnTriggerExit(Collider other)
     {
-        // Checks if the patient is no longer in quarantine
-        if (other.tag == "Patient" && gameObject.name == "Quarantine")
-        {
-            GetComponentInParent<MinigameController>().patientInQuarantine = false;
-        }
-
         // Checks if the scientist is no longer in the experimentation room
-        if (other.tag == "Scientist" && gameObject.name == "Experimentation")
+        if (other.tag == "Scientist")
         {
-            GetComponentInParent<MinigameController>().workingScientistInExperimentation = false;
+            workingScientistInIdentification = false;
         }
     }
 }

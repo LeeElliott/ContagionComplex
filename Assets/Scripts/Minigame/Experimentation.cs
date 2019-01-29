@@ -10,7 +10,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MinigameController : MonoBehaviour
+public class Experimentation : MonoBehaviour
 {
     // How many seconds before the success/failure buttons disappear
     public float cooldown = 10.0f;
@@ -39,13 +39,65 @@ public class MinigameController : MonoBehaviour
     // Is the minigame already loaded?
     bool minigameLoaded = false;
 
+    public bool displayingButton = false;
+    // Room name displayed publically for easy room identification
+    public string roomName;
+
     /// <summary>
     /// Use this for initialisation
     /// </summary>
     private void Start()
     {
+        roomName = gameObject.name;
         // Listens for a click on the experiment button and starts the minigame when clicked
         experiment.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(StartMinigame);        
+    }
+
+    /// <summary>
+    /// Checks if :
+    /// - There are more ready identification rooms than experimentation rooms
+    /// - There are more patients in quarantine than experimentation rooms
+    /// </summary>
+    /// <returns>True if both checks are true, else false</returns>
+    bool CheckConditions()
+    {
+        // The amount of identification rooms that are ready
+        int identificationCount = 0;
+
+        // For every room with an identification component
+        foreach(var i in GameObject.FindObjectsOfType<Identification>())
+        {
+            // If there is a working Scientist in the room
+            if (i.workingScientistInIdentification)
+            {
+                identificationCount++;
+            }
+        }
+
+        // The amount of experimentation rooms that are displaying the EXPERIMENT button
+        int experimentationCount = 0;
+
+        // For every room with a Experimentation
+        foreach(var e in GameObject.FindObjectsOfType<Experimentation>())
+        {
+            // If that room is displaying a button
+            if(e.displayingButton)
+            {
+                experimentationCount++;
+            }
+        }
+
+        // If there are more ready identification rooms than experimentation rooms
+        if(experimentationCount < identificationCount)
+        {
+            // If there are more patients in quarantine than ready experiments
+            if(GameObject.FindObjectOfType<Quarantine>().patientCount > experimentationCount)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     /// <summary>
@@ -53,24 +105,27 @@ public class MinigameController : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        // If all conditions are met to start the minigame
-        if(patientInQuarantine && workingScientistInExperimentation && identificationComplete)
+        // If there is a working Scientist in this room and the minigame hasn't already been loaded
+        if (workingScientistInExperimentation && !minigameLoaded)
         {
-            // If the minigame hasn't already been loaded
-            if (!minigameLoaded)
+            // If the other conditions are met
+            // TODO: Add a delay between each check to be more efficient
+            if (CheckConditions())
             {
                 // Enable the experiment button
                 experiment.SetActive(true);
+                displayingButton = true;       
             }
-            else
-            {
-                // Disable the experiment button
-                experiment.SetActive(false);
-            }
+        }
+        else
+        {
+            // Disable the experiment button
+            experiment.SetActive(false);
+            displayingButton = false;
         }
 
         // If either success or failure are displayed
-        if(success.activeSelf || failure.activeSelf)
+        if (success.activeSelf || failure.activeSelf)
         {
             // If they have been showing for more than the cooldown time
             if(Time.time > checkTime + cooldown)
@@ -125,5 +180,35 @@ public class MinigameController : MonoBehaviour
         Vector3 parentPosition = success.transform.parent.position;
         Camera.main.transform.position =
             new Vector3(parentPosition.x, parentPosition.y, Camera.main.transform.position.z);
+    }
+
+    /// <summary>
+    /// Called every frame that a Rigidbody collides with this BoxCollider
+    /// </summary>
+    /// <param name="other">The Collider that is intersecting this trigger</param>
+    private void OnTriggerStay(Collider other)
+    {
+        // Checks if the scientist is in the experimentation room
+        if (other.tag == "Scientist")
+        {
+            // Checks if the scientist is working
+            if (other.GetComponent<CharacterAI>().behaviourState == CharacterAI.BehaviourState.working)
+            {
+                workingScientistInExperimentation = true;
+            }
+        }
+    }
+
+    /// <summary>
+    /// Called once on the frame that a Rigidbody stops colliding with this BoxCollider
+    /// </summary>
+    /// <param name="other">The Collider that is intersecting this trigger</param>
+    private void OnTriggerExit(Collider other)
+    {
+        // Checks if the scientist is no longer in the experimentation room
+        if (other.tag == "Scientist")
+        {
+            workingScientistInExperimentation = false;
+        }
     }
 }
