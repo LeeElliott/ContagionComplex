@@ -17,8 +17,8 @@ using UnityEngine.SceneManagement;
 
 public class MastermindController : MonoBehaviour
 {
-    // Has the player won the minigame?
-    public bool hasWon = false;
+    // The current camera for this scene
+    public Camera camera;
     
     // The string that will be populated with the solution
     public string solution = "";
@@ -65,6 +65,10 @@ public class MastermindController : MonoBehaviour
     // TODO: Make sure this still works once element asset is created
     public GameObject elementPrefab;
 
+
+    // The background whiteboard object
+    public GameObject whiteboard;
+
     // Visual indicator of how much time is left
     // TODO: Make this a UI element instead of a GameObject
     public GameObject timerBar;
@@ -87,16 +91,16 @@ public class MastermindController : MonoBehaviour
         GenerateChain(chainLength);
         anchorIndex = 0;
 
-        // HACK: Manually setting button colors until the assets are ready
+        // HACK: Manually setting GameObject colors until the assets are ready
         buttons[0].GetComponent<MeshRenderer>().material.color = Color.red;
         buttons[1].GetComponent<MeshRenderer>().material.color = Color.green;
         buttons[2].GetComponent<MeshRenderer>().material.color = Color.blue;
         buttons[3].GetComponent<MeshRenderer>().material.color = Color.yellow;
         timerBar.GetComponent<MeshRenderer>().material.color = Color.green;
+        whiteboard.GetComponent<MeshRenderer>().material.color = Color.white;
 
         // Stores the initial world scale of the timer bar
         timerBarInitialScale = timerBar.transform.lossyScale;
-
 
         // Instantiate an element prefab for every anchor
         foreach (GameObject g in anchors)
@@ -292,6 +296,9 @@ public class MastermindController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Adds the numeric values to the scene, displaying the O/?/X values
+    /// </summary>
     void SetTableText()
     {
 
@@ -334,6 +341,9 @@ public class MastermindController : MonoBehaviour
         successTableText.text += incorrect.ToString();
     }
 
+    /// <summary>
+    /// Loops through each element and resets the color based on whether they are in play or not
+    /// </summary>
     void ResetColors()
     {
         // Resets the color of each element
@@ -356,10 +366,8 @@ public class MastermindController : MonoBehaviour
     /// </summary>
     void Win()
     {
-        hasWon = true;
+        GameObject.FindObjectOfType<MinigameController>().Win();
         SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("Mastermind"));
-
-        // TODO: Do stuff...
     }
 
     /// <summary>
@@ -367,10 +375,7 @@ public class MastermindController : MonoBehaviour
     /// </summary>
     void Lose()
     {
-        hasWon = false;
+        GameObject.FindObjectOfType<MinigameController>().Lose();
         SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("Mastermind"));
-
-        // TODO: Do stuff...
-
     }
 }
