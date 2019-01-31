@@ -12,6 +12,7 @@
 # Gradle cache directory
 .gradle/
 
+
 # Editor layout
 CurrentLayout.dwlt
 
