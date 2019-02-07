@@ -80,12 +80,6 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Extensions\RendererExtensions.cs" />
@@ -97,7 +91,10 @@
     <Compile Include="Assets\Scripts\EscortScript.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\Minigame\Button.cs" />
+    <Compile Include="Assets\Scripts\Minigame\Experimentation.cs" />
+    <Compile Include="Assets\Scripts\Minigame\Identification.cs" />
     <Compile Include="Assets\Scripts\Minigame\MastermindController.cs" />
+    <Compile Include="Assets\Scripts\Minigame\Quarantine.cs" />
     <Compile Include="Assets\Scripts\MissionController.cs" />
     <Compile Include="Assets\Scripts\PatientScript.cs" />
     <Compile Include="Assets\Scripts\RoomScript.cs" />
