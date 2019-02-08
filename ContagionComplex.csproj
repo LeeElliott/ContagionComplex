@@ -97,11 +97,16 @@
     <Compile Include="Assets\Scripts\EscortScript.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\Minigame\Button.cs" />
+    <Compile Include="Assets\Scripts\Minigame\Experimentation.cs" />
+    <Compile Include="Assets\Scripts\Minigame\Identification.cs" />
     <Compile Include="Assets\Scripts\Minigame\MastermindController.cs" />
+    <Compile Include="Assets\Scripts\Minigame\Quarantine.cs" />
     <Compile Include="Assets\Scripts\MissionController.cs" />
     <Compile Include="Assets\Scripts\PatientScript.cs" />
     <Compile Include="Assets\Scripts\RoomScript.cs" />
     <Compile Include="Assets\Scripts\SplashController.cs" />
+    <Compile Include="Assets\Scripts\SpotDifference\IdentificationController.cs" />
+    <Compile Include="Assets\Scripts\SpotDifference\ObjectScript.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkPlatformInitSettings_Android.cs" />
