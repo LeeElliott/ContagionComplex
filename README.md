@@ -1,4 +1,4 @@
-# ContagionComplex
+﻿# ContagionComplex
 ### LabRatz
 
 ## Description
@@ -9,10 +9,25 @@ Players earn money by creating drugs to cure diseased individuals brought in by 
 Players will have to create the cures before the diseased individuals die due to their illness, causing them to fail.
 
 ## Installation
-Instructions on how to install project locally.
+To install the game, simply download the zip folder to your PC and unzip it into a new folder.
 
 ## Usage
-Instructions on how to use project after installing.
+After installing the project, double click on the EXE file to open the initial menu, where you can set the graphics
+options and begin the game.
+After pressing play, you will be launched to the main menu of the game where you can exit, change the settings, or
+go to the mission select screen. After you select a mission, you'll be taken into the game.
+To control the game, click or press down on the screen, and drag the mouse around to move the camera. Double clicking
+zooms the camera in and out. When you're zoomed in, you can click and drag the scientists around the facility, and 
+releasing them lets them move to the room you dragged them to. 
+Dragging them to one of the work rooms causes them to work, and after a time, the button will appear over the room
+to play the associated mini-game.
+To play the Identification mini-game, simply spot the difference in the two blood samples in order to collect enough
+of a sample to test on.
+For Experimentation, you must correctly guess the right combination of elements to make a drug to cure the disease,
+with the white board telling you:
+O - How many are the correct colour in the correct place.
+? - How many are the correct colour in the wrong place
+X - How many are the wrong colour.
 
 ## Contributors
 Producer/Team Leader
