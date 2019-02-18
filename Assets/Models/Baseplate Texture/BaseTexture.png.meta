@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 7e7d666ccc0947948a9292e576356200
 timeCreated: 1549645053
+=======
+guid: 4b947ddb776035648a886120cd29f27e
+timeCreated: 1549534306
+>>>>>>> Audio
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
