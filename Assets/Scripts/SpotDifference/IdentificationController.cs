@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections.Generic;
-
+using UnityEngine.SceneManagement;
 public class IdentificationController : MonoBehaviour
 {
     // Game timer variable
@@ -46,10 +45,10 @@ public class IdentificationController : MonoBehaviour
     public int transitionStatus = 0;
 
     // Stored positions
-    Vector3 leftIn = new Vector3(-17.0f, 1.0f, 10.0f);
-    Vector3 rightIn = new Vector3(17.0f, 1.0f, 10.0f);
-    Vector3 leftOut = new Vector3(-17.0f, -40.0f, 10.0f);
-    Vector3 rightOut = new Vector3(17.0f, -40.0f, 10.0f);
+    Vector3 leftIn = new Vector3(-17.0f, 1.0f, -30.0f);
+    Vector3 rightIn = new Vector3(17.0f, 1.0f, -30.0f);
+    Vector3 leftOut = new Vector3(-17.0f, -40.0f, -30.0f);
+    Vector3 rightOut = new Vector3(17.0f, -40.0f, -30.0f);
 
     // Rating targets
     int targetOne = 5;
@@ -58,23 +57,27 @@ public class IdentificationController : MonoBehaviour
 
     // Rating delay
     float delay = 0.0f;
+    float zOffset = 0.0f;
+
+    // Should the minigame end now?
+    bool endgame = false;
 
     // Use this for initialization
     void Start()
     {
         // Initiate containers
-        original = new GameObject();
+        original = Instantiate(new GameObject());
         // Set name
         original.name = "Original";
         // Move to the left
         original.transform.position = leftIn;
-
-        copy = new GameObject();
+        SceneManager.MoveGameObjectToScene(original, SceneManager.GetSceneByName("SpotTheDifference"));
+        copy = Instantiate(new GameObject());
         // Set name
         copy.name = "Copy";
         // Move to the right
         copy.transform.position = rightIn;
-
+        SceneManager.MoveGameObjectToScene(copy, SceneManager.GetSceneByName("SpotTheDifference"));
         // Hide rating symbols
         endCounter.gameObject.SetActive(false);
         firstBand.SetActive(false);
@@ -169,9 +172,30 @@ public class IdentificationController : MonoBehaviour
 
             // Show end counter text
             endCounter.gameObject.SetActive(true);
-
+            
             if(delay > 0.5f)
             {
+                if(endgame)
+                {
+                    foreach (Identification i in GameObject.FindObjectsOfType<Identification>())
+                    {
+                        if (i.minigameInProgress)
+                        {
+                            if (differencesFound >= targetOne)
+                            {
+                                i.gameObject.GetComponent<Identification>().WinMinigame();
+                                Debug.Log("Win!");
+                            }
+                            
+                            else
+                                i.gameObject.GetComponent<Identification>().LoseMinigame();
+
+                            Debug.Log("Endgame called!");
+                        }
+                    }
+                    SceneManager.UnloadSceneAsync("SpotTheDifference");
+                    return;
+                }
                 if(foundDifferences > differencesFound)
                 {
                     differencesFound++;
@@ -180,8 +204,9 @@ public class IdentificationController : MonoBehaviour
                 }
                 else
                 {
-                    // TODO: Put ending code here possible delay needed
+                    endgame = true;
                 }
+                
             }
             else
             {
@@ -196,6 +221,7 @@ public class IdentificationController : MonoBehaviour
             {
                 secondBand.SetActive(true);
             }
+
             if (differencesFound >= targetThree && !thirdBand.activeSelf)
             {
                 thirdBand.SetActive(true);
@@ -221,11 +247,12 @@ public class IdentificationController : MonoBehaviour
     private void RadialSpawn()
     {
         int num = Random.Range(0, 100);
-        for(int i = 0; i < 100; i++)
+        // Spawn petri dishes
+        var originalDish = Instantiate(dish, original.transform);
+        var copyDish = Instantiate(dish, copy.transform);
+        for (int i = 0; i < 100; i++)
         {
-            // Spawn petri dishes
-            var originalDish = Instantiate(dish, original.transform);
-            var copyDish = Instantiate(dish, copy.transform);
+            
 
             // Radius of the spawning circle
             bool acceptedPosition = false;
@@ -266,7 +293,8 @@ public class IdentificationController : MonoBehaviour
                 // HACK: Sets specific sprite to always be at the very front
                 spawnedCell.GetComponent<ObjectScript>().setOrder(101);
                 copiedCell.GetComponent<ObjectScript>().setOrder(101);
-
+                spawnedCell.transform.position -= new Vector3(0.0f, 0.0f, 1.0f);
+                copiedCell.transform.position -= new Vector3(0.0f, 0.0f, 1.0f);
                 string name = copiedCell.GetComponentInChildren<SpriteRenderer>().sprite.name;
 
                 switch (name)
@@ -285,6 +313,17 @@ public class IdentificationController : MonoBehaviour
                         break;
                 }
 
+                //Rigidbody rb = spawnedCell.AddComponent<Rigidbody>();
+                //rb.useGravity = false;
+                //rb.isKinematic = true;
+                //Rigidbody crb = copiedCell.AddComponent<Rigidbody>();
+                //crb.useGravity = false;
+                //crb.isKinematic = true;
+            }
+
+            foreach(ObjectScript os in GameObject.FindObjectsOfType<ObjectScript>())
+            {
+                os.UpdateCollider();
             }
         }
     }

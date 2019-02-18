@@ -11,28 +11,29 @@ using UnityEngine;
 public class Button : MonoBehaviour
 {
     // The color of the gameobject
-    Color color;
-
+    Material material;
     /// <summary>
     /// Activated when the player clicks with a mouse or touches the screen
     /// over the current gameobject
     /// </summary>
     private void OnMouseDown()
     {
+
         // Gets the current color of the button
-        color = GetComponent<MeshRenderer>().material.color;
+        material = GetComponent<MeshRenderer>().material;
 
         // Finds the mastermind controller and adds the last character of the name to the input
         // HACK: Consider finding a way to consistently name the buttons instead of grabbing names
         char buttonName = gameObject.name[gameObject.name.Length - 1];
         GameObject.FindObjectOfType<MastermindController>().input += buttonName;
-            
+
 
         // Spawns the element corresponding to the color of this button
-        GameObject.FindObjectOfType<MastermindController>().SpawnElement(color);
+        GameObject.FindObjectOfType<MastermindController>().SpawnElement(material);
 
         // Darkens the button's material color to give visual feedback of a press
-        GetComponent<MeshRenderer>().material.color = color - new Color(0.2f,0.2f,0.2f);
+        //GetComponent<MeshRenderer>().material.color = material.color - new Color(0.2f, 0.2f, 0.2f);
+
     }
 
     /// <summary>
@@ -40,7 +41,9 @@ public class Button : MonoBehaviour
     /// </summary>
     private void OnMouseUp()
     {
+
         // Resets the button's color back to its original color
-        GetComponent<MeshRenderer>().material.color = color;
+        //GetComponent<MeshRenderer>().material.color = material.color;
+
     }
 }

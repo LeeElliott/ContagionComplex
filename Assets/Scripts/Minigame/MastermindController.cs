@@ -18,11 +18,17 @@ using UnityEngine.SceneManagement;
 public class MastermindController : MonoBehaviour
 {
     // The current camera for this scene
-    public Camera camera;
+    public Camera mainCamera;
     
     // The string that will be populated with the solution
     public string solution = "";
     public string input = "";
+
+    // The materials with the different button colors
+    public Material[] buttonMaterials;
+
+    // Default materials for inactive and active elements
+    public Material inactiveElement, activeElement;
 
     // The current length of the solution
     int chainLength = 4;
@@ -92,10 +98,10 @@ public class MastermindController : MonoBehaviour
         anchorIndex = 0;
 
         // HACK: Manually setting GameObject colors until the assets are ready
-        buttons[0].GetComponent<MeshRenderer>().material.color = Color.red;
-        buttons[1].GetComponent<MeshRenderer>().material.color = Color.green;
-        buttons[2].GetComponent<MeshRenderer>().material.color = Color.blue;
-        buttons[3].GetComponent<MeshRenderer>().material.color = Color.yellow;
+        buttons[0].GetComponent<MeshRenderer>().material = buttonMaterials[0];
+        buttons[1].GetComponent<MeshRenderer>().material = buttonMaterials[1];
+        buttons[2].GetComponent<MeshRenderer>().material = buttonMaterials[2];
+        buttons[3].GetComponent<MeshRenderer>().material = buttonMaterials[3];
         timerBar.GetComponent<MeshRenderer>().material.color = Color.green;
         whiteboard.GetComponent<MeshRenderer>().material.color = Color.white;
 
@@ -124,11 +130,11 @@ public class MastermindController : MonoBehaviour
         {
             if (anchorsInPlay.Contains(g))
             {
-                g.GetComponentInChildren<MeshRenderer>().material.color = Color.grey;
+                g.GetComponentInChildren<MeshRenderer>().material = activeElement;
             }
             else
             {
-                g.GetComponentInChildren<MeshRenderer>().material.color = Color.black;
+                g.GetComponentInChildren<MeshRenderer>().material = inactiveElement;
             }
         }
     }
@@ -160,12 +166,12 @@ public class MastermindController : MonoBehaviour
     /// Spawns the visuals of the element when it is selected by the player
     /// </summary>
     /// <param name="element">The element to be spawned</param>
-    public void SpawnElement(Color elementColor)
+    public void SpawnElement(Material elementMaterial)
     {
 
         // Changes the color of the current element to the color of the button pressed
         anchorsInPlay[anchorIndex]
-            .GetComponentInChildren<MeshRenderer>().material.color = elementColor;
+            .GetComponentInChildren<MeshRenderer>().material = elementMaterial;
 
         // Moves the index to the next anchor
         anchorIndex++;
@@ -176,6 +182,7 @@ public class MastermindController : MonoBehaviour
         // If the player has made enough guesses to make a chain
         if (input.Length == chainLength)
         {
+
             // Loops through each element that the user input
             for (int i = 0; i < chainLength; i++)
             {
@@ -228,23 +235,25 @@ public class MastermindController : MonoBehaviour
                     incorrect++;
                 }
             }
-
             // Updates the success table according to the previous guess
             SetTableText();
+            
 
             // If the player has guessed every element correctly
             if (correct == chainLength)
             {
+                
                 // Reset input and call the win condition
                 input = "";
                 Win();
                 anchorIndex = 0;
                 ResetColors();
-
+                
                 // TODO: Add correct choice sound
             }
             else
             {
+
                 // Reset the minigame state
                 input = "";
 
@@ -351,11 +360,11 @@ public class MastermindController : MonoBehaviour
         {
             if(anchorsInPlay.Contains(g))
             {
-                g.GetComponentInChildren<MeshRenderer>().material.color = Color.grey;
+                g.GetComponentInChildren<MeshRenderer>().material = activeElement;
             }
             else
             {
-                g.GetComponentInChildren<MeshRenderer>().material.color = Color.black;
+                g.GetComponentInChildren<MeshRenderer>().material = inactiveElement;
             }
         }
         

@@ -51,6 +51,7 @@ public class CharacterAI : MonoBehaviour
 
     // For movement
     private Vector3 mouseOrigin;
+    private GameObject mainCamera;
     // Speed the camera moves at
     private float panSpeed = 0.5f;
     private Vector3 currentPosition;
@@ -75,7 +76,7 @@ public class CharacterAI : MonoBehaviour
         speechCanvas.enabled = false;
 
         gameObject.name = characterName;
-
+        mainCamera = Camera.main.gameObject;
         // Set starting room
         GameObject[] rooms = GameObject.FindGameObjectsWithTag("Room");
         for(int i = 0; i < rooms.Length; i++)
@@ -126,14 +127,17 @@ public class CharacterAI : MonoBehaviour
     {
         // Run speech function if char is visible
         // Else ensures bubble and twxt are hidden
-        if(GetComponentInChildren<Renderer>().IsVisibleFrom(Camera.main))
+        if (mainCamera.activeSelf)
         {
-            Chatter();
-        }
-        else
-        {
-            speechCanvas.enabled = false;
-            speechText.enabled = false;
+            if (GetComponentInChildren<Renderer>().IsVisibleFrom(mainCamera.GetComponent<Camera>()))
+            {
+                Chatter();
+            }
+            else
+            {
+                speechCanvas.enabled = false;
+                speechText.enabled = false;
+            }
         }
         // Move around building
         
@@ -161,14 +165,17 @@ public class CharacterAI : MonoBehaviour
     {
         // Run speech function if char is visible
         // Else ensures bubble and twxt are hidden
-        if(GetComponent<Renderer>().IsVisibleFrom(Camera.main))
+        if (mainCamera.activeSelf)
         {
-            Chatter();
-        }
-        else
-        {
-            speechCanvas.enabled = false;
-            speechText.enabled = false;
+            if (GetComponent<Renderer>().IsVisibleFrom(mainCamera.GetComponent<Camera>()))
+            {
+                Chatter();
+            }
+            else
+            {
+                speechCanvas.enabled = false;
+                speechText.enabled = false;
+            }
         }
 
         // Move around room "interacting with objects"
@@ -179,16 +186,18 @@ public class CharacterAI : MonoBehaviour
     {
         // Run speech function if char is visible
         // Else ensures bubble and twxt are hidden
-        if(GetComponentInChildren<Renderer>().IsVisibleFrom(Camera.main))
+        if (mainCamera.activeSelf)
         {
-            Chatter();
+            if (GetComponentInChildren<Renderer>().IsVisibleFrom(mainCamera.GetComponent<Camera>()))
+            {
+                Chatter();
+            }
+            else
+            {
+                speechCanvas.enabled = false;
+                speechText.enabled = false;
+            }
         }
-        else
-        {
-            speechCanvas.enabled = false;
-            speechText.enabled = false;
-        }
-
         // Move around room "interacting with objects"
        
     }
@@ -216,12 +225,14 @@ public class CharacterAI : MonoBehaviour
             gameObject.transform.position.y, 0);
 
         // Move respective to mouse position
-        
-        Vector3 position = Camera.main.ScreenToViewportPoint(Input.mousePosition - mouseOrigin);
-        // Using negative to simulate drag motion rather than following mouse
-        Vector3 move = new Vector3(position.x * panSpeed, position.y * panSpeed, 0);
+        if (mainCamera.activeSelf)
+        {
+            Vector3 position = mainCamera.GetComponent<Camera>().ScreenToViewportPoint(Input.mousePosition - mouseOrigin);
+            // Using negative to simulate drag motion rather than following mouse
+            Vector3 move = new Vector3(position.x * panSpeed, position.y * panSpeed, 0);
 
-        transform.Translate(move, Space.World);        
+            transform.Translate(move, Space.World);
+        }
     }
 
     // *********************************************** //
@@ -244,7 +255,7 @@ public class CharacterAI : MonoBehaviour
             NavMeshAgent agent = GetComponent<NavMeshAgent>();
             agent.destination = newPosition;
 
-            Ray ray = Camera.main.ScreenPointToRay(newPosition);
+            Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(newPosition);
             RaycastHit hit;
 
             if(Physics.Raycast(ray, out hit, 100))

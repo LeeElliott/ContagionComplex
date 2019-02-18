@@ -40,7 +40,15 @@ public class ObjectScript : MonoBehaviour
             }
         }
     }
-
+    bool removedCollider = false;
+    public void UpdateCollider()
+    {
+        if(!removedCollider && !difference)
+        {
+            Destroy(GetComponent<CircleCollider2D>());
+            removedCollider = true;
+        }
+    }
     public void setOrder(int i)
     {
         transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sortingOrder = i;

@@ -6,6 +6,9 @@
 // Loads the minigame if the conditions are met
 // Controls the spawning of the experiment button
 // Displays the success/failure messages accordingly
+//
+// Edit 11/02/2019:
+// - Changed CheckConditions() to check for minigame completion
 //-------------------------------
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -67,8 +70,8 @@ public class Experimentation : MonoBehaviour
         // For every room with an identification component
         foreach(var i in GameObject.FindObjectsOfType<Identification>())
         {
-            // If there is a working Scientist in the room
-            if (i.workingScientistInIdentification)
+            // If the identify minigame has been complete for this room
+            if (i.minigameComplete)
             {
                 identificationCount++;
             }
@@ -115,6 +118,12 @@ public class Experimentation : MonoBehaviour
                 // Enable the experiment button
                 experiment.SetActive(true);
                 displayingButton = true;       
+            }
+            else
+            {
+                // Disable the experiment button
+                experiment.SetActive(false);
+                displayingButton = false;
             }
         }
         else
@@ -163,6 +172,18 @@ public class Experimentation : MonoBehaviour
         Vector3 parentPosition = success.transform.parent.position;
         Camera.main.transform.position =
             new Vector3(parentPosition.x, parentPosition.y, Camera.main.transform.position.z);
+
+        minigameLoaded = false;
+
+        foreach(var i in GameObject.FindObjectsOfType<Identification>())
+        {
+            if(i.minigameComplete)
+            {
+                i.minigameComplete = false;
+                return;
+            }
+        }
+
     }
 
     /// <summary>
@@ -180,6 +201,8 @@ public class Experimentation : MonoBehaviour
         Vector3 parentPosition = success.transform.parent.position;
         Camera.main.transform.position =
             new Vector3(parentPosition.x, parentPosition.y, Camera.main.transform.position.z);
+        minigameLoaded = false;
+
     }
 
     /// <summary>
