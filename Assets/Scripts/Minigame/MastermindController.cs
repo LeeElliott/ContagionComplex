@@ -25,7 +25,10 @@ public class MastermindController : MonoBehaviour
     public string input = "";
 
     // The materials with the different button colors
-    public Material[] buttonMaterials;
+    public Sprite[] buttonSprites;
+
+    // The sprites for element LEDs
+    public Sprite[] ledSprites;
 
     // Default materials for inactive and active elements
     public Material inactiveElement, activeElement;
@@ -97,13 +100,20 @@ public class MastermindController : MonoBehaviour
         GenerateChain(chainLength);
         anchorIndex = 0;
 
-        // HACK: Manually setting GameObject colors until the assets are ready
-        buttons[0].GetComponent<MeshRenderer>().material = buttonMaterials[0];
-        buttons[1].GetComponent<MeshRenderer>().material = buttonMaterials[1];
-        buttons[2].GetComponent<MeshRenderer>().material = buttonMaterials[2];
-        buttons[3].GetComponent<MeshRenderer>().material = buttonMaterials[3];
+        // HACK: Manually setting GameObject sprites until the assets are ready
+        buttons[0].GetComponentInChildren<SpriteRenderer>().sprite = buttonSprites[0];
+        buttons[0].GetComponent<Button>().ledSprite = ledSprites[1];
+
+        buttons[1].GetComponentInChildren<SpriteRenderer>().sprite = buttonSprites[1];
+        buttons[1].GetComponent<Button>().ledSprite = ledSprites[2];
+
+        buttons[2].GetComponentInChildren<SpriteRenderer>().sprite = buttonSprites[2];
+        buttons[2].GetComponent<Button>().ledSprite = ledSprites[3];
+
+        buttons[3].GetComponentInChildren<SpriteRenderer>().sprite = buttonSprites[3];
+        buttons[3].GetComponent<Button>().ledSprite = ledSprites[4];
+
         timerBar.GetComponent<MeshRenderer>().material.color = Color.green;
-        whiteboard.GetComponent<MeshRenderer>().material.color = Color.white;
 
         // Stores the initial world scale of the timer bar
         timerBarInitialScale = timerBar.transform.lossyScale;
@@ -131,10 +141,12 @@ public class MastermindController : MonoBehaviour
             if (anchorsInPlay.Contains(g))
             {
                 g.GetComponentInChildren<MeshRenderer>().material = activeElement;
+                g.GetComponentInChildren<SpriteRenderer>().sprite = ledSprites[0];
             }
             else
             {
                 g.GetComponentInChildren<MeshRenderer>().material = inactiveElement;
+                g.GetComponentInChildren<SpriteRenderer>().sprite = ledSprites[0];
             }
         }
     }
@@ -166,12 +178,12 @@ public class MastermindController : MonoBehaviour
     /// Spawns the visuals of the element when it is selected by the player
     /// </summary>
     /// <param name="element">The element to be spawned</param>
-    public void SpawnElement(Material elementMaterial)
+    public void SpawnElement(Sprite elementSprite)
     {
 
         // Changes the color of the current element to the color of the button pressed
         anchorsInPlay[anchorIndex]
-            .GetComponentInChildren<MeshRenderer>().material = elementMaterial;
+            .GetComponentInChildren<SpriteRenderer>().sprite = elementSprite;
 
         // Moves the index to the next anchor
         anchorIndex++;

@@ -12,6 +12,10 @@ public class Button : MonoBehaviour
 {
     // The color of the gameobject
     Material material;
+
+    // Store the correct LED sprite
+    public Sprite ledSprite;
+
     /// <summary>
     /// Activated when the player clicks with a mouse or touches the screen
     /// over the current gameobject
@@ -29,7 +33,7 @@ public class Button : MonoBehaviour
 
 
         // Spawns the element corresponding to the color of this button
-        GameObject.FindObjectOfType<MastermindController>().SpawnElement(material);
+        GameObject.FindObjectOfType<MastermindController>().SpawnElement(ledSprite);
 
         // Darkens the button's material color to give visual feedback of a press
         //GetComponent<MeshRenderer>().material.color = material.color - new Color(0.2f, 0.2f, 0.2f);

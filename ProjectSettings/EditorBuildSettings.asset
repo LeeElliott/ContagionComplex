@@ -26,3 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mastermind.unity
     guid: 8dbe2b3b635b85543b3fff39fc712b80
+  - enabled: 1
+    path: Assets/Scenes/SpotTheDifference.unity
+    guid: cac02e6ac33028148a58fa61415ebba5

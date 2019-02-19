@@ -1,19 +1,10 @@
 fileFormatVersion: 2
 guid: bef2864e5ab04c8448300368a4e6cc40
-timeCreated: 1549537035
+timeCreated: 1550521511
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences:
-  - cell: {fileID: 1100188851714286, guid: b381d02a4fc1c7346b496e85f68b8d34, type: 2}
-  - healthy1: {fileID: 21300000, guid: 4871df07c468467418f265594c11d6e3, type: 3}
-  - healthy2: {fileID: 21300000, guid: 461c4fbc1565a1a4c8211309b110e2cf, type: 3}
-  - healthy3: {fileID: 21300000, guid: 047dee2728ff2f24a911d89956b4fedd, type: 3}
-  - healthy4: {fileID: 21300000, guid: 4e8112b62c10e9647a574063df54aa48, type: 3}
-  - sick1: {fileID: 21300000, guid: 47c940f3904b38248b84f2153b978b29, type: 3}
-  - sick2: {fileID: 21300000, guid: fcc298fc99e46c547a75f2a5592d9946, type: 3}
-  - sick3: {fileID: 21300000, guid: adf1f9da05747454781d41551f8082c8, type: 3}
-  - sick4: {fileID: 21300000, guid: 56738839c88821f43ae921755b1f7515, type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

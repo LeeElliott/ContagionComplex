@@ -13,7 +13,7 @@ using UnityEngine.SceneManagement;
 public class Identification : MonoBehaviour
 {
 
-    private bool workingScientistInIdentification = false;
+    public bool workingScientistInIdentification = false;
     public bool minigameReady = false;
     public bool minigameComplete = false;
     public bool minigameInProgress = false;

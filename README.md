@@ -1,4 +1,4 @@
-﻿# ContagionComplex
+# ContagionComplex
 ### LabRatz
 
 ## Description
