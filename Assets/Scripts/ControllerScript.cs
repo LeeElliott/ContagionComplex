@@ -2,6 +2,9 @@
 // Created by Lee Elliott
 // 18/10/2018
 //
+// Edited by Christopher Pohler (scientist spawning)
+// 23/02/2019
+//
 // A script designed to hold all
 // functionality of the game
 // controller.
@@ -21,8 +24,10 @@ public class ControllerScript : MonoBehaviour
     private GameObject delivery;
 
     // Used for spawning
-    private float spawnDelay;
-    private bool canSpawn = false;
+    private bool canSpawn = true;
+	private int totalScientists = 3;
+	private int timeUntilSpawn = 0;
+	private int randomSpawnTime = 0;
     private bool missionStart = true;
     public Transform scientist;
     public Transform escort;
@@ -32,27 +37,17 @@ public class ControllerScript : MonoBehaviour
 	void Start()
     {
         InitialiseGame();
-
-        spawnDelay = Random.Range(20.0f, 100.0f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Scientist spawning
-        if (canSpawn)
-        {
-            if (spawnDelay < 0.1f)
-            {
-                // Spawn random scientist
-                SpawnScientist();
-            }
-            else
-            {
-                // Decrement timer
-                spawnDelay -= Time.deltaTime;
-            }
-        }
+		if (canSpawn == true) 
+		{
+			// Variables used to spawn new scientists
+			randomSpawnTime = Random.Range (1000, 10000);
+			timeUntilSpawn++;
+		}
 
         // If the mission is just starting
         if (missionStart)
@@ -72,6 +67,24 @@ public class ControllerScript : MonoBehaviour
             // Set mission start to false to avoid additional spawning
             missionStart = false;
         }
+		// Scientist spawning
+		if (timeUntilSpawn >= randomSpawnTime) 
+		{
+			// Checks if able to spawn, then spawns a new random scientist
+			if (canSpawn == true)
+			{
+				SpawnScientist();
+				timeUntilSpawn = 0;
+				totalScientists++;
+			}
+		}
+
+		// Checks against total max scientists
+		if (totalScientists == 5) 
+		{
+			canSpawn = false;
+		}
+
     }
 
     private void InitialiseGame()

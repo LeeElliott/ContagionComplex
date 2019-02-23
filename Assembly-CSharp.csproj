@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{75CD4231-39B5-B563-70BD-4C4CBEDBADDA}</ProjectGuid>
+    <ProjectGuid>{CDC2A967-F2E3-6E94-2FF9-90534FAC259B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -44,10 +44,10 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>G:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>G:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -57,9 +57,19 @@
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\CharacterAI.cs" />
      <Compile Include="Assets\Scripts\ControllerScript.cs" />
+     <Compile Include="Assets\Scripts\EscortScript.cs" />
      <Compile Include="Assets\Scripts\MenuController.cs" />
+     <Compile Include="Assets\Scripts\Minigame\Button.cs" />
+     <Compile Include="Assets\Scripts\Minigame\Experimentation.cs" />
+     <Compile Include="Assets\Scripts\Minigame\Identification.cs" />
+     <Compile Include="Assets\Scripts\Minigame\MastermindController.cs" />
+     <Compile Include="Assets\Scripts\Minigame\Quarantine.cs" />
+     <Compile Include="Assets\Scripts\MissionController.cs" />
+     <Compile Include="Assets\Scripts\PatientScript.cs" />
      <Compile Include="Assets\Scripts\RoomScript.cs" />
      <Compile Include="Assets\Scripts\SplashController.cs" />
+     <Compile Include="Assets\Scripts\SpotDifference\IdentificationController.cs" />
+     <Compile Include="Assets\Scripts\SpotDifference\ObjectScript.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkPlatformInitSettings_Android.cs" />
@@ -246,28 +256,28 @@
      <None Include="Assets\Wwise\Deployment\Plugins\Mac\Profile\AkSoundEngine.bundle\Contents\Resources\readme.txt" />
      <None Include="Assets\Wwise\Deployment\Plugins\Mac\Debug\AkSoundEngine.bundle\Contents\Resources\readme.txt" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/User/Documents/GitHub/LabRatZ/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>G:/Uni work/Professional Project/GitHub Desktop/ContagionComplex/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Timeline">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
