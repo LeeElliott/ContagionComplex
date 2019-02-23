@@ -1,4 +1,14 @@
-﻿using System.Collections;
+﻿//-------------------------------
+// Created by Lee Elliott
+// 22/01/2019
+//
+// A script designed to control
+// the functionality of the
+// spawned objects in the mini game.
+//
+//-------------------------------
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -26,8 +36,6 @@ public class ObjectScript : MonoBehaviour
             {
                 // Unhide marker
                 transform.GetChild(1).gameObject.SetActive(true);
-
-
 
                 // Increase found differences counter
                 controller.GetComponent<IdentificationController>().foundDifferences++;

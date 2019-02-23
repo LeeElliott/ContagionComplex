@@ -1,4 +1,14 @@
-﻿using UnityEngine;
+﻿//-------------------------------
+// Created by Lee Elliott
+// 22/01/2019
+//
+// A script designed to control
+// the main functionality of the
+// mini game.
+//
+//-------------------------------
+
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class IdentificationController : MonoBehaviour

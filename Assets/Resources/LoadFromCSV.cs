@@ -21,10 +21,10 @@ public class LoadFromCSV : MonoBehaviour
         TextAsset speechData = Resources.Load<TextAsset>("Speech");
 
 		// Split file into individual lines
-        string[] data = speechData.text.Split(new char[] { '\n' });
+        string[] data = speechData.text.Split(new char[] { '~' });
 
 		// Split lines into individual phrases
-        string[] words = data[row].Split(new char[] { ',' });
+        string[] words = data[row].Split(new char[] { '|' });
 
 		// Return the phrase requested
         return words[column];

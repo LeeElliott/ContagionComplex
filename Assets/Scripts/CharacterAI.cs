@@ -40,9 +40,9 @@ public class CharacterAI : MonoBehaviour
     public Canvas speechCanvas;
 
     // Character info
-    private string characterName;
-	private int characterAge = -1;
-	private string characterGender;
+    public string characterName;
+	public int characterAge = -1;
+	public string characterGender;
 
     // Stats
     private int identification;
