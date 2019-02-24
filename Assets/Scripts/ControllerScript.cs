@@ -33,9 +33,19 @@ public class ControllerScript : MonoBehaviour
     public Transform escort;
     public Transform patient;
 
+    // Currency value
+    private int currency = 0;
+    public Text currencyText;
+
+    // Build button reference
+    public GameObject buildButton;
+
 	// Use this for initialization
 	void Start()
     {
+        // Hide build button until required
+        buildButton.SetActive(false);
+
         InitialiseGame();
     }
 
@@ -85,6 +95,7 @@ public class ControllerScript : MonoBehaviour
 			canSpawn = false;
 		}
 
+        UpdateCurrency();
     }
 
     private void InitialiseGame()
@@ -182,5 +193,11 @@ public class ControllerScript : MonoBehaviour
         // Set parent and ensure initial position and rotation correct
         spawn.transform.SetParent(delivery.transform);
         spawn.transform.SetPositionAndRotation(spawnPoint, new Quaternion(-90, 0, 0, 0));
+    }
+
+    // Fill the data into currency display
+    private void UpdateCurrency()
+    {
+        currencyText.text = "£" + currency.ToString();
     }
 }

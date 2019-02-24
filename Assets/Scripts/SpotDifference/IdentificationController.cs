@@ -55,10 +55,10 @@ public class IdentificationController : MonoBehaviour
     public int transitionStatus = 0;
 
     // Stored positions
-    Vector3 leftIn = new Vector3(-17.0f, 1.0f, -30.0f);
-    Vector3 rightIn = new Vector3(17.0f, 1.0f, -30.0f);
-    Vector3 leftOut = new Vector3(-17.0f, -40.0f, -30.0f);
-    Vector3 rightOut = new Vector3(17.0f, -40.0f, -30.0f);
+    Vector3 leftIn = new Vector3(-25.0f, 1.0f, -30.0f);
+    Vector3 rightIn = new Vector3(25.0f, 1.0f, -30.0f);
+    Vector3 leftOut = new Vector3(-25.0f, -40.0f, -30.0f);
+    Vector3 rightOut = new Vector3(25.0f, -40.0f, -30.0f);
 
     // Rating targets
     int targetOne = 5;
@@ -309,16 +309,16 @@ public class IdentificationController : MonoBehaviour
 
                 switch (name)
                 {
-                    case "BloodCell001":
+                    case "BloodRedA":
                         copiedCell.GetComponentInChildren<SpriteRenderer>().sprite = sick1;
                         break;
-                    case "BloodCell002":
+                    case "BloodRedB":
                         copiedCell.GetComponentInChildren<SpriteRenderer>().sprite = sick2;
                         break;
-                    case "BloodCell003":
+                    case "BloodRedC":
                         copiedCell.GetComponentInChildren<SpriteRenderer>().sprite = sick3;
                         break;
-                    case "BloodCell004":
+                    case "BloodRedD":
                         copiedCell.GetComponentInChildren<SpriteRenderer>().sprite = sick4;
                         break;
                 }

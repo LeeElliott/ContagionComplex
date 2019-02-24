@@ -13,14 +13,12 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.1.1f1</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -91,7 +89,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Extensions\RendererExtensions.cs" />
-    <Compile Include="Assets\Scripts\PopulateStaff.cs" />
     <Compile Include="Assets\Resources\LoadFromCSV.cs" />
     <Compile Include="Assets\Scripts\AudioScript.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />
@@ -106,6 +103,7 @@
     <Compile Include="Assets\Scripts\Minigame\Quarantine.cs" />
     <Compile Include="Assets\Scripts\MissionController.cs" />
     <Compile Include="Assets\Scripts\PatientScript.cs" />
+    <Compile Include="Assets\Scripts\PopulatePanels.cs" />
     <Compile Include="Assets\Scripts\RoomScript.cs" />
     <Compile Include="Assets\Scripts\SplashController.cs" />
     <Compile Include="Assets\Scripts\SpotDifference\IdentificationController.cs" />
