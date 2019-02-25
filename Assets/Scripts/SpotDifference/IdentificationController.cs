@@ -15,7 +15,6 @@ public class IdentificationController : MonoBehaviour
 {
     // Game timer variable
     public float gameTimer = 60.0f;
-    public float colourChange;
 
     // Game object references
     public GameObject cell;
@@ -161,12 +160,6 @@ public class IdentificationController : MonoBehaviour
 
             // Update timer object position
             timerObject.transform.position -= new Vector3(0.0f, timerScale / 2, 0.0f);
-
-            // Update colour
-            Color lerpedColour = Color.Lerp(Color.green, Color.red, colourChange);
-            timerObject.GetComponent<MeshRenderer>().material.color = lerpedColour;
-
-            colourChange += Time.deltaTime / 60.0f;
 
             // Update displayed difference counter
             differenceCounter.text = foundDifferences.ToString();
