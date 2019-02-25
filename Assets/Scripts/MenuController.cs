@@ -11,9 +11,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class MenuController : MonoBehaviour {
+public class MenuController : MonoBehaviour
+{
+    // Store text object for "flash"
+    public Text messageText;
+
+    private bool increasing = false;
 
 	public void MissionsClicked()
     {
@@ -21,15 +27,45 @@ public class MenuController : MonoBehaviour {
         SceneManager.LoadScene("MissionsMenu");
     }
 
-    public void SettingsClicked()
+    private void Update()
     {
-        // Load settings menu
-        SceneManager.LoadScene("SettingsMenu");
-    }
+        // Store current alpha value of text
+        float alphaValue = messageText.color.a;
 
-    public void ExitClicked()
-    {
-        // Doesn't work in editor
-        Application.Quit();
+        // Check if increasing or decreasing
+        if (!increasing)
+        {
+            // If less than 0 stop decreasing and start increasing
+            if (alphaValue > 0)
+            {
+                // Decrease alpha
+                alphaValue -= 0.05f;
+
+                // Set text colour to include new alpha
+                messageText.color = new Color(messageText.color.r, messageText.color.g, messageText.color.b, alphaValue);
+            }
+            else
+            {
+                // Switch direction of alpha change
+                increasing = true;
+            }
+        }
+        // If more than 1 stop increasing and start decreasing
+        else
+        {
+            if (alphaValue < 1)
+            {
+                // Increase alpha
+                alphaValue += 0.02f;
+
+                // Set text colour to include new alpha
+                messageText.color = new Color(messageText.color.r, messageText.color.g, messageText.color.b, alphaValue);
+            }
+            else
+            {
+                // Switch direction of alpha change
+                increasing = false;
+            }
+        }
     }
 }
