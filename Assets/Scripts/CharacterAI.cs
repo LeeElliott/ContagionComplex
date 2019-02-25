@@ -402,7 +402,7 @@ public class CharacterAI : MonoBehaviour
             {
                 // Initialised as 0 to ensure not null
                 int room = roomType;
-                int variation = Random.Range(1, 5);
+                int variation = 1;// Random.Range(1, 5);
 
                 // Loads data from csv file and stores as a string
                 scriptA = GetComponent<LoadFromCSV>();
@@ -457,8 +457,8 @@ public class CharacterAI : MonoBehaviour
         // Generate name based on gender
         if(characterGender == "Female")
         {
-			int forename = Random.Range(1, 11);
-            int surname = Random.Range(1, 21);
+			int forename = Random.Range(1, 12);
+            int surname = Random.Range(1, 22);
 
             // Loads data from csv file and stores as a string
             scriptA = GetComponent<LoadFromCSV>();
@@ -467,8 +467,8 @@ public class CharacterAI : MonoBehaviour
         }
         else
         {
-            int forename = Random.Range(1, 11);
-            int surname = Random.Range(1, 21);
+            int forename = Random.Range(1, 12);
+            int surname = Random.Range(1, 22);
 
             // Loads data from csv file and stores as a string
             scriptA = GetComponent<LoadFromCSV>();
@@ -543,6 +543,8 @@ public class CharacterAI : MonoBehaviour
         }
 
         InitialiseStats(ident, form, prod);
+
+        gameObject.name = characterName;
 
         behaviourState = BehaviourState.notHired;
     }

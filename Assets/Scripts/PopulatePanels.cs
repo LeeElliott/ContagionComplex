@@ -18,6 +18,12 @@ public class PopulatePanels : MonoBehaviour
     public GameObject node;
     public GameObject panel;
 
+    // Reference to controller object
+    public GameObject controller;
+
+    // CSV script reference
+    private LoadFromCSV scriptA;
+
     // Use this for initialization
     void Start()
     {
@@ -56,7 +62,7 @@ public class PopulatePanels : MonoBehaviour
             // Hide panel
             panel.SetActive(false);
 
-            // Clear scientist nodes
+            // Clear mission nodes
             foreach (Transform child in transform)
             {
                 Destroy(child.gameObject);
@@ -143,11 +149,70 @@ public class PopulatePanels : MonoBehaviour
             // String to pass to text element
             string outputString = (i + 1).ToString() + ". ";
 
-            // TODO: Check if star has been earned
+            // Check if star has been earned
+            // Set script
+            scriptA = GetComponent<LoadFromCSV>();
 
+            switch (i)
+            {
+                case 0:
+                    if(controller.GetComponent<ControllerScript>().GetIStars() > 0)
+                    {
+                        outputString = scriptA.LoadData(1, 1);
+                    }
+                    break;
+                case 1:
+                    if (controller.GetComponent<ControllerScript>().GetIStars() > 1)
+                    {
+                        outputString = scriptA.LoadData(2, 1);
+                    }
+                    break;
+                case 2:
+                    if (controller.GetComponent<ControllerScript>().GetIStars() > 2)
+                    {
+                        outputString = scriptA.LoadData(3, 1);
+                    }
+                    break;
+                case 3:
+                    if (controller.GetComponent<ControllerScript>().GetEStars() > 0)
+                    {
+                        outputString = scriptA.LoadData(4, 1);
+                    }
+                    break;
+                case 4:
+                    if (controller.GetComponent<ControllerScript>().GetEStars() > 1)
+                    {
+                        outputString = scriptA.LoadData(5, 1);
+                    }
+                    break;
+                case 5:
+                    if (controller.GetComponent<ControllerScript>().GetEStars() > 2)
+                    {
+                        outputString = scriptA.LoadData(6, 1);
+                    }
+                    break;
+                case 6:
+                    if (controller.GetComponent<ControllerScript>().GetPStars() > 0)
+                    {
+                        outputString = scriptA.LoadData(7, 1);
+                    }
+                    break;
+                case 7:
+                    if (controller.GetComponent<ControllerScript>().GetPStars() > 1)
+                    {
+                        outputString = scriptA.LoadData(8, 1);
+                    }
+                    break;
+                case 8:
+                    if (controller.GetComponent<ControllerScript>().GetPStars() > 2)
+                    {
+                        outputString = scriptA.LoadData(9, 1);
+                    }
+                    break;
+            }
 
             // Set text element to contents of string
-            //newListNode.transform.GetChild(1).GetComponent<Text>().text = outputString;
+            newListNode.transform.GetChild(1).GetComponent<Text>().text = outputString;
         }
     }
 }

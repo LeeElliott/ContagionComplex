@@ -23,6 +23,11 @@ public class ControllerScript : MonoBehaviour
     private GameObject scientists;
     private GameObject delivery;
 
+    // Store number of stars earned per discipline
+    private int identificationStars = 3;
+    private int experimentationStars = 3;
+    private int productionStars = 3;
+
     // Used for spawning
     private bool canSpawn = true;
 	private int totalScientists = 3;
@@ -199,5 +204,19 @@ public class ControllerScript : MonoBehaviour
     private void UpdateCurrency()
     {
         currencyText.text = "£" + currency.ToString();
+    }
+
+    // Star count getters
+    public int GetIStars()
+    {
+        return identificationStars;
+    }
+    public int GetEStars()
+    {
+        return experimentationStars;
+    }
+    public int GetPStars()
+    {
+        return productionStars;
     }
 }

@@ -289,7 +289,7 @@ public class IdentificationController : MonoBehaviour
             // In case we want to alter to avoid bad overlaps
             while (!acceptedPosition)
             {
-                Vector2 position = Random.insideUnitCircle * 12.0f;
+                Vector2 position = Random.insideUnitCircle * 20.0f;
 
                 // Set transform relative to container location
                 spawnedCell.transform.localPosition = new Vector3(position.x, position.y, 0);
