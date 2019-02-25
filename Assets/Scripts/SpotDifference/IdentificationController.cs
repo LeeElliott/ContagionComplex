@@ -15,12 +15,13 @@ public class IdentificationController : MonoBehaviour
 {
     // Game timer variable
     public float gameTimer = 60.0f;
-    public float colourChange;
 
     // Game object references
     public GameObject cell;
     public GameObject dish;
-    public GameObject timerObject;
+    public GameObject timerFront;
+    public GameObject timerBack;
+    public GameObject timerBase;
 
     // Text object for difference counter
     public Text differenceCounter;
@@ -36,6 +37,9 @@ public class IdentificationController : MonoBehaviour
     public Sprite sick2;
     public Sprite sick3;
     public Sprite sick4;
+
+    // Sprite for filled star
+    public Sprite filledStar;
 
     // Rating sprites
     public Text endCounter;
@@ -55,10 +59,10 @@ public class IdentificationController : MonoBehaviour
     public int transitionStatus = 0;
 
     // Stored positions
-    Vector3 leftIn = new Vector3(-25.0f, 1.0f, -30.0f);
-    Vector3 rightIn = new Vector3(25.0f, 1.0f, -30.0f);
-    Vector3 leftOut = new Vector3(-25.0f, -40.0f, -30.0f);
-    Vector3 rightOut = new Vector3(25.0f, -40.0f, -30.0f);
+    Vector3 leftIn = new Vector3(-30.0f, 1.0f, -30.0f);
+    Vector3 rightIn = new Vector3(30.0f, 1.0f, -30.0f);
+    Vector3 leftOut = new Vector3(-30.0f, -40.0f, -30.0f);
+    Vector3 rightOut = new Vector3(30.0f, -40.0f, -30.0f);
 
     // Rating targets
     int targetOne = 5;
@@ -156,17 +160,11 @@ public class IdentificationController : MonoBehaviour
             }
 
             // Update timer object scale
-            float timerScale = 34.0f * (Time.deltaTime / 60);
-            timerObject.transform.localScale -= new Vector3(0.0f, timerScale, 0.0f);
+            float timerScale = (Time.deltaTime / 60);
+            timerFront.transform.localScale -= new Vector3(0.0f, timerScale, 0.0f);
 
             // Update timer object position
-            timerObject.transform.position -= new Vector3(0.0f, timerScale / 2, 0.0f);
-
-            // Update colour
-            Color lerpedColour = Color.Lerp(Color.green, Color.red, colourChange);
-            timerObject.GetComponent<MeshRenderer>().material.color = lerpedColour;
-
-            colourChange += Time.deltaTime / 60.0f;
+            timerFront.transform.position -= new Vector3(0.0f, timerScale * 100, 0.0f);
 
             // Update displayed difference counter
             differenceCounter.text = foundDifferences.ToString();
@@ -182,8 +180,18 @@ public class IdentificationController : MonoBehaviour
 
             // Show end counter text
             endCounter.gameObject.SetActive(true);
-            
-            if(delay > 0.5f)
+
+            // Hide timer
+            timerFront.SetActive(false);
+            timerBack.SetActive(false);
+            timerBase.SetActive(false);
+
+            // Unhide stars
+            firstBand.SetActive(true);
+            secondBand.SetActive(true);
+            thirdBand.SetActive(true);
+
+            if (delay > 0.5f)
             {
                 if(endgame)
                 {
@@ -223,18 +231,23 @@ public class IdentificationController : MonoBehaviour
                 delay += Time.deltaTime;
             }
 
-            if(differencesFound >= targetOne && !firstBand.activeSelf)
+            if (differencesFound >= targetOne)
             {
-                firstBand.SetActive(true);
+                firstBand.GetComponent<Image>().sprite = filledStar;
+                firstBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 75.0f);
+                firstBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 75.0f);
             }
-            if (differencesFound >= targetTwo && !secondBand.activeSelf)
+            if (differencesFound >= targetTwo)
             {
-                secondBand.SetActive(true);
+                secondBand.GetComponent<Image>().sprite = filledStar;
+                secondBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 75.0f);
+                secondBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 75.0f);
             }
-
-            if (differencesFound >= targetThree && !thirdBand.activeSelf)
+            if (differencesFound >= targetThree)
             {
-                thirdBand.SetActive(true);
+                thirdBand.GetComponent<Image>().sprite = filledStar;
+                thirdBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 75.0f);
+                thirdBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 75.0f);
             }
         }
     }
