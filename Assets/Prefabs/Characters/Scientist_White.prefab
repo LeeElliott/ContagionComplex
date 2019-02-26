@@ -307,6 +307,10 @@ MonoBehaviour:
   behaviourState: 0
   speechText: {fileID: 114428070527044820}
   speechCanvas: {fileID: 223134730426633902}
+  characterName: 
+  characterAge: -1
+  characterGender: 
+  profileImage: 0
   currentRoom: {fileID: 0}
   wanderDelay: 10
   destination: {x: 0, y: 0, z: 0}

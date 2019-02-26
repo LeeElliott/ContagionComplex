@@ -1,10 +1,20 @@
 fileFormatVersion: 2
 guid: 8bc39f9e922d30346b354c499187438c
-timeCreated: 1540494482
+timeCreated: 1551188396
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - speechText: {instanceID: 0}
+  - speechCanvas: {instanceID: 0}
+  - profileImage: {instanceID: 0}
+  - profileA: {fileID: 2800000, guid: b643b72f29b59284dbebb349ee97dbbb, type: 3}
+  - profileB: {fileID: 2800000, guid: d3eb6d7d0891b76478f2cac034928044, type: 3}
+  - profileC: {fileID: 2800000, guid: 4dc3e9a21656275498ac96a64a3c460e, type: 3}
+  - profileD: {fileID: 2800000, guid: 298f83dd341db4e419d2e0eadc8b888c, type: 3}
+  - profileE: {fileID: 2800000, guid: 81237966a39b1f046a0c72cb55b969ce, type: 3}
+  - profileF: {fileID: 2800000, guid: 011cf3354d75ac447a037def85488bc8, type: 3}
+  - currentRoom: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

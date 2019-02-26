@@ -18,6 +18,17 @@ public class PopulatePanels : MonoBehaviour
     public GameObject node;
     public GameObject panel;
 
+    // The used profile image
+    public Image profilePic;
+
+    // References to all profile images
+    public Sprite profileA;
+    public Sprite profileB;
+    public Sprite profileC;
+    public Sprite profileD;
+    public Sprite profileE;
+    public Sprite profileF;
+
     // Reference to controller object
     public GameObject controller;
 
@@ -92,6 +103,40 @@ public class PopulatePanels : MonoBehaviour
         {
             // Create new instances of our prefab until we've created as many as we specified
             newListNode = (GameObject)Instantiate(node, transform);
+
+            // Apply profile image
+            int profile = allStaff[i].GetComponent<CharacterAI>().profileImage;
+
+            // Get the image component of the profile picture
+            Image image = profilePic.GetComponent<Image>();
+
+            switch (profile)
+            {
+                case 0:
+                    // Set the image component to correct sprite
+                    image.sprite = profileA;
+                    break;
+                case 1:
+                    // Set the image component to correct sprite
+                    image.sprite = profileB;
+                    break;
+                case 2:
+                    // Set the image component to correct sprite
+                    image.sprite = profileC;
+                    break;
+                case 3:
+                    // Set the image component to correct sprite
+                    image.sprite = profileD;
+                    break;
+                case 4:
+                    // Set the image component to correct sprite
+                    image.sprite = profileE;
+                    break;
+                case 5:
+                    // Set the image component to correct sprite
+                    image.sprite = profileF;
+                    break;
+            }
 
             // String to pass to text element
             string outputString;

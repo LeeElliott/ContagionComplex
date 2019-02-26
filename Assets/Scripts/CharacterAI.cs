@@ -49,9 +49,13 @@ public class CharacterAI : MonoBehaviour
     private int formulation;
     private int production;
 
+    // Storage of profile image number
+    public int profileImage;
+
     // For movement
     private Vector3 mouseOrigin;
     private GameObject mainCamera;
+
     // Speed the camera moves at
     private float panSpeed = 0.5f;
     private Vector3 currentPosition;
@@ -507,11 +511,13 @@ public class CharacterAI : MonoBehaviour
 
     }
 
-    public void SetUniqueStats(int ident, int form, int prod, string name, int age, string gender)
+    public void SetUniqueStats(int ident, int form, int prod, string name, int age, string gender, int image)
     {
 		characterName = name;
         characterAge = age;
         characterGender = gender;
+
+        profileImage = image;
 
         InitialiseStats(ident, form, prod);
 
@@ -527,8 +533,20 @@ public class CharacterAI : MonoBehaviour
         int prod = GenerateRandomStat();
         willSpeak = Random.Range(300, 1500);
 
+        // Set profile image based on gender
+        int imageNum = Random.Range(0, 3);
+
+        if (characterGender == "Female")
+        {
+            profileImage = imageNum;
+        }
+        else
+        {
+            profileImage = imageNum + 3;
+        }
+
         // Stats may need capped to ensure low chance of perfect scientist
-        while(ident + form + prod > 12)
+        while (ident + form + prod > 12)
         {
             if(Random.Range(0, 100) < 95)       // ~95% chance of reroll
             {
