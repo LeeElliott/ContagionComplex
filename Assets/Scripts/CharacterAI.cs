@@ -50,7 +50,7 @@ public class CharacterAI : MonoBehaviour
     private int production;
 
     // Storage of profile image number
-    public int profileImage;
+    public int profileImage = 0;
 
     // For movement
     private Vector3 mouseOrigin;
@@ -461,8 +461,8 @@ public class CharacterAI : MonoBehaviour
         // Generate name based on gender
         if(characterGender == "Female")
         {
-			int forename = Random.Range(1, 12);
-            int surname = Random.Range(1, 22);
+			int forename = Random.Range(1, 11);
+            int surname = Random.Range(1, 21);
 
             // Loads data from csv file and stores as a string
             scriptA = GetComponent<LoadFromCSV>();

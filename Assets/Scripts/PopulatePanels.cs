@@ -142,7 +142,7 @@ public class PopulatePanels : MonoBehaviour
             string outputString;
 
             // Add name to string
-            outputString = allStaff[i].GetComponent<CharacterAI>().characterName += "\n";
+            outputString = allStaff[i].GetComponent<CharacterAI>().characterName + "\n";
 
             // Add age to string
             int charAge = allStaff[i].GetComponent<CharacterAI>().characterAge;
@@ -150,7 +150,7 @@ public class PopulatePanels : MonoBehaviour
             outputString += "       ";
 
             // Add gender to string
-            outputString += allStaff[i].GetComponent<CharacterAI>().characterGender += "\n";
+            outputString += allStaff[i].GetComponent<CharacterAI>().characterGender + "\n";
 
             // Add Identification stat
             int ident = allStaff[i].GetComponent<CharacterAI>().GetStat(1);

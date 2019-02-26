@@ -15,6 +15,7 @@ public class IdentificationController : MonoBehaviour
 {
     // Game timer variable
     public float gameTimer = 60.0f;
+    public Vector3 timerInitial;
 
     // Game object references
     public GameObject cell;
@@ -98,6 +99,9 @@ public class IdentificationController : MonoBehaviour
         secondBand.SetActive(false);
         thirdBand.SetActive(false);
 
+        // Store initial length of timer bar
+        timerInitial = timerFront.transform.lossyScale;
+
         //GridLayout();
         RadialSpawn();
     }
@@ -160,11 +164,25 @@ public class IdentificationController : MonoBehaviour
             }
 
             // Update timer object scale
-            float timerScale = (Time.deltaTime / 60);
-            timerFront.transform.localScale -= new Vector3(0.0f, timerScale, 0.0f);
+            float timerScale = timerInitial.y * (Time.deltaTime / 60);
 
-            // Update timer object position
-            timerFront.transform.position -= new Vector3(0.0f, timerScale * 100, 0.0f);
+            // Store current scale of timer bar
+            Vector3 scale = timerFront.transform.localScale;
+
+            // Store current position of timer bar
+            Vector3 position = timerFront.transform.position;
+
+            // Shrink bar by timerScale
+            //scale.y -= timerScale;
+
+            // Move by half timerScale
+            position.y -= (timerScale *46);
+
+            // Set to modified scale
+            timerFront.transform.localScale = scale;
+
+            // Set to modified position
+            timerFront.transform.position = position;
 
             // Update displayed difference counter
             differenceCounter.text = foundDifferences.ToString();
