@@ -47,9 +47,25 @@ public class ControllerScript : MonoBehaviour
 
     // Character panel reference
     public GameObject charPanel;
+    // Character panel picture
+    public Image profilePic;
+    // Character panel text
+    public Text detailsText;
+    // Character panel sliders
+    public Slider identSlider;
+    public Slider experSlider;
+    public Slider prodSlider;
 
-	// Use this for initialization
-	void Start()
+    // Storage of references to the profile images
+    public Sprite portraitA;
+    public Sprite portraitB;
+    public Sprite portraitC;
+    public Sprite portraitD;
+    public Sprite portraitE;
+    public Sprite portraitF;
+
+    // Use this for initialization
+    void Start()
     {
         // Hide build button until required
         buildButton.SetActive(false);
@@ -210,6 +226,43 @@ public class ControllerScript : MonoBehaviour
     private void UpdateCurrency()
     {
         currencyText.text = "£" + currency.ToString();
+    }
+
+    // Launch character card
+    public void LaunchCharacterCard(string details, int ident, int exper, int prod, int profile)
+    {
+        // Unhide panel
+        charPanel.SetActive(true);
+
+        // Set text
+        detailsText.text = details;
+
+        switch(profile)
+        {
+            case 0:
+                profilePic.GetComponent<Image>().sprite = portraitA;
+                break;
+            case 1:
+                profilePic.GetComponent<Image>().sprite = portraitB;
+                break;
+            case 2:
+                profilePic.GetComponent<Image>().sprite = portraitC;
+                break;
+            case 3:
+                profilePic.GetComponent<Image>().sprite = portraitD;
+                break;
+            case 4:
+                profilePic.GetComponent<Image>().sprite = portraitE;
+                break;
+            case 5:
+                profilePic.GetComponent<Image>().sprite = portraitF;
+                break;
+        }
+
+        // Set sliders
+        identSlider.value = ident;
+        experSlider.value = exper;
+        prodSlider.value = prod;
     }
 
     // Star count getters

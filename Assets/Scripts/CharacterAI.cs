@@ -39,16 +39,8 @@ public class CharacterAI : MonoBehaviour
 
     public Canvas speechCanvas;
 
-    // Game object reference for character card
-    public GameObject charCard;
-    // Image for profile pic
-    public Image profilePic;
-    // Text for character details
-    public Text detailsText;
-    // Sliders
-    public Slider identBar;
-    public Slider experBar;
-    public Slider prodBar;
+    // Game object reference controller
+    private GameObject controller;
 
     // Character info
     public string characterName;
@@ -89,6 +81,8 @@ public class CharacterAI : MonoBehaviour
         speechText.text = " ";
         speechText.color = Color.black;
         speechCanvas.enabled = false;
+
+        controller = GameObject.Find("Controller");
 
         gameObject.name = characterName;
         mainCamera = Camera.main.gameObject;
@@ -231,7 +225,7 @@ public class CharacterAI : MonoBehaviour
     {
         // Temporarily move the char to get destination
         // Set being moved to true
-        beingMoved = true;
+        //beingMoved = true;
         behaviourState = BehaviourState.moving;
 
         // Disable NavMeshAgent
@@ -254,7 +248,7 @@ public class CharacterAI : MonoBehaviour
     // THIS NEEDS FORMATTED TO ADHERE TO CODING STANDARDS
     private void OnMouseUp()
     {
-        if(beingMoved)
+        if (beingMoved)
         {
             // Store new position
             newPosition = transform.position;
@@ -273,24 +267,24 @@ public class CharacterAI : MonoBehaviour
             Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(newPosition);
             RaycastHit hit;
 
-            if(Physics.Raycast(ray, out hit, 100))
+            if (Physics.Raycast(ray, out hit, 100))
             {
                 Transform objectHit = hit.transform;
 
-                if(objectHit.parent.gameObject.tag == "Room")
+                if (objectHit.parent.gameObject.tag == "Room")
                 {
                     GameObject room = objectHit.parent.gameObject;
 
                     // Try to replace weakest scientist
                     // Check if slot 1 is empty
-                    if(room.GetComponent<RoomScript>().scientist1 == null)
+                    if (room.GetComponent<RoomScript>().scientist1 == null)
                     {
                         room.GetComponent<RoomScript>().scientist1 = gameObject;
                         room.GetComponent<RoomScript>().assigned1 = true;
                         assigned = 1;
                     }
                     // Check if slot 2 is empty
-                    else if(room.GetComponent<RoomScript>().scientist2 == null)
+                    else if (room.GetComponent<RoomScript>().scientist2 == null)
                     {
                         room.GetComponent<RoomScript>().scientist2 = gameObject;
                         room.GetComponent<RoomScript>().assigned2 = true;
@@ -301,12 +295,12 @@ public class CharacterAI : MonoBehaviour
                     {
                         int scientist1Stat, scientist2Stat;
 
-                        if(room.name == "Identification")
+                        if (room.name == "Identification")
                         {
                             scientist1Stat = room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().identification;
                             scientist2Stat = room.GetComponent<RoomScript>().scientist2.GetComponent<CharacterAI>().identification;
 
-                            if(scientist1Stat < scientist2Stat)
+                            if (scientist1Stat < scientist2Stat)
                             {
                                 room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().behaviourState = BehaviourState.idle;
                                 room.GetComponent<RoomScript>().scientist1 = gameObject;
@@ -321,12 +315,12 @@ public class CharacterAI : MonoBehaviour
 
                             roomType = 1;
                         }
-                        else if(room.name == "Experimentation")
+                        else if (room.name == "Experimentation")
                         {
                             scientist1Stat = room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().experimentation;
                             scientist2Stat = room.GetComponent<RoomScript>().scientist2.GetComponent<CharacterAI>().experimentation;
 
-                            if(scientist1Stat < scientist2Stat)
+                            if (scientist1Stat < scientist2Stat)
                             {
                                 room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().behaviourState = BehaviourState.idle;
                                 room.GetComponent<RoomScript>().scientist1 = gameObject;
@@ -341,12 +335,12 @@ public class CharacterAI : MonoBehaviour
 
                             roomType = 2;
                         }
-                        else if(room.name == "Production")
+                        else if (room.name == "Production")
                         {
                             scientist1Stat = room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().production;
                             scientist2Stat = room.GetComponent<RoomScript>().scientist2.GetComponent<CharacterAI>().production;
 
-                            if(scientist1Stat < scientist2Stat)
+                            if (scientist1Stat < scientist2Stat)
                             {
                                 room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().behaviourState = BehaviourState.idle;
                                 room.GetComponent<RoomScript>().scientist1 = gameObject;
@@ -367,14 +361,14 @@ public class CharacterAI : MonoBehaviour
                         }
                     }
 
-                    if(currentRoom != null)
+                    if (currentRoom != null)
                     {
-                        if(assigned == 1)
+                        if (assigned == 1)
                         {
                             currentRoom.GetComponent<RoomScript>().scientist1 = null;
                             currentRoom.GetComponent<RoomScript>().assigned1 = false;
                         }
-                        else if(assigned == 2)
+                        else if (assigned == 2)
                         {
                             currentRoom.GetComponent<RoomScript>().scientist2 = null;
                             currentRoom.GetComponent<RoomScript>().assigned2 = false;
@@ -391,21 +385,13 @@ public class CharacterAI : MonoBehaviour
         }
         else
         {
-            // Show character cards
-            //charCard.SetActive(true);
+            string outputString = characterName + "\n";
+            outputString += characterAge.ToString() + "\n";
+            outputString += characterGender + "\n";
+            outputString += "Location";
 
-            // Set text
-            string outputString;
-
-            outputString = characterName + "\n";
-            outputString = characterAge.ToString() + "\n";
-
-            detailsText.text = outputString;
-
-            // Assign stats to sliders
-            identBar.value = identification;
-            experBar.value = experimentation;
-            prodBar.value = production;
+            controller.GetComponent<ControllerScript>().LaunchCharacterCard(outputString, 
+                identification, experimentation, production, profileImage);
         }
     }
 
