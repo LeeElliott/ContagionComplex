@@ -109,6 +109,7 @@ public class PopulatePanels : MonoBehaviour
 
             // Get the image component of the profile picture
             Image image = profilePic.GetComponent<Image>();
+   
 
             switch (profile)
             {

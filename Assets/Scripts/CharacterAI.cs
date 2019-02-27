@@ -39,6 +39,17 @@ public class CharacterAI : MonoBehaviour
 
     public Canvas speechCanvas;
 
+    // Game object reference for character card
+    public GameObject charCard;
+    // Image for profile pic
+    public Image profilePic;
+    // Text for character details
+    public Text detailsText;
+    // Sliders
+    public Slider identBar;
+    public Slider experBar;
+    public Slider prodBar;
+
     // Character info
     public string characterName;
 	public int characterAge = -1;
@@ -46,7 +57,7 @@ public class CharacterAI : MonoBehaviour
 
     // Stats
     private int identification;
-    private int formulation;
+    private int experimentation;
     private int production;
 
     // Storage of profile image number
@@ -312,8 +323,8 @@ public class CharacterAI : MonoBehaviour
                         }
                         else if(room.name == "Experimentation")
                         {
-                            scientist1Stat = room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().formulation;
-                            scientist2Stat = room.GetComponent<RoomScript>().scientist2.GetComponent<CharacterAI>().formulation;
+                            scientist1Stat = room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().experimentation;
+                            scientist2Stat = room.GetComponent<RoomScript>().scientist2.GetComponent<CharacterAI>().experimentation;
 
                             if(scientist1Stat < scientist2Stat)
                             {
@@ -381,6 +392,20 @@ public class CharacterAI : MonoBehaviour
         else
         {
             // Show character cards
+            //charCard.SetActive(true);
+
+            // Set text
+            string outputString;
+
+            outputString = characterName + "\n";
+            outputString = characterAge.ToString() + "\n";
+
+            detailsText.text = outputString;
+
+            // Assign stats to sliders
+            identBar.value = identification;
+            experBar.value = experimentation;
+            prodBar.value = production;
         }
     }
 
@@ -389,7 +414,7 @@ public class CharacterAI : MonoBehaviour
     {
         // Sets all of the characters strengths and weaknesses
         identification = ident;
-        formulation = form;
+        experimentation = form;
         production = prod;
     }
 
@@ -500,7 +525,7 @@ public class CharacterAI : MonoBehaviour
                 stat = identification;
                 break;
             case 2:
-                stat = formulation;
+                stat = experimentation;
                 break;
             case 3:
                 stat = production;

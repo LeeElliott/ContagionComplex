@@ -45,6 +45,9 @@ public class ControllerScript : MonoBehaviour
     // Build button reference
     public GameObject buildButton;
 
+    // Character panel reference
+    public GameObject charPanel;
+
 	// Use this for initialization
 	void Start()
     {
@@ -113,6 +116,9 @@ public class ControllerScript : MonoBehaviour
         SpawnScientist(2, 1, 5, "Jordan Henderson", 42, "Male", 4);
         SpawnScientist(5, 3, 1, "Kate Green", 26, "Female", 0);
         SpawnScientist(1, 5, -1, "Mary Curran", 34, "Female", 2);
+
+        // Hide character panel
+        charPanel.SetActive(false);
     }
 
     // Used for random scientists
