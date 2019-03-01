@@ -63,7 +63,6 @@ public class IdentificationController : MonoBehaviour
     Vector3 leftIn = new Vector3(-30.0f, 1.0f, -30.0f);
     Vector3 rightIn = new Vector3(30.0f, 1.0f, -30.0f);
     Vector3 leftOut = new Vector3(-30.0f, -40.0f, -30.0f);
-    Vector3 rightOut = new Vector3(30.0f, -40.0f, -30.0f);
 
     // Rating targets
     int targetOne = 5;
@@ -72,7 +71,6 @@ public class IdentificationController : MonoBehaviour
 
     // Rating delay
     float delay = 0.0f;
-    float zOffset = 0.0f;
 
     // Should the minigame end now?
     bool endgame = false;

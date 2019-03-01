@@ -18,9 +18,6 @@ public class PopulatePanels : MonoBehaviour
     public GameObject node;
     public GameObject panel;
 
-    // The used profile image
-    public Image profilePic;
-
     // References to all profile images
     public Sprite profileA;
     public Sprite profileB;
@@ -107,8 +104,8 @@ public class PopulatePanels : MonoBehaviour
             // Apply profile image
             int profile = allStaff[i].GetComponent<CharacterAI>().profileImage;
 
-            // Get the image component of the profile picture
-            Image image = profilePic.GetComponent<Image>();
+            // HACK: Get the image component of the profile picture
+            Image image = newListNode.transform.GetChild(0).GetComponent<Image>();
    
 
             switch (profile)

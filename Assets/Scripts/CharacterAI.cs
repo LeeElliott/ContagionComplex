@@ -224,23 +224,28 @@ public class CharacterAI : MonoBehaviour
     private void OnMouseDrag()
     {
         // Temporarily move the char to get destination
-        // Set being moved to true
-        //beingMoved = true;
-        behaviourState = BehaviourState.moving;
-
-        // Disable NavMeshAgent
-        gameObject.GetComponent<NavMeshAgent>().enabled = false;
-        gameObject.transform.position = new Vector3(gameObject.transform.position.x,
-            gameObject.transform.position.y, 0);
-
-        // Move respective to mouse position
-        if (mainCamera.activeSelf)
+        // Check if mouse has moved significantly
+        if (Vector3.Distance(mouseOrigin, Input.mousePosition) > 2)
         {
-            Vector3 position = mainCamera.GetComponent<Camera>().ScreenToViewportPoint(Input.mousePosition - mouseOrigin);
-            // Using negative to simulate drag motion rather than following mouse
-            Vector3 move = new Vector3(position.x * panSpeed, position.y * panSpeed, 0);
+            // Set being moved to true
+            beingMoved = true;
+            behaviourState = BehaviourState.moving;
 
-            transform.Translate(move, Space.World);
+            // Disable NavMeshAgent
+            gameObject.GetComponent<NavMeshAgent>().enabled = false;
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x,
+                gameObject.transform.position.y, 0);
+
+            // Move respective to mouse position
+            if (mainCamera.activeSelf)
+            {
+                Vector3 position = mainCamera.GetComponent<Camera>().ScreenToViewportPoint(
+                    Input.mousePosition - mouseOrigin);
+                // Using negative to simulate drag motion rather than following mouse
+                Vector3 move = new Vector3(position.x * panSpeed, position.y * panSpeed, 0);
+
+                transform.Translate(move, Space.World);
+            }
         }
     }
 

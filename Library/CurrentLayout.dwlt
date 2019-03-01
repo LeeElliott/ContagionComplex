@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 10
+  controlID: 106
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,8 +153,8 @@ MonoBehaviour:
     y: 0
     width: 737
     height: 397
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -461,10 +461,10 @@ MonoBehaviour:
     width: 432
     height: 266
   m_TreeViewState:
-    scrollPos: {x: 0, y: 80.078125}
-    m_SelectedIDs: 50faffff
-    m_LastClickedID: -1456
-    m_ExpandedIDs: ae16ffffb65effff62faffff68faffffa0fbffff00000000b432000014350000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 683bfdff723cfdffb03dfdffb83dfdffc83dfdffce3dfdffd43dfdffda3dfdffe03dfdff9a54fdffde57fdff4889fdff6a91fdff7292fdffb093fdffb893fdffc893fdffce93fdffd493fdffda93fdffe093fdff920ffeff0ebdfeff1abdfeff0e83ffff1483ffff1afcffff00000000083100002a320000ee330000f6330000863400008c340000be3400000e3500008c810000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -525,19 +525,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/2D Graphics/UI/Profiles
+    - Assets/Scripts/Minigame
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/2D Graphics/UI/Profiles
+  - Assets/Scripts/Minigame
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\Documents\GitHub\ContagionComplex
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 14320000
-    m_LastClickedID: 12820
-    m_ExpandedIDs: 00000000082c0000fc2c0000042d00004e30000068300000903a000000ca9a3bffffff7f
+    m_SelectedIDs: 882a0000
+    m_LastClickedID: 10888
+    m_ExpandedIDs: 00000000322a00002e2b00008a2e0000a42e0000c03a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -565,7 +565,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000082c0000042d00004e30000068300000903a0000
+    m_ExpandedIDs: 00000000322a00002e2b00008a2e0000a42e0000c03a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -593,7 +593,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 00000000beddfeffd043feff7cdeffff
+    m_ExpandedInstanceIDs: beddfeffd043feff7cdeffffe42a000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

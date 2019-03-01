@@ -119,6 +119,14 @@ public class ControllerScript : MonoBehaviour
 			canSpawn = false;
 		}
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (charPanel.activeSelf)
+            {
+                charPanel.SetActive(false);
+            }
+        }
+
         UpdateCurrency();
     }
 
