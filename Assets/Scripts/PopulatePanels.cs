@@ -29,6 +29,10 @@ public class PopulatePanels : MonoBehaviour
     // Reference to controller object
     public GameObject controller;
 
+    // References to sliders
+    public Slider progressSlider;
+    public Slider timerSlider;
+
     // CSV script reference
     private LoadFromCSV scriptA;
 
@@ -81,6 +85,17 @@ public class PopulatePanels : MonoBehaviour
             PopulateMission();
         }
     }
+
+    public void BuildClicked()
+    {
+        // Reusing node and panel for neatness
+        // Hide the button
+        node.SetActive(false);
+
+        // Show the build menu
+        panel.SetActive(true);
+    }
+
 
     private void PopulateStaff()
     {
@@ -181,9 +196,12 @@ public class PopulatePanels : MonoBehaviour
         // Activate panel
         panel.SetActive(true);
 
+        // Sliders update in separate code file
+
         // Create GameObject instance
         GameObject newListNode;
 
+        // Loop to fill data sections
         for (int i = 0; i < 9; i++)
         {
             // Create new instances of our prefab until we've created as many as we specified

@@ -24,9 +24,13 @@ public class ControllerScript : MonoBehaviour
     private GameObject delivery;
 
     // Store number of stars earned per discipline
-    private int identificationStars = 3;
-    private int experimentationStars = 3;
-    private int productionStars = 3;
+    private int identificationStars = 0;
+    private int experimentationStars = 0;
+    private int productionStars = 0;
+
+    // Timer for mission failure
+    private float timerMax = 600.0f;
+    private float missionTimer = 600.0f;
 
     // Used for spawning
     private bool canSpawn = true;
@@ -44,13 +48,17 @@ public class ControllerScript : MonoBehaviour
 
     // Build button reference
     public GameObject buildButton;
+    // Build panel reference
+    public GameObject buildPanel;
 
     // Character panel reference
     public GameObject charPanel;
     // Character panel picture
     public Image profilePic;
     // Character panel text
-    public Text detailsText;
+    public Text nameText;
+    public Text ageText;
+    public Text genderText;
     // Character panel sliders
     public Slider identSlider;
     public Slider experSlider;
@@ -68,7 +76,10 @@ public class ControllerScript : MonoBehaviour
     void Start()
     {
         // Hide build button until required
-        buildButton.SetActive(false);
+        buildButton.SetActive(true);
+
+        // Hide build menu until needed
+        buildPanel.SetActive(false);
 
         InitialiseGame();
     }
@@ -128,6 +139,7 @@ public class ControllerScript : MonoBehaviour
         }
 
         UpdateCurrency();
+        missionTimer -= Time.deltaTime;
     }
 
     private void InitialiseGame()
@@ -237,13 +249,16 @@ public class ControllerScript : MonoBehaviour
     }
 
     // Launch character card
-    public void LaunchCharacterCard(string details, int ident, int exper, int prod, int profile)
+    public void LaunchCharacterCard(string name, string age, string gender,
+        int ident, int exper, int prod, int profile)
     {
         // Unhide panel
         charPanel.SetActive(true);
 
         // Set text
-        detailsText.text = details;
+        nameText.text = name;
+        ageText.text = age;
+        genderText.text = gender;
 
         switch(profile)
         {
@@ -285,5 +300,17 @@ public class ControllerScript : MonoBehaviour
     public int GetPStars()
     {
         return productionStars;
+    }
+    public int GetTotalStars()
+    {
+        return (identificationStars + experimentationStars + productionStars);
+    }
+    public float GetTimer()
+    {
+        return missionTimer;
+    }
+    public float GetTimerMax()
+    {
+        return timerMax;
     }
 }
