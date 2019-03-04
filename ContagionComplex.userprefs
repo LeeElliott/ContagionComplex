@@ -1,6 +1,11 @@
-﻿<Properties StartupItem="ContagionComplex.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Minigame\Experimentation.cs">
+    <Files>
+      <File FileName="Assets\Scripts\RoomScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Minigame\Experimentation.cs" Line="122" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
