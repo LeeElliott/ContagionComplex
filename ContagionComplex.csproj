@@ -108,6 +108,7 @@
     <Compile Include="Assets\Scripts\SplashController.cs" />
     <Compile Include="Assets\Scripts\SpotDifference\IdentificationController.cs" />
     <Compile Include="Assets\Scripts\SpotDifference\ObjectScript.cs" />
+    <Compile Include="Assets\SliderUpdater.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkPlatformInitSettings_Android.cs" />

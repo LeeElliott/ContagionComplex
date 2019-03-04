@@ -390,13 +390,9 @@ public class CharacterAI : MonoBehaviour
         }
         else
         {
-            string outputString = characterName + "\n";
-            outputString += characterAge.ToString() + "\n";
-            outputString += characterGender + "\n";
-            outputString += "Location";
-
-            controller.GetComponent<ControllerScript>().LaunchCharacterCard(outputString, 
-                identification, experimentation, production, profileImage);
+            controller.GetComponent<ControllerScript>().LaunchCharacterCard(characterName, 
+                characterAge.ToString(), characterGender, identification, experimentation,
+                production, profileImage);
         }
     }
 
