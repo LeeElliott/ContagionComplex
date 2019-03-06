@@ -117,13 +117,8 @@ public class Experimentation : MonoBehaviour
             {
                 // Enable the experiment button
                 experiment.SetActive(true);
-                displayingButton = true;       
-            }
-            else
-            {
-                // Disable the experiment button
-                experiment.SetActive(false);
-                displayingButton = false;
+                displayingButton = true;   
+				return;
             }
         }
         else
@@ -131,6 +126,7 @@ public class Experimentation : MonoBehaviour
             // Disable the experiment button
             experiment.SetActive(false);
             displayingButton = false;
+			return;
         }
 
         // If either success or failure are displayed
@@ -142,6 +138,7 @@ public class Experimentation : MonoBehaviour
                 // Disable both of them
                 success.SetActive(false);
                 failure.SetActive(false);
+				return;
             }
         }
     }

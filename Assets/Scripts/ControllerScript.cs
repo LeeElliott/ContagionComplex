@@ -23,6 +23,15 @@ public class ControllerScript : MonoBehaviour
     private GameObject scientists;
     private GameObject delivery;
 
+    // Store number of stars earned per discipline
+    private int identificationStars = 0;
+    private int experimentationStars = 0;
+    private int productionStars = 0;
+
+    // Timer for mission failure
+    private float timerMax = 600.0f;
+    private float missionTimer = 600.0f;
+
     // Used for spawning
     private bool canSpawn = true;
 	private int totalScientists = 3;
@@ -39,12 +48,38 @@ public class ControllerScript : MonoBehaviour
 
     // Build button reference
     public GameObject buildButton;
+    // Build panel reference
+    public GameObject buildPanel;
 
-	// Use this for initialization
-	void Start()
+    // Character panel reference
+    public GameObject charPanel;
+    // Character panel picture
+    public Image profilePic;
+    // Character panel text
+    public Text nameText;
+    public Text ageText;
+    public Text genderText;
+    // Character panel sliders
+    public Slider identSlider;
+    public Slider experSlider;
+    public Slider prodSlider;
+
+    // Storage of references to the profile images
+    public Sprite portraitA;
+    public Sprite portraitB;
+    public Sprite portraitC;
+    public Sprite portraitD;
+    public Sprite portraitE;
+    public Sprite portraitF;
+
+    // Use this for initialization
+    void Start()
     {
         // Hide build button until required
-        buildButton.SetActive(false);
+        buildButton.SetActive(true);
+
+        // Hide build menu until needed
+        buildPanel.SetActive(false);
 
         InitialiseGame();
     }
@@ -95,7 +130,16 @@ public class ControllerScript : MonoBehaviour
 			canSpawn = false;
 		}
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (charPanel.activeSelf)
+            {
+                charPanel.SetActive(false);
+            }
+        }
+
         UpdateCurrency();
+        missionTimer -= Time.deltaTime;
     }
 
     private void InitialiseGame()
@@ -105,9 +149,12 @@ public class ControllerScript : MonoBehaviour
         scientists.name = "Scientists";
 
         // Three preset scientists spawned at game start
-        SpawnScientist(2, 1, 5, "Jordan Henderson", 42, "Male");
-        SpawnScientist(5, 3, 1, "Kate Green", 26, "Female");
-        SpawnScientist(1, 5, -1, "Mary Curran", 34, "Female");
+        SpawnScientist(2, 1, 5, "Jordan Henderson", 42, "Male", 4);
+        SpawnScientist(5, 3, 1, "Kate Green", 26, "Female", 0);
+        SpawnScientist(1, 5, -1, "Mary Curran", 34, "Female", 2);
+
+        // Hide character panel
+        charPanel.SetActive(false);
     }
 
     // Used for random scientists
@@ -133,14 +180,14 @@ public class ControllerScript : MonoBehaviour
     }
 
     // Used for preset scientists
-    private void SpawnScientist(int ident, int form, int prod, string name, int age, string gender)
+    private void SpawnScientist(int ident, int form, int prod, string name, int age, string gender, int image)
     {
         // Instantiate preset scientist in entrance room
         Transform temp = Instantiate(scientist, new Vector3(-20.0f, 1.0f, 0.0f),
             Quaternion.identity) as Transform;
 
         // Call function in character AI to set preset stats and details
-        temp.GetComponent<CharacterAI>().SetUniqueStats(ident, form, prod, name, age, gender);
+        temp.GetComponent<CharacterAI>().SetUniqueStats(ident, form, prod, name, age, gender, image);
 
         // Set the object's tag
         temp.tag = "Scientist";
@@ -199,5 +246,71 @@ public class ControllerScript : MonoBehaviour
     private void UpdateCurrency()
     {
         currencyText.text = "£" + currency.ToString();
+    }
+
+    // Launch character card
+    public void LaunchCharacterCard(string name, string age, string gender,
+        int ident, int exper, int prod, int profile)
+    {
+        // Unhide panel
+        charPanel.SetActive(true);
+
+        // Set text
+        nameText.text = name;
+        ageText.text = age;
+        genderText.text = gender;
+
+        switch(profile)
+        {
+            case 0:
+                profilePic.GetComponent<Image>().sprite = portraitA;
+                break;
+            case 1:
+                profilePic.GetComponent<Image>().sprite = portraitB;
+                break;
+            case 2:
+                profilePic.GetComponent<Image>().sprite = portraitC;
+                break;
+            case 3:
+                profilePic.GetComponent<Image>().sprite = portraitD;
+                break;
+            case 4:
+                profilePic.GetComponent<Image>().sprite = portraitE;
+                break;
+            case 5:
+                profilePic.GetComponent<Image>().sprite = portraitF;
+                break;
+        }
+
+        // Set sliders
+        identSlider.value = ident;
+        experSlider.value = exper;
+        prodSlider.value = prod;
+    }
+
+    // Star count getters
+    public int GetIStars()
+    {
+        return identificationStars;
+    }
+    public int GetEStars()
+    {
+        return experimentationStars;
+    }
+    public int GetPStars()
+    {
+        return productionStars;
+    }
+    public int GetTotalStars()
+    {
+        return (identificationStars + experimentationStars + productionStars);
+    }
+    public float GetTimer()
+    {
+        return missionTimer;
+    }
+    public float GetTimerMax()
+    {
+        return timerMax;
     }
 }

@@ -36,10 +36,25 @@ public class LoadFromCSV : MonoBehaviour
         TextAsset speechData = Resources.Load<TextAsset>("Names");
 
         // Split file into individual lines
-        string[] data = speechData.text.Split(new char[] { '\n' });
+        string[] data = speechData.text.Split(new char[] { '~' });
 
         // Split lines into individual phrases
-        string[] words = data[row].Split(new char[] { ',' });
+        string[] words = data[row].Split(new char[] { '|' });
+
+        // Return the phrase requested
+        return words[column];
+    }
+
+    // Use this for loading virus information
+    public string LoadData(int row, int column)
+    {
+        TextAsset speechData = Resources.Load<TextAsset>("VirusData");
+
+        // Split file into individual lines
+        string[] data = speechData.text.Split(new char[] { '~' });
+
+        // Split lines into individual phrases
+        string[] words = data[row].Split(new char[] { '|' });
 
         // Return the phrase requested
         return words[column];

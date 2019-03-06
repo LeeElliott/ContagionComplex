@@ -27,11 +27,11 @@ public class SplashController : MonoBehaviour {
             // Switch scene to menu
             SceneManager.LoadScene("MainMenu");
         }
-        else if(timer <= 5.0f)
+        /*else if(timer <= 5.0f)
         {
             splashText.text = "St Andrews\nUniversity";
             
-        }
+        }*/
 
         if(timer >= 0.0f)
         {

@@ -15,6 +15,7 @@ public class IdentificationController : MonoBehaviour
 {
     // Game timer variable
     public float gameTimer = 60.0f;
+    public Vector3 timerInitial;
 
     // Game object references
     public GameObject cell;
@@ -62,7 +63,6 @@ public class IdentificationController : MonoBehaviour
     Vector3 leftIn = new Vector3(-30.0f, 1.0f, -30.0f);
     Vector3 rightIn = new Vector3(30.0f, 1.0f, -30.0f);
     Vector3 leftOut = new Vector3(-30.0f, -40.0f, -30.0f);
-    Vector3 rightOut = new Vector3(30.0f, -40.0f, -30.0f);
 
     // Rating targets
     int targetOne = 5;
@@ -71,7 +71,6 @@ public class IdentificationController : MonoBehaviour
 
     // Rating delay
     float delay = 0.0f;
-    float zOffset = 0.0f;
 
     // Should the minigame end now?
     bool endgame = false;
@@ -97,6 +96,9 @@ public class IdentificationController : MonoBehaviour
         firstBand.SetActive(false);
         secondBand.SetActive(false);
         thirdBand.SetActive(false);
+
+        // Store initial length of timer bar
+        timerInitial = timerFront.transform.lossyScale;
 
         //GridLayout();
         RadialSpawn();
@@ -160,11 +162,25 @@ public class IdentificationController : MonoBehaviour
             }
 
             // Update timer object scale
-            float timerScale = (Time.deltaTime / 60);
-            timerFront.transform.localScale -= new Vector3(0.0f, timerScale, 0.0f);
+            float timerScale = timerInitial.y * (Time.deltaTime / 60);
 
-            // Update timer object position
-            timerFront.transform.position -= new Vector3(0.0f, timerScale * 100, 0.0f);
+            // Store current scale of timer bar
+            Vector3 scale = timerFront.transform.localScale;
+
+            // Store current position of timer bar
+            Vector3 position = timerFront.transform.position;
+
+            // Shrink bar by timerScale
+            //scale.y -= timerScale;
+
+            // Move by half timerScale
+            position.y -= (timerScale *46);
+
+            // Set to modified scale
+            timerFront.transform.localScale = scale;
+
+            // Set to modified position
+            timerFront.transform.position = position;
 
             // Update displayed difference counter
             differenceCounter.text = foundDifferences.ToString();
@@ -289,7 +305,7 @@ public class IdentificationController : MonoBehaviour
             // In case we want to alter to avoid bad overlaps
             while (!acceptedPosition)
             {
-                Vector2 position = Random.insideUnitCircle * 12.0f;
+                Vector2 position = Random.insideUnitCircle * 20.0f;
 
                 // Set transform relative to container location
                 spawnedCell.transform.localPosition = new Vector3(position.x, position.y, 0);
