@@ -3,45 +3,45 @@
 	<Platform GUID="{49F0CE5D-640B-4085-865A-69A4C29F6F41}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="FX" Hash="2071243936" Timestamp="1549539753"/>
-				<File Name="Init" Hash="913619204" Timestamp="1549539753"/>
-				<File Name="MainAmbience" Hash="2549176676" Timestamp="1549540384"/>
-				<File Name="Music" Hash="1426798002" Timestamp="1549540388"/>
+				<File Name="FX" Hash="2087786544" Timestamp="1551900703"/>
+				<File Name="Init" Hash="913619204" Timestamp="1551888443"/>
+				<File Name="MainAmbience" Hash="3859558921" Timestamp="1551888443"/>
+				<File Name="Music" Hash="3579170194" Timestamp="1551888441"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="548141593" Timestamp="1549540388"/>
+				<File Name="" Hash="1645102075" Timestamp="1551900703"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{66BE0ABA-30AC-45A2-8099-73165F9CD4AD}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="FX" Hash="2071243936" Timestamp="1549539780"/>
-				<File Name="Init" Hash="916974510" Timestamp="1549539780"/>
-				<File Name="MainAmbience" Hash="2549176676" Timestamp="1549540393"/>
-				<File Name="Music" Hash="1426798002" Timestamp="1549540396"/>
+				<File Name="FX" Hash="2087786544" Timestamp="1551900703"/>
+				<File Name="Init" Hash="916974510" Timestamp="1551888459"/>
+				<File Name="MainAmbience" Hash="3859558921" Timestamp="1551895967"/>
+				<File Name="Music" Hash="3579170194" Timestamp="1551895963"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3063296077" Timestamp="1549540396"/>
+				<File Name="" Hash="4020358455" Timestamp="1551900703"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{F61C1522-6CD1-4ACF-BA0C-A5E4CB979437}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="FX" Hash="2071243936" Timestamp="1549539805"/>
-				<File Name="Init" Hash="1801908188" Timestamp="1549539805"/>
-				<File Name="MainAmbience" Hash="2549176676" Timestamp="1549540399"/>
-				<File Name="Music" Hash="1426798002" Timestamp="1549540401"/>
+				<File Name="FX" Hash="2087786544" Timestamp="1551900703"/>
+				<File Name="Init" Hash="1801908188" Timestamp="1551888483"/>
+				<File Name="MainAmbience" Hash="3859558921" Timestamp="1551895971"/>
+				<File Name="Music" Hash="3579170194" Timestamp="1551895968"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="419325915" Timestamp="1549540402"/>
+				<File Name="" Hash="4187189421" Timestamp="1551900703"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

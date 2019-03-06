@@ -4,7 +4,22 @@
 		<WorkUnit Name="Default Work Unit" ID="{D3A9E9A7-B300-484E-BDB1-838FFA860A82}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="FX" ID="{C21B147B-2942-45EE-ADD1-29815E8B5ECE}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Timer" ID="{26A15EB3-1620-4084-81B4-01ACF95617C7}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Achieved Star 1" ID="{E0E09C8E-9182-40F2-B933-EBE22F8AAA4F}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Button Press" ID="{ADB7DF02-E46A-441E-94D9-CC3C8503E35C}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Success" ID="{718DE2F9-BCAA-4452-ACA6-FB7B94FCC9F1}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Missed Click" ID="{C7BA971D-174C-4475-ACD6-EDC1B92861A2}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Success Click" ID="{6AFF20A4-0B00-458D-8A4C-895DDA8AC99B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Spot the Difference" ID="{234E2591-8D11-46ED-AFD3-2DF40F86CA0D}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Tray Change" ID="{03BF68BE-4BB1-4767-B7B8-C781D4226BFE}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Mastermind" ID="{8F6AA65B-FC2A-4A80-8518-B32EE4CBF125}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Timer" ID="{81BFBA96-8A5F-4B09-882A-9719BFC28224}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Incorrect" ID="{664698F2-F677-4BFC-8FF0-0F500288557C}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Achieved Star" ID="{F7B075CD-0C32-4CE2-81B6-7F28DCC7B1CE}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Achieved Star 2" ID="{E2B3E64C-EC73-4E0F-B34F-A625AA7159C9}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Achieved Star 3" ID="{04367147-37A0-4F01-9B30-41703DE0B430}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

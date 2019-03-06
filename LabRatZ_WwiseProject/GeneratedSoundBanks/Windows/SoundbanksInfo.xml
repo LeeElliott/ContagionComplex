@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -20,6 +20,96 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\FX</ObjectPath>
 			<ShortName>FX</ShortName>
 			<Path>FX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3363805320" Name="Play_Achieved_Star_1" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_1"/>
+				<Event Id="3363805323" Name="Play_Achieved_Star_2" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_2"/>
+				<Event Id="3363805322" Name="Play_Achieved_Star_3" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_3"/>
+				<Event Id="669756158" Name="Play_Success_Click" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Success_Click"/>
+				<Event Id="255665978" Name="Play_Traychange" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Traychange"/>
+				<Event Id="3090597779" Name="Stop_Timer" ObjectPath="\Events\Default Work Unit\Spot The Difference\Stop_Timer" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="5429521" Language="SFX">
+					<ShortName>SuccessClick 3.wav</ShortName>
+					<Path>SFX\SuccessClick 3_56D34C19.wem</Path>
+				</File>
+				<File Id="37416503" Language="SFX">
+					<ShortName>Success 1.wav</ShortName>
+					<Path>SFX\Success 1_56D34C19.wem</Path>
+				</File>
+				<File Id="63287814" Language="SFX">
+					<ShortName>StarSuccess 3.wav</ShortName>
+					<Path>SFX\StarSuccess 3_56D34C19.wem</Path>
+				</File>
+				<File Id="72868769" Language="SFX">
+					<ShortName>Button Press 7.wav</ShortName>
+					<Path>SFX\Button Press 7_56D34C19.wem</Path>
+				</File>
+				<File Id="163916547" Language="SFX">
+					<ShortName>Incorrect answer.wav</ShortName>
+					<Path>SFX\Incorrect answer_E9760335.wem</Path>
+				</File>
+				<File Id="241191154" Language="SFX">
+					<ShortName>StarSuccess 2.wav</ShortName>
+					<Path>SFX\StarSuccess 2_56D34C19.wem</Path>
+				</File>
+				<File Id="258603287" Language="SFX">
+					<ShortName>SuccessClick 2.wav</ShortName>
+					<Path>SFX\SuccessClick 2_56D34C19.wem</Path>
+				</File>
+				<File Id="260374168" Language="SFX">
+					<ShortName>Button Press 3.wav</ShortName>
+					<Path>SFX\Button Press 3_56D34C19.wem</Path>
+				</File>
+				<File Id="303685860" Language="SFX">
+					<ShortName>Fail 2.wav</ShortName>
+					<Path>SFX\Fail 2_56D34C19.wem</Path>
+				</File>
+				<File Id="332385197" Language="SFX">
+					<ShortName>SuccessClick 4.wav</ShortName>
+					<Path>SFX\SuccessClick 4_56D34C19.wem</Path>
+				</File>
+				<File Id="362890154" Language="SFX">
+					<ShortName>Traychange.wav</ShortName>
+					<Path>SFX\Traychange_3C1E1E94.wem</Path>
+				</File>
+				<File Id="379689229" Language="SFX">
+					<ShortName>Timer.wav</ShortName>
+					<Path>SFX\Timer_56D34C19.wem</Path>
+				</File>
+				<File Id="538238293" Language="SFX">
+					<ShortName>Button Press 1.wav</ShortName>
+					<Path>SFX\Button Press 1_56D34C19.wem</Path>
+				</File>
+				<File Id="548555864" Language="SFX">
+					<ShortName>Button Press 2.wav</ShortName>
+					<Path>SFX\Button Press 2_56D34C19.wem</Path>
+				</File>
+				<File Id="581266110" Language="SFX">
+					<ShortName>Button Press 6.wav</ShortName>
+					<Path>SFX\Button Press 6_56D34C19.wem</Path>
+				</File>
+				<File Id="720601307" Language="SFX">
+					<ShortName>Button Press 4.wav</ShortName>
+					<Path>SFX\Button Press 4_56D34C19.wem</Path>
+				</File>
+				<File Id="754710090" Language="SFX">
+					<ShortName>SuccessClick 1.wav</ShortName>
+					<Path>SFX\SuccessClick 1_56D34C19.wem</Path>
+				</File>
+				<File Id="767188625" Language="SFX">
+					<ShortName>Button Press 5.wav</ShortName>
+					<Path>SFX\Button Press 5_56D34C19.wem</Path>
+				</File>
+				<File Id="800580487" Language="SFX">
+					<ShortName>StarSuccess 1.wav</ShortName>
+					<Path>SFX\StarSuccess 1_56D34C19.wem</Path>
+				</File>
+				<File Id="994789480" Language="SFX">
+					<ShortName>Button Press 8.wav</ShortName>
+					<Path>SFX\Button Press 8_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="3921499158" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainAmbience</ObjectPath>

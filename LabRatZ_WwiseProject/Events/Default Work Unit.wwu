@@ -17,6 +17,116 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Spot The Difference" ID="{47E61EFA-F4E8-4B3C-91A0-4A4D90D24133}" ShortID="355372860">
+					<ChildrenList>
+						<Event Name="Play_Success_Click" ID="{AFDB5854-D7BB-4274-91CD-2B2CA5B298F0}">
+							<ChildrenList>
+								<Action Name="" ID="{25904319-1FEA-4A43-BDFF-9A90A3660BC9}" ShortID="401391854">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Success Click" ID="{6AFF20A4-0B00-458D-8A4C-895DDA8AC99B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Missed_Click" ID="{FE235165-835D-455B-AB0F-793410299CA0}">
+							<ChildrenList>
+								<Action Name="" ID="{9365DAEE-90AB-4433-9300-84A185CA9098}" ShortID="98195569">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Achieved_Star_1" ID="{D2E972B4-8A29-4396-80E2-729D4846E8A8}">
+							<ChildrenList>
+								<Action Name="" ID="{102D12FF-C02A-478A-8811-E16214B984DC}" ShortID="80637713">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Achieved Star 1" ID="{E0E09C8E-9182-40F2-B933-EBE22F8AAA4F}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Achieved_Star_2" ID="{973B8624-0848-4E8D-8148-6DA037D6473C}">
+							<ChildrenList>
+								<Action Name="" ID="{CBC4E829-0516-4A32-B12E-A15281C380E7}" ShortID="219024257">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Achieved Star 2" ID="{E2B3E64C-EC73-4E0F-B34F-A625AA7159C9}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Achieved_Star_3" ID="{31972736-4B6D-4068-9516-D7DD6F5E69C8}">
+							<ChildrenList>
+								<Action Name="" ID="{E9D0265D-DE9A-48C5-930B-F6200375C3A5}" ShortID="278820129">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Achieved Star 3" ID="{04367147-37A0-4F01-9B30-41703DE0B430}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Traychange" ID="{3F1C71A3-892C-4DDE-AC0A-7F2FB9E5C6B7}">
+							<ChildrenList>
+								<Action Name="" ID="{D863DE16-AD7D-45A1-9067-9F5628DE0F1C}" ShortID="342910191">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tray Change" ID="{03BF68BE-4BB1-4767-B7B8-C781D4226BFE}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Timer" ID="{14FC9568-07C5-47B7-8D36-3E42EEF3F310}">
+							<ChildrenList>
+								<Action Name="" ID="{53E3C0B8-B535-468A-B7CD-A09CF136EFB7}" ShortID="149613469">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Timer" ID="{04D8DB27-E3BB-4226-A29A-8E04BB960FEB}">
+							<ChildrenList>
+								<Action Name="" ID="{948530FE-AD86-4655-BBA6-A257DF6D3253}" ShortID="508424532">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Timer" ID="{81BFBA96-8A5F-4B09-882A-9719BFC28224}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Mastermind" ID="{644100DD-B4BF-4AD5-AD88-3F902B2A472D}" ShortID="973685077"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
