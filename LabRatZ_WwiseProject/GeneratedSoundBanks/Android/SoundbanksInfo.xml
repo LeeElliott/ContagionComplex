@@ -24,7 +24,9 @@
 				<Event Id="3363805320" Name="Play_Achieved_Star_1" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_1"/>
 				<Event Id="3363805323" Name="Play_Achieved_Star_2" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_2"/>
 				<Event Id="3363805322" Name="Play_Achieved_Star_3" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_3"/>
+				<Event Id="3797117088" Name="Play_Missed_Click" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Missed_Click"/>
 				<Event Id="669756158" Name="Play_Success_Click" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Success_Click"/>
+				<Event Id="4169444829" Name="Play_Timer" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Timer"/>
 				<Event Id="255665978" Name="Play_Traychange" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Traychange"/>
 				<Event Id="3090597779" Name="Stop_Timer" ObjectPath="\Events\Default Work Unit\Spot The Difference\Stop_Timer" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
@@ -71,7 +73,7 @@
 				</File>
 				<File Id="362890154" Language="SFX">
 					<ShortName>Traychange.wav</ShortName>
-					<Path>SFX\Traychange_3C1E1E94.wem</Path>
+					<Path>SFX\Traychange_C3AF77B1.wem</Path>
 				</File>
 				<File Id="379689229" Language="SFX">
 					<ShortName>Timer.wav</ShortName>

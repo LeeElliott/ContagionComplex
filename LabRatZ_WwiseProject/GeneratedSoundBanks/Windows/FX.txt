@@ -5,6 +5,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	3363805320	Play_Achieved_Star_1			\Default Work Unit\Spot The Difference\Play_Achieved_Star_1	
 	3363805322	Play_Achieved_Star_3			\Default Work Unit\Spot The Difference\Play_Achieved_Star_3	
 	3363805323	Play_Achieved_Star_2			\Default Work Unit\Spot The Difference\Play_Achieved_Star_2	
+	3797117088	Play_Missed_Click			\Default Work Unit\Spot The Difference\Play_Missed_Click	
+	4169444829	Play_Timer			\Default Work Unit\Spot The Difference\Play_Timer	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5429521	SuccessClick 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\SuccessClick 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\SuccessClick 3		76020
@@ -17,7 +19,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	260374168	Button Press 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 3		68536
 	303685860	Missed Click	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Fail 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Missed Click		64068
 	332385197	SuccessClick 4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\SuccessClick 4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\SuccessClick 4		108172
-	362890154	Tray Change	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Traychange_3C1E1E94.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Tray Change		747844
+	362890154	Tray Change	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Traychange_C3AF77B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Tray Change		747844
 	379689229	Timer	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Timer_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Timer		11519740
 	538238293	Button Press 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 1		135504
 	548555864	Button Press 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 2		125616
