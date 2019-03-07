@@ -75,6 +75,9 @@ public class IdentificationController : MonoBehaviour
     // Should the minigame end now?
     bool endgame = false;
 
+	// Variable to space out sound call functions so there is no sound spamming
+	int soundCall = 0;
+
     // Use this for initialization
     void Start()
     {
@@ -99,6 +102,7 @@ public class IdentificationController : MonoBehaviour
 
         // Store initial length of timer bar
         timerInitial = timerFront.transform.lossyScale;
+		AkSoundEngine.PostEvent ("Play_Timer", gameObject);
 
         //GridLayout();
         RadialSpawn();
@@ -141,6 +145,7 @@ public class IdentificationController : MonoBehaviour
                 case 3:
                     // Spawn new sample layout
                     RadialSpawn();
+					AkSoundEngine.PostEvent ("Play_TrayChange", gameObject);
                     transitionStatus = 4;
                     break;
                 case 4:                    
@@ -252,18 +257,41 @@ public class IdentificationController : MonoBehaviour
                 firstBand.GetComponent<Image>().sprite = filledStar;
                 firstBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 75.0f);
                 firstBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 75.0f);
+
+
+				if (soundCall == 0)
+				{
+					// Calls the Wwise sound engine to call the correct sound from the bank
+					AkSoundEngine.PostEvent ("Play_Achieved_Star_1", gameObject);
+					soundCall++;
+				}
             }
             if (differencesFound >= targetTwo)
             {
                 secondBand.GetComponent<Image>().sprite = filledStar;
                 secondBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 75.0f);
                 secondBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 75.0f);
+
+
+				if (soundCall == 1)
+				{
+					// Calls the Wwise sound engine to call the correct sound from the bank
+					AkSoundEngine.PostEvent ("Play_Achieved_Star_2", gameObject);
+					soundCall++;
+				}
             }
             if (differencesFound >= targetThree)
             {
                 thirdBand.GetComponent<Image>().sprite = filledStar;
                 thirdBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 75.0f);
                 thirdBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 75.0f);
+
+				if (soundCall == 2)
+				{
+					// Calls the Wwise sound engine to call the correct sound from the bank
+					AkSoundEngine.PostEvent ("Play_Achieved_Star_3", gameObject);
+					soundCall++;
+				}
             }
         }
     }
@@ -360,10 +388,10 @@ public class IdentificationController : MonoBehaviour
                 //crb.isKinematic = true;
             }
 
-            foreach(ObjectScript os in GameObject.FindObjectsOfType<ObjectScript>())
-            {
-                os.UpdateCollider();
-            }
+            //foreach(ObjectScript os in GameObject.FindObjectsOfType<ObjectScript>())
+            //{
+            //    os.UpdateCollider();
+            //}
         }
     }
 

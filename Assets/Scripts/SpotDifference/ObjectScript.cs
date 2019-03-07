@@ -29,23 +29,32 @@ public class ObjectScript : MonoBehaviour
     {
         // Get reference to controller object
         var controller = GameObject.Find("IdentController");
+		var failClick = GameObject.Find ("GameBack");
 
         if (controller.GetComponent<IdentificationController>().transitionStatus == 0)
         {
-            if (difference == true && found == false)
-            {
-                // Unhide marker
-                transform.GetChild(1).gameObject.SetActive(true);
+			if (difference == false)
+			{
+				AkSoundEngine.PostEvent ("Play_Missed_Click", gameObject);
+			}
+				
+			if (difference == true && found == false) {
+				// Call Wwise sound engine to play correct sound
+				AkSoundEngine.PostEvent ("Play_Success_Click", gameObject);
 
-                // Increase found differences counter
-                controller.GetComponent<IdentificationController>().foundDifferences++;
+				// Unhide marker
+				transform.GetChild (1).gameObject.SetActive (true);
 
-                // Initiate first transition
-                controller.GetComponent<IdentificationController>().transitionStatus = 1;
+				// Increase found differences counter
+				controller.GetComponent<IdentificationController> ().foundDifferences++;
 
-                // Ensure double clicks not possible
-                found = true;
-            }
+				// Initiate first transition
+				controller.GetComponent<IdentificationController> ().transitionStatus = 1;
+
+				// Ensure double clicks not possible
+				found = true;
+			} 
+
         }
     }
     bool removedCollider = false;
