@@ -79,7 +79,7 @@ public class CameraScript : MonoBehaviour
             // Clamp position to within these values
             transform.position = new Vector3(
             Mathf.Clamp(transform.position.x, -27.0f, 30.0f),
-            Mathf.Clamp(transform.position.y, 2.0f, 25.0f),
+            Mathf.Clamp(transform.position.y, 2.0f, 22.0f),
             Mathf.Clamp(transform.position.z, -30.0f, -10.0f));
         }
         else
@@ -87,7 +87,7 @@ public class CameraScript : MonoBehaviour
             // Clamp position to within these values
             transform.position = new Vector3(
             Mathf.Clamp(transform.position.x, -16.0f, 21.0f),
-            Mathf.Clamp(transform.position.y, 6.0f, 17.0f),
+            Mathf.Clamp(transform.position.y, 6.0f, 15.0f),
             Mathf.Clamp(transform.position.z, -30.0f, -10.0f));
         }
 
