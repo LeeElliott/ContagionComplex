@@ -9,12 +9,17 @@
 //
 // Edit 11/02/2019:
 // - Changed CheckConditions() to check for minigame completion
+// Edit 11/03/2019: Lee Elliott
+// - Including check to ensure that a mini game is not currently running
 //-------------------------------
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Experimentation : MonoBehaviour
 {
+    public GameObject controller;
+    public Canvas hudCanvas;
+
     // How many seconds before the success/failure buttons disappear
     public float cooldown = 10.0f;
 
@@ -52,8 +57,12 @@ public class Experimentation : MonoBehaviour
     private void Start()
     {
         roomName = gameObject.name;
-        // Listens for a click on the experiment button and starts the minigame when clicked
-        experiment.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(StartMinigame);        
+
+        if (!controller.GetComponent<ControllerScript>().GetPaused())
+        {
+            // Listens for a click on the identify button and starts the minigame when clicked
+            experiment.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(StartMinigame);
+        }
     }
 
     /// <summary>
@@ -150,6 +159,12 @@ public class Experimentation : MonoBehaviour
     {
         minigameLoaded = true;
 
+        // Pause scene in background
+        controller.GetComponent<ControllerScript>().SetPaused(true);
+
+        // Hide main HUD
+        hudCanvas.gameObject.SetActive(false);
+
         // Loads the scene in additive mode, loading it on top of the current scene
         SceneManager.LoadScene("Scenes/Mastermind", LoadSceneMode.Additive);
     }
@@ -159,6 +174,12 @@ public class Experimentation : MonoBehaviour
     /// </summary>
     public void Win()
     {
+        // Show main HUD
+        hudCanvas.gameObject.SetActive(true);
+
+        // Unpause main scene
+        controller.GetComponent<ControllerScript>().SetPaused(false);
+
         // Starts the cooldown timer
         checkTime = Time.time;
 
@@ -188,6 +209,12 @@ public class Experimentation : MonoBehaviour
     /// </summary>
     public void Lose()
     {
+        // Show main HUD
+        hudCanvas.gameObject.SetActive(true);
+
+        // Unpause main scene
+        controller.GetComponent<ControllerScript>().SetPaused(false);
+
         // Starts the cooldown timer
         checkTime = Time.time;
 

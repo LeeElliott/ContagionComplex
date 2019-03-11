@@ -239,18 +239,11 @@ public class CharacterAI : MonoBehaviour
             // Move respective to mouse position
             if (mainCamera.activeSelf)
             {
-                Vector3 position = mainCamera.GetComponent<Camera>().ScreenToViewportPoint(
-                    Input.mousePosition - mouseOrigin);
-                // Using negative to simulate drag motion rather than following mouse
-                Vector3 move = new Vector3(position.x * panSpeed, position.y * panSpeed, 0);
-
-                transform.Translate(move, Space.World);
+                transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width / 2, Screen.height / 2, Camera.main.nearClipPlane + 6));
             }
         }
     }
 
-    // *********************************************** //
-    // THIS NEEDS FORMATTED TO ADHERE TO CODING STANDARDS
     private void OnMouseUp()
     {
         if (beingMoved)
@@ -265,10 +258,8 @@ public class CharacterAI : MonoBehaviour
             // Reenable NavMeshAgent
             gameObject.GetComponent<NavMeshAgent>().enabled = true;
 
-            // Tell navmesh agent to move from current position to new position
             NavMeshAgent agent = GetComponent<NavMeshAgent>();
-            agent.destination = newPosition;
-
+            
             Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(newPosition);
             RaycastHit hit;
 
@@ -278,6 +269,7 @@ public class CharacterAI : MonoBehaviour
 
                 if (objectHit.parent.gameObject.tag == "Room")
                 {
+                    agent.destination = newPosition;
                     GameObject room = objectHit.parent.gameObject;
 
                     // Try to replace weakest scientist
@@ -302,18 +294,22 @@ public class CharacterAI : MonoBehaviour
 
                         if (room.name == "Identification")
                         {
-                            scientist1Stat = room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().identification;
-                            scientist2Stat = room.GetComponent<RoomScript>().scientist2.GetComponent<CharacterAI>().identification;
+                            scientist1Stat = room.GetComponent<RoomScript>().scientist1.GetComponent
+                                <CharacterAI>().identification;
+                            scientist2Stat = room.GetComponent<RoomScript>().scientist2.GetComponent
+                                <CharacterAI>().identification;
 
                             if (scientist1Stat < scientist2Stat)
                             {
-                                room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().behaviourState = BehaviourState.idle;
+                                room.GetComponent<RoomScript>().scientist1.GetComponent
+                                    <CharacterAI>().behaviourState = BehaviourState.idle;
                                 room.GetComponent<RoomScript>().scientist1 = gameObject;
                                 assigned = 1;
                             }
                             else
                             {
-                                room.GetComponent<RoomScript>().scientist2.GetComponent<CharacterAI>().behaviourState = BehaviourState.idle;
+                                room.GetComponent<RoomScript>().scientist2.GetComponent
+                                    <CharacterAI>().behaviourState = BehaviourState.idle;
                                 room.GetComponent<RoomScript>().scientist2 = gameObject;
                                 assigned = 2;
                             }
@@ -322,18 +318,22 @@ public class CharacterAI : MonoBehaviour
                         }
                         else if (room.name == "Experimentation")
                         {
-                            scientist1Stat = room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().experimentation;
-                            scientist2Stat = room.GetComponent<RoomScript>().scientist2.GetComponent<CharacterAI>().experimentation;
+                            scientist1Stat = room.GetComponent<RoomScript>().scientist1.GetComponent
+                                <CharacterAI>().experimentation;
+                            scientist2Stat = room.GetComponent<RoomScript>().scientist2.GetComponent
+                                <CharacterAI>().experimentation;
 
                             if (scientist1Stat < scientist2Stat)
                             {
-                                room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().behaviourState = BehaviourState.idle;
+                                room.GetComponent<RoomScript>().scientist1.GetComponent
+                                    <CharacterAI>().behaviourState = BehaviourState.idle;
                                 room.GetComponent<RoomScript>().scientist1 = gameObject;
                                 assigned = 1;
                             }
                             else
                             {
-                                room.GetComponent<RoomScript>().scientist2.GetComponent<CharacterAI>().behaviourState = BehaviourState.idle;
+                                room.GetComponent<RoomScript>().scientist2.GetComponent
+                                    <CharacterAI>().behaviourState = BehaviourState.idle;
                                 room.GetComponent<RoomScript>().scientist2 = gameObject;
                                 assigned = 2;
                             }
@@ -342,18 +342,22 @@ public class CharacterAI : MonoBehaviour
                         }
                         else if (room.name == "Production")
                         {
-                            scientist1Stat = room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().production;
-                            scientist2Stat = room.GetComponent<RoomScript>().scientist2.GetComponent<CharacterAI>().production;
+                            scientist1Stat = room.GetComponent<RoomScript>()
+                                .scientist1.GetComponent<CharacterAI>().production;
+                            scientist2Stat = room.GetComponent<RoomScript>()
+                                .scientist2.GetComponent<CharacterAI>().production;
 
                             if (scientist1Stat < scientist2Stat)
                             {
-                                room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>().behaviourState = BehaviourState.idle;
+                                room.GetComponent<RoomScript>().scientist1.GetComponent<CharacterAI>
+                                    ().behaviourState = BehaviourState.idle;
                                 room.GetComponent<RoomScript>().scientist1 = gameObject;
                                 assigned = 1;
                             }
                             else
                             {
-                                room.GetComponent<RoomScript>().scientist2.GetComponent<CharacterAI>().behaviourState = BehaviourState.idle;
+                                room.GetComponent<RoomScript>().scientist2.GetComponent<CharacterAI>
+                                    ().behaviourState = BehaviourState.idle;
                                 room.GetComponent<RoomScript>().scientist2 = gameObject;
                                 assigned = 2;
                             }

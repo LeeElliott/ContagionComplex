@@ -12,7 +12,8 @@ using UnityEngine.SceneManagement;
 
 public class Identification : MonoBehaviour
 {
-
+    public Canvas hudCanvas;
+    public GameObject controller;
     public bool workingScientistInIdentification = false;
     public bool minigameReady = false;
     public bool minigameComplete = false;
@@ -44,8 +45,11 @@ public class Identification : MonoBehaviour
     /// </summary>
     private void Start()
     {
-        // Listens for a click on the identify button and starts the minigame when clicked
-        identify.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(StartMinigame);
+        if (!controller.GetComponent<ControllerScript>().GetPaused())
+        {
+            // Listens for a click on the identify button and starts the minigame when clicked
+            identify.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(StartMinigame);
+        }
     }
 
     /// <summary>
@@ -125,6 +129,13 @@ public class Identification : MonoBehaviour
             minigameReady = false;
             identify.SetActive(false);
             mainCamera = Camera.main;
+
+            // Pause scene in background
+            controller.GetComponent<ControllerScript>().SetPaused(true);
+
+            // Hide main HUD
+            hudCanvas.gameObject.SetActive(false);
+
             SceneManager.LoadScene("SpotTheDifference", LoadSceneMode.Additive);
             SceneManager.SetActiveScene(SceneManager.GetSceneByName("SpotTheDifference"));
 
@@ -134,6 +145,12 @@ public class Identification : MonoBehaviour
 
     public void WinMinigame()
     {
+        // Show main HUD
+        hudCanvas.gameObject.SetActive(true);
+
+        // Unpause main scene
+        controller.GetComponent<ControllerScript>().SetPaused(false);
+
         minigameComplete = true;
         minigameInProgress = false;
         success.SetActive(true);
@@ -144,6 +161,12 @@ public class Identification : MonoBehaviour
 
     public void LoseMinigame()
     {
+        // Show main HUD
+        hudCanvas.gameObject.SetActive(true);
+
+        // Unpause main scene
+        controller.GetComponent<ControllerScript>().SetPaused(false);
+
         minigameInProgress = false;
         failure.SetActive(true);
         timeActive = Time.time;

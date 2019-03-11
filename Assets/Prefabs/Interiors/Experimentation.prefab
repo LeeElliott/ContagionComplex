@@ -1090,6 +1090,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c01a99b8fd35a4caf8689a50f48bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  hudCanvas: {fileID: 0}
   cooldown: 10
   experiment: {fileID: 1750206686986718}
   success: {fileID: 1382382965951090}

@@ -19,6 +19,9 @@ using UnityEngine.AI;
 
 public class ControllerScript : MonoBehaviour
 {
+    // Boolean used to pause player input
+    private bool currentlyPaused = false;
+
     // Empty used as containers in editor
     private GameObject scientists;
     private GameObject delivery;
@@ -286,6 +289,15 @@ public class ControllerScript : MonoBehaviour
         identSlider.value = ident;
         experSlider.value = exper;
         prodSlider.value = prod;
+    }
+
+    public void SetPaused(bool pause)
+    {
+        currentlyPaused = pause;
+    }
+    public bool GetPaused()
+    {
+        return currentlyPaused;
     }
 
     // Star count getters

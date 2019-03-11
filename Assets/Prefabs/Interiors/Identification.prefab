@@ -1163,6 +1163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63463bff428d18b4cb44093186c3227b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hudCanvas: {fileID: 0}
+  controller: {fileID: 0}
+  workingScientistInIdentification: 0
   minigameReady: 0
   minigameComplete: 0
   minigameInProgress: 0
