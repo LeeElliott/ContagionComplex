@@ -20,9 +20,7 @@ public class IdentificationController : MonoBehaviour
     // Game object references
     public GameObject cell;
     public GameObject dish;
-    public GameObject timerFront;
-    public GameObject timerBack;
-    public GameObject timerBase;
+    public Slider timerSlider;
 
     // Text object for difference counter
     public Text differenceCounter;
@@ -49,8 +47,8 @@ public class IdentificationController : MonoBehaviour
     public GameObject thirdBand;
 
     // Containers for spawned segments
-    private GameObject original;
-    private GameObject copy;
+    public GameObject original;
+    public GameObject copy;
 
     // Variable to track found differences
     public int foundDifferences = 0;
@@ -101,8 +99,7 @@ public class IdentificationController : MonoBehaviour
         thirdBand.SetActive(false);
 
         // Store initial length of timer bar
-        timerInitial = timerFront.transform.lossyScale;
-		AkSoundEngine.PostEvent ("Play_Timer", gameObject);
+        AkSoundEngine.PostEvent ("Play_Timer", gameObject);
 
         //GridLayout();
         RadialSpawn();
@@ -166,26 +163,8 @@ public class IdentificationController : MonoBehaviour
                     break;
             }
 
-            // Update timer object scale
-            float timerScale = timerInitial.y * (Time.deltaTime / 60);
-
-            // Store current scale of timer bar
-            Vector3 scale = timerFront.transform.localScale;
-
-            // Store current position of timer bar
-            Vector3 position = timerFront.transform.position;
-
-            // Shrink bar by timerScale
-            //scale.y -= timerScale;
-
-            // Move by half timerScale
-            position.y -= (timerScale *46);
-
-            // Set to modified scale
-            timerFront.transform.localScale = scale;
-
-            // Set to modified position
-            timerFront.transform.position = position;
+            // Update timer slider
+            timerSlider.value = gameTimer;          
 
             // Update displayed difference counter
             differenceCounter.text = foundDifferences.ToString();
@@ -199,13 +178,11 @@ public class IdentificationController : MonoBehaviour
             // Hide running counter text
             differenceCounter.gameObject.SetActive(false);
 
+            // Hide timer slider
+            timerSlider.gameObject.SetActive(false);
+
             // Show end counter text
             endCounter.gameObject.SetActive(true);
-
-            // Hide timer
-            timerFront.SetActive(false);
-            timerBack.SetActive(false);
-            timerBase.SetActive(false);
 
             // Unhide stars
             firstBand.SetActive(true);
