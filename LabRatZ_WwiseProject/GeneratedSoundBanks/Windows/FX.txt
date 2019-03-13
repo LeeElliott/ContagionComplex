@@ -6,15 +6,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	3363805322	Play_Achieved_Star_3			\Default Work Unit\Spot The Difference\Play_Achieved_Star_3	
 	3363805323	Play_Achieved_Star_2			\Default Work Unit\Spot The Difference\Play_Achieved_Star_2	
 	3797117088	Play_Missed_Click			\Default Work Unit\Spot The Difference\Play_Missed_Click	
+	4151623957	Play_Perfect_Success			\Default Work Unit\Spot The Difference\Play_Perfect_Success	
 	4169444829	Play_Timer			\Default Work Unit\Spot The Difference\Play_Timer	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5429521	SuccessClick 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\SuccessClick 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\SuccessClick 3		76020
 	37416503	Success	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Success 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Success		492720
-	63287814	Achieved Star 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccess 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 3		537816
+	63287814	Achieved Star 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccess 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 3		532208
 	72868769	Button Press 7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 7		86060
 	163916547	Incorrect	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Incorrect answer_E9760335.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Incorrect		185560
-	241191154	Achieved Star 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccess 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 2		648696
+	241191154	Achieved Star 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccess 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 2		643312
 	258603287	Success Click 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\SuccessClick 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\Success Click 2		87776
 	260374168	Button Press 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 3		68536
 	303685860	Missed Click	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Fail 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Missed Click		64068
@@ -23,10 +24,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	379689229	Timer	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Timer_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Timer		11519740
 	538238293	Button Press 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 1		135504
 	548555864	Button Press 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 2		125616
+	567009057	Perfect Success	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccessPerfect_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Perfect Success		938620
 	581266110	Button Press 6	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 6		135720
 	720601307	Button Press 4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 4		165368
 	754710090	Success click 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\SuccessClick 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\Success click 1		77920
 	767188625	Button Press 5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 5		116748
-	800580487	Achieved Star 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccess 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 1		537816
+	800580487	Achieved Star 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccess 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 1		631616
 	994789480	Button Press 8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 8		101128
 

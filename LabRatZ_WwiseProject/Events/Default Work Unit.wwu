@@ -132,6 +132,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Perfect_Success" ID="{87B60A03-914D-448D-B505-63B808A7211B}">
+							<ChildrenList>
+								<Action Name="" ID="{58A1C9A1-FB14-45F2-8833-29928556595A}" ShortID="943543196">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Perfect Success" ID="{F8D95726-BC60-4F46-9886-7446A2771314}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Mastermind" ID="{644100DD-B4BF-4AD5-AD88-3F902B2A472D}" ShortID="973685077"/>

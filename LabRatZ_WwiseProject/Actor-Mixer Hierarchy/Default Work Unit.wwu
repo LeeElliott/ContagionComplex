@@ -458,6 +458,18 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Tray Change" ID="{03BF68BE-4BB1-4767-B7B8-C781D4226BFE}" ShortID="520435732">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>23</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>42</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -554,6 +566,25 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Timer" ID="{1D493879-7361-4AD5-A301-94EEF703945D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Perfect Success" ID="{F8D95726-BC60-4F46-9886-7446A2771314}" ShortID="772195069">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="StarSuccessPerfect" ID="{D334E274-96A0-470D-B25F-C70E3A748315}" ShortID="567009057">
+									<Language>SFX</Language>
+									<AudioFile>StarSuccessPerfect.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="StarSuccessPerfect" ID="{D334E274-96A0-470D-B25F-C70E3A748315}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
