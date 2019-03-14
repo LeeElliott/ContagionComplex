@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -25,6 +25,7 @@
 				<Event Id="3363805323" Name="Play_Achieved_Star_2" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_2"/>
 				<Event Id="3363805322" Name="Play_Achieved_Star_3" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_3"/>
 				<Event Id="2507233091" Name="Play_Button_Press_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Button_Press_MM"/>
+				<Event Id="613200756" Name="Play_Incorrect_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Incorrect_MM"/>
 				<Event Id="3797117088" Name="Play_Missed_Click" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Missed_Click"/>
 				<Event Id="4151623957" Name="Play_Perfect_Success" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Perfect_Success"/>
 				<Event Id="78959178" Name="Play_Perfect_Success_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Perfect_Success_MM"/>
