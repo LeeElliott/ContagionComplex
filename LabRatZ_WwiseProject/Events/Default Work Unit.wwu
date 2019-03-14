@@ -148,7 +148,80 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Mastermind" ID="{644100DD-B4BF-4AD5-AD88-3F902B2A472D}" ShortID="973685077"/>
+				<Folder Name="Mastermind" ID="{644100DD-B4BF-4AD5-AD88-3F902B2A472D}" ShortID="973685077">
+					<ChildrenList>
+						<Event Name="Play_Button_Press_MM" ID="{FF9CD12F-4D7D-490E-A165-9E08BD5ABB95}">
+							<ChildrenList>
+								<Action Name="" ID="{1A1AD9A0-95D2-476A-A990-51803B2322FC}" ShortID="999588258">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Button Press" ID="{ADB7DF02-E46A-441E-94D9-CC3C8503E35C}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Star_Achieved_1_MM" ID="{A546351D-EC71-4887-B64B-05A0A691AB6B}">
+							<ChildrenList>
+								<Action Name="" ID="{4AE76D83-2A18-4530-8D1F-F698485FA3EE}" ShortID="1050619552">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Achieved Star 1" ID="{B164462B-86A3-4069-8689-1D4102A0DBF7}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Star_Achieved_2_MM" ID="{8016E23B-DA75-4EA7-8FB9-085E1CD59F76}">
+							<ChildrenList>
+								<Action Name="" ID="{9C330866-941D-4738-9AC1-2C7017526D53}" ShortID="315338845">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Achieved Star 2" ID="{27C87B13-4E9D-47BB-989C-E2898AC8F784}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Star_Achieved_3_MM" ID="{4EBDFCE8-EAFD-4D53-AA1F-ECD6FE9E1EA7}">
+							<ChildrenList>
+								<Action Name="" ID="{2426E8C2-77D6-44C4-A855-EFCC7CEA1E58}" ShortID="688161461">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Achieved Star 3" ID="{FD074F3F-747F-48B5-8F2D-1548041AC6DC}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Perfect_Success_MM" ID="{1735B973-BD11-4AEE-BA52-F1F786761214}">
+							<ChildrenList>
+								<Action Name="" ID="{0CFB3F84-89A4-4996-8055-C155B772DE8E}" ShortID="339226139">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Perfect Success" ID="{718DE2F9-BCAA-4452-ACA6-FB7B94FCC9F1}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
