@@ -26,9 +26,16 @@ public class LoadFromCSV : MonoBehaviour
 		// Split lines into individual phrases
         string[] words = data[row].Split(new char[] { '|' });
 
-		// Return the phrase requested
-        return words[column];
-	}
+        // Return the phrase requested
+        if (column < words.Length)
+        {
+            return words[column];
+        }
+        else
+        {
+            return "Error, index out of range";
+        }
+    }
 
     // Use this for generating names
     public string LoadName(int row, int column)
@@ -57,6 +64,14 @@ public class LoadFromCSV : MonoBehaviour
         string[] words = data[row].Split(new char[] { '|' });
 
         // Return the phrase requested
-        return words[column];
+        if(column < words.Length)
+        {
+            return words[column];
+        }
+        else
+        {
+            return "Error, index out of range";
+        }
+        
     }
 }

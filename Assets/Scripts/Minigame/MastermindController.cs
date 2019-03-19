@@ -19,7 +19,7 @@ public class MastermindController : MonoBehaviour
 {
     // The current camera for this scene
     public Camera mainCamera;
-    
+
     // The string that will be populated with the solution
     public string solution = "";
     public string input = "";
@@ -29,6 +29,9 @@ public class MastermindController : MonoBehaviour
 
     // The sprites for element LEDs
     public Sprite[] ledSprites;
+
+    // The sprites for the success stars
+    public GameObject[] starSprites;
 
     // Default materials for inactive and active elements
     public Material inactiveElement, activeElement;
@@ -62,7 +65,7 @@ public class MastermindController : MonoBehaviour
 
     // Contains the pressable button prefabs
     public GameObject[] buttons;
-    
+
     // Contains the anchor points for each element
     public GameObject[] anchors;
 
@@ -73,7 +76,6 @@ public class MastermindController : MonoBehaviour
     // The prefab of the element visual
     // TODO: Make sure this still works once element asset is created
     public GameObject elementPrefab;
-
 
     // The background whiteboard object
     public GameObject whiteboard;
@@ -88,6 +90,19 @@ public class MastermindController : MonoBehaviour
     // The length of the timer in seconds
     public float timerLength = 60.0f;
 
+    // The amount of time remaining
+    float timeRemaining;
+
+    // The amount of time left required for achieving a star
+    public float starTime = 10.0f;
+
+    public int starCount = 0;
+    int displayedStars = 0;
+    float endTimer = 1.0f;
+    float currentEndTime = 0.0f;
+    enum PlayState { Playing, Stars};
+    PlayState playState = PlayState.Playing;
+
     // The amount that the timer GameObject scales down by each frame
     float timerScaleDelta;
 
@@ -99,6 +114,7 @@ public class MastermindController : MonoBehaviour
 
         GenerateChain(chainLength);
         anchorIndex = 0;
+        timeRemaining = timerLength;
 
         // HACK: Manually setting GameObject sprites until the assets are ready
         buttons[0].GetComponentInChildren<SpriteRenderer>().sprite = buttonSprites[0];
@@ -129,7 +145,7 @@ public class MastermindController : MonoBehaviour
         // Splits the anchors into adjacent pairs and randomly picks one anchor
         // In each pair to be used for the solution
         // NOTE: This will only work if there are an even amount of anchors
-        for (int i = 0; i < anchors.Length; i+=2)
+        for (int i = 0; i < anchors.Length; i += 2)
         {
             int indexOffset = Random.Range(0, 2);
             anchorsInPlay.Add(anchors[i + indexOffset]);
@@ -249,18 +265,32 @@ public class MastermindController : MonoBehaviour
             }
             // Updates the success table according to the previous guess
             SetTableText();
-            
+
 
             // If the player has guessed every element correctly
             if (correct == chainLength)
             {
-                
+
                 // Reset input and call the win condition
                 input = "";
-                Win();
+
+                if (timeRemaining > 30.0f)
+                {
+                    starCount = 3;
+                }
+                else if (timeRemaining > 15.0f)
+                {
+                    starCount = 2;
+                }
+                else if (timeRemaining > 5.0f)
+                {
+                    starCount = 1;
+                }
                 anchorIndex = 0;
                 ResetColors();
-                
+
+                playState = PlayState.Stars;
+
                 // TODO: Add correct choice sound
             }
             else
@@ -280,7 +310,7 @@ public class MastermindController : MonoBehaviour
             }
         }
 
-        
+
     }
 
     /// <summary>
@@ -288,32 +318,51 @@ public class MastermindController : MonoBehaviour
     /// </summary>
     void Update()
     {
-        // Gets the scale of the timer bar
-        Vector3 scale = timerBar.transform.localScale;
-
-        timerScaleDelta = timerBarInitialScale.x * (Time.deltaTime / timerLength);
-
-        // If the x scale drops below zero, 30 seconds have passed
-        // TODO: Add a way to change the length of the timer
-        if (scale.x > 0.0f)
+        if (playState == PlayState.Playing)
         {
-            // Store deltaTime in a local variable for consistency
-            float delta = Time.deltaTime;
-            Vector3 position = timerBar.transform.position;
+            // Gets the scale of the timer bar
+            Vector3 scale = timerBar.transform.localScale;
 
-            // Shrinks the timer bar and moves it along half the distance
-            // to accommodate for the centre pivot
-            scale.x -= timerScaleDelta;
-            position.x -= timerScaleDelta / 2.0f;
+            timerScaleDelta = timerBarInitialScale.x * (Time.deltaTime / timerLength);
+            timeRemaining -= Time.deltaTime;
 
-            // Sets the modified positions
-            timerBar.transform.position = position;
-            timerBar.transform.localScale = scale;
+            // If the x scale drops below zero, 30 seconds have passed
+            // TODO: Add a way to change the length of the timer
+            if (scale.x > 0.0f)
+            {
+                // Store deltaTime in a local variable for consistency
+                float delta = Time.deltaTime;
+                Vector3 position = timerBar.transform.position;
+
+                // Shrinks the timer bar and moves it along half the distance
+                // to accommodate for the centre pivot
+                scale.x -= timerScaleDelta;
+                position.x -= timerScaleDelta / 2.0f;
+
+                // Sets the modified positions
+                timerBar.transform.position = position;
+                timerBar.transform.localScale = scale;
+            }
+            // The scale has dropped below zero and the player has lost the minigame
+            else
+            {
+                Lose();
+            }
         }
-        // The scale has dropped below zero and the player has lost the minigame
-        else
+        if(playState == PlayState.Stars)
         {
-            Lose();
+            currentEndTime += Time.deltaTime;
+            if (currentEndTime > endTimer && displayedStars >= starCount)
+            {
+                Win();
+            }
+
+            if(currentEndTime > endTimer && displayedStars < 3)
+            {
+                starSprites[displayedStars].SetActive(true);
+                displayedStars++;
+                currentEndTime = 0.0f;
+            }
         }
     }
 
@@ -329,29 +378,31 @@ public class MastermindController : MonoBehaviour
         int trimStart = 0, trimCount = 0;
         for (int i = 0; i < successTableText.text.Length; i++)
         {
-            
+
             if (successTableText.text[i] == '\n')
             {
-                switch(newLines)
+                switch (newLines)
                 {
-                    case 0: trimStart = i;
+                    case 0:
+                        trimStart = i;
                         break;
-                    case 1: trimCount = i - trimStart;
+                    case 1:
+                        trimCount = i - trimStart;
                         break;
                 }
-                
+
                 newLines++;
             }
         }
-        if (newLines > 3)
+        if (newLines > 2)
         {
-            successTableText.text = successTableText.text.Remove(trimStart,trimCount);
+            successTableText.text = successTableText.text.Remove(trimStart, trimCount);
         }
 
 
         // Adds a new line to the table
         successTableText.text += '\n';
-        
+
         // Adds the value of correct elements ending with a space for formatting
         successTableText.text += correct.ToString() + ' ';
 
@@ -370,7 +421,7 @@ public class MastermindController : MonoBehaviour
         // Resets the color of each element
         foreach (GameObject g in anchors)
         {
-            if(anchorsInPlay.Contains(g))
+            if (anchorsInPlay.Contains(g))
             {
                 g.GetComponentInChildren<MeshRenderer>().material = activeElement;
             }
@@ -379,7 +430,7 @@ public class MastermindController : MonoBehaviour
                 g.GetComponentInChildren<MeshRenderer>().material = inactiveElement;
             }
         }
-        
+
     }
 
     /// <summary>
