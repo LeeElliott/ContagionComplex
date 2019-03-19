@@ -96,7 +96,7 @@ public class MastermindController : MonoBehaviour
     // The amount of time left required for achieving a star
     public float starTime = 10.0f;
 
-    int starCount = 0;
+    public int starCount = 0;
     int displayedStars = 0;
     float endTimer = 1.0f;
     float currentEndTime = 0.0f;
@@ -352,12 +352,12 @@ public class MastermindController : MonoBehaviour
         if(playState == PlayState.Stars)
         {
             currentEndTime += Time.deltaTime;
-            if (currentEndTime > endTimer && displayedStars > starCount)
+            if (currentEndTime > endTimer && displayedStars >= starCount)
             {
                 Win();
             }
 
-            if(currentEndTime > endTimer)
+            if(currentEndTime > endTimer && displayedStars < 3)
             {
                 starSprites[displayedStars].SetActive(true);
                 displayedStars++;
