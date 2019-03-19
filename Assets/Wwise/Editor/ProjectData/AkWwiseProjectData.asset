@@ -17,22 +17,22 @@ MonoBehaviour:
   m_lastPopulateTimePsrt1: 0
   AcousticTextureWwu:
   - Guid: '{009F92A6-69ED-4E4E-84CE-20657C011C29}'
-    m_lastTimePart2: -1999205149
-    m_lastTimePsrt1: 1030115693
+    m_lastTimePart2: -1999201485
+    m_lastTimePsrt1: -131924648
     ParentPhysicalPath: 
     PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     List: []
   AuxBusWwu:
   - Guid: '{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}'
-    m_lastTimePart2: -1999205149
-    m_lastTimePsrt1: 925885034
+    m_lastTimePart2: -1999201485
+    m_lastTimePsrt1: -152785841
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{D3A9E9A7-B300-484E-BDB1-838FFA860A82}'
-    m_lastTimePart2: -1999205149
-    m_lastTimePsrt1: 1030035717
+    m_lastTimePart2: -1999199639
+    m_lastTimePsrt1: -276583452
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -65,11 +65,53 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{6374D344-E35D-4D33-994F-103C8C9CA3D9}'
-    m_lastTimePart2: -1999205149
-    m_lastTimePsrt1: 767347357
+    m_lastTimePart2: -1999199498
+    m_lastTimePsrt1: 489607832
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
+    - Guid: b472e9d2298a964380e2729d4846e8a8
+      ID: -931161976
+      Name: Play_Achieved_Star_1
+      Path: Default Work Unit\Spot The Difference\Play_Achieved_Star_1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Spot The Difference
+        ObjectType: 4
+      - ElementName: Play_Achieved_Star_1
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 24863b9748088d4e81486da037d6473c
+      ID: -931161973
+      Name: Play_Achieved_Star_2
+      Path: Default Work Unit\Spot The Difference\Play_Achieved_Star_2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Spot The Difference
+        ObjectType: 4
+      - ElementName: Play_Achieved_Star_2
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 362797316d4b68409516d7dd6f5e69c8
+      ID: -931161974
+      Name: Play_Achieved_Star_3
+      Path: Default Work Unit\Spot The Difference\Play_Achieved_Star_3
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Spot The Difference
+        ObjectType: 4
+      - ElementName: Play_Achieved_Star_3
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 6c754e626b8d8648a6c48c348ac5c81e
       ID: 278617630
       Name: Play_Ambience
@@ -82,22 +124,91 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: 655123fe5d835b45ab0f793410299ca0
+      ID: -497850208
+      Name: Play_Missed_Click
+      Path: Default Work Unit\Spot The Difference\Play_Missed_Click
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Spot The Difference
+        ObjectType: 4
+      - ElementName: Play_Missed_Click
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 5458dbafbbd7744291cd2b2ca5b298f0
+      ID: 669756158
+      Name: Play_Success_Click
+      Path: Default Work Unit\Spot The Difference\Play_Success_Click
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Spot The Difference
+        ObjectType: 4
+      - ElementName: Play_Success_Click
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 6895fc14c507b7478d363e42eef3f310
+      ID: -125522467
+      Name: Play_Timer
+      Path: Default Work Unit\Spot The Difference\Play_Timer
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Spot The Difference
+        ObjectType: 4
+      - ElementName: Play_Timer
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a3711c3f2c89de4dac0a7f2fb9e5c6b7
+      ID: 255665978
+      Name: Play_Traychange
+      Path: Default Work Unit\Spot The Difference\Play_Traychange
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Spot The Difference
+        ObjectType: 4
+      - ElementName: Play_Traychange
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 27dbd804bbe32642a29a8e04bb960feb
+      ID: -1204369517
+      Name: Stop_Timer
+      Path: Default Work Unit\Spot The Difference\Stop_Timer
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Spot The Difference
+        ObjectType: 4
+      - ElementName: Stop_Timer
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   ExpandedItems:
   - /LabRatZ_WwiseProject
-  - /LabRatZ_WwiseProject/States
-  - /LabRatZ_WwiseProject/States/Default Work Unit
-  - /LabRatZ_WwiseProject/States/Default Work Unit/Ambience_switch
+  - /LabRatZ_WwiseProject/Banks
+  - /LabRatZ_WwiseProject/Banks/Default Work Unit
   RtpcWwu:
   - Guid: '{130B3285-951B-41BA-A58A-A484FE9D5B61}'
-    m_lastTimePart2: -1999205149
-    m_lastTimePsrt1: 767387322
+    m_lastTimePart2: -1999201485
+    m_lastTimePsrt1: -207298959
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   StateWwu:
   - Guid: '{84E291A4-9C90-4615-AC50-3474CD080280}'
-    m_lastTimePart2: -1999205149
-    m_lastTimePsrt1: 1030075708
+    m_lastTimePart2: -1999201485
+    m_lastTimePsrt1: -131934649
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List:
@@ -144,15 +255,15 @@ MonoBehaviour:
       - Rec
   SwitchWwu:
   - Guid: '{56857A99-5C06-45E7-B6A5-AC03B60EABB5}'
-    m_lastTimePart2: -1999205149
-    m_lastTimePsrt1: 1030115693
+    m_lastTimePart2: -1999201485
+    m_lastTimePsrt1: -131924648
     ParentPhysicalPath: 
     PhysicalPath: Switches\Default Work Unit.wwu
     List: []
   TriggerWwu:
   - Guid: '{ECDC4411-0B64-4485-94B2-53692E5A3B5B}'
-    m_lastTimePart2: -1999205149
-    m_lastTimePsrt1: 1030115693
+    m_lastTimePart2: -1999201485
+    m_lastTimePsrt1: -131924648
     ParentPhysicalPath: 
     PhysicalPath: Triggers\Default Work Unit.wwu
     List: []

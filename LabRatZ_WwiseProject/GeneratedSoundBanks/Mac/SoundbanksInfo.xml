@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -24,7 +24,14 @@
 				<Event Id="3363805320" Name="Play_Achieved_Star_1" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_1"/>
 				<Event Id="3363805323" Name="Play_Achieved_Star_2" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_2"/>
 				<Event Id="3363805322" Name="Play_Achieved_Star_3" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_3"/>
+				<Event Id="2507233091" Name="Play_Button_Press_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Button_Press_MM"/>
+				<Event Id="613200756" Name="Play_Incorrect_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Incorrect_MM"/>
 				<Event Id="3797117088" Name="Play_Missed_Click" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Missed_Click"/>
+				<Event Id="4151623957" Name="Play_Perfect_Success" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Perfect_Success"/>
+				<Event Id="78959178" Name="Play_Perfect_Success_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Perfect_Success_MM"/>
+				<Event Id="3522390615" Name="Play_Star_Achieved_1_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Star_Achieved_1_MM"/>
+				<Event Id="1634411726" Name="Play_Star_Achieved_2_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Star_Achieved_2_MM"/>
+				<Event Id="3561284181" Name="Play_Star_Achieved_3_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Star_Achieved_3_MM"/>
 				<Event Id="669756158" Name="Play_Success_Click" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Success_Click"/>
 				<Event Id="4169444829" Name="Play_Timer" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Timer"/>
 				<Event Id="255665978" Name="Play_Traychange" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Traychange"/>
@@ -35,9 +42,9 @@
 					<ShortName>SuccessClick 3.wav</ShortName>
 					<Path>SFX\SuccessClick 3_56D34C19.wem</Path>
 				</File>
-				<File Id="37416503" Language="SFX">
-					<ShortName>Success 1.wav</ShortName>
-					<Path>SFX\Success 1_56D34C19.wem</Path>
+				<File Id="7835627" Language="SFX">
+					<ShortName>Star success 2 MM.wav</ShortName>
+					<Path>SFX\Star success 2 MM_56D34C19.wem</Path>
 				</File>
 				<File Id="63287814" Language="SFX">
 					<ShortName>StarSuccess 3.wav</ShortName>
@@ -46,10 +53,6 @@
 				<File Id="72868769" Language="SFX">
 					<ShortName>Button Press 7.wav</ShortName>
 					<Path>SFX\Button Press 7_56D34C19.wem</Path>
-				</File>
-				<File Id="163916547" Language="SFX">
-					<ShortName>Incorrect answer.wav</ShortName>
-					<Path>SFX\Incorrect answer_E9760335.wem</Path>
 				</File>
 				<File Id="241191154" Language="SFX">
 					<ShortName>StarSuccess 2.wav</ShortName>
@@ -63,6 +66,10 @@
 					<ShortName>Button Press 3.wav</ShortName>
 					<Path>SFX\Button Press 3_56D34C19.wem</Path>
 				</File>
+				<File Id="271913187" Language="SFX">
+					<ShortName>Perfect Success MM.wav</ShortName>
+					<Path>SFX\Perfect Success MM_56D34C19.wem</Path>
+				</File>
 				<File Id="303685860" Language="SFX">
 					<ShortName>Fail 2.wav</ShortName>
 					<Path>SFX\Fail 2_56D34C19.wem</Path>
@@ -70,6 +77,10 @@
 				<File Id="332385197" Language="SFX">
 					<ShortName>SuccessClick 4.wav</ShortName>
 					<Path>SFX\SuccessClick 4_56D34C19.wem</Path>
+				</File>
+				<File Id="338897567" Language="SFX">
+					<ShortName>Fail 1.wav</ShortName>
+					<Path>SFX\Fail 1_56D34C19.wem</Path>
 				</File>
 				<File Id="362890154" Language="SFX">
 					<ShortName>Traychange.wav</ShortName>
@@ -79,6 +90,10 @@
 					<ShortName>Timer.wav</ShortName>
 					<Path>SFX\Timer_56D34C19.wem</Path>
 				</File>
+				<File Id="439001395" Language="SFX">
+					<ShortName>Star success 3 MM.wav</ShortName>
+					<Path>SFX\Star success 3 MM_56D34C19.wem</Path>
+				</File>
 				<File Id="538238293" Language="SFX">
 					<ShortName>Button Press 1.wav</ShortName>
 					<Path>SFX\Button Press 1_56D34C19.wem</Path>
@@ -86,6 +101,10 @@
 				<File Id="548555864" Language="SFX">
 					<ShortName>Button Press 2.wav</ShortName>
 					<Path>SFX\Button Press 2_56D34C19.wem</Path>
+				</File>
+				<File Id="567009057" Language="SFX">
+					<ShortName>StarSuccessPerfect.wav</ShortName>
+					<Path>SFX\StarSuccessPerfect_56D34C19.wem</Path>
 				</File>
 				<File Id="581266110" Language="SFX">
 					<ShortName>Button Press 6.wav</ShortName>
@@ -110,6 +129,10 @@
 				<File Id="994789480" Language="SFX">
 					<ShortName>Button Press 8.wav</ShortName>
 					<Path>SFX\Button Press 8_56D34C19.wem</Path>
+				</File>
+				<File Id="1011283236" Language="SFX">
+					<ShortName>Star success 1 MM.wav</ShortName>
+					<Path>SFX\Star success 1 MM_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
