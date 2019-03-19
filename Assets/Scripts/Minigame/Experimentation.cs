@@ -91,7 +91,7 @@ public class Experimentation : MonoBehaviour
         }
 
         // If there are more ready identification rooms than experimentation rooms
-        if(experimentationCount < identificationCount)
+        if(experimentationCount <= identificationCount)
         {
             // If there are more patients in quarantine than ready experiments
             if(GameObject.FindObjectOfType<Quarantine>().patientCount > experimentationCount)
@@ -99,7 +99,7 @@ public class Experimentation : MonoBehaviour
                 return true;
             }
         }
-
+        
         return false;
     }
 
@@ -108,16 +108,25 @@ public class Experimentation : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        // If there is a working Scientist in this room and the minigame hasn't already been loaded
-        if (workingScientistInExperimentation && !minigameLoaded)
+        if (!experiment.activeSelf)
         {
-            // If the other conditions are met
-            // TODO: Add a delay between each check to be more efficient
-            if (CheckConditions())
+            // If there is a working Scientist in this room and the minigame hasn't already been loaded
+            if (workingScientistInExperimentation && !minigameLoaded)
             {
-                // Enable the experiment button
-                experiment.SetActive(true);
-                displayingButton = true;       
+                // If the other conditions are met
+                // TODO: Add a delay between each check to be more efficient
+                if (CheckConditions())
+                {
+                    // Enable the experiment button
+                    experiment.SetActive(true);
+                    displayingButton = true;
+                }
+                else
+                {
+                    // Disable the experiment button
+                    experiment.SetActive(false);
+                    displayingButton = false;
+                }
             }
             else
             {
@@ -125,23 +134,17 @@ public class Experimentation : MonoBehaviour
                 experiment.SetActive(false);
                 displayingButton = false;
             }
-        }
-        else
-        {
-            // Disable the experiment button
-            experiment.SetActive(false);
-            displayingButton = false;
-        }
 
-        // If either success or failure are displayed
-        if (success.activeSelf || failure.activeSelf)
-        {
-            // If they have been showing for more than the cooldown time
-            if(Time.time > checkTime + cooldown)
+            // If either success or failure are displayed
+            if (success.activeSelf || failure.activeSelf)
             {
-                // Disable both of them
-                success.SetActive(false);
-                failure.SetActive(false);
+                // If they have been showing for more than the cooldown time
+                if (Time.time > checkTime + cooldown)
+                {
+                    // Disable both of them
+                    success.SetActive(false);
+                    failure.SetActive(false);
+                }
             }
         }
     }
