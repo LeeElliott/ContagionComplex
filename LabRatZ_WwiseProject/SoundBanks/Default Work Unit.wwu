@@ -36,7 +36,9 @@
 						<ObjectRef Name="Experiment Room ambience 1 v2 w_ fades" ID="{CD35F869-6E88-4695-B8AA-65E7E7EE210E}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Ambience" ID="{624E756C-8D6B-4886-A6C4-8C348AC5C81E}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Rec Room" ID="{D34D1510-4BD1-48D5-AC4F-8D27FBE63AC4}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Quarantine Room Ambience" ID="{9B375FE5-1A1A-49AE-BD7A-143A8267EFEA}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ID Room" ID="{D32957D9-5A04-4DDC-AD64-94F01F7FF575}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Rec Room Ambience 1" ID="{61199DE6-E588-4E35-9B3D-0931C38A901F}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

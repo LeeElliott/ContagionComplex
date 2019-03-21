@@ -15,6 +15,7 @@
 						<State Name="Rec" ID="{CBBA4BC6-34FA-47A2-BBC1-97B48B7C0AA2}"/>
 						<State Name="Main" ID="{0122CC37-F0B1-4E9F-97A1-4AD2CEFDF9EC}"/>
 						<State Name="Default_Room" ID="{0BA5A89B-77AB-4C18-954F-F0DB40CE40D9}"/>
+						<State Name="Quarantine" ID="{970BE492-200B-479D-8393-B2801D2B112A}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

@@ -45,6 +45,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Fail 1" ID="{517EDD52-DDAA-456F-853B-6D45521CC24F}" ShortID="338897567">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-0.7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Fail 1.wav</AudioFile>
 								</AudioFileSource>
@@ -309,7 +316,7 @@
 									<PropertyList>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>-1.1</Value>
+												<Value>-1.8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
