@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Grind\Documents\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -22,16 +22,16 @@
 			<Path>FX.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3363805320" Name="Play_Achieved_Star_1" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_1"/>
+				<Event Id="3433894677" Name="Play_Achieved_Star_1_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Achieved_Star_1_MM"/>
 				<Event Id="3363805323" Name="Play_Achieved_Star_2" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_2"/>
+				<Event Id="373779144" Name="Play_Achieved_Star_2_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Achieved_Star_2_MM"/>
 				<Event Id="3363805322" Name="Play_Achieved_Star_3" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_3"/>
+				<Event Id="3395104279" Name="Play_Achieved_Star_3_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Achieved_Star_3_MM"/>
 				<Event Id="2507233091" Name="Play_Button_Press_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Button_Press_MM"/>
 				<Event Id="613200756" Name="Play_Incorrect_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Incorrect_MM"/>
 				<Event Id="3797117088" Name="Play_Missed_Click" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Missed_Click"/>
 				<Event Id="4151623957" Name="Play_Perfect_Success" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Perfect_Success"/>
 				<Event Id="78959178" Name="Play_Perfect_Success_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Perfect_Success_MM"/>
-				<Event Id="3522390615" Name="Play_Star_Achieved_1_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Star_Achieved_1_MM"/>
-				<Event Id="1634411726" Name="Play_Star_Achieved_2_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Star_Achieved_2_MM"/>
-				<Event Id="3561284181" Name="Play_Star_Achieved_3_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Star_Achieved_3_MM"/>
 				<Event Id="669756158" Name="Play_Success_Click" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Success_Click"/>
 				<Event Id="4169444829" Name="Play_Timer" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Timer"/>
 				<Event Id="255665978" Name="Play_Traychange" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Traychange"/>
@@ -186,6 +186,10 @@
 				<File Id="738384050" Language="SFX">
 					<ShortName>Conference Room Ambience 1.wav</ShortName>
 					<Path>SFX\Conference Room Ambience 1_8956FC97.wem</Path>
+				</File>
+				<File Id="774988701" Language="SFX">
+					<ShortName>Ambience_Quarantine_Room.wav</ShortName>
+					<Path>SFX\Ambience_Quarantine_Room_8956FC97.wem</Path>
 				</File>
 				<File Id="1033296678" Language="SFX">
 					<ShortName>Rec Room Ambience 1.wav</ShortName>

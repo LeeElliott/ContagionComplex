@@ -1628,6 +1628,105 @@
 										</MusicPlaylistItem>
 									</Playlist>
 								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" ShortID="862612094">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Quarantine Room Ambience" ID="{9B375FE5-1A1A-49AE-BD7A-143A8267EFEA}" ShortID="433772852">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="65250"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Ambience_Quarantine_Room" ID="{05980DA0-8B14-4B07-AB87-349EFB58DE8E}" ShortID="645722661">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Ambience_Quarantine_Room" ID="{88DE9A2A-4628-4084-B508-872A261EC2E4}" ShortID="774988701">
+															<Language>SFX</Language>
+															<AudioFile>Ambience_Quarantine_Room.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{FD754093-92A5-42A6-93CD-72B56E53878F}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{21982663-36FE-4268-8ED6-0EA0F5F1D433}">
+															<ClipList>
+																<MusicClip Name="Ambience_Quarantine_Room" ID="{053DD83C-1C6C-4DDB-88C4-971D29426C3F}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Ambience_Quarantine_Room" ID="{88DE9A2A-4628-4084-B508-872A261EC2E4}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+											</ChildrenList>
+											<CueList>
+												<MusicCue Name="Entry Cue" ID="{B1DCD33B-30FA-4BBC-8CE9-E3C5AFF7D282}"/>
+												<MusicCue Name="Exit Cue" ID="{6336CFA2-ED6A-43B3-8F44-F7140D97D139}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="1"/>
+														<Property Name="TimeMs" Type="Real64" Value="64000"/>
+													</PropertyList>
+												</MusicCue>
+											</CueList>
+										</MusicSegment>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5306E87F-008F-4F95-A2EE-241927E99C39}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{906C2C0B-C76C-4E3C-B61F-39FD1482F558}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<Playlist>
+										<MusicPlaylistItem Name="" ID="{8512A160-389B-44FB-884C-32B066960625}" ShortID="204406156">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{330FC1A9-9AAB-4A7A-BADE-2E34C9A5762C}" ShortID="1065187776">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="Quarantine Room Ambience" ID="{9B375FE5-1A1A-49AE-BD7A-143A8267EFEA}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Playlist>
+								</MusicPlaylistContainer>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -1643,6 +1742,10 @@
 									<CustomState>
 										<StateRef Name="ID" ID="{AE9347CF-4DF9-4591-9A24-E88E55015BE9}"/>
 										<State Name="" ID="{67457951-AE53-448B-AA9C-D2AEE60EC455}" ShortID="663827916"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Quarantine" ID="{970BE492-200B-479D-8393-B2801D2B112A}"/>
+										<State Name="" ID="{55DB867C-7F02-4DCA-BF0B-8C183B1D12AE}" ShortID="920140735"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="Rec" ID="{CBBA4BC6-34FA-47A2-BBC1-97B48B7C0AA2}"/>
@@ -3028,6 +3131,14 @@
 									</Path>
 									<AudioNodeInfo>
 										<AudioNodeRef Name="Default Building" ID="{94238B85-FB09-4C27-B421-DE47EA75D52C}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="Quarantine" ID="{970BE492-200B-479D-8393-B2801D2B112A}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Platform="Linked"/>
 									</AudioNodeInfo>
 								</Entry>
 							</EntryList>

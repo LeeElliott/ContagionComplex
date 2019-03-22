@@ -164,7 +164,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Star_Achieved_1_MM" ID="{A546351D-EC71-4887-B64B-05A0A691AB6B}">
+						<Event Name="Play_Achieved_Star_1_MM" ID="{A546351D-EC71-4887-B64B-05A0A691AB6B}">
 							<ChildrenList>
 								<Action Name="" ID="{4AE76D83-2A18-4530-8D1F-F698485FA3EE}" ShortID="1050619552">
 									<PropertyList>
@@ -178,7 +178,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Star_Achieved_2_MM" ID="{8016E23B-DA75-4EA7-8FB9-085E1CD59F76}">
+						<Event Name="Play_Achieved_Star_2_MM" ID="{8016E23B-DA75-4EA7-8FB9-085E1CD59F76}">
 							<ChildrenList>
 								<Action Name="" ID="{9C330866-941D-4738-9AC1-2C7017526D53}" ShortID="315338845">
 									<PropertyList>
@@ -192,7 +192,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Star_Achieved_3_MM" ID="{4EBDFCE8-EAFD-4D53-AA1F-ECD6FE9E1EA7}">
+						<Event Name="Play_Achieved_Star_3_MM" ID="{4EBDFCE8-EAFD-4D53-AA1F-ECD6FE9E1EA7}">
 							<ChildrenList>
 								<Action Name="" ID="{2426E8C2-77D6-44C4-A855-EFCC7CEA1E58}" ShortID="688161461">
 									<PropertyList>
