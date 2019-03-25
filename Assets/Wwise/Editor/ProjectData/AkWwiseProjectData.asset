@@ -31,8 +31,8 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{D3A9E9A7-B300-484E-BDB1-838FFA860A82}'
-    m_lastTimePart2: -1999199639
-    m_lastTimePsrt1: -276583452
+    m_lastTimePart2: -1999196650
+    m_lastTimePsrt1: -192848090
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -65,8 +65,8 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{6374D344-E35D-4D33-994F-103C8C9CA3D9}'
-    m_lastTimePart2: -1999199498
-    m_lastTimePsrt1: 489607832
+    m_lastTimePart2: -1999196654
+    m_lastTimePsrt1: 1933301709
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -80,6 +80,20 @@ MonoBehaviour:
       - ElementName: Spot The Difference
         ObjectType: 4
       - ElementName: Play_Achieved_Star_1
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 1d3546a571ec8748b64b05a0a691ab6b
+      ID: -861072619
+      Name: Play_Achieved_Star_1_MM
+      Path: Default Work Unit\Mastermind\Play_Achieved_Star_1_MM
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mastermind
+        ObjectType: 4
+      - ElementName: Play_Achieved_Star_1_MM
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -98,6 +112,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: 3be2168075daa74e8fb9085e1cd59f76
+      ID: 373779144
+      Name: Play_Achieved_Star_2_MM
+      Path: Default Work Unit\Mastermind\Play_Achieved_Star_2_MM
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mastermind
+        ObjectType: 4
+      - ElementName: Play_Achieved_Star_2_MM
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 362797316d4b68409516d7dd6f5e69c8
       ID: -931161974
       Name: Play_Achieved_Star_3
@@ -108,6 +136,20 @@ MonoBehaviour:
       - ElementName: Spot The Difference
         ObjectType: 4
       - ElementName: Play_Achieved_Star_3
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e8fcbd4efdea534daa1fecd6fe9e1ea7
+      ID: -899863017
+      Name: Play_Achieved_Star_3_MM
+      Path: Default Work Unit\Mastermind\Play_Achieved_Star_3_MM
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mastermind
+        ObjectType: 4
+      - ElementName: Play_Achieved_Star_3_MM
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -124,6 +166,34 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: 2fd19cff7d4d0e49a1659e08bd5abb95
+      ID: -1787734205
+      Name: Play_Button_Press_MM
+      Path: Default Work Unit\Mastermind\Play_Button_Press_MM
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mastermind
+        ObjectType: 4
+      - ElementName: Play_Button_Press_MM
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 48b95ed1d226024c91c5522916f9f685
+      ID: 613200756
+      Name: Play_Incorrect_MM
+      Path: Default Work Unit\Mastermind\Play_Incorrect_MM
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mastermind
+        ObjectType: 4
+      - ElementName: Play_Incorrect_MM
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 655123fe5d835b45ab0f793410299ca0
       ID: -497850208
       Name: Play_Missed_Click
@@ -134,6 +204,34 @@ MonoBehaviour:
       - ElementName: Spot The Difference
         ObjectType: 4
       - ElementName: Play_Missed_Click
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 030ab6874d918d44b50563b808a7211b
+      ID: -143343339
+      Name: Play_Perfect_Success
+      Path: Default Work Unit\Spot The Difference\Play_Perfect_Success
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Spot The Difference
+        ObjectType: 4
+      - ElementName: Play_Perfect_Success
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 73b9351711bdee4aba52f1f786761214
+      ID: 78959178
+      Name: Play_Perfect_Success_MM
+      Path: Default Work Unit\Mastermind\Play_Perfect_Success_MM
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mastermind
+        ObjectType: 4
+      - ElementName: Play_Perfect_Success_MM
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -162,6 +260,20 @@ MonoBehaviour:
       - ElementName: Spot The Difference
         ObjectType: 4
       - ElementName: Play_Timer
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: fc1552374a1df444bf675c3acfa2b179
+      ID: 1904880498
+      Name: Play_Timer_MM
+      Path: Default Work Unit\Mastermind\Play_Timer_MM
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mastermind
+        ObjectType: 4
+      - ElementName: Play_Timer_MM
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -196,8 +308,6 @@ MonoBehaviour:
       minDuration: 0
   ExpandedItems:
   - /LabRatZ_WwiseProject
-  - /LabRatZ_WwiseProject/Banks
-  - /LabRatZ_WwiseProject/Banks/Default Work Unit
   RtpcWwu:
   - Guid: '{130B3285-951B-41BA-A58A-A484FE9D5B61}'
     m_lastTimePart2: -1999201485
@@ -207,8 +317,8 @@ MonoBehaviour:
     List: []
   StateWwu:
   - Guid: '{84E291A4-9C90-4615-AC50-3474CD080280}'
-    m_lastTimePart2: -1999201485
-    m_lastTimePsrt1: -131934649
+    m_lastTimePart2: -1999196650
+    m_lastTimePsrt1: -192868091
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List:
@@ -228,6 +338,7 @@ MonoBehaviour:
       - bytes: 37cc2201b1f09f4e97a14ad2cefdf9ec
       - bytes: d5bdebed3595d34fb456da924841744c
       - bytes: 6cbe07cf956e3b4e9d4dffb8a2a74231
+      - bytes: 92e40b970b209d478393b2801d2b112a
       - bytes: c64bbacbfa34a247bbc197b48b7c0aa2
       ValueIcons:
       - ElementName: Default_Room
@@ -242,9 +353,11 @@ MonoBehaviour:
         ObjectType: 8
       - ElementName: Production
         ObjectType: 8
+      - ElementName: Quarantine
+        ObjectType: 8
       - ElementName: Rec
         ObjectType: 8
-      valueIDs: 0eef247da39ac777a6207768bae676bcdb3ba32c50dd7e8295d2723a
+      valueIDs: 0eef247da39ac777a6207768bae676bcdb3ba32c50dd7e8265a0211b95d2723a
       values:
       - Default_Room
       - Experimentation
@@ -252,6 +365,7 @@ MonoBehaviour:
       - Main
       - None
       - Production
+      - Quarantine
       - Rec
   SwitchWwu:
   - Guid: '{56857A99-5C06-45E7-B6A5-AC03B60EABB5}'

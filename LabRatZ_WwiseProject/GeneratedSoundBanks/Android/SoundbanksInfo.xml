@@ -34,6 +34,7 @@
 				<Event Id="78959178" Name="Play_Perfect_Success_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Perfect_Success_MM"/>
 				<Event Id="669756158" Name="Play_Success_Click" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Success_Click"/>
 				<Event Id="4169444829" Name="Play_Timer" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Timer"/>
+				<Event Id="1904880498" Name="Play_Timer_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Timer_MM" MaxAttenuation="0.000000"/>
 				<Event Id="255665978" Name="Play_Traychange" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Traychange"/>
 				<Event Id="3090597779" Name="Stop_Timer" ObjectPath="\Events\Default Work Unit\Spot The Difference\Stop_Timer" MaxAttenuation="0.000000"/>
 			</IncludedEvents>

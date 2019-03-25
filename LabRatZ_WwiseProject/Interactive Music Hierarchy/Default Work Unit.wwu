@@ -3069,6 +3069,436 @@
 												</DestinationFadeIn>
 											</TransitionInfo>
 										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{7B44944D-9297-4458-AC2F-57A177B55FAC}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Default Building" ID="{94238B85-FB09-4C27-B421-DE47EA75D52C}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{E2CBDAD6-BE41-4842-A22E-BA320CF65E0B}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{8579E368-91DC-4F98-9806-550740964297}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{6E0D5F62-7A6E-4BBD-98A4-64413420A3E1}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{E6147313-1082-4176-8BC1-B3CDC2E74FCD}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{056977FD-1CF8-47C3-AA48-9D8FF611CA33}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{65BE3491-108A-43D0-8020-79C5F31F29E4}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="ID Room" ID="{D32957D9-5A04-4DDC-AD64-94F01F7FF575}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{E4C77A3C-BAA6-4AE2-954D-D297CA20A093}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{AAD2D3E4-7423-4A22-AC5C-EAEEEFE3AF8F}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{2A85DE67-F26F-4F24-BD34-AB3256A0A453}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Main Forest Ambience" ID="{35E6B883-A48B-40C9-B4A5-822E6812707D}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{756FCB56-A88D-4206-AF62-9AA9C4F9A2EB}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{BDD8E573-2FBC-49C1-BAFB-7AD542B4506E}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{9D4E4EB6-3EF0-4729-858A-B6B3D4991980}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Production Room" ID="{0994145A-9F38-4433-BDF9-F5B0C1B85E35}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{E91CAA3C-3C50-41FF-BD55-BCF3B2B6E442}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{707E4E5B-67F3-49CD-9FBD-E78EF7A70685}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{0BC7B47A-517C-4730-9708-4995783BF9A0}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Rec Room" ID="{D34D1510-4BD1-48D5-AC4F-8D27FBE63AC4}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{CF04458A-2EA5-402B-B5DB-9670A038D4B6}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{2A7426B6-4FB6-48DD-AA15-FE448C3BBAA2}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{36E2E909-70E1-4872-8B0D-F73B32039B87}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Default Building" ID="{94238B85-FB09-4C27-B421-DE47EA75D52C}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{E806BA4D-70D7-488A-BD6D-A8AE4FB6AF9B}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{5352311D-6E1B-4A52-BC55-C3DC93BF3BBF}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{361762DF-2FC1-4034-9635-F5D9E99D974B}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{10C77FD3-D4A0-4A1B-9887-F42542EFFDFD}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{C9737E04-16F3-4B04-BFAB-CA61EBA4E58A}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{ED78A4FC-37AF-47F3-AC60-7C74F911A77A}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="ID Room" ID="{D32957D9-5A04-4DDC-AD64-94F01F7FF575}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{2E0366DA-FFAF-4D96-8FA2-D96B96A80E4C}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{46E6F180-3A97-48C6-B669-471658D678B2}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{3647FD62-09BF-4AA4-976E-51D0ACE4BBE0}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Main Forest Ambience" ID="{35E6B883-A48B-40C9-B4A5-822E6812707D}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{FA1D7626-F5BF-4528-9C5F-B148A6170FDD}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{7AC71EC2-D743-43F5-8CEB-1FA06FB6C541}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{29278BD1-3958-442F-8953-1514360E0E4D}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Production Room" ID="{0994145A-9F38-4433-BDF9-F5B0C1B85E35}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{17EBA85E-D7EF-41F3-94AB-2E5ECF0DE5B9}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{F788E21D-3520-4D4A-88BE-C1C7E8746347}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{ED8E595D-1700-4341-8612-755C6A7538D5}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Rec Room" ID="{D34D1510-4BD1-48D5-AC4F-8D27FBE63AC4}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{339CE548-6121-409B-A83E-E0676E75B1DE}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{34B8B577-A80F-4350-ACEC-6B15DABC56C4}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
 									</ChildrenList>
 									<TransitionInfo/>
 								</MusicTransition>
