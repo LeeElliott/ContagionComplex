@@ -3,6 +3,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Wwise\Deployment\API\Handwritten\Common\AkCallbackManager.cs">
     <Files>
       <File FileName="Assets\Wwise\Deployment\API\Handwritten\Common\AkCallbackManager.cs" Line="336" Column="1" />
+      <File FileName="Assets\Scripts\Minigame\MastermindController.cs" Line="143" Column="23" />
+      <File FileName="Assets\Wwise\SpotDifference\IdentificationController.cs" Line="271" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
