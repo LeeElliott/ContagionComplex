@@ -28,13 +28,15 @@
 				<Event Id="3363805322" Name="Play_Achieved_Star_3" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_3"/>
 				<Event Id="3395104279" Name="Play_Achieved_Star_3_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Achieved_Star_3_MM"/>
 				<Event Id="2507233091" Name="Play_Button_Press_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Button_Press_MM"/>
+				<Event Id="3674045305" Name="Play_Incorrect_2_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Incorrect_2_MM"/>
 				<Event Id="613200756" Name="Play_Incorrect_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Incorrect_MM"/>
 				<Event Id="3797117088" Name="Play_Missed_Click" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Missed_Click"/>
 				<Event Id="4151623957" Name="Play_Perfect_Success" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Perfect_Success"/>
 				<Event Id="78959178" Name="Play_Perfect_Success_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Perfect_Success_MM"/>
+				<Event Id="1525146681" Name="Play_Room_Construction" ObjectPath="\Events\Default Work Unit\Play_Room_Construction"/>
 				<Event Id="669756158" Name="Play_Success_Click" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Success_Click"/>
 				<Event Id="4169444829" Name="Play_Timer" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Timer"/>
-				<Event Id="1904880498" Name="Play_Timer_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Timer_MM" MaxAttenuation="0.000000"/>
+				<Event Id="1904880498" Name="Play_Timer_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Timer_MM"/>
 				<Event Id="255665978" Name="Play_Traychange" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Traychange"/>
 				<Event Id="3090597779" Name="Stop_Timer" ObjectPath="\Events\Default Work Unit\Spot The Difference\Stop_Timer" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
@@ -54,6 +56,10 @@
 				<File Id="72868769" Language="SFX">
 					<ShortName>Button Press 7.wav</ShortName>
 					<Path>SFX\Button Press 7_56D34C19.wem</Path>
+				</File>
+				<File Id="199022208" Language="SFX">
+					<ShortName>FX_Construction_Sound.wav</ShortName>
+					<Path>SFX\FX_Construction_Sound_56D34C19.wem</Path>
 				</File>
 				<File Id="241191154" Language="SFX">
 					<ShortName>StarSuccess 2.wav</ShortName>
@@ -126,6 +132,14 @@
 				<File Id="800580487" Language="SFX">
 					<ShortName>StarSuccess 1.wav</ShortName>
 					<Path>SFX\StarSuccess 1_56D34C19.wem</Path>
+				</File>
+				<File Id="870236546" Language="SFX">
+					<ShortName>Timer MM.wav</ShortName>
+					<Path>SFX\Timer MM_56D34C19.wem</Path>
+				</File>
+				<File Id="889991143" Language="SFX">
+					<ShortName>Fail 4.wav</ShortName>
+					<Path>SFX\Fail 4_56D34C19.wem</Path>
 				</File>
 				<File Id="994789480" Language="SFX">
 					<ShortName>Button Press 8.wav</ShortName>

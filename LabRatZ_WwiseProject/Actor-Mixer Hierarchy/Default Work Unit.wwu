@@ -34,6 +34,11 @@
 						<Sound Name="Incorrect" ID="{664698F2-F677-4BFC-8FF0-0F500288557C}" ShortID="347483322">
 							<PropertyList>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -70,13 +75,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Timer" ID="{26A15EB3-1620-4084-81B4-01ACF95617C7}" ShortID="369525328">
-							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -85,6 +83,15 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Timer MM" ID="{4D6F61AC-FFCB-4C69-B1DD-E5A4BE439566}" ShortID="870236546">
+									<Language>SFX</Language>
+									<AudioFile>Timer MM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Timer MM" ID="{4D6F61AC-FFCB-4C69-B1DD-E5A4BE439566}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Button Press" ID="{ADB7DF02-E46A-441E-94D9-CC3C8503E35C}" ShortID="130604703">
 							<PropertyList>
@@ -326,6 +333,25 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Star success 3 MM" ID="{F69B181F-1FC2-4941-92AE-FE889BA1806A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Incorrect_2" ID="{F7AF2047-1D99-4C4F-A318-383172CD7FEC}" ShortID="4568481">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fail 4" ID="{07BD82C1-D175-4E4D-B8F0-6B30506E10FF}" ShortID="889991143">
+									<Language>SFX</Language>
+									<AudioFile>Fail 4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fail 4" ID="{07BD82C1-D175-4E4D-B8F0-6B30506E10FF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -635,6 +661,25 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="Room Construction" ID="{B6A5A6A8-8C30-41F7-A58F-FB2AF02168BD}" ShortID="939741498">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FX_Construction_Sound" ID="{D0F11FE1-AFB3-4D46-981D-C8A3CFB502C0}" ShortID="199022208">
+							<Language>SFX</Language>
+							<AudioFile>FX_Construction_Sound.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FX_Construction_Sound" ID="{D0F11FE1-AFB3-4D46-981D-C8A3CFB502C0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

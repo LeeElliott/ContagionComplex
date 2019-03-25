@@ -8,6 +8,9 @@
 						<ObjectRef Name="Achieved Star 1" ID="{B164462B-86A3-4069-8689-1D4102A0DBF7}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Timer" ID="{26A15EB3-1620-4084-81B4-01ACF95617C7}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Achieved Star 1" ID="{E0E09C8E-9182-40F2-B933-EBE22F8AAA4F}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Room Construction" ID="{B6A5A6A8-8C30-41F7-A58F-FB2AF02168BD}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Room_Construction" ID="{5890D761-D750-4275-A988-BD9E6A0E4244}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Incorrect_2_MM" ID="{C66F98D3-4B18-42E8-A4E1-D728B2F115CF}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Button Press" ID="{ADB7DF02-E46A-441E-94D9-CC3C8503E35C}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Perfect Success" ID="{718DE2F9-BCAA-4452-ACA6-FB7B94FCC9F1}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Missed Click" ID="{C7BA971D-174C-4475-ACD6-EDC1B92861A2}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
@@ -24,6 +27,7 @@
 						<ObjectRef Name="Timer" ID="{81BFBA96-8A5F-4B09-882A-9719BFC28224}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Incorrect" ID="{664698F2-F677-4BFC-8FF0-0F500288557C}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Incorrect_MM" ID="{D15EB948-26D2-4C02-91C5-522916F9F685}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Incorrect_2" ID="{F7AF2047-1D99-4C4F-A318-383172CD7FEC}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Achieved_Star_3_MM" ID="{4EBDFCE8-EAFD-4D53-AA1F-ECD6FE9E1EA7}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Achieved Star 2" ID="{E2B3E64C-EC73-4E0F-B34F-A625AA7159C9}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Achieved_Star_2_MM" ID="{8016E23B-DA75-4EA7-8FB9-085E1CD59F76}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
