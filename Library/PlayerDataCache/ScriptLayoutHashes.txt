@@ -16,6 +16,7 @@ b2447dcd1839d8c167fbc65025398d59 Assembly-CSharp.dll:.AkRoom
 ba95d63226092031648e16d6f2a60914 Assembly-CSharp.dll:.AkRoomPortalObstruction
 d9024f4fd1a88598c30f6fc29ed5ddad Assembly-CSharp.dll:.EscortScript
 c9b2f54ee8748ad1c6b6da3876a1f890 Assembly-CSharp.dll:.Button
+d1a4021610ff2f03ca01ea9d2cafd429 Assembly-CSharp.dll:.MissionButtonScript
 8b64abaae8cbc4f07f8dfec8b06101ba Assembly-CSharp.dll:.AkRTPCTrack
 95eea8a854b85e9e029302cde4672b2c Assembly-CSharp.dll:.AkAndroidSettings
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -129,7 +130,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 c882b15b7dae702e9feede9c9a78d951 Assembly-CSharp.dll:.CameraScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AudioScript
-a4ff7f702409b1c7a069fac8001eeadc Assembly-CSharp.dll:.MissionController
+6af1cc47f101e49ad33bd80a84c6415b Assembly-CSharp.dll:.MissionController
 fdcc1459544d8c08b09ec437640c9465 Assembly-CSharp.dll:.AkAudioListener
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AkTriggerMouseUp
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AkTerminator

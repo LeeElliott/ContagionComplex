@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 0
     width: 468
     height: 731
-  m_MinSize: {x: 234, y: 492}
-  m_MaxSize: {x: 10004, y: 14042}
+  m_MinSize: {x: 234, y: 471}
+  m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 111
+  controlID: 82
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 711, y: 471}
+  m_MaxSize: {x: 18006, y: 14021}
   vertical: 0
-  controlID: 110
+  controlID: 9
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 89
+  controlID: 124
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,8 +202,8 @@ MonoBehaviour:
     y: 0
     width: 468
     height: 308
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -227,8 +227,8 @@ MonoBehaviour:
     y: 0
     width: 359
     height: 731
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -252,8 +252,8 @@ MonoBehaviour:
     y: 0
     width: 709
     height: 375
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -312,28 +312,28 @@ MonoBehaviour:
     height: 287
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f2b50000
-    m_LastClickedID: 46578
-    m_ExpandedIDs: 52cefbff6ae1fbffa8e6fbff2408fcff6e2bfcff1230fcffac40fcfff056fcff7a59fcff106ffcff64c0fcff38c3fcff36dcfcff50f3fcff063cfdff5851fdff0a71fdffc297fdffd698fdff92a6fdff40aafdff20d3fdff42ebfdff6c00feffe830feff3e3afeff5a4dfeffce51feff1cf5feff280affff7639ffff2442ffff2043ffff5a44ffff6244ffff6644ffff0e47ffff1247ffff2847ffff2e47ffff3447ffff9a66ffff8c69ffff226bffff1afcffff000000008a3100009e3100003e340000da3400000435000072460000dc47000060480000744800000e4900005849000092490000a6490000c24900001257000096570000c6570000d6570000865800000a5900003a59000064590000e8590000185a00005a680000de6800000e690000d66b00005a6c00008a6c0000fc75000048770000cc770000fc7700000c780000f0780000e88400006c8500009c8500001486000098860000c8860000d8860000d4870000588800008888000098880000b28800003689000066890000768900002e8c0000b28c0000e28c0000f28c00000c8d0000908d0000c08d0000a28f0000269000005690000066900000ea920000ac940000ee960000c6b400004ab500007ab500008ab50000f2b5000076b60000a6b60000b6b60000
+    m_SelectedIDs: 962e0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 9adbffff80dcffffdaddffffa4e8ffff3ae9ffff7aeaffff86eaffff8eeaffffa2eaffffaeeaffffbceaffffc6eaffffd0eaffff4af5ffff88f8ffff0cfcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Content
-      m_OriginalName: Content
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 36304
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
   m_ExpandedScenes:
-  - MainMenu
+  - MainGame
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -408,19 +408,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/2D Graphics/Background
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/2D Graphics/Background
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\Documents\GitHub\ContagionComplex
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 822c0000
-    m_LastClickedID: 11394
-    m_ExpandedIDs: 000000003c2a0000ae2a00003e2b0000d22c0000b82e00001432000000ca9a3bffffff7f
+    m_SelectedIDs: 0e2d0000
+    m_LastClickedID: 11534
+    m_ExpandedIDs: 000000008e2a0000002b0000902b0000242d0000062f0000202f0000cc31000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -448,7 +448,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c2a0000ae2a00003e2b0000d22c000014320000
+    m_ExpandedIDs: 000000008e2a0000002b0000902b0000242d0000062f0000cc310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
