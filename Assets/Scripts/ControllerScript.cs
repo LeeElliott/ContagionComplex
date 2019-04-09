@@ -317,6 +317,30 @@ public class ControllerScript : MonoBehaviour
     {
         return (identificationStars + experimentationStars + productionStars);
     }
+
+    // Star count setters
+    public void SetIStars(int i)
+    {
+        if (i > identificationStars)
+        {
+            identificationStars = i;
+        }
+    }
+    public void SetEStars(int e)
+    {
+        if (e > experimentationStars)
+        {
+            experimentationStars = e;
+        }
+    }
+    public void SetPStars(int p)
+    {
+        if (p > productionStars)
+        {
+            productionStars = p;
+        }
+    }
+
     public float GetTimer()
     {
         return missionTimer;

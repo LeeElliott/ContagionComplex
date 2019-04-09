@@ -76,6 +76,8 @@ public class IdentificationController : MonoBehaviour
 	// Variable to space out sound call functions so there is no sound spamming
 	int soundCall = 0;
 
+    int starCount = 0;
+
     // Use this for initialization
     void Start()
     {
@@ -232,9 +234,12 @@ public class IdentificationController : MonoBehaviour
             if (differencesFound >= targetOne)
             {
                 firstBand.GetComponent<Image>().sprite = filledStar;
-                firstBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 75.0f);
-                firstBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 75.0f);
+                firstBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors
+                    (RectTransform.Axis.Horizontal, 75.0f);
+                firstBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors
+                    (RectTransform.Axis.Vertical, 75.0f);
 
+                starCount = 1;
 
 				if (soundCall == 0)
 				{
@@ -246,11 +251,14 @@ public class IdentificationController : MonoBehaviour
             if (differencesFound >= targetTwo)
             {
                 secondBand.GetComponent<Image>().sprite = filledStar;
-                secondBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 75.0f);
-                secondBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 75.0f);
+                secondBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors
+                    (RectTransform.Axis.Horizontal, 75.0f);
+                secondBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors
+                    (RectTransform.Axis.Vertical, 75.0f);
 
+                starCount = 2;
 
-				if (soundCall == 1)
+                if (soundCall == 1)
 				{
 					// Calls the Wwise sound engine to call the correct sound from the bank
 					AkSoundEngine.PostEvent ("Play_Achieved_Star_2", gameObject);
@@ -260,16 +268,23 @@ public class IdentificationController : MonoBehaviour
             if (differencesFound >= targetThree)
             {
                 thirdBand.GetComponent<Image>().sprite = filledStar;
-                thirdBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 75.0f);
-                thirdBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 75.0f);
+                thirdBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors
+                    (RectTransform.Axis.Horizontal, 75.0f);
+                thirdBand.transform.GetComponent<RectTransform>().SetSizeWithCurrentAnchors
+                    (RectTransform.Axis.Vertical, 75.0f);
 
-				if (soundCall == 2)
+                starCount = 3;
+
+                if (soundCall == 2)
 				{
 					// Calls the Wwise sound engine to call the correct sound from the bank
 					AkSoundEngine.PostEvent ("Play_Achieved_Star_3", gameObject);
 					soundCall++;
 				}
             }
+
+            // Update stored star count
+            GameObject.Find("Controller").GetComponent<ControllerScript>().SetIStars(starCount);
         }
     }
 

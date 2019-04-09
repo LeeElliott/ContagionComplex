@@ -155,7 +155,8 @@ public class Identification : MonoBehaviour
         minigameInProgress = false;
         success.SetActive(true);
         timeActive = Time.time;
-        mainCamera.gameObject.SetActive(true);
+        mainCamera.gameObject.SetActive(true);        
+
         Debug.Log("Win called!");
     }
 
