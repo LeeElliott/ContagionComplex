@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 0
     width: 468
     height: 731
-  m_MinSize: {x: 234, y: 471}
-  m_MaxSize: {x: 10004, y: 14021}
+  m_MinSize: {x: 234, y: 492}
+  m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 127
+  controlID: 108
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 713, y: 471}
-  m_MaxSize: {x: 18008, y: 14021}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 126
+  controlID: 107
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 103
+  controlID: 71
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,8 +202,8 @@ MonoBehaviour:
     y: 0
     width: 468
     height: 308
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -365,10 +365,10 @@ MonoBehaviour:
     width: 464
     height: 287
   m_TreeViewState:
-    scrollPos: {x: 0, y: 306}
-    m_SelectedIDs: 9a2e0000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ee86ffff1afcffff000000003e31000016330000ce340000bc360000
+    m_ExpandedIDs: 2893feffd49afefffea4feff76a7feff32e8ffffc8ebffff80edffffe2f6ffff00000000da4e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
   m_ExpandedScenes:
-  - MainGame
+  - SpotTheDifference
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -462,19 +462,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs/Characters
+    - Assets/Resources
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Characters
+  - Assets/Resources
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: G:\Uni work\Professional Project\GitHub Desktop\ContagionComplex
+  m_LastProjectPath: D:\uni\4th year\semester 2\ContagionComplex
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 275}
-    m_SelectedIDs: d42c0000
-    m_LastClickedID: 11476
-    m_ExpandedIDs: 000000003a2a0000682a0000942a0000ae2a0000382b0000402b0000d42c0000ba2e0000603c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 76350000
+    m_LastClickedID: 13686
+    m_ExpandedIDs: 000000003c33000096330000ae33000038340000c2350000823700002644000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,7 +502,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003a2a0000682a0000942a0000ae2a0000382b0000402b0000d42c0000ba2e0000603c0000
+    m_ExpandedIDs: 000000003c3300006a33000096330000ae3300003034000038340000c23500008237000026440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -554,7 +554,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 28}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 164
 --- !u!114 &18
@@ -692,11 +692,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.06475549, y: 0.017060956, z: -0.0011071749, w: -0.9977547}
     speed: 2
-    m_Value: {x: -0.06475549, y: 0.017060956, z: -0.0011071749, w: -0.9977547}
+    m_Value: {x: -0.06475549, y: 0.017060956, z: -0.001107175, w: -0.9977547}
   m_Size:
-    m_Target: 10.119263
+    m_Target: 508.7433
     speed: 2
-    m_Value: 10.119263
+    m_Value: 508.7433
   m_Ortho:
     m_Target: 0
     speed: 2
