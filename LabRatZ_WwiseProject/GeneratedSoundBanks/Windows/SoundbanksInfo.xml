@@ -28,8 +28,12 @@
 				<Event Id="3363805322" Name="Play_Achieved_Star_3" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_3"/>
 				<Event Id="3395104279" Name="Play_Achieved_Star_3_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Achieved_Star_3_MM"/>
 				<Event Id="2507233091" Name="Play_Button_Press_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Button_Press_MM"/>
+				<Event Id="12037502" Name="Play_Female_1" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Female_1"/>
+				<Event Id="12037501" Name="Play_Female_2" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Female_2"/>
 				<Event Id="3674045305" Name="Play_Incorrect_2_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Incorrect_2_MM"/>
 				<Event Id="613200756" Name="Play_Incorrect_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Incorrect_MM"/>
+				<Event Id="2651468245" Name="Play_Male_1" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Male_1"/>
+				<Event Id="2651468246" Name="Play_Male_2" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Male_2"/>
 				<Event Id="3797117088" Name="Play_Missed_Click" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Missed_Click"/>
 				<Event Id="4151623957" Name="Play_Perfect_Success" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Perfect_Success"/>
 				<Event Id="78959178" Name="Play_Perfect_Success_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Perfect_Success_MM"/>
@@ -45,9 +49,29 @@
 					<ShortName>SuccessClick 3.wav</ShortName>
 					<Path>SFX\SuccessClick 3_56D34C19.wem</Path>
 				</File>
+				<File Id="5609469" Language="SFX">
+					<ShortName>Dialogue_Male_1_6.wav</ShortName>
+					<Path>SFX\Dialogue_Male_1_6_56D34C19.wem</Path>
+				</File>
 				<File Id="7835627" Language="SFX">
 					<ShortName>Star success 2 MM.wav</ShortName>
 					<Path>SFX\Star success 2 MM_56D34C19.wem</Path>
+				</File>
+				<File Id="11526294" Language="SFX">
+					<ShortName>Dialogue_Female_2_4.wav</ShortName>
+					<Path>SFX\Dialogue_Female_2_4_56D34C19.wem</Path>
+				</File>
+				<File Id="16559442" Language="SFX">
+					<ShortName>Dialogue_Male_2_7.wav</ShortName>
+					<Path>SFX\Dialogue_Male_2_7_56D34C19.wem</Path>
+				</File>
+				<File Id="27921451" Language="SFX">
+					<ShortName>Dialogue_Female_1_10.wav</ShortName>
+					<Path>SFX\Dialogue_Female_1_10_56D34C19.wem</Path>
+				</File>
+				<File Id="55635926" Language="SFX">
+					<ShortName>Dialogue_Female_2_3.wav</ShortName>
+					<Path>SFX\Dialogue_Female_2_3_56D34C19.wem</Path>
 				</File>
 				<File Id="63287814" Language="SFX">
 					<ShortName>StarSuccess 3.wav</ShortName>
@@ -56,6 +80,22 @@
 				<File Id="72868769" Language="SFX">
 					<ShortName>Button Press 7.wav</ShortName>
 					<Path>SFX\Button Press 7_56D34C19.wem</Path>
+				</File>
+				<File Id="89796349" Language="SFX">
+					<ShortName>Dialogue_Male_2_2.wav</ShortName>
+					<Path>SFX\Dialogue_Male_2_2_56D34C19.wem</Path>
+				</File>
+				<File Id="130161318" Language="SFX">
+					<ShortName>Dialogue_Female_1_8.wav</ShortName>
+					<Path>SFX\Dialogue_Female_1_8_56D34C19.wem</Path>
+				</File>
+				<File Id="157167176" Language="SFX">
+					<ShortName>Dialogue_Male_1_8.wav</ShortName>
+					<Path>SFX\Dialogue_Male_1_8_56D34C19.wem</Path>
+				</File>
+				<File Id="192169599" Language="SFX">
+					<ShortName>Dialogue_Female_2_8.wav</ShortName>
+					<Path>SFX\Dialogue_Female_2_8_56D34C19.wem</Path>
 				</File>
 				<File Id="199022208" Language="SFX">
 					<ShortName>FX_Construction_Sound.wav</ShortName>
@@ -73,9 +113,21 @@
 					<ShortName>Button Press 3.wav</ShortName>
 					<Path>SFX\Button Press 3_56D34C19.wem</Path>
 				</File>
+				<File Id="261932911" Language="SFX">
+					<ShortName>Dialogue_Female_2_9.wav</ShortName>
+					<Path>SFX\Dialogue_Female_2_9_56D34C19.wem</Path>
+				</File>
 				<File Id="271913187" Language="SFX">
 					<ShortName>Perfect Success MM.wav</ShortName>
 					<Path>SFX\Perfect Success MM_56D34C19.wem</Path>
+				</File>
+				<File Id="281256050" Language="SFX">
+					<ShortName>Dialogue_Female_2_6.wav</ShortName>
+					<Path>SFX\Dialogue_Female_2_6_56D34C19.wem</Path>
+				</File>
+				<File Id="302072257" Language="SFX">
+					<ShortName>Dialogue_Female_1_5.wav</ShortName>
+					<Path>SFX\Dialogue_Female_1_5_56D34C19.wem</Path>
 				</File>
 				<File Id="303685860" Language="SFX">
 					<ShortName>Fail 2.wav</ShortName>
@@ -89,17 +141,53 @@
 					<ShortName>Fail 1.wav</ShortName>
 					<Path>SFX\Fail 1_56D34C19.wem</Path>
 				</File>
+				<File Id="341492925" Language="SFX">
+					<ShortName>Dialogue_Female_1_3.wav</ShortName>
+					<Path>SFX\Dialogue_Female_1_3_56D34C19.wem</Path>
+				</File>
 				<File Id="362890154" Language="SFX">
 					<ShortName>Traychange.wav</ShortName>
 					<Path>SFX\Traychange_C3AF77B1.wem</Path>
+				</File>
+				<File Id="375373551" Language="SFX">
+					<ShortName>Dialogue_Male_2_4.wav</ShortName>
+					<Path>SFX\Dialogue_Male_2_4_56D34C19.wem</Path>
 				</File>
 				<File Id="379689229" Language="SFX">
 					<ShortName>Timer.wav</ShortName>
 					<Path>SFX\Timer_56D34C19.wem</Path>
 				</File>
+				<File Id="387968254" Language="SFX">
+					<ShortName>Dialogue_Male_2_10.wav</ShortName>
+					<Path>SFX\Dialogue_Male_2_10_56D34C19.wem</Path>
+				</File>
+				<File Id="415246859" Language="SFX">
+					<ShortName>Dialogue_Male_1_3.wav</ShortName>
+					<Path>SFX\Dialogue_Male_1_3_56D34C19.wem</Path>
+				</File>
+				<File Id="424571915" Language="SFX">
+					<ShortName>Dialogue_Female_1_4.wav</ShortName>
+					<Path>SFX\Dialogue_Female_1_4_56D34C19.wem</Path>
+				</File>
 				<File Id="439001395" Language="SFX">
 					<ShortName>Star success 3 MM.wav</ShortName>
 					<Path>SFX\Star success 3 MM_56D34C19.wem</Path>
+				</File>
+				<File Id="479790417" Language="SFX">
+					<ShortName>Dialogue_Female_2_7.wav</ShortName>
+					<Path>SFX\Dialogue_Female_2_7_56D34C19.wem</Path>
+				</File>
+				<File Id="516205076" Language="SFX">
+					<ShortName>Dialogue_Female_1_7.wav</ShortName>
+					<Path>SFX\Dialogue_Female_1_7_56D34C19.wem</Path>
+				</File>
+				<File Id="524403102" Language="SFX">
+					<ShortName>Dialogue_Male_2_9.wav</ShortName>
+					<Path>SFX\Dialogue_Male_2_9_56D34C19.wem</Path>
+				</File>
+				<File Id="536254652" Language="SFX">
+					<ShortName>Dialogue_Female_1_9.wav</ShortName>
+					<Path>SFX\Dialogue_Female_1_9_56D34C19.wem</Path>
 				</File>
 				<File Id="538238293" Language="SFX">
 					<ShortName>Button Press 1.wav</ShortName>
@@ -117,6 +205,38 @@
 					<ShortName>Button Press 6.wav</ShortName>
 					<Path>SFX\Button Press 6_56D34C19.wem</Path>
 				</File>
+				<File Id="618569758" Language="SFX">
+					<ShortName>Dialogue_Female_2_10.wav</ShortName>
+					<Path>SFX\Dialogue_Female_2_10_56D34C19.wem</Path>
+				</File>
+				<File Id="627551390" Language="SFX">
+					<ShortName>Dialogue_Male_1_5.wav</ShortName>
+					<Path>SFX\Dialogue_Male_1_5_56D34C19.wem</Path>
+				</File>
+				<File Id="629951870" Language="SFX">
+					<ShortName>Dialogue_Male_2_8.wav</ShortName>
+					<Path>SFX\Dialogue_Male_2_8_56D34C19.wem</Path>
+				</File>
+				<File Id="640743742" Language="SFX">
+					<ShortName>Dialogue_Female_2_5.wav</ShortName>
+					<Path>SFX\Dialogue_Female_2_5_56D34C19.wem</Path>
+				</File>
+				<File Id="641471780" Language="SFX">
+					<ShortName>Dialogue_Female_2_2.wav</ShortName>
+					<Path>SFX\Dialogue_Female_2_2_56D34C19.wem</Path>
+				</File>
+				<File Id="648501881" Language="SFX">
+					<ShortName>Dialogue_Male_1_2.wav</ShortName>
+					<Path>SFX\Dialogue_Male_1_2_56D34C19.wem</Path>
+				</File>
+				<File Id="667258180" Language="SFX">
+					<ShortName>Dialogue_Male_2_5.wav</ShortName>
+					<Path>SFX\Dialogue_Male_2_5_56D34C19.wem</Path>
+				</File>
+				<File Id="685287490" Language="SFX">
+					<ShortName>Dialogue_Male_1_9.wav</ShortName>
+					<Path>SFX\Dialogue_Male_1_9_56D34C19.wem</Path>
+				</File>
 				<File Id="720601307" Language="SFX">
 					<ShortName>Button Press 4.wav</ShortName>
 					<Path>SFX\Button Press 4_56D34C19.wem</Path>
@@ -129,17 +249,49 @@
 					<ShortName>Button Press 5.wav</ShortName>
 					<Path>SFX\Button Press 5_56D34C19.wem</Path>
 				</File>
+				<File Id="768711642" Language="SFX">
+					<ShortName>Dialogue_Male_1_1.wav</ShortName>
+					<Path>SFX\Dialogue_Male_1_1_56D34C19.wem</Path>
+				</File>
 				<File Id="800580487" Language="SFX">
 					<ShortName>StarSuccess 1.wav</ShortName>
 					<Path>SFX\StarSuccess 1_56D34C19.wem</Path>
+				</File>
+				<File Id="828425341" Language="SFX">
+					<ShortName>Dialogue_Male_2_3.wav</ShortName>
+					<Path>SFX\Dialogue_Male_2_3_56D34C19.wem</Path>
+				</File>
+				<File Id="859047137" Language="SFX">
+					<ShortName>Dialogue_Female_1_2.wav</ShortName>
+					<Path>SFX\Dialogue_Female_1_2_56D34C19.wem</Path>
+				</File>
+				<File Id="866637319" Language="SFX">
+					<ShortName>Dialogue_Male_2_6.wav</ShortName>
+					<Path>SFX\Dialogue_Male_2_6_56D34C19.wem</Path>
 				</File>
 				<File Id="870236546" Language="SFX">
 					<ShortName>Timer MM.wav</ShortName>
 					<Path>SFX\Timer MM_56D34C19.wem</Path>
 				</File>
+				<File Id="882884235" Language="SFX">
+					<ShortName>Dialogue_Male_1_7.wav</ShortName>
+					<Path>SFX\Dialogue_Male_1_7_56D34C19.wem</Path>
+				</File>
+				<File Id="888760839" Language="SFX">
+					<ShortName>Dialogue_Female_2_1.wav</ShortName>
+					<Path>SFX\Dialogue_Female_2_1_56D34C19.wem</Path>
+				</File>
 				<File Id="889991143" Language="SFX">
 					<ShortName>Fail 4.wav</ShortName>
 					<Path>SFX\Fail 4_56D34C19.wem</Path>
+				</File>
+				<File Id="916517450" Language="SFX">
+					<ShortName>Dialogue_Female_1_1.wav</ShortName>
+					<Path>SFX\Dialogue_Female_1_1_56D34C19.wem</Path>
+				</File>
+				<File Id="929703608" Language="SFX">
+					<ShortName>Dialogue_Male_2_1.wav</ShortName>
+					<Path>SFX\Dialogue_Male_2_1_56D34C19.wem</Path>
 				</File>
 				<File Id="994789480" Language="SFX">
 					<ShortName>Button Press 8.wav</ShortName>
@@ -148,6 +300,14 @@
 				<File Id="1011283236" Language="SFX">
 					<ShortName>Star success 1 MM.wav</ShortName>
 					<Path>SFX\Star success 1 MM_56D34C19.wem</Path>
+				</File>
+				<File Id="1013634173" Language="SFX">
+					<ShortName>Dialogue_Male_1_4.wav</ShortName>
+					<Path>SFX\Dialogue_Male_1_4_56D34C19.wem</Path>
+				</File>
+				<File Id="1022386983" Language="SFX">
+					<ShortName>Dialogue_Male_1_10.wav</ShortName>
+					<Path>SFX\Dialogue_Male_1_10_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
