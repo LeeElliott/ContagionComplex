@@ -101,15 +101,14 @@
     <Compile Include="Assets\Scripts\Minigame\Identification.cs" />
     <Compile Include="Assets\Scripts\Minigame\MastermindController.cs" />
     <Compile Include="Assets\Scripts\Minigame\Quarantine.cs" />
+    <Compile Include="Assets\Scripts\MissionButtonScript.cs" />
     <Compile Include="Assets\Scripts\MissionController.cs" />
     <Compile Include="Assets\Scripts\OptionsScript.cs" />
     <Compile Include="Assets\Scripts\PatientScript.cs" />
     <Compile Include="Assets\Scripts\PopulatePanels.cs" />
     <Compile Include="Assets\Scripts\RoomScript.cs" />
+    <Compile Include="Assets\Scripts\SliderUpdater.cs" />
     <Compile Include="Assets\Scripts\SplashController.cs" />
-    <Compile Include="Assets\Scripts\SpotDifference\IdentificationController.cs" />
-    <Compile Include="Assets\Scripts\SpotDifference\ObjectScript.cs" />
-    <Compile Include="Assets\SliderUpdater.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkPlatformInitSettings_Android.cs" />
@@ -289,6 +288,8 @@
     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseUp.cs" />
     <Compile Include="Assets\Wwise\Deployment\Components\AkUnityEventHandler.cs" />
     <Compile Include="Assets\Wwise\Extensions\AkSoundEngine.extensions.cs" />
+    <Compile Include="Assets\Wwise\SpotDifference\IdentificationController.cs" />
+    <Compile Include="Assets\Wwise\SpotDifference\ObjectScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\StreamingAssets\desc.txt" />

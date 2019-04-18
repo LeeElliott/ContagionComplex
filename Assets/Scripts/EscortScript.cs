@@ -23,9 +23,9 @@ public class EscortScript : MonoBehaviour
         NavMeshAgent agent = GetComponent<NavMeshAgent>();
 
         // Reset character rotation to be upright
-        var angles = transform.rotation.eulerAngles;
-        angles.x = -90.0f;
-        transform.rotation = Quaternion.Euler(angles);
+        //var angles = transform.rotation.eulerAngles;
+        //angles.x = -90.0f;
+        //transform.rotation = Quaternion.Euler(angles);
 
         // Return to despawn point
         if (transform.position.x > 38.0f)
