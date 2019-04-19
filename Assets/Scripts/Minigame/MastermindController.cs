@@ -27,6 +27,8 @@ public class MastermindController : MonoBehaviour
     // The materials with the different button colors
     public Sprite[] buttonSprites;
 
+    public Sprite filledStar;
+
     // The sprites for element LEDs
     public Sprite[] ledSprites;
 
@@ -82,7 +84,7 @@ public class MastermindController : MonoBehaviour
 
     // Visual indicator of how much time is left
     // TODO: Make this a UI element instead of a GameObject
-    public GameObject timerBar;
+    public Image timerBar;
 
     // The initial scale of the timer bar
     Vector3 timerBarInitialScale;
@@ -111,7 +113,7 @@ public class MastermindController : MonoBehaviour
     /// </summary>
     void Start()
     {
-
+        timerBar.fillAmount = 1.0f;
         GenerateChain(chainLength);
         anchorIndex = 0;
         timeRemaining = timerLength;
@@ -128,11 +130,6 @@ public class MastermindController : MonoBehaviour
 
         buttons[3].GetComponentInChildren<SpriteRenderer>().sprite = buttonSprites[3];
         buttons[3].GetComponent<Button>().ledSprite = ledSprites[4];
-
-        timerBar.GetComponent<MeshRenderer>().material.color = Color.green;
-
-        // Stores the initial world scale of the timer bar
-        timerBarInitialScale = timerBar.transform.lossyScale;
 
         // Instantiate an element prefab for every anchor
         foreach (GameObject g in anchors)
@@ -198,6 +195,13 @@ public class MastermindController : MonoBehaviour
     {
 
         // Changes the color of the current element to the color of the button pressed
+        if(anchorIndex == 0)
+        {
+            foreach(GameObject g in anchorsInPlay)
+            {
+                g.GetComponentInChildren<SpriteRenderer>().sprite = ledSprites[0];
+            }
+        }
         anchorsInPlay[anchorIndex]
             .GetComponentInChildren<SpriteRenderer>().sprite = elementSprite;
 
@@ -320,28 +324,14 @@ public class MastermindController : MonoBehaviour
     {
         if (playState == PlayState.Playing)
         {
-            // Gets the scale of the timer bar
-            Vector3 scale = timerBar.transform.localScale;
-
-            timerScaleDelta = timerBarInitialScale.x * (Time.deltaTime / timerLength);
+            timerScaleDelta = Time.deltaTime / timerLength;
             timeRemaining -= Time.deltaTime;
 
             // If the x scale drops below zero, 30 seconds have passed
             // TODO: Add a way to change the length of the timer
-            if (scale.x > 0.0f)
+            if (timerBar.fillAmount > 0.0f)
             {
-                // Store deltaTime in a local variable for consistency
-                float delta = Time.deltaTime;
-                Vector3 position = timerBar.transform.position;
-
-                // Shrinks the timer bar and moves it along half the distance
-                // to accommodate for the centre pivot
-                scale.x -= timerScaleDelta;
-                position.x -= timerScaleDelta / 2.0f;
-
-                // Sets the modified positions
-                timerBar.transform.position = position;
-                timerBar.transform.localScale = scale;
+                timerBar.fillAmount -= timerScaleDelta;
             }
             // The scale has dropped below zero and the player has lost the minigame
             else
@@ -351,17 +341,24 @@ public class MastermindController : MonoBehaviour
         }
         if(playState == PlayState.Stars)
         {
-            currentEndTime += Time.deltaTime;
-            if (currentEndTime > endTimer && displayedStars >= starCount)
+            foreach(GameObject g in starSprites)
             {
-                Win();
+                g.SetActive(true);
             }
+            currentEndTime += Time.deltaTime;
+            
 
             if(currentEndTime > endTimer && displayedStars < 3)
             {
-                starSprites[displayedStars].SetActive(true);
-                displayedStars++;
                 currentEndTime = 0.0f;
+                starSprites[displayedStars].GetComponent<Image>().sprite = filledStar;
+                displayedStars++;
+                
+            }
+
+            if (currentEndTime > endTimer && displayedStars >= starCount)
+            {
+                Win();
             }
         }
     }
