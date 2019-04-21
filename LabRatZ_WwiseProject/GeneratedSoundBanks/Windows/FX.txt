@@ -1,43 +1,92 @@
 Event	ID	Name			Wwise Object Path	Notes
+	12037501	Play_Female_2			\Default Work Unit\Dialogue\Play_Female_2	
+	12037502	Play_Female_1			\Default Work Unit\Dialogue\Play_Female_1	
 	78959178	Play_Perfect_Success_MM			\Default Work Unit\Mastermind\Play_Perfect_Success_MM	
 	255665978	Play_Traychange			\Default Work Unit\Spot The Difference\Play_Traychange	
 	373779144	Play_Achieved_Star_2_MM			\Default Work Unit\Mastermind\Play_Achieved_Star_2_MM	
 	613200756	Play_Incorrect_MM			\Default Work Unit\Mastermind\Play_Incorrect_MM	
 	669756158	Play_Success_Click			\Default Work Unit\Spot The Difference\Play_Success_Click	
+	1525146681	Play_Room_Construction			\Default Work Unit\Play_Room_Construction	
+	1904880498	Play_Timer_MM			\Default Work Unit\Mastermind\Play_Timer_MM	
 	2507233091	Play_Button_Press_MM			\Default Work Unit\Mastermind\Play_Button_Press_MM	
+	2651468245	Play_Male_1			\Default Work Unit\Dialogue\Play_Male_1	
+	2651468246	Play_Male_2			\Default Work Unit\Dialogue\Play_Male_2	
 	3090597779	Stop_Timer			\Default Work Unit\Spot The Difference\Stop_Timer	
 	3363805320	Play_Achieved_Star_1			\Default Work Unit\Spot The Difference\Play_Achieved_Star_1	
 	3363805322	Play_Achieved_Star_3			\Default Work Unit\Spot The Difference\Play_Achieved_Star_3	
 	3363805323	Play_Achieved_Star_2			\Default Work Unit\Spot The Difference\Play_Achieved_Star_2	
 	3395104279	Play_Achieved_Star_3_MM			\Default Work Unit\Mastermind\Play_Achieved_Star_3_MM	
 	3433894677	Play_Achieved_Star_1_MM			\Default Work Unit\Mastermind\Play_Achieved_Star_1_MM	
+	3674045305	Play_Incorrect_2_MM			\Default Work Unit\Mastermind\Play_Incorrect_2_MM	
 	3797117088	Play_Missed_Click			\Default Work Unit\Spot The Difference\Play_Missed_Click	
 	4151623957	Play_Perfect_Success			\Default Work Unit\Spot The Difference\Play_Perfect_Success	
 	4169444829	Play_Timer			\Default Work Unit\Spot The Difference\Play_Timer	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5429521	SuccessClick 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\SuccessClick 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\SuccessClick 3		76020
+	5609469	Dialogue_Male_1_6	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_6		529140
 	7835627	Achieved Star 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Star success 2 MM_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Achieved Star 2		1574808
+	11526294	Dialogue_Female_2_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_4		561956
+	16559442	Dialogue_Male_2_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_7		405308
+	27921451	Dialogue_Female_1_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_10		512788
+	55635926	Dialogue_Female_2_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_3		572492
 	63287814	Achieved Star 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccess 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 3		532208
 	72868769	Button Press 7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 7		86060
+	89796349	Dialogue_Male_2_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_2		492148
+	130161318	Dialogue_Female_1_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_8		481180
+	157167176	Dialogue_Male_1_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_8		737556
+	192169599	Dialogue_Female_2_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_8		576004
+	199022208	Room Construction	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Construction_Sound_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room Construction		1603668
 	241191154	Achieved Star 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccess 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 2		643312
 	258603287	Success Click 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\SuccessClick 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\Success Click 2		87776
 	260374168	Button Press 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 3		68536
+	261932911	Dialogue_Female_2_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_9		474160
 	271913187	Perfect Success	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Perfect Success MM_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Perfect Success		1978760
+	281256050	Dialogue_Female_2_6	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_6		526836
+	302072257	Dialogue_Female_1_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_5		554932
 	303685860	Missed Click	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Fail 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Missed Click		64068
 	332385197	SuccessClick 4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\SuccessClick 4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\SuccessClick 4		108172
 	338897567	Incorrect	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Fail 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Incorrect		119392
+	341492925	Dialogue_Female_1_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_3		540884
 	362890154	Tray Change	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Traychange_C3AF77B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Tray Change		747844
+	375373551	Dialogue_Male_2_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_4		448728
 	379689229	Timer	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Timer_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Timer		11519740
+	387968254	Dialogue_Male_2_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_10		383600
+	415246859	Dialogue_Male_1_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_3		264600
+	424571915	Dialogue_Female_1_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_4		481184
 	439001395	Achieved Star 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Star success 3 MM_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Achieved Star 3		1622732
+	479790417	Dialogue_Female_2_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_7		424992
+	516205076	Dialogue_Female_1_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_7		516300
+	524403102	Dialogue_Male_2_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_9		557280
+	536254652	Dialogue_Female_1_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_9		467136
 	538238293	Button Press 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 1		135504
 	548555864	Button Press 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 2		125616
 	567009057	Perfect Success	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccessPerfect_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Perfect Success		938620
 	581266110	Button Press 6	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 6		135720
+	618569758	Dialogue_Female_2_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_10		628680
+	627551390	Dialogue_Male_1_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_5		553184
+	629951870	Dialogue_Male_2_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_8		347416
+	640743742	Dialogue_Female_2_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_5		463624
+	641471780	Dialogue_Female_2_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_2		358272
+	648501881	Dialogue_Male_1_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_2		465008
+	667258180	Dialogue_Male_2_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_5		376364
+	685287490	Dialogue_Male_1_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_9		456988
 	720601307	Button Press 4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 4		165368
 	754710090	Success click 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\SuccessClick 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\Success click 1		77920
 	767188625	Button Press 5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 5		116748
+	768711642	Dialogue_Male_1_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_1		368812
 	800580487	Achieved Star 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccess 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 1		631616
+	828425341	Dialogue_Male_2_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_3		528332
+	859047137	Dialogue_Female_1_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_2		793736
+	866637319	Dialogue_Male_2_6	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_6		463204
+	870236546	Timer	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Timer MM_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Timer		11928064
+	882884235	Dialogue_Male_1_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_7		729540
+	888760839	Dialogue_Female_2_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_1		856944
+	889991143	Incorrect_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Fail 4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Incorrect_2		216064
+	916517450	Dialogue_Female_1_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_1		642728
+	929703608	Dialogue_Male_2_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_1		398076
 	994789480	Button Press 8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 8		101128
 	1011283236	Achieved Star 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Star success 1 MM_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Achieved Star 1		1432900
+	1013634173	Dialogue_Male_1_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_4		416908
+	1022386983	Dialogue_Male_1_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_10		416908
 
