@@ -2058,7 +2058,8 @@ MonoBehaviour:
   missionButton: {fileID: 1519685138574854, guid: a0360a0a830d97c43b124bdd2d655b11,
     type: 2}
   toggle: {fileID: 786488128}
-  buttonList: []
+  buttonList:
+  - {fileID: 1519685138574854, guid: a0360a0a830d97c43b124bdd2d655b11, type: 2}
 --- !u!114 &2054527500
 MonoBehaviour:
   m_ObjectHideFlags: 0

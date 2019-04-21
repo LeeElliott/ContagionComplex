@@ -21,10 +21,12 @@ public class MissionController : MonoBehaviour
 
     [SerializeField]
     private List<GameObject> buttonList;
+    int delay = 0;
 
     private void Start()
     {
         FillMissionList();
+        GetComponent<GridLayoutGroup>().enabled = false;
     }
 
     public void FillMissionList()
@@ -61,6 +63,14 @@ public class MissionController : MonoBehaviour
         }
     }
 
+    public void Update()
+    {
+        delay++;
+
+        if (delay >= 2)
+            GetComponent<GridLayoutGroup>().enabled = true;
+    }
+
     public void MissionButtonClicked()
     {
         // Display info text and start button
@@ -77,7 +87,9 @@ public class MissionController : MonoBehaviour
 
     public void OptionsClicked()
     {
-        FillMissionList();
+        //FillMissionList();
+
+
 
         // Switch to options scene
         //SceneManager.LoadScene("SettingsMenu", LoadSceneMode.Additive);

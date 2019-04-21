@@ -215,7 +215,7 @@ public class ControllerScript : MonoBehaviour
         // Set destination for navmeshagent
         NavMeshAgent agent = spawn.GetComponent<NavMeshAgent>();
         agent.nextPosition = spawnPoint;
-        agent.GetComponent<EscortScript>().SetTarget(new Vector3(xPos + 120, 0.0f, -2.5f));
+        agent.GetComponent<EscortScript>().SetTarget(new Vector3(xPos + 105, 0.0f, -2.5f));
 
         // Set parent and ensure initial position and rotation correct
         spawn.transform.SetParent(delivery.transform);
