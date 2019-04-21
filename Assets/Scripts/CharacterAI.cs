@@ -260,12 +260,20 @@ public class CharacterAI : MonoBehaviour
 
             NavMeshAgent agent = GetComponent<NavMeshAgent>();
             
-            Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(newPosition);
+            Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit, 100))
             {
+                Debug.Log("ray hit " + hit.ToString());
+
+
                 Transform objectHit = hit.transform;
+
+                Debug.Log("ray hit " + objectHit.ToString());
+                Debug.Log("ray hit " + objectHit.parent.ToString());
+                Debug.Log("ray hit " + objectHit.parent.gameObject.ToString());
+                Debug.Log("ray hit " + objectHit.parent.gameObject.tag.ToString());
 
                 if (objectHit.parent.gameObject.tag == "Room")
                 {

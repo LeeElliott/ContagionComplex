@@ -28,7 +28,7 @@ public class EscortScript : MonoBehaviour
         //transform.rotation = Quaternion.Euler(angles);
 
         // Return to despawn point
-        if (transform.position.x > 30.0f)
+        if (transform.position.x > (target.x - 1))
         {
             agent.destination = new Vector3(-90.0f, 0.0f, 0.0f);
         }

@@ -1491,6 +1491,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.8, y: 4, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &171876308 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
+  m_PrefabInternal: {fileID: 1357088511}
+--- !u!64 &171876312
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 171876308}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
 --- !u!1 &173871701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1831,7 +1849,7 @@ GameObject:
   - component: {fileID: 203582151}
   m_Layer: 0
   m_Name: Identification
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 9
@@ -7723,6 +7741,24 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 860367336}
+--- !u!1 &863600594 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
+  m_PrefabInternal: {fileID: 1377782111}
+--- !u!64 &863600598
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 863600594}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
 --- !u!1 &865149120
 GameObject:
   m_ObjectHideFlags: 0
@@ -10983,6 +11019,10 @@ Prefab:
     - target: {fileID: 100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
