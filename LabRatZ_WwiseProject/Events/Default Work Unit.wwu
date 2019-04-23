@@ -336,6 +336,48 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Bird_FX" ID="{74F44AD5-A1C1-4A7D-8740-2E2F4590FC66}">
+							<ChildrenList>
+								<Action Name="" ID="{527451A9-2EA6-4B9D-9816-85C6A255A58E}" ShortID="1069588252">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bird FX" ID="{FAA55CFA-7BCB-4E6F-96D0-477B45425AD5}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cow_FX" ID="{5B83781E-C989-4031-9E8F-7B7CB565DCFC}">
+							<ChildrenList>
+								<Action Name="" ID="{AF04E6F7-01C9-4345-850C-357B167C0166}" ShortID="682047565">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cow FX" ID="{81B84473-D7C4-4469-A604-8F6A92DBD3E8}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cotards_FX" ID="{8B0F76A2-CF1D-44E9-8981-130EB68D40FE}">
+							<ChildrenList>
+								<Action Name="" ID="{41E16C91-71E3-46F5-85AD-80486E25C8A4}" ShortID="93312154">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cotards FX" ID="{56BCD9F0-4232-4DA1-A328-D383FB23DFF4}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

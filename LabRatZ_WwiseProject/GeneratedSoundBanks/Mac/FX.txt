@@ -6,8 +6,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	373779144	Play_Achieved_Star_2_MM			\Default Work Unit\Mastermind\Play_Achieved_Star_2_MM	
 	613200756	Play_Incorrect_MM			\Default Work Unit\Mastermind\Play_Incorrect_MM	
 	669756158	Play_Success_Click			\Default Work Unit\Spot The Difference\Play_Success_Click	
+	809872068	Play_Bird_FX			\Default Work Unit\Dialogue\Play_Bird_FX	
 	1525146681	Play_Room_Construction			\Default Work Unit\Play_Room_Construction	
 	1904880498	Play_Timer_MM			\Default Work Unit\Mastermind\Play_Timer_MM	
+	2006714128	Play_Cow_FX			\Default Work Unit\Dialogue\Play_Cow_FX	
 	2507233091	Play_Button_Press_MM			\Default Work Unit\Mastermind\Play_Button_Press_MM	
 	2651468245	Play_Male_1			\Default Work Unit\Dialogue\Play_Male_1	
 	2651468246	Play_Male_2			\Default Work Unit\Dialogue\Play_Male_2	
@@ -21,6 +23,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3797117088	Play_Missed_Click			\Default Work Unit\Spot The Difference\Play_Missed_Click	
 	4151623957	Play_Perfect_Success			\Default Work Unit\Spot The Difference\Play_Perfect_Success	
 	4169444829	Play_Timer			\Default Work Unit\Spot The Difference\Play_Timer	
+	4204490207	Play_Cotards_FX			\Default Work Unit\Dialogue\Play_Cotards_FX	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5429521	SuccessClick 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\SuccessClick 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\SuccessClick 3		76020
@@ -29,18 +32,24 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	11526294	Dialogue_Female_2_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_2_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_4		561956
 	16559442	Dialogue_Male_2_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_2_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_7		405308
 	27921451	Dialogue_Female_1_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_1_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_10		512788
+	35556489	FX_Cow_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cow_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_8		390322
 	55635926	Dialogue_Female_2_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_2_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_3		572492
 	63287814	Achieved Star 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\StarSuccess 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 3		532208
 	72868769	Button Press 7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Button Press 7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 7		86060
+	74342357	FX_Bird_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Bird_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bird FX\FX_Bird_4		97608
+	74778833	FX_Bird_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Bird_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bird FX\FX_Bird_5		65274
 	89796349	Dialogue_Male_2_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_2_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_2		492148
 	130161318	Dialogue_Female_1_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_1_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_8		481180
 	157167176	Dialogue_Male_1_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_1_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_8		737556
+	175664436	FX_Cotards_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cotards_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_8		149290
 	192169599	Dialogue_Female_2_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_2_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_8		576004
+	193758857	FX_Cow_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cow_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_3		149368
 	199022208	Room Construction	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Construction_Sound_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room Construction		1603668
 	241191154	Achieved Star 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\StarSuccess 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 2		643312
 	258603287	Success Click 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\SuccessClick 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\Success Click 2		87776
 	260374168	Button Press 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Button Press 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 3		68536
 	261932911	Dialogue_Female_2_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_2_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_9		474160
+	265220731	FX_Cotards_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cotards_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_4		554998
 	271913187	Perfect Success	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Perfect Success MM_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Perfect Success		1978760
 	281256050	Dialogue_Female_2_6	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_2_6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_6		526836
 	302072257	Dialogue_Female_1_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_1_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_5		554932
@@ -48,19 +57,26 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	332385197	SuccessClick 4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\SuccessClick 4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\SuccessClick 4		108172
 	338897567	Incorrect	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Fail 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Incorrect		119392
 	341492925	Dialogue_Female_1_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_1_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_3		540884
+	345505368	FX_Bird_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Bird_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bird FX\FX_Bird_7		62580
+	360470599	FX_Bird_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Bird_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bird FX\FX_Bird_1		99224
 	362890154	Tray Change	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Traychange_C3AF77B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Tray Change		747844
 	375373551	Dialogue_Male_2_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_2_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_4		448728
 	379689229	Timer	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Timer_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Timer		11519740
 	387968254	Dialogue_Male_2_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_2_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_10		383600
+	397183690	FX_Cow_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cow_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_5		204624
 	415246859	Dialogue_Male_1_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_1_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_3		264600
+	417441249	FX_Bird_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Bird_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bird FX\FX_Bird_8		47488
 	424571915	Dialogue_Female_1_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_1_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_4		481184
 	439001395	Achieved Star 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Star success 3 MM_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Achieved Star 3		1622732
 	479790417	Dialogue_Female_2_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_2_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_7		424992
+	506085032	FX_Cow_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cow_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_10		178642
 	516205076	Dialogue_Female_1_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_1_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_7		516300
 	524403102	Dialogue_Male_2_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_2_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_9		557280
+	529385860	FX_Cotards_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cotards_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_5		552602
 	536254652	Dialogue_Female_1_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_1_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_9		467136
 	538238293	Button Press 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Button Press 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 1		135504
 	548555864	Button Press 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Button Press 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 2		125616
+	564887498	FX_Bird_6	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Bird_6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bird FX\FX_Bird_6		54494
 	567009057	Perfect Success	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\StarSuccessPerfect_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Perfect Success		938620
 	581266110	Button Press 6	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Button Press 6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 6		135720
 	618569758	Dialogue_Female_2_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_2_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_10		628680
@@ -68,13 +84,20 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	629951870	Dialogue_Male_2_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_2_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_8		347416
 	640743742	Dialogue_Female_2_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_2_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_5		463624
 	641471780	Dialogue_Female_2_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_2_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_2		358272
+	644437337	FX_Cotards_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cotards_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_7		461856
 	648501881	Dialogue_Male_1_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_1_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_2		465008
+	652406963	FX_Cow_6	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cow_6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_6		198404
 	667258180	Dialogue_Male_2_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_2_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_5		376364
+	678011618	FX_Cow_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cow_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_1		184498
 	685287490	Dialogue_Male_1_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_1_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_9		456988
+	702530369	FX_Bird_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Bird_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bird FX\FX_Bird_3		63658
+	711769030	FX_Cow_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cow_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_2		215236
+	715958147	FX_Cow_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cow_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_4		259882
 	720601307	Button Press 4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Button Press 4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 4		165368
 	754710090	Success click 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\SuccessClick 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\Success click 1		77920
 	767188625	Button Press 5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Button Press 5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 5		116748
 	768711642	Dialogue_Male_1_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_1_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_1		368812
+	771858672	FX_Cotards_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cotards_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_10		583370
 	800580487	Achieved Star 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\StarSuccess 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 1		631616
 	828425341	Dialogue_Male_2_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_2_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_3		528332
 	859047137	Dialogue_Female_1_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_1_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_2		793736
@@ -83,10 +106,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	882884235	Dialogue_Male_1_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_1_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_7		729540
 	888760839	Dialogue_Female_2_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_2_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_1		856944
 	889991143	Incorrect_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Fail 4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Incorrect_2		216064
+	894311608	FX_Cotards_6	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cotards_6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_6		263226
+	903509095	FX_Cotards_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cotards_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_3		291456
 	916517450	Dialogue_Female_1_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Female_1_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_1		642728
 	929703608	Dialogue_Male_2_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_2_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_1		398076
+	931104764	FX_Bird_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Bird_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bird FX\FX_Bird_2		60422
+	981752556	FX_Cow_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cow_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_9		243778
+	985732511	FX_Cotards_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cotards_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_2		420518
 	994789480	Button Press 8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Button Press 8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 8		101128
 	1011283236	Achieved Star 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Star success 1 MM_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Achieved Star 1		1432900
 	1013634173	Dialogue_Male_1_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_1_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_4		416908
 	1022386983	Dialogue_Male_1_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\Dialogue_Male_1_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_10		416908
+	1036984035	FX_Cow_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cow_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_7		307290
+	1058545081	FX_Cotards_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cotards_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_1		437658
+	1070513912	FX_Cotards_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Mac\SFX\FX_Cotards_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_9		563692
 

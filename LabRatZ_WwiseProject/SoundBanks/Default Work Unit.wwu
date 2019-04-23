@@ -8,35 +8,66 @@
 						<ObjectRef Name="Achieved Star 1" ID="{B164462B-86A3-4069-8689-1D4102A0DBF7}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Timer" ID="{26A15EB3-1620-4084-81B4-01ACF95617C7}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Achieved Star 1" ID="{E0E09C8E-9182-40F2-B933-EBE22F8AAA4F}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cow_4" ID="{C937A2BE-65A0-416E-A7DB-D2704F004EEB}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Room Construction" ID="{B6A5A6A8-8C30-41F7-A58F-FB2AF02168BD}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cotards_8" ID="{2E5E474A-4D53-4251-8383-607331ED6CC1}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Room_Construction" ID="{5890D761-D750-4275-A988-BD9E6A0E4244}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cow_8" ID="{9D947015-47FA-42B6-92C5-E5F61C09490D}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Female 1" ID="{E375285A-C661-42C3-B233-B00C32AD06CF}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cotards_5" ID="{99DD9E31-C99F-42C3-A653-AC2E488E6313}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Incorrect_2_MM" ID="{C66F98D3-4B18-42E8-A4E1-D728B2F115CF}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cow_10" ID="{45400323-8FCD-439C-8AF4-6229F38F3F3A}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Bird_7" ID="{7EC2869C-C5CE-43D0-9094-3EB0A98D465C}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Button Press" ID="{ADB7DF02-E46A-441E-94D9-CC3C8503E35C}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cow_3" ID="{13993E33-97BA-4445-A01D-E35AA735A3BA}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Perfect Success" ID="{718DE2F9-BCAA-4452-ACA6-FB7B94FCC9F1}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Cow FX" ID="{81B84473-D7C4-4469-A604-8F6A92DBD3E8}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Missed Click" ID="{C7BA971D-174C-4475-ACD6-EDC1B92861A2}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Timer_MM" ID="{375215FC-1D4A-44F4-BF67-5C3ACFA2B179}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Dialogue" ID="{86C14777-1DDB-4524-A20A-AC0B85DBC0F7}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Success Click" ID="{6AFF20A4-0B00-458D-8A4C-895DDA8AC99B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cotards_6" ID="{EAF67A1B-EA14-46B6-9E50-691B973683AE}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Male_2" ID="{E84A33A1-DCD6-46BD-A0CA-F068F2BAF644}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Bird_4" ID="{73FCAF5C-62C0-46E6-9C97-EA1A6F521E24}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Spot the Difference" ID="{234E2591-8D11-46ED-AFD3-2DF40F86CA0D}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Bird_1" ID="{0AE5640E-A317-4728-B8BB-72D766B8BC1F}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cotards_2" ID="{5ECF3485-0053-4737-9324-54098C7A478A}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Bird_2" ID="{D4BDD10F-E1A7-475F-8CBD-5CBF23CC46C7}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Tray Change" ID="{03BF68BE-4BB1-4767-B7B8-C781D4226BFE}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Female_1" ID="{98E90689-68C1-4776-8749-9412821DC62B}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Achieved Star 2" ID="{27C87B13-4E9D-47BB-989C-E2898AC8F784}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Achieved_Star_1_MM" ID="{A546351D-EC71-4887-B64B-05A0A691AB6B}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Bird_8" ID="{0EF400A8-D7FE-48A2-8C49-62963DFAA9F5}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Achieved Star 3" ID="{FD074F3F-747F-48B5-8F2D-1548041AC6DC}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cow_1" ID="{4D821E49-57E3-48C3-A3B7-FB5369AFDBC9}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Button_Press_MM" ID="{FF9CD12F-4D7D-490E-A165-9E08BD5ABB95}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Bird_6" ID="{0A5D42CC-D0F2-4928-A371-51A35D585EB9}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Bird_5" ID="{1B2E7BC0-5D57-4940-94F6-C66FF394E791}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cotards_1" ID="{AD514E7D-F65C-4959-8C3A-026A3EE396EA}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Mastermind" ID="{8F6AA65B-FC2A-4A80-8518-B32EE4CBF125}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Bird_3" ID="{FCCC3E98-1789-4A91-B1A6-334A9D319EB4}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Perfect_Success_MM" ID="{1735B973-BD11-4AEE-BA52-F1F786761214}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Timer" ID="{81BFBA96-8A5F-4B09-882A-9719BFC28224}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cow_7" ID="{FD1BE6AA-7E21-4B6F-9482-FFB2713580B3}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cotards_10" ID="{54612ABF-1BBA-4B7A-AC7F-C134B1B861E0}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cotards_9" ID="{4269608A-D0F3-4B8F-9322-72437FD85053}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Incorrect" ID="{664698F2-F677-4BFC-8FF0-0F500288557C}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Incorrect_MM" ID="{D15EB948-26D2-4C02-91C5-522916F9F685}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cow_9" ID="{70F24CCC-DF73-4C02-869B-760AC3F2DD1C}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Incorrect_2" ID="{F7AF2047-1D99-4C4F-A318-383172CD7FEC}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Male 2" ID="{3D7AB569-AF03-4CBB-AA31-90D6D705EA42}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cotards_4" ID="{EC97F663-6F7C-4CED-95E8-7E34415BFAC0}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Male 1" ID="{AA3A68AB-F02E-4D01-8116-0CE1339F111E}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cotards_7" ID="{69BAC9B3-8ACB-4D13-9311-93E8E6C12822}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Achieved_Star_3_MM" ID="{4EBDFCE8-EAFD-4D53-AA1F-ECD6FE9E1EA7}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cow_6" ID="{9F39F441-EDB0-4D83-A4EA-BD830B18AEFB}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Cotards FX" ID="{56BCD9F0-4232-4DA1-A328-D383FB23DFF4}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cow_2" ID="{07BC4515-897F-4DC5-8493-F744075866F6}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Achieved Star 2" ID="{E2B3E64C-EC73-4E0F-B34F-A625AA7159C9}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cotards_3" ID="{89E7DCA9-F0F5-4E38-B3C1-153D32E2F6AE}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Female_2" ID="{F9FB9293-288E-4E68-9809-805421754DD0}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Bird FX" ID="{FAA55CFA-7BCB-4E6F-96D0-477B45425AD5}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FX_Cow_5" ID="{079B1620-882F-4E8A-B87D-EEB7A98A6E08}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Achieved_Star_2_MM" ID="{8016E23B-DA75-4EA7-8FB9-085E1CD59F76}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Female 2" ID="{7F34F83E-EAF2-4EFE-8C79-9A9FD09CEB9B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Achieved Star 3" ID="{04367147-37A0-4F01-9B30-41703DE0B430}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
