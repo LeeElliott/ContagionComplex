@@ -31,8 +31,8 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{D3A9E9A7-B300-484E-BDB1-838FFA860A82}'
-    m_lastTimePart2: -1999196650
-    m_lastTimePsrt1: -192848090
+    m_lastTimePart2: -1999191028
+    m_lastTimePsrt1: -997318330
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -65,8 +65,8 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{6374D344-E35D-4D33-994F-103C8C9CA3D9}'
-    m_lastTimePart2: -1999196654
-    m_lastTimePsrt1: 1933301709
+    m_lastTimePart2: -1999191028
+    m_lastTimePsrt1: -997408335
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -180,6 +180,48 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: 8906e998c168764787499412821dc62b
+      ID: 12037502
+      Name: Play_Female_1
+      Path: Default Work Unit\Dialogue\Play_Female_1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Female_1
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 9392fbf98e28684e9809805421754dd0
+      ID: 12037501
+      Name: Play_Female_2
+      Path: Default Work Unit\Dialogue\Play_Female_2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Female_2
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d3986fc6184be842a4e1d728b2f115cf
+      ID: -620921991
+      Name: Play_Incorrect_2_MM
+      Path: Default Work Unit\Mastermind\Play_Incorrect_2_MM
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mastermind
+        ObjectType: 4
+      - ElementName: Play_Incorrect_2_MM
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 48b95ed1d226024c91c5522916f9f685
       ID: 613200756
       Name: Play_Incorrect_MM
@@ -190,6 +232,34 @@ MonoBehaviour:
       - ElementName: Mastermind
         ObjectType: 4
       - ElementName: Play_Incorrect_MM
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d03c3a4f4aaeae4f91bff925976a086a
+      ID: -1643499051
+      Name: Play_Male_1
+      Path: Default Work Unit\Dialogue\Play_Male_1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Male_1
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a1334ae8d6dcbd46a0caf068f2baf644
+      ID: -1643499050
+      Name: Play_Male_2
+      Path: Default Work Unit\Dialogue\Play_Male_2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Male_2
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -232,6 +302,18 @@ MonoBehaviour:
       - ElementName: Mastermind
         ObjectType: 4
       - ElementName: Play_Perfect_Success_MM
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 61d7905850d77542a988bd9e6a0e4244
+      ID: 1525146681
+      Name: Play_Room_Construction
+      Path: Default Work Unit\Play_Room_Construction
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Room_Construction
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0

@@ -36,6 +36,11 @@ public class CharacterAI : MonoBehaviour
     public Text speechText;
     private int speaking = 0;
     private int willSpeak = 0;
+	private int characterVoice =0;
+	public AK.Wwise.Event Play_Male_1;
+	public AK.Wwise.Event Play_Male_2;
+	public AK.Wwise.Event Play_Female_1;
+	public AK.Wwise.Event Play_Female_2;
 
     public Canvas speechCanvas;
 
@@ -444,7 +449,21 @@ public class CharacterAI : MonoBehaviour
                 willSpeak = Random.Range(900, 2700);
 
                 // Audio
-
+				switch(characterVoice)
+				{case 1:
+					Play_Male_1.Post(gameObject);
+				break;
+				case 2:
+					Play_Male_2.Post(gameObject);
+				break;
+				case 3:
+					Play_Female_1.Post(gameObject);
+				break;
+				case 4:
+					Play_Female_2.Post(gameObject);
+				break;
+							}
+					
             }
             else
             {
@@ -557,15 +576,18 @@ public class CharacterAI : MonoBehaviour
         int prod = GenerateRandomStat();
         willSpeak = Random.Range(300, 1500);
 
+
         // Set profile image based on gender
         int imageNum = Random.Range(0, 3);
 
         if (characterGender == "Female")
         {
-            profileImage = imageNum;
+			characterVoice = Random.Range(3,5);
+			profileImage = imageNum;
         }
         else
         {
+			characterVoice = Random.Range(1,3);
             profileImage = imageNum + 3;
         }
 
