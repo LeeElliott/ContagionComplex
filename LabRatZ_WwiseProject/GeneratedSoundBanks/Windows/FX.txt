@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	12037502	Play_Female_1			\Default Work Unit\Dialogue\Play_Female_1	
 	78959178	Play_Perfect_Success_MM			\Default Work Unit\Mastermind\Play_Perfect_Success_MM	
 	255665978	Play_Traychange			\Default Work Unit\Spot The Difference\Play_Traychange	
+	285585700	Play_Button_1_Back			\Default Work Unit\Dialogue\Play_Button_1_Back	
 	373779144	Play_Achieved_Star_2_MM			\Default Work Unit\Mastermind\Play_Achieved_Star_2_MM	
 	613200756	Play_Incorrect_MM			\Default Work Unit\Mastermind\Play_Incorrect_MM	
 	669756158	Play_Success_Click			\Default Work Unit\Spot The Difference\Play_Success_Click	
@@ -14,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2651468245	Play_Male_1			\Default Work Unit\Dialogue\Play_Male_1	
 	2651468246	Play_Male_2			\Default Work Unit\Dialogue\Play_Male_2	
 	3090597779	Stop_Timer			\Default Work Unit\Spot The Difference\Stop_Timer	
+	3265454808	Play_Button_1_Forward			\Default Work Unit\Dialogue\Play_Button_1_Forward	
 	3363805320	Play_Achieved_Star_1			\Default Work Unit\Spot The Difference\Play_Achieved_Star_1	
 	3363805322	Play_Achieved_Star_3			\Default Work Unit\Spot The Difference\Play_Achieved_Star_3	
 	3363805323	Play_Achieved_Star_2			\Default Work Unit\Spot The Difference\Play_Achieved_Star_2	
@@ -39,17 +41,17 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	74342357	FX_Bird_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Bird_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bird FX\FX_Bird_4		97608
 	74778833	FX_Bird_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Bird_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bird FX\FX_Bird_5		65274
 	89796349	Dialogue_Male_2_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_2		492148
+	90109978	Button 1 Forward	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Button_2_Forward_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu Buttons\Button 1 Forward		99280
 	130161318	Dialogue_Female_1_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_8		481180
 	157167176	Dialogue_Male_1_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_8		737556
-	175664436	FX_Cotards_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cotards_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_8		149290
 	192169599	Dialogue_Female_2_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_8		576004
-	193758857	FX_Cow_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cow_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_3		149368
+	193758857	FX_Cow_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cow_3_794ADDFE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_3		115316
 	199022208	Room Construction	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Construction_Sound_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room Construction		1603668
 	241191154	Achieved Star 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccess 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 2		643312
 	258603287	Success Click 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\SuccessClick 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\Success Click 2		87776
 	260374168	Button Press 3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 3		68536
 	261932911	Dialogue_Female_2_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_9		474160
-	265220731	FX_Cotards_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cotards_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_4		554998
+	265220731	FX_Cotards_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cotards_4_FD9B1A3D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_4		554998
 	271913187	Perfect Success	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Perfect Success MM_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Perfect Success		1978760
 	281256050	Dialogue_Female_2_6	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_6		526836
 	302072257	Dialogue_Female_1_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_5		554932
@@ -64,6 +66,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	379689229	Timer	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Timer_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Timer		11519740
 	387968254	Dialogue_Male_2_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_10		383600
 	397183690	FX_Cow_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cow_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_5		204624
+	407653181	Button 1 Back	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Button_2_Back_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu Buttons\Button 1 Back		91124
 	415246859	Dialogue_Male_1_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_3		264600
 	417441249	FX_Bird_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Bird_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bird FX\FX_Bird_8		47488
 	424571915	Dialogue_Female_1_4	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_4		481184
@@ -72,7 +75,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	506085032	FX_Cow_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cow_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_10		178642
 	516205076	Dialogue_Female_1_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_7		516300
 	524403102	Dialogue_Male_2_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_9		557280
-	529385860	FX_Cotards_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cotards_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_5		552602
+	529385860	FX_Cotards_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cotards_5_AB11EFB8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_5		410226
 	536254652	Dialogue_Female_1_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_9		467136
 	538238293	Button Press 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 1		135504
 	548555864	Button Press 2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 2		125616
@@ -84,11 +87,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	629951870	Dialogue_Male_2_8	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_8		347416
 	640743742	Dialogue_Female_2_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_5		463624
 	641471780	Dialogue_Female_2_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_2_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 2\Dialogue_Female_2_2		358272
-	644437337	FX_Cotards_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cotards_7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_7		461856
+	644437337	FX_Cotards_7	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cotards_7_A9449CDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_7		424386
 	648501881	Dialogue_Male_1_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_2		465008
 	652406963	FX_Cow_6	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cow_6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_6		198404
 	667258180	Dialogue_Male_2_5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_5		376364
-	678011618	FX_Cow_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cow_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_1		184498
+	678011618	FX_Cow_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cow_1_B0A0D957.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_1		184498
 	685287490	Dialogue_Male_1_9	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_9		456988
 	702530369	FX_Bird_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Bird_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bird FX\FX_Bird_3		63658
 	711769030	FX_Cow_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cow_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cow FX\FX_Cow_2		215236
@@ -97,7 +100,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	754710090	Success click 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\SuccessClick 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Success Click\Success click 1		77920
 	767188625	Button Press 5	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Button Press 5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mastermind\Button Press\Button Press 5		116748
 	768711642	Dialogue_Male_1_1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_1_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 1\Dialogue_Male_1_1		368812
-	771858672	FX_Cotards_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cotards_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_10		583370
+	771858672	FX_Cotards_10	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\FX_Cotards_10_5B1AFE4F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cotards FX\FX_Cotards_10		464406
 	800580487	Achieved Star 1	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\StarSuccess 1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot the Difference\Achieved Star 1		631616
 	828425341	Dialogue_Male_2_3	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Male_2_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Male 2\Dialogue_Male_2_3		528332
 	859047137	Dialogue_Female_1_2	D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\.cache\Windows\SFX\Dialogue_Female_1_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Female 1\Dialogue_Female_1_2		793736

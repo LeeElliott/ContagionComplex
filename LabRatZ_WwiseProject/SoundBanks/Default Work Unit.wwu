@@ -36,6 +36,8 @@
 						<ObjectRef Name="Tray Change" ID="{03BF68BE-4BB1-4767-B7B8-C781D4226BFE}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Female_1" ID="{98E90689-68C1-4776-8749-9412821DC62B}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Achieved Star 2" ID="{27C87B13-4E9D-47BB-989C-E2898AC8F784}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Button_1_Back" ID="{B18ADD85-5E7D-47C8-B5C6-0531D32F9484}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Button 1 Forward" ID="{FF6507A7-11FD-4801-829C-19F7B533C35B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Achieved_Star_1_MM" ID="{A546351D-EC71-4887-B64B-05A0A691AB6B}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FX_Bird_8" ID="{0EF400A8-D7FE-48A2-8C49-62963DFAA9F5}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Achieved Star 3" ID="{FD074F3F-747F-48B5-8F2D-1548041AC6DC}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
@@ -48,6 +50,7 @@
 						<ObjectRef Name="FX_Bird_3" ID="{FCCC3E98-1789-4A91-B1A6-334A9D319EB4}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Perfect_Success_MM" ID="{1735B973-BD11-4AEE-BA52-F1F786761214}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Timer" ID="{81BFBA96-8A5F-4B09-882A-9719BFC28224}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Button 1 Back" ID="{088D9581-1378-4B0E-AC53-FF658C1F639F}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FX_Cow_7" ID="{FD1BE6AA-7E21-4B6F-9482-FFB2713580B3}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FX_Cotards_10" ID="{54612ABF-1BBA-4B7A-AC7F-C134B1B861E0}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FX_Cotards_9" ID="{4269608A-D0F3-4B8F-9322-72437FD85053}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
@@ -71,6 +74,7 @@
 						<ObjectRef Name="Play_Achieved_Star_2_MM" ID="{8016E23B-DA75-4EA7-8FB9-085E1CD59F76}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Female 2" ID="{7F34F83E-EAF2-4EFE-8C79-9A9FD09CEB9B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Achieved Star 3" ID="{04367147-37A0-4F01-9B30-41703DE0B430}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Button_1_Forward" ID="{2CD0A58A-E015-4F28-8E9A-25DDA4845CC8}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Perfect Success" ID="{F8D95726-BC60-4F46-9886-7446A2771314}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Male_1" ID="{4F3A3CD0-AE4A-4FAE-91BF-F925976A086A}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

@@ -3,6 +3,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	0	None	Ambience_switch			
+	455188581	Quarantine	Ambience_switch			
 	980603541	Rec	Ambience_switch			
 	1752637606	ID	Ambience_switch			
 	2009569955	Experimentation	Ambience_switch			
@@ -12,6 +13,9 @@ State	ID	Name	State Group			Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	4286906788	Gentle_Program_Compressor_Minus_20dB_RMS	Wwise Compressor			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

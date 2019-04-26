@@ -28,6 +28,8 @@
 				<Event Id="3363805322" Name="Play_Achieved_Star_3" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_3"/>
 				<Event Id="3395104279" Name="Play_Achieved_Star_3_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Achieved_Star_3_MM"/>
 				<Event Id="809872068" Name="Play_Bird_FX" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Bird_FX"/>
+				<Event Id="285585700" Name="Play_Button_1_Back" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Button_1_Back"/>
+				<Event Id="3265454808" Name="Play_Button_1_Forward" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Button_1_Forward"/>
 				<Event Id="2507233091" Name="Play_Button_Press_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Button_Press_MM"/>
 				<Event Id="4204490207" Name="Play_Cotards_FX" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Cotards_FX"/>
 				<Event Id="2006714128" Name="Play_Cow_FX" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Cow_FX"/>
@@ -100,6 +102,10 @@
 					<ShortName>Dialogue_Male_2_2.wav</ShortName>
 					<Path>SFX\Dialogue_Male_2_2_56D34C19.wem</Path>
 				</File>
+				<File Id="90109978" Language="SFX">
+					<ShortName>FX_Button_2_Forward.wav</ShortName>
+					<Path>SFX\FX_Button_2_Forward_56D34C19.wem</Path>
+				</File>
 				<File Id="130161318" Language="SFX">
 					<ShortName>Dialogue_Female_1_8.wav</ShortName>
 					<Path>SFX\Dialogue_Female_1_8_56D34C19.wem</Path>
@@ -108,17 +114,13 @@
 					<ShortName>Dialogue_Male_1_8.wav</ShortName>
 					<Path>SFX\Dialogue_Male_1_8_56D34C19.wem</Path>
 				</File>
-				<File Id="175664436" Language="SFX">
-					<ShortName>FX_Cotards_8.wav</ShortName>
-					<Path>SFX\FX_Cotards_8_56D34C19.wem</Path>
-				</File>
 				<File Id="192169599" Language="SFX">
 					<ShortName>Dialogue_Female_2_8.wav</ShortName>
 					<Path>SFX\Dialogue_Female_2_8_56D34C19.wem</Path>
 				</File>
 				<File Id="193758857" Language="SFX">
 					<ShortName>FX_Cow_3.wav</ShortName>
-					<Path>SFX\FX_Cow_3_56D34C19.wem</Path>
+					<Path>SFX\FX_Cow_3_794ADDFE.wem</Path>
 				</File>
 				<File Id="199022208" Language="SFX">
 					<ShortName>FX_Construction_Sound.wav</ShortName>
@@ -142,7 +144,7 @@
 				</File>
 				<File Id="265220731" Language="SFX">
 					<ShortName>FX_Cotards_4.wav</ShortName>
-					<Path>SFX\FX_Cotards_4_56D34C19.wem</Path>
+					<Path>SFX\FX_Cotards_4_FD9B1A3D.wem</Path>
 				</File>
 				<File Id="271913187" Language="SFX">
 					<ShortName>Perfect Success MM.wav</ShortName>
@@ -200,6 +202,10 @@
 					<ShortName>FX_Cow_5.wav</ShortName>
 					<Path>SFX\FX_Cow_5_56D34C19.wem</Path>
 				</File>
+				<File Id="407653181" Language="SFX">
+					<ShortName>FX_Button_2_Back.wav</ShortName>
+					<Path>SFX\FX_Button_2_Back_56D34C19.wem</Path>
+				</File>
 				<File Id="415246859" Language="SFX">
 					<ShortName>Dialogue_Male_1_3.wav</ShortName>
 					<Path>SFX\Dialogue_Male_1_3_56D34C19.wem</Path>
@@ -234,7 +240,7 @@
 				</File>
 				<File Id="529385860" Language="SFX">
 					<ShortName>FX_Cotards_5.wav</ShortName>
-					<Path>SFX\FX_Cotards_5_56D34C19.wem</Path>
+					<Path>SFX\FX_Cotards_5_AB11EFB8.wem</Path>
 				</File>
 				<File Id="536254652" Language="SFX">
 					<ShortName>Dialogue_Female_1_9.wav</ShortName>
@@ -282,7 +288,7 @@
 				</File>
 				<File Id="644437337" Language="SFX">
 					<ShortName>FX_Cotards_7.wav</ShortName>
-					<Path>SFX\FX_Cotards_7_56D34C19.wem</Path>
+					<Path>SFX\FX_Cotards_7_A9449CDF.wem</Path>
 				</File>
 				<File Id="648501881" Language="SFX">
 					<ShortName>Dialogue_Male_1_2.wav</ShortName>
@@ -298,7 +304,7 @@
 				</File>
 				<File Id="678011618" Language="SFX">
 					<ShortName>FX_Cow_1.wav</ShortName>
-					<Path>SFX\FX_Cow_1_56D34C19.wem</Path>
+					<Path>SFX\FX_Cow_1_B0A0D957.wem</Path>
 				</File>
 				<File Id="685287490" Language="SFX">
 					<ShortName>Dialogue_Male_1_9.wav</ShortName>
@@ -334,7 +340,7 @@
 				</File>
 				<File Id="771858672" Language="SFX">
 					<ShortName>FX_Cotards_10.wav</ShortName>
-					<Path>SFX\FX_Cotards_10_56D34C19.wem</Path>
+					<Path>SFX\FX_Cotards_10_5B1AFE4F.wem</Path>
 				</File>
 				<File Id="800580487" Language="SFX">
 					<ShortName>StarSuccess 1.wav</ShortName>

@@ -1,6 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2709148B-4F7A-4FD9-9265-25463ECA6399}" SchemaVersion="89">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{2709148B-4F7A-4FD9-9265-25463ECA6399}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2709148B-4F7A-4FD9-9265-25463ECA6399}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{091B6F68-34AD-42EC-A8C4-CDE4014AE9F2}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Cow FX" ID="{81B84473-D7C4-4469-A604-8F6A92DBD3E8}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Female 2" ID="{7F34F83E-EAF2-4EFE-8C79-9A9FD09CEB9B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Achieved Star 1" ID="{B164462B-86A3-4069-8689-1D4102A0DBF7}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Incorrect_2" ID="{F7AF2047-1D99-4C4F-A318-383172CD7FEC}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Button 1 Forward" ID="{FF6507A7-11FD-4801-829C-19F7B533C35B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cotards FX" ID="{56BCD9F0-4232-4DA1-A328-D383FB23DFF4}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Male 1" ID="{AA3A68AB-F02E-4D01-8116-0CE1339F111E}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Achieved Star 2" ID="{27C87B13-4E9D-47BB-989C-E2898AC8F784}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Perfect Success" ID="{718DE2F9-BCAA-4452-ACA6-FB7B94FCC9F1}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Success Click" ID="{6AFF20A4-0B00-458D-8A4C-895DDA8AC99B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Bird FX" ID="{FAA55CFA-7BCB-4E6F-96D0-477B45425AD5}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Male 2" ID="{3D7AB569-AF03-4CBB-AA31-90D6D705EA42}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Achieved Star 3" ID="{FD074F3F-747F-48B5-8F2D-1548041AC6DC}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Timer" ID="{26A15EB3-1620-4084-81B4-01ACF95617C7}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Achieved Star 1" ID="{E0E09C8E-9182-40F2-B933-EBE22F8AAA4F}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Female 1" ID="{E375285A-C661-42C3-B233-B00C32AD06CF}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Button Press" ID="{ADB7DF02-E46A-441E-94D9-CC3C8503E35C}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Incorrect" ID="{664698F2-F677-4BFC-8FF0-0F500288557C}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Button 1 Back" ID="{088D9581-1378-4B0E-AC53-FF658C1F639F}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Achieved Star 2" ID="{E2B3E64C-EC73-4E0F-B34F-A625AA7159C9}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="ID" ID="{AE9347CF-4DF9-4591-9A24-E88E55015BE9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
