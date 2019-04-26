@@ -37,10 +37,6 @@ public class CharacterAI : MonoBehaviour
     private int speaking = 0;
     private int willSpeak = 0;
 	private int characterVoice =0;
-	public AK.Wwise.Event Play_Male_1;
-	public AK.Wwise.Event Play_Male_2;
-	public AK.Wwise.Event Play_Female_1;
-	public AK.Wwise.Event Play_Female_2;
 
     public Canvas speechCanvas;
 
@@ -265,20 +261,12 @@ public class CharacterAI : MonoBehaviour
 
             NavMeshAgent agent = GetComponent<NavMeshAgent>();
             
-            Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+            Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(newPosition);
             RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit, 100))
             {
-                Debug.Log("ray hit " + hit.ToString());
-
-
                 Transform objectHit = hit.transform;
-
-                Debug.Log("ray hit " + objectHit.ToString());
-                Debug.Log("ray hit " + objectHit.parent.ToString());
-                Debug.Log("ray hit " + objectHit.parent.gameObject.ToString());
-                Debug.Log("ray hit " + objectHit.parent.gameObject.tag.ToString());
 
                 if (objectHit.parent.gameObject.tag == "Room")
                 {
@@ -449,21 +437,20 @@ public class CharacterAI : MonoBehaviour
                 willSpeak = Random.Range(900, 2700);
 
                 // Audio
-				switch(characterVoice)
-				{case 1:
-					Play_Male_1.Post(gameObject);
+
+				switch (characterVoice) { 
+				case 1:
+				AkSoundEngine.PostEvent ("Play_Male_1", gameObject);
 				break;
 				case 2:
-					Play_Male_2.Post(gameObject);
+				AkSoundEngine.PostEvent ("Play_Male_2", gameObject);
 				break;
 				case 3:
-					Play_Female_1.Post(gameObject);
+				AkSoundEngine.PostEvent ("Play_Female_1", gameObject);
 				break;
-				case 4:
-					Play_Female_2.Post(gameObject);
-				break;
-							}
-					
+				case 4
+				AkSoundEngine.PostEvent ("Play_Female_2", gameObject);
+				break;}
             }
             else
             {
@@ -576,19 +563,18 @@ public class CharacterAI : MonoBehaviour
         int prod = GenerateRandomStat();
         willSpeak = Random.Range(300, 1500);
 
-
         // Set profile image based on gender
         int imageNum = Random.Range(0, 3);
 
         if (characterGender == "Female")
         {
+            profileImage = imageNum;
 			characterVoice = Random.Range(3,5);
-			profileImage = imageNum;
         }
         else
         {
-			characterVoice = Random.Range(1,3);
             profileImage = imageNum + 3;
+			characterVoice = Random.Range(1,3);
         }
 
         // Stats may need capped to ensure low chance of perfect scientist
@@ -599,11 +585,14 @@ public class CharacterAI : MonoBehaviour
                 ident = GenerateRandomStat();
                 form = GenerateRandomStat();
                 prod = GenerateRandomStat();
+				
             }
             else
             {
                 break;
-            }
+            
+			
+			
         }
 
         InitialiseStats(ident, form, prod);
