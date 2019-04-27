@@ -392,36 +392,36 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Button_1_Forward" ID="{2CD0A58A-E015-4F28-8E9A-25DDA4845CC8}">
-							<ChildrenList>
-								<Action Name="" ID="{A9D44CAD-E56F-4E17-881D-8778C3F0994C}" ShortID="798341455">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Button 1 Forward" ID="{FF6507A7-11FD-4801-829C-19F7B533C35B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Button_1_Back" ID="{B18ADD85-5E7D-47C8-B5C6-0531D32F9484}">
-							<ChildrenList>
-								<Action Name="" ID="{602EF34F-AE9B-4901-97C0-076E35B545E9}" ShortID="1038250704">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Button 1 Back" ID="{088D9581-1378-4B0E-AC53-FF658C1F639F}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Button_1_Forward" ID="{2CD0A58A-E015-4F28-8E9A-25DDA4845CC8}">
+					<ChildrenList>
+						<Action Name="" ID="{A9D44CAD-E56F-4E17-881D-8778C3F0994C}" ShortID="798341455">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button 1 Forward" ID="{FF6507A7-11FD-4801-829C-19F7B533C35B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Button_1_Back" ID="{B18ADD85-5E7D-47C8-B5C6-0531D32F9484}">
+					<ChildrenList>
+						<Action Name="" ID="{602EF34F-AE9B-4901-97C0-076E35B545E9}" ShortID="1038250704">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button 1 Back" ID="{088D9581-1378-4B0E-AC53-FF658C1F639F}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

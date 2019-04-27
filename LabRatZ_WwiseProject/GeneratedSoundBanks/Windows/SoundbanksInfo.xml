@@ -28,8 +28,8 @@
 				<Event Id="3363805322" Name="Play_Achieved_Star_3" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_3"/>
 				<Event Id="3395104279" Name="Play_Achieved_Star_3_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Achieved_Star_3_MM"/>
 				<Event Id="809872068" Name="Play_Bird_FX" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Bird_FX"/>
-				<Event Id="285585700" Name="Play_Button_1_Back" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Button_1_Back"/>
-				<Event Id="3265454808" Name="Play_Button_1_Forward" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Button_1_Forward"/>
+				<Event Id="285585700" Name="Play_Button_1_Back" ObjectPath="\Events\Default Work Unit\Play_Button_1_Back"/>
+				<Event Id="3265454808" Name="Play_Button_1_Forward" ObjectPath="\Events\Default Work Unit\Play_Button_1_Forward"/>
 				<Event Id="2507233091" Name="Play_Button_Press_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Button_Press_MM"/>
 				<Event Id="4204490207" Name="Play_Cotards_FX" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Cotards_FX"/>
 				<Event Id="2006714128" Name="Play_Cow_FX" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Cow_FX"/>
@@ -446,10 +446,6 @@
 					<ShortName>Forest ambience Track 3.wav</ShortName>
 					<Path>SFX\Forest ambience Track 3_8956FC97.wem</Path>
 				</File>
-				<File Id="509907097" Language="SFX">
-					<ShortName>building noise.wav</ShortName>
-					<Path>SFX\building noise_8956FC97.wem</Path>
-				</File>
 				<File Id="532243596" Language="SFX">
 					<ShortName>Forest ambience Track 1.wav</ShortName>
 					<Path>SFX\Forest ambience Track 1_8956FC97.wem</Path>
@@ -461,6 +457,10 @@
 				<File Id="889374317" Language="SFX">
 					<ShortName>wind loop.wav</ShortName>
 					<Path>SFX\wind loop_8956FC97.wem</Path>
+				</File>
+				<File Id="1055823013" Language="SFX">
+					<ShortName>BUILDING NOISE.wav</ShortName>
+					<Path>SFX\BUILDING NOISE_8956FC97.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -502,10 +502,6 @@
 					<ShortName>Forest ambience Track 3.wav</ShortName>
 					<Path>SFX\Forest ambience Track 3_8956FC97.wem</Path>
 				</File>
-				<File Id="509907097" Language="SFX">
-					<ShortName>building noise.wav</ShortName>
-					<Path>SFX\building noise_8956FC97.wem</Path>
-				</File>
 				<File Id="532243596" Language="SFX">
 					<ShortName>Forest ambience Track 1.wav</ShortName>
 					<Path>SFX\Forest ambience Track 1_8956FC97.wem</Path>
@@ -517,6 +513,10 @@
 				<File Id="889374317" Language="SFX">
 					<ShortName>wind loop.wav</ShortName>
 					<Path>SFX\wind loop_8956FC97.wem</Path>
+				</File>
+				<File Id="1055823013" Language="SFX">
+					<ShortName>BUILDING NOISE.wav</ShortName>
+					<Path>SFX\BUILDING NOISE_8956FC97.wem</Path>
 				</File>
 			</ExcludedMemoryFiles>
 		</SoundBank>

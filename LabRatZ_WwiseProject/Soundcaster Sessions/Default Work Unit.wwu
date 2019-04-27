@@ -88,7 +88,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="ID" ID="{AE9347CF-4DF9-4591-9A24-E88E55015BE9}"/>
+						<CurrentStateRef Name="Main" ID="{0122CC37-F0B1-4E9F-97A1-4AD2CEFDF9EC}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

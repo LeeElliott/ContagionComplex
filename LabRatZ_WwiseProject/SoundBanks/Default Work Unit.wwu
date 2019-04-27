@@ -101,16 +101,29 @@
 					<ObjectExclusionList>
 						<ObjectRef Name="Forest ambience Track 1" ID="{20202B91-CF00-406F-BB7F-A9B105052BBC}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 						<ObjectRef Name="building noise" ID="{6C10348F-8686-407F-9447-D40ECDAA9372}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="BUILDING NOISE" ID="{5BAAC606-C014-416D-B5AB-2584C478DD46}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="BUILDING NOISE LOOP" ID="{16C6E12A-B23B-4252-9AD0-204B2672EAC2}"/>
+						<ObjectRef Name="BUILDING NOISE LOOP" ID="{7D8AB4D8-886F-42E6-8588-0E70CFD9E89F}"/>
 						<ObjectRef Name="Forest ambience Track 2" ID="{9EFFEF3E-EFCD-4438-B642-C5C4A9FAAC04}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="BUILDING NOISE" ID="{E589AEA2-501C-4474-9071-65C1262AD08B}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 						<ObjectRef Name="wind loop" ID="{7C91BCF5-EFFF-4492-A550-DE4A503E2C1A}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="building noise" ID="{C2687A99-19E8-452C-8800-CCCF503422A7}"/>
+						<ObjectRef Name="BUILDING NOISE" ID="{269B9C1E-E3BE-4657-BFD1-9710A7A2C8F8}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 						<ObjectRef Name="building noise" ID="{984BD83A-7D1D-46E3-9FA0-110C68B3C1F2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 						<ObjectRef Name="Forest ambience Track 4" ID="{BD8C3FFB-1B26-4832-B966-EEDE3346FA3C}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="BUILDING NOISE LOOP" ID="{27774022-BA94-48A7-BFFB-F9706CAD87DB}"/>
+						<ObjectRef Name="building noise" ID="{E509006C-6FA7-48B4-A5C3-60EBAEC90FED}"/>
 						<ObjectRef Name="wind loop" ID="{421B8E24-6D52-4948-886D-3AA37A19F2FE}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 						<ObjectRef Name="building noise" ID="{8D5A8616-23F6-4A4F-AB87-A32EDE19B614}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="BUILDING NOISE" ID="{2053A125-027B-4AC5-BF44-E1A0BCAA3595}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 						<ObjectRef Name="building noise" ID="{3F7A607E-3C17-4B0A-ABBA-E6FC44F7127A}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 						<ObjectRef Name="Forest ambience Track 3" ID="{DEB1D3D3-1328-4B33-B83E-558EDD4C430F}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 						<ObjectRef Name="wind loop" ID="{813795D1-2D52-4B66-AE36-C9FEA9C5738E}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="building noise" ID="{0726670D-E432-4B6D-AC28-589CDA031933}"/>
 						<ObjectRef Name="wind loop" ID="{E2362062-2ABD-4C91-9A45-7A067A44B97A}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="building noise" ID="{BF3513D4-6E5D-4ED2-B92C-46FF05C2DE08}"/>
+						<ObjectRef Name="BUILDING NOISE" ID="{E164C914-C67D-4F68-9F99-1AE3289AE3DE}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+						<ObjectRef Name="BUILDING NOISE LOOP" ID="{E4BDA82C-15A3-4F83-9DCD-E66FAB998817}"/>
 					</ObjectExclusionList>
 					<GameSyncExclusionList/>
 				</SoundBank>
@@ -119,7 +132,16 @@
 						<ObjectRef Name="Main Forest Ambience" ID="{35E6B883-A48B-40C9-B4A5-822E6812707D}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Default Building" ID="{94238B85-FB09-4C27-B421-DE47EA75D52C}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
-					<ObjectExclusionList/>
+					<ObjectExclusionList>
+						<ObjectRef Name="building noise" ID="{6C10348F-8686-407F-9447-D40ECDAA9372}"/>
+						<ObjectRef Name="building noise" ID="{C2687A99-19E8-452C-8800-CCCF503422A7}"/>
+						<ObjectRef Name="building noise" ID="{984BD83A-7D1D-46E3-9FA0-110C68B3C1F2}"/>
+						<ObjectRef Name="building noise" ID="{E509006C-6FA7-48B4-A5C3-60EBAEC90FED}"/>
+						<ObjectRef Name="building noise" ID="{8D5A8616-23F6-4A4F-AB87-A32EDE19B614}"/>
+						<ObjectRef Name="building noise" ID="{3F7A607E-3C17-4B0A-ABBA-E6FC44F7127A}"/>
+						<ObjectRef Name="building noise" ID="{0726670D-E432-4B6D-AC28-589CDA031933}"/>
+						<ObjectRef Name="building noise" ID="{BF3513D4-6E5D-4ED2-B92C-46FF05C2DE08}"/>
+					</ObjectExclusionList>
 					<GameSyncExclusionList/>
 				</SoundBank>
 			</ChildrenList>
