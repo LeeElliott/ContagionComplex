@@ -24,15 +24,15 @@ MonoBehaviour:
     List: []
   AuxBusWwu:
   - Guid: '{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}'
-    m_lastTimePart2: -1999201485
-    m_lastTimePsrt1: -152785841
+    m_lastTimePart2: -1999189429
+    m_lastTimePsrt1: 457815841
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{D3A9E9A7-B300-484E-BDB1-838FFA860A82}'
-    m_lastTimePart2: -1999191028
-    m_lastTimePsrt1: -997318330
+    m_lastTimePart2: -1999189253
+    m_lastTimePsrt1: 1755697482
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -65,8 +65,8 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{6374D344-E35D-4D33-994F-103C8C9CA3D9}'
-    m_lastTimePart2: -1999191028
-    m_lastTimePsrt1: -997408335
+    m_lastTimePart2: -1999189253
+    m_lastTimePsrt1: 1084829111
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -166,6 +166,48 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: d54af474c1a17d4a87402e2f4590fc66
+      ID: 809872068
+      Name: Play_Bird_FX
+      Path: Default Work Unit\Dialogue\Play_Bird_FX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Bird_FX
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 85dd8ab17d5ec847b5c60531d32f9484
+      ID: 285585700
+      Name: Play_Button_1_Back
+      Path: Default Work Unit\Dialogue\Play_Button_1_Back
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Button_1_Back
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8aa5d02c15e0284f8e9a25dda4845cc8
+      ID: -1029512488
+      Name: Play_Button_1_Forward
+      Path: Default Work Unit\Dialogue\Play_Button_1_Forward
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Button_1_Forward
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 2fd19cff7d4d0e49a1659e08bd5abb95
       ID: -1787734205
       Name: Play_Button_Press_MM
@@ -176,6 +218,34 @@ MonoBehaviour:
       - ElementName: Mastermind
         ObjectType: 4
       - ElementName: Play_Button_Press_MM
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a2760f8b1dcfe9448981130eb68d40fe
+      ID: -90477089
+      Name: Play_Cotards_FX
+      Path: Default Work Unit\Dialogue\Play_Cotards_FX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Cotards_FX
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 1e78835b89c931409e8f7b7cb565dcfc
+      ID: 2006714128
+      Name: Play_Cow_FX
+      Path: Default Work Unit\Dialogue\Play_Cow_FX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Cow_FX
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -384,6 +454,20 @@ MonoBehaviour:
       - ElementName: Spot The Difference
         ObjectType: 4
       - ElementName: Stop_Timer
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: dc5cf541ff89fe4c939789c414d23f98
+      ID: 137136592
+      Name: Stop_Timer_MM
+      Path: Default Work Unit\Mastermind\Stop_Timer_MM
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mastermind
+        ObjectType: 4
+      - ElementName: Stop_Timer_MM
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0

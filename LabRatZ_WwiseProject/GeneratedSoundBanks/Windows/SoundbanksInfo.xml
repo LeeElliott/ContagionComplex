@@ -48,6 +48,7 @@
 				<Event Id="1904880498" Name="Play_Timer_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Timer_MM"/>
 				<Event Id="255665978" Name="Play_Traychange" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Traychange"/>
 				<Event Id="3090597779" Name="Stop_Timer" ObjectPath="\Events\Default Work Unit\Spot The Difference\Stop_Timer" MaxAttenuation="0.000000"/>
+				<Event Id="137136592" Name="Stop_Timer_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Stop_Timer_MM" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="5429521" Language="SFX">
@@ -120,7 +121,7 @@
 				</File>
 				<File Id="193758857" Language="SFX">
 					<ShortName>FX_Cow_3.wav</ShortName>
-					<Path>SFX\FX_Cow_3_794ADDFE.wem</Path>
+					<Path>SFX\FX_Cow_3_70C93BE9.wem</Path>
 				</File>
 				<File Id="199022208" Language="SFX">
 					<ShortName>FX_Construction_Sound.wav</ShortName>
@@ -144,7 +145,7 @@
 				</File>
 				<File Id="265220731" Language="SFX">
 					<ShortName>FX_Cotards_4.wav</ShortName>
-					<Path>SFX\FX_Cotards_4_FD9B1A3D.wem</Path>
+					<Path>SFX\FX_Cotards_4_103AD032.wem</Path>
 				</File>
 				<File Id="271913187" Language="SFX">
 					<ShortName>Perfect Success MM.wav</ShortName>
@@ -240,7 +241,7 @@
 				</File>
 				<File Id="529385860" Language="SFX">
 					<ShortName>FX_Cotards_5.wav</ShortName>
-					<Path>SFX\FX_Cotards_5_AB11EFB8.wem</Path>
+					<Path>SFX\FX_Cotards_5_88CCEBFF.wem</Path>
 				</File>
 				<File Id="536254652" Language="SFX">
 					<ShortName>Dialogue_Female_1_9.wav</ShortName>
@@ -288,7 +289,7 @@
 				</File>
 				<File Id="644437337" Language="SFX">
 					<ShortName>FX_Cotards_7.wav</ShortName>
-					<Path>SFX\FX_Cotards_7_A9449CDF.wem</Path>
+					<Path>SFX\FX_Cotards_7_ADEBB5AA.wem</Path>
 				</File>
 				<File Id="648501881" Language="SFX">
 					<ShortName>Dialogue_Male_1_2.wav</ShortName>
@@ -304,7 +305,7 @@
 				</File>
 				<File Id="678011618" Language="SFX">
 					<ShortName>FX_Cow_1.wav</ShortName>
-					<Path>SFX\FX_Cow_1_B0A0D957.wem</Path>
+					<Path>SFX\FX_Cow_1_BF806965.wem</Path>
 				</File>
 				<File Id="685287490" Language="SFX">
 					<ShortName>Dialogue_Male_1_9.wav</ShortName>
@@ -340,7 +341,7 @@
 				</File>
 				<File Id="771858672" Language="SFX">
 					<ShortName>FX_Cotards_10.wav</ShortName>
-					<Path>SFX\FX_Cotards_10_5B1AFE4F.wem</Path>
+					<Path>SFX\FX_Cotards_10_49679BB3.wem</Path>
 				</File>
 				<File Id="800580487" Language="SFX">
 					<ShortName>StarSuccess 1.wav</ShortName>

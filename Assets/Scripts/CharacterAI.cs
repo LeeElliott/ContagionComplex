@@ -448,7 +448,7 @@ public class CharacterAI : MonoBehaviour
 				case 3:
 				AkSoundEngine.PostEvent ("Play_Female_1", gameObject);
 				break;
-				case 4
+				case 4:
 				AkSoundEngine.PostEvent ("Play_Female_2", gameObject);
 				break;}
             }
@@ -600,7 +600,8 @@ public class CharacterAI : MonoBehaviour
         gameObject.name = characterName;
 
         behaviourState = BehaviourState.notHired;
-    }
+   		 }
+	}
 
     // ************ //
     // THIS NEEDS WORK

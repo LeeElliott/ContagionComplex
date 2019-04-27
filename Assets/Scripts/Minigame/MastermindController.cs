@@ -44,6 +44,8 @@ public class MastermindController : MonoBehaviour
     // The index of the anchor the current element is linked to
     int anchorIndex = 0;
 
+	float soundCallLimit = 0;
+
     // The number of elements that are either:
     // - Correct
     // - Correct color but incorrect position
@@ -99,7 +101,7 @@ public class MastermindController : MonoBehaviour
     public float starTime = 10.0f;
 
     public int starCount = 0;
-    int displayedStars = 0;
+   public int displayedStars = 0;
     float endTimer = 1.0f;
     float currentEndTime = 0.0f;
     enum PlayState { Playing, Stars};
@@ -108,6 +110,10 @@ public class MastermindController : MonoBehaviour
     // The amount that the timer GameObject scales down by each frame
     float timerScaleDelta;
 
+	// Variable to limit the number of times a sound can be called
+	public int soundCall = 0;
+	public float soundLimit = 12.0f;
+	public int banan = 0;
     /// <summary>
     /// Use this for initialization
     /// </summary>
@@ -162,6 +168,7 @@ public class MastermindController : MonoBehaviour
                 g.GetComponentInChildren<SpriteRenderer>().sprite = ledSprites[0];
             }
         }
+		AkSoundEngine.PostEvent ("Play_Timer_MM", gameObject);
     }
 
     /// <summary>
@@ -208,6 +215,8 @@ public class MastermindController : MonoBehaviour
         // Moves the index to the next anchor
         anchorIndex++;
 
+		// Button press sound call
+		AkSoundEngine.PostEvent ("Play_Button_Press_MM", gameObject);
 
         // TODO: Make the following if statement its own function
         // This function should be called when the player presses a submit button        
@@ -274,6 +283,7 @@ public class MastermindController : MonoBehaviour
             // If the player has guessed every element correctly
             if (correct == chainLength)
             {
+				AkSoundEngine.PostEvent ("Stop_Timer_MM", gameObject);
 
                 // Reset input and call the win condition
                 input = "";
@@ -310,7 +320,7 @@ public class MastermindController : MonoBehaviour
                 anchorIndex = 0;
                 ResetColors();
 
-                // TODO: Add incorrect choice sound
+				AkSoundEngine.PostEvent ("Play_Incorrect_MM", gameObject);
             }
         }
 
@@ -322,6 +332,7 @@ public class MastermindController : MonoBehaviour
     /// </summary>
     void Update()
     {
+		
         if (playState == PlayState.Playing)
         {
             timerScaleDelta = Time.deltaTime / timerLength;
@@ -348,19 +359,65 @@ public class MastermindController : MonoBehaviour
             currentEndTime += Time.deltaTime;
             
 
-            if(currentEndTime > endTimer && displayedStars < 3)
+			if(currentEndTime > endTimer && displayedStars < 3)
             {
-                currentEndTime = 0.0f;
-                starSprites[displayedStars].GetComponent<Image>().sprite = filledStar;
-                displayedStars++;
+				starSprites[displayedStars].SetActive(true);
+
+				// Calls set in reverse order so that there's not a spam of noise after the first star, then silence
+				//if (soundCall == 3 && (soundLimit > 0 && soundLimit < 3)) 
+				//{
+				//	
+				//	displayedStars++;
+				//	currentEndTime = 0.0f;
+				//}
+
+				if (soundCall == 2 && (soundLimit > 3 && soundLimit < 6))// && (soundLimit > 9.7f && soundLimit < 10.3f))
+				{
+					// Calls the Wwise sound engine to call the correct sound from the bank
+					AkSoundEngine.PostEvent ("Play_Achieved_Star_3_MM", gameObject);
+					soundCall++;
+					displayedStars++;
+				}
+
+
+				if (soundCall == 1 && (soundLimit > 6 && soundLimit < 9)) 
+				{
+					// Calls the Wwise sound engine to call the correct sound from the bank
+					AkSoundEngine.PostEvent ("Play_Achieved_Star_2_MM", gameObject);
+					soundCall++;
+					displayedStars++;
+				}
+
+
+				if (soundCall == 0 && (soundLimit > 9 && soundLimit < 12))
+				{
+					// Calls the Wwise sound engine to call the correct sound from the bank
+					AkSoundEngine.PostEvent ("Play_Achieved_Star_1_MM", gameObject);
+					soundCall++;
+					displayedStars++;
+				}
                 
             }
 
-            if (currentEndTime > endTimer && displayedStars >= starCount)
-            {
-                Win();
-            }
+            //if (currentEndTime > endTimer && displayedStars >= starCount)
+            //{
+            //    Win();
+            //}
+			soundLimit -= Time.deltaTime;
+			//if (displayedStars == 3 && soundCall == 3) 
+			//{
+			//	for (banan = 0; banan < 50; banan++) 
+			//	{
+			//		if (banan == 50) 
+			//		{
+			//			AkSoundEngine.PostEvent ("Play_Perfect_Success_MM", gameObject);
+			//			soundCall++;
+			//		}
+			//	}
+			//
+			//}
         }
+
     }
 
     /// <summary>

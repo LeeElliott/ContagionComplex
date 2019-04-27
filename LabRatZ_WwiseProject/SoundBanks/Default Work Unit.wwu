@@ -60,6 +60,7 @@
 						<ObjectRef Name="Incorrect_2" ID="{F7AF2047-1D99-4C4F-A318-383172CD7FEC}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Male 2" ID="{3D7AB569-AF03-4CBB-AA31-90D6D705EA42}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FX_Cotards_4" ID="{EC97F663-6F7C-4CED-95E8-7E34415BFAC0}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Timer_MM" ID="{41F55CDC-89FF-4CFE-9397-89C414D23F98}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Male 1" ID="{AA3A68AB-F02E-4D01-8116-0CE1339F111E}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FX_Cotards_7" ID="{69BAC9B3-8ACB-4D13-9311-93E8E6C12822}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Achieved_Star_3_MM" ID="{4EBDFCE8-EAFD-4D53-AA1F-ECD6FE9E1EA7}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>

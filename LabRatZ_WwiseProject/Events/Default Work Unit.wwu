@@ -262,6 +262,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_Timer_MM" ID="{41F55CDC-89FF-4CFE-9397-89C414D23F98}">
+							<ChildrenList>
+								<Action Name="" ID="{6FFD27AE-0FCD-4224-8DB7-36F548182F40}" ShortID="183744735">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Timer" ID="{26A15EB3-1620-4084-81B4-01ACF95617C7}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_Room_Construction" ID="{5890D761-D750-4275-A988-BD9E6A0E4244}">
