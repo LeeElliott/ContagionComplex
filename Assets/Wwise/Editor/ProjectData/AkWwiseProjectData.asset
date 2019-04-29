@@ -31,8 +31,8 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{D3A9E9A7-B300-484E-BDB1-838FFA860A82}'
-    m_lastTimePart2: -1999188802
-    m_lastTimePsrt1: 651710737
+    m_lastTimePart2: -1999188791
+    m_lastTimePsrt1: 409698878
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -65,8 +65,8 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{6374D344-E35D-4D33-994F-103C8C9CA3D9}'
-    m_lastTimePart2: -1999189238
-    m_lastTimePsrt1: 606397177
+    m_lastTimePart2: -1999188792
+    m_lastTimePsrt1: -1398804563
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -470,6 +470,9 @@ MonoBehaviour:
       minDuration: 0
   ExpandedItems:
   - /LabRatZ_WwiseProject
+  - /LabRatZ_WwiseProject/States
+  - /LabRatZ_WwiseProject/States/Default Work Unit
+  - /LabRatZ_WwiseProject/States/Default Work Unit/Ambience_switch
   RtpcWwu:
   - Guid: '{130B3285-951B-41BA-A58A-A484FE9D5B61}'
     m_lastTimePart2: -1999201485
@@ -479,8 +482,8 @@ MonoBehaviour:
     List: []
   StateWwu:
   - Guid: '{84E291A4-9C90-4615-AC50-3474CD080280}'
-    m_lastTimePart2: -1999196650
-    m_lastTimePsrt1: -192868091
+    m_lastTimePart2: -1999188792
+    m_lastTimePsrt1: -1398784562
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List:
@@ -494,6 +497,7 @@ MonoBehaviour:
       - ElementName: Ambience_switch
         ObjectType: 9
       ValueGuids:
+      - bytes: fa200cdd04f55a4b970ee292739787d8
       - bytes: 9ba8a50bab77184c954ff0db40ce40d9
       - bytes: c382fa881f1e574098bbf1f3ca3c9feb
       - bytes: cf4793aef94d91459a24e88e55015be9
@@ -503,6 +507,8 @@ MonoBehaviour:
       - bytes: 92e40b970b209d478393b2801d2b112a
       - bytes: c64bbacbfa34a247bbc197b48b7c0aa2
       ValueIcons:
+      - ElementName: Building_Outside
+        ObjectType: 8
       - ElementName: Default_Room
         ObjectType: 8
       - ElementName: Experimentation
@@ -519,8 +525,9 @@ MonoBehaviour:
         ObjectType: 8
       - ElementName: Rec
         ObjectType: 8
-      valueIDs: 0eef247da39ac777a6207768bae676bcdb3ba32c50dd7e8265a0211b95d2723a
+      valueIDs: c90ab8750eef247da39ac777a6207768bae676bcdb3ba32c50dd7e8265a0211b95d2723a
       values:
+      - Building_Outside
       - Default_Room
       - Experimentation
       - ID

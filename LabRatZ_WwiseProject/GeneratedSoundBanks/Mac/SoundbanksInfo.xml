@@ -498,22 +498,6 @@
 				</File>
 			</IncludedMemoryFiles>
 			<ExcludedMemoryFiles>
-				<File Id="8553173" Language="SFX">
-					<ShortName>Forest ambience Track 4.wav</ShortName>
-					<Path>SFX\Forest ambience Track 4_8956FC97.wem</Path>
-				</File>
-				<File Id="9889232" Language="SFX">
-					<ShortName>Forest ambience Track 3.wav</ShortName>
-					<Path>SFX\Forest ambience Track 3_8956FC97.wem</Path>
-				</File>
-				<File Id="532243596" Language="SFX">
-					<ShortName>Forest ambience Track 1.wav</ShortName>
-					<Path>SFX\Forest ambience Track 1_8956FC97.wem</Path>
-				</File>
-				<File Id="872071021" Language="SFX">
-					<ShortName>Forest ambience Track 2.wav</ShortName>
-					<Path>SFX\Forest ambience Track 2_8956FC97.wem</Path>
-				</File>
 				<File Id="889374317" Language="SFX">
 					<ShortName>wind loop.wav</ShortName>
 					<Path>SFX\wind loop_8956FC97.wem</Path>

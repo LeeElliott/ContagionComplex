@@ -129,10 +129,14 @@
 							<ObjectRef Name="Main Forest Ambience" ID="{35E6B883-A48B-40C9-B4A5-822E6812707D}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 							<Position X="3" Y="6"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Ambience Switch" ID="{7B71ABC5-46CC-43D7-A74E-93A482610BE1}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+							<Position X="3" Y="7"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Main" ID="{0122CC37-F0B1-4E9F-97A1-4AD2CEFDF9EC}"/>
+						<CurrentStateRef Name="Building_Outside" ID="{DD0C20FA-F504-4B5A-970E-E292739787D8}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
