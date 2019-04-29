@@ -31,8 +31,8 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{D3A9E9A7-B300-484E-BDB1-838FFA860A82}'
-    m_lastTimePart2: -1999189253
-    m_lastTimePsrt1: 1755697482
+    m_lastTimePart2: -1999188802
+    m_lastTimePsrt1: 651710737
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -65,8 +65,8 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{6374D344-E35D-4D33-994F-103C8C9CA3D9}'
-    m_lastTimePart2: -1999189253
-    m_lastTimePsrt1: 1084829111
+    m_lastTimePart2: -1999189238
+    m_lastTimePsrt1: 606397177
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -183,12 +183,10 @@ MonoBehaviour:
     - Guid: 85dd8ab17d5ec847b5c60531d32f9484
       ID: 285585700
       Name: Play_Button_1_Back
-      Path: Default Work Unit\Dialogue\Play_Button_1_Back
+      Path: Default Work Unit\Play_Button_1_Back
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 4
       - ElementName: Play_Button_1_Back
         ObjectType: 3
       maxAttenuation: 0
@@ -197,12 +195,10 @@ MonoBehaviour:
     - Guid: 8aa5d02c15e0284f8e9a25dda4845cc8
       ID: -1029512488
       Name: Play_Button_1_Forward
-      Path: Default Work Unit\Dialogue\Play_Button_1_Forward
+      Path: Default Work Unit\Play_Button_1_Forward
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Dialogue
-        ObjectType: 4
       - ElementName: Play_Button_1_Forward
         ObjectType: 3
       maxAttenuation: 0
