@@ -26,6 +26,18 @@
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Achieved Star 3" ID="{04367147-37A0-4F01-9B30-41703DE0B430}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Missed Click" ID="{C7BA971D-174C-4475-ACD6-EDC1B92861A2}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Production Room" ID="{0994145A-9F38-4433-BDF9-F5B0C1B85E35}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+							<Position X="0" Y="7"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Cotards FX" ID="{56BCD9F0-4232-4DA1-A328-D383FB23DFF4}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -44,6 +56,18 @@
 						<Module>
 							<ObjectRef Name="Success Click" ID="{6AFF20A4-0B00-458D-8A4C-895DDA8AC99B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
 							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Perfect Success" ID="{F8D95726-BC60-4F46-9886-7446A2771314}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+							<Position X="1" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+							<Position X="1" Y="7"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Bird FX" ID="{FAA55CFA-7BCB-4E6F-96D0-477B45425AD5}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
@@ -66,6 +90,18 @@
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Timer" ID="{81BFBA96-8A5F-4B09-882A-9719BFC28224}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ID Room" ID="{D32957D9-5A04-4DDC-AD64-94F01F7FF575}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+							<Position X="2" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Rec Room" ID="{D34D1510-4BD1-48D5-AC4F-8D27FBE63AC4}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+							<Position X="2" Y="7"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Female 1" ID="{E375285A-C661-42C3-B233-B00C32AD06CF}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -84,6 +120,14 @@
 						<Module>
 							<ObjectRef Name="Achieved Star 2" ID="{E2B3E64C-EC73-4E0F-B34F-A625AA7159C9}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
 							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Tray Change" ID="{03BF68BE-4BB1-4767-B7B8-C781D4226BFE}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Main Forest Ambience" ID="{35E6B883-A48B-40C9-B4A5-822E6812707D}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+							<Position X="3" Y="6"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

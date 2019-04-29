@@ -4,7 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	78959178	Play_Perfect_Success_MM			\Default Work Unit\Mastermind\Play_Perfect_Success_MM	
 	137136592	Stop_Timer_MM			\Default Work Unit\Mastermind\Stop_Timer_MM	
 	255665978	Play_Traychange			\Default Work Unit\Spot The Difference\Play_Traychange	
-	285585700	Play_Button_1_Back			\Default Work Unit\Dialogue\Play_Button_1_Back	
+	285585700	Play_Button_1_Back			\Default Work Unit\Play_Button_1_Back	
 	373779144	Play_Achieved_Star_2_MM			\Default Work Unit\Mastermind\Play_Achieved_Star_2_MM	
 	613200756	Play_Incorrect_MM			\Default Work Unit\Mastermind\Play_Incorrect_MM	
 	669756158	Play_Success_Click			\Default Work Unit\Spot The Difference\Play_Success_Click	
@@ -16,7 +16,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2651468245	Play_Male_1			\Default Work Unit\Dialogue\Play_Male_1	
 	2651468246	Play_Male_2			\Default Work Unit\Dialogue\Play_Male_2	
 	3090597779	Stop_Timer			\Default Work Unit\Spot The Difference\Stop_Timer	
-	3265454808	Play_Button_1_Forward			\Default Work Unit\Dialogue\Play_Button_1_Forward	
+	3265454808	Play_Button_1_Forward			\Default Work Unit\Play_Button_1_Forward	
 	3363805320	Play_Achieved_Star_1			\Default Work Unit\Spot The Difference\Play_Achieved_Star_1	
 	3363805322	Play_Achieved_Star_3			\Default Work Unit\Spot The Difference\Play_Achieved_Star_3	
 	3363805323	Play_Achieved_Star_2			\Default Work Unit\Spot The Difference\Play_Achieved_Star_2	

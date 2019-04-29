@@ -9,7 +9,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -36,7 +36,7 @@
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -75,6 +75,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Timer" ID="{26A15EB3-1620-4084-81B4-01ACF95617C7}" ShortID="369525328">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -97,7 +104,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -272,6 +279,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="Achieved Star 1" ID="{B164462B-86A3-4069-8689-1D4102A0DBF7}" ShortID="88006806">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -291,6 +305,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Achieved Star 2" ID="{27C87B13-4E9D-47BB-989C-E2898AC8F784}" ShortID="531747171">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -310,6 +331,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Achieved Star 3" ID="{FD074F3F-747F-48B5-8F2D-1548041AC6DC}" ShortID="1063636277">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -336,6 +364,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Incorrect_2" ID="{F7AF2047-1D99-4C4F-A318-383172CD7FEC}" ShortID="4568481">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -359,6 +394,13 @@
 				<Folder Name="Spot the Difference" ID="{234E2591-8D11-46ED-AFD3-2DF40F86CA0D}" ShortID="68004994">
 					<ChildrenList>
 						<RandomSequenceContainer Name="Success Click" ID="{6AFF20A4-0B00-458D-8A4C-895DDA8AC99B}" ShortID="180110645">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -465,7 +507,7 @@
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -504,6 +546,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Achieved Star 1" ID="{E0E09C8E-9182-40F2-B933-EBE22F8AAA4F}" ShortID="540220948">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -541,6 +590,11 @@
 										<Value>42</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -570,6 +624,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Achieved Star 2" ID="{E2B3E64C-EC73-4E0F-B34F-A625AA7159C9}" ShortID="535164136">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -596,6 +657,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Achieved Star 3" ID="{04367147-37A0-4F01-9B30-41703DE0B430}" ShortID="484677032">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -622,6 +690,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Timer" ID="{81BFBA96-8A5F-4B09-882A-9719BFC28224}" ShortID="733253465">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -641,6 +716,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Perfect Success" ID="{F8D95726-BC60-4F46-9886-7446A2771314}" ShortID="772195069">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -1646,7 +1728,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2162,7 +2244,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2434,6 +2516,13 @@
 				<Folder Name="Menu Buttons" ID="{9F6F5B15-64E3-4795-B46B-49C0845DD7C0}" ShortID="1017191009">
 					<ChildrenList>
 						<Sound Name="Button 1 Forward" ID="{FF6507A7-11FD-4801-829C-19F7B533C35B}" ShortID="53506220">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>
@@ -2453,6 +2542,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Button 1 Back" ID="{088D9581-1378-4B0E-AC53-FF658C1F639F}" ShortID="1028891617">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7504C4C-ECC0-4A81-9AB6-11C305F661FE}"/>

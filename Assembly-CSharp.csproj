@@ -259,9 +259,6 @@
      <None Include="Assets\StreamingAssets\desc.txt" />
      <None Include="Assets\Wwise\Deployment\Plugins\Mac\Profile\AkSoundEngine.bundle\Contents\Resources\readme.txt" />
      <None Include="Assets\Wwise\Deployment\Plugins\Mac\Debug\AkSoundEngine.bundle\Contents\Resources\readme.txt" />
- <Reference Include="Facebook.Unity.Settings">
- <HintPath>D:/GitHub/ContagionComplex/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity1f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

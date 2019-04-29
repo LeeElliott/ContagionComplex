@@ -472,25 +472,29 @@
 				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Play_Ambience"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="642911673" Language="SFX">
-					<ShortName>Experiment Room ambience 1 v2 w. fades.wav</ShortName>
-					<Path>SFX\Experiment Room ambience 1 v2 w. fades_8956FC97.wem</Path>
+				<File Id="78807215" Language="SFX">
+					<ShortName>Ambience_Production_Room.wav</ShortName>
+					<Path>SFX\Ambience_Production_Room_8956FC97.wem</Path>
 				</File>
-				<File Id="657947365" Language="SFX">
-					<ShortName>ID Room ambience 1.wav</ShortName>
-					<Path>SFX\ID Room ambience 1_8956FC97.wem</Path>
+				<File Id="431781311" Language="SFX">
+					<ShortName>Ambience_Experiment_Room.wav</ShortName>
+					<Path>SFX\Ambience_Experiment_Room_8956FC97.wem</Path>
 				</File>
-				<File Id="738384050" Language="SFX">
-					<ShortName>Conference Room Ambience 1.wav</ShortName>
-					<Path>SFX\Conference Room Ambience 1_8956FC97.wem</Path>
+				<File Id="474254969" Language="SFX">
+					<ShortName>Ambience_Rec_Room.wav</ShortName>
+					<Path>SFX\Ambience_Rec_Room_8956FC97.wem</Path>
+				</File>
+				<File Id="657127034" Language="SFX">
+					<ShortName>Rec Room Music.wav</ShortName>
+					<Path>SFX\Rec Room Music_8956FC97.wem</Path>
 				</File>
 				<File Id="774988701" Language="SFX">
 					<ShortName>Ambience_Quarantine_Room.wav</ShortName>
 					<Path>SFX\Ambience_Quarantine_Room_8956FC97.wem</Path>
 				</File>
-				<File Id="1033296678" Language="SFX">
-					<ShortName>Rec Room Ambience 1.wav</ShortName>
-					<Path>SFX\Rec Room Ambience 1_8956FC97.wem</Path>
+				<File Id="1042655849" Language="SFX">
+					<ShortName>Ambience_ID_Room.wav</ShortName>
+					<Path>SFX\Ambience_ID_Room_8956FC97.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<ExcludedMemoryFiles>
