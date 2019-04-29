@@ -9808,7 +9808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scientist: {fileID: 4363964851890700, guid: e6d8bbdf0d25524498a3d4dd2c291c2a, type: 2}
   escort: {fileID: 4834300364869012, guid: aba2f98ae05db474d87457bec14bc376, type: 2}
-  patient: {fileID: 4698549473657946, guid: ca99056ebd228654e933eafc89c694ee, type: 2}
+  patient: {fileID: 4296051505058602, guid: 07c060006152914498e23e6fc1784d25, type: 2}
   currencyText: {fileID: 1977845025}
   buildButton: {fileID: 217251052}
   buildPanel: {fileID: 147128841}
