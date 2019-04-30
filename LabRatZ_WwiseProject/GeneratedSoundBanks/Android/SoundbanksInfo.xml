@@ -27,7 +27,12 @@
 				<Event Id="373779144" Name="Play_Achieved_Star_2_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Achieved_Star_2_MM"/>
 				<Event Id="3363805322" Name="Play_Achieved_Star_3" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Achieved_Star_3"/>
 				<Event Id="3395104279" Name="Play_Achieved_Star_3_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Achieved_Star_3_MM"/>
+				<Event Id="809872068" Name="Play_Bird_FX" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Bird_FX"/>
+				<Event Id="285585700" Name="Play_Button_1_Back" ObjectPath="\Events\Default Work Unit\Play_Button_1_Back"/>
+				<Event Id="3265454808" Name="Play_Button_1_Forward" ObjectPath="\Events\Default Work Unit\Play_Button_1_Forward"/>
 				<Event Id="2507233091" Name="Play_Button_Press_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Button_Press_MM"/>
+				<Event Id="4204490207" Name="Play_Cotards_FX" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Cotards_FX"/>
+				<Event Id="2006714128" Name="Play_Cow_FX" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Cow_FX"/>
 				<Event Id="12037502" Name="Play_Female_1" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Female_1"/>
 				<Event Id="12037501" Name="Play_Female_2" ObjectPath="\Events\Default Work Unit\Dialogue\Play_Female_2"/>
 				<Event Id="3674045305" Name="Play_Incorrect_2_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Incorrect_2_MM"/>
@@ -43,6 +48,7 @@
 				<Event Id="1904880498" Name="Play_Timer_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Play_Timer_MM"/>
 				<Event Id="255665978" Name="Play_Traychange" ObjectPath="\Events\Default Work Unit\Spot The Difference\Play_Traychange"/>
 				<Event Id="3090597779" Name="Stop_Timer" ObjectPath="\Events\Default Work Unit\Spot The Difference\Stop_Timer" MaxAttenuation="0.000000"/>
+				<Event Id="137136592" Name="Stop_Timer_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Stop_Timer_MM" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="5429521" Language="SFX">
@@ -69,6 +75,10 @@
 					<ShortName>Dialogue_Female_1_10.wav</ShortName>
 					<Path>SFX\Dialogue_Female_1_10_56D34C19.wem</Path>
 				</File>
+				<File Id="35556489" Language="SFX">
+					<ShortName>FX_Cow_8.wav</ShortName>
+					<Path>SFX\FX_Cow_8_56D34C19.wem</Path>
+				</File>
 				<File Id="55635926" Language="SFX">
 					<ShortName>Dialogue_Female_2_3.wav</ShortName>
 					<Path>SFX\Dialogue_Female_2_3_56D34C19.wem</Path>
@@ -81,9 +91,21 @@
 					<ShortName>Button Press 7.wav</ShortName>
 					<Path>SFX\Button Press 7_56D34C19.wem</Path>
 				</File>
+				<File Id="74342357" Language="SFX">
+					<ShortName>FX_Bird_4.wav</ShortName>
+					<Path>SFX\FX_Bird_4_56D34C19.wem</Path>
+				</File>
+				<File Id="74778833" Language="SFX">
+					<ShortName>FX_Bird_5.wav</ShortName>
+					<Path>SFX\FX_Bird_5_56D34C19.wem</Path>
+				</File>
 				<File Id="89796349" Language="SFX">
 					<ShortName>Dialogue_Male_2_2.wav</ShortName>
 					<Path>SFX\Dialogue_Male_2_2_56D34C19.wem</Path>
+				</File>
+				<File Id="90109978" Language="SFX">
+					<ShortName>FX_Button_2_Forward.wav</ShortName>
+					<Path>SFX\FX_Button_2_Forward_56D34C19.wem</Path>
 				</File>
 				<File Id="130161318" Language="SFX">
 					<ShortName>Dialogue_Female_1_8.wav</ShortName>
@@ -96,6 +118,10 @@
 				<File Id="192169599" Language="SFX">
 					<ShortName>Dialogue_Female_2_8.wav</ShortName>
 					<Path>SFX\Dialogue_Female_2_8_56D34C19.wem</Path>
+				</File>
+				<File Id="193758857" Language="SFX">
+					<ShortName>FX_Cow_3.wav</ShortName>
+					<Path>SFX\FX_Cow_3_70C93BE9.wem</Path>
 				</File>
 				<File Id="199022208" Language="SFX">
 					<ShortName>FX_Construction_Sound.wav</ShortName>
@@ -116,6 +142,10 @@
 				<File Id="261932911" Language="SFX">
 					<ShortName>Dialogue_Female_2_9.wav</ShortName>
 					<Path>SFX\Dialogue_Female_2_9_56D34C19.wem</Path>
+				</File>
+				<File Id="265220731" Language="SFX">
+					<ShortName>FX_Cotards_4.wav</ShortName>
+					<Path>SFX\FX_Cotards_4_103AD032.wem</Path>
 				</File>
 				<File Id="271913187" Language="SFX">
 					<ShortName>Perfect Success MM.wav</ShortName>
@@ -145,6 +175,14 @@
 					<ShortName>Dialogue_Female_1_3.wav</ShortName>
 					<Path>SFX\Dialogue_Female_1_3_56D34C19.wem</Path>
 				</File>
+				<File Id="345505368" Language="SFX">
+					<ShortName>FX_Bird_7.wav</ShortName>
+					<Path>SFX\FX_Bird_7_56D34C19.wem</Path>
+				</File>
+				<File Id="360470599" Language="SFX">
+					<ShortName>FX_Bird_1.wav</ShortName>
+					<Path>SFX\FX_Bird_1_56D34C19.wem</Path>
+				</File>
 				<File Id="362890154" Language="SFX">
 					<ShortName>Traychange.wav</ShortName>
 					<Path>SFX\Traychange_C3AF77B1.wem</Path>
@@ -161,9 +199,21 @@
 					<ShortName>Dialogue_Male_2_10.wav</ShortName>
 					<Path>SFX\Dialogue_Male_2_10_56D34C19.wem</Path>
 				</File>
+				<File Id="397183690" Language="SFX">
+					<ShortName>FX_Cow_5.wav</ShortName>
+					<Path>SFX\FX_Cow_5_56D34C19.wem</Path>
+				</File>
+				<File Id="407653181" Language="SFX">
+					<ShortName>FX_Button_2_Back.wav</ShortName>
+					<Path>SFX\FX_Button_2_Back_56D34C19.wem</Path>
+				</File>
 				<File Id="415246859" Language="SFX">
 					<ShortName>Dialogue_Male_1_3.wav</ShortName>
 					<Path>SFX\Dialogue_Male_1_3_56D34C19.wem</Path>
+				</File>
+				<File Id="417441249" Language="SFX">
+					<ShortName>FX_Bird_8.wav</ShortName>
+					<Path>SFX\FX_Bird_8_56D34C19.wem</Path>
 				</File>
 				<File Id="424571915" Language="SFX">
 					<ShortName>Dialogue_Female_1_4.wav</ShortName>
@@ -177,6 +227,10 @@
 					<ShortName>Dialogue_Female_2_7.wav</ShortName>
 					<Path>SFX\Dialogue_Female_2_7_56D34C19.wem</Path>
 				</File>
+				<File Id="506085032" Language="SFX">
+					<ShortName>FX_Cow_10.wav</ShortName>
+					<Path>SFX\FX_Cow_10_56D34C19.wem</Path>
+				</File>
 				<File Id="516205076" Language="SFX">
 					<ShortName>Dialogue_Female_1_7.wav</ShortName>
 					<Path>SFX\Dialogue_Female_1_7_56D34C19.wem</Path>
@@ -184,6 +238,10 @@
 				<File Id="524403102" Language="SFX">
 					<ShortName>Dialogue_Male_2_9.wav</ShortName>
 					<Path>SFX\Dialogue_Male_2_9_56D34C19.wem</Path>
+				</File>
+				<File Id="529385860" Language="SFX">
+					<ShortName>FX_Cotards_5.wav</ShortName>
+					<Path>SFX\FX_Cotards_5_88CCEBFF.wem</Path>
 				</File>
 				<File Id="536254652" Language="SFX">
 					<ShortName>Dialogue_Female_1_9.wav</ShortName>
@@ -196,6 +254,10 @@
 				<File Id="548555864" Language="SFX">
 					<ShortName>Button Press 2.wav</ShortName>
 					<Path>SFX\Button Press 2_56D34C19.wem</Path>
+				</File>
+				<File Id="564887498" Language="SFX">
+					<ShortName>FX_Bird_6.wav</ShortName>
+					<Path>SFX\FX_Bird_6_56D34C19.wem</Path>
 				</File>
 				<File Id="567009057" Language="SFX">
 					<ShortName>StarSuccessPerfect.wav</ShortName>
@@ -225,17 +287,41 @@
 					<ShortName>Dialogue_Female_2_2.wav</ShortName>
 					<Path>SFX\Dialogue_Female_2_2_56D34C19.wem</Path>
 				</File>
+				<File Id="644437337" Language="SFX">
+					<ShortName>FX_Cotards_7.wav</ShortName>
+					<Path>SFX\FX_Cotards_7_ADEBB5AA.wem</Path>
+				</File>
 				<File Id="648501881" Language="SFX">
 					<ShortName>Dialogue_Male_1_2.wav</ShortName>
 					<Path>SFX\Dialogue_Male_1_2_56D34C19.wem</Path>
+				</File>
+				<File Id="652406963" Language="SFX">
+					<ShortName>FX_Cow_6.wav</ShortName>
+					<Path>SFX\FX_Cow_6_56D34C19.wem</Path>
 				</File>
 				<File Id="667258180" Language="SFX">
 					<ShortName>Dialogue_Male_2_5.wav</ShortName>
 					<Path>SFX\Dialogue_Male_2_5_56D34C19.wem</Path>
 				</File>
+				<File Id="678011618" Language="SFX">
+					<ShortName>FX_Cow_1.wav</ShortName>
+					<Path>SFX\FX_Cow_1_BF806965.wem</Path>
+				</File>
 				<File Id="685287490" Language="SFX">
 					<ShortName>Dialogue_Male_1_9.wav</ShortName>
 					<Path>SFX\Dialogue_Male_1_9_56D34C19.wem</Path>
+				</File>
+				<File Id="702530369" Language="SFX">
+					<ShortName>FX_Bird_3.wav</ShortName>
+					<Path>SFX\FX_Bird_3_56D34C19.wem</Path>
+				</File>
+				<File Id="711769030" Language="SFX">
+					<ShortName>FX_Cow_2.wav</ShortName>
+					<Path>SFX\FX_Cow_2_56D34C19.wem</Path>
+				</File>
+				<File Id="715958147" Language="SFX">
+					<ShortName>FX_Cow_4.wav</ShortName>
+					<Path>SFX\FX_Cow_4_56D34C19.wem</Path>
 				</File>
 				<File Id="720601307" Language="SFX">
 					<ShortName>Button Press 4.wav</ShortName>
@@ -252,6 +338,10 @@
 				<File Id="768711642" Language="SFX">
 					<ShortName>Dialogue_Male_1_1.wav</ShortName>
 					<Path>SFX\Dialogue_Male_1_1_56D34C19.wem</Path>
+				</File>
+				<File Id="771858672" Language="SFX">
+					<ShortName>FX_Cotards_10.wav</ShortName>
+					<Path>SFX\FX_Cotards_10_49679BB3.wem</Path>
 				</File>
 				<File Id="800580487" Language="SFX">
 					<ShortName>StarSuccess 1.wav</ShortName>
@@ -285,6 +375,14 @@
 					<ShortName>Fail 4.wav</ShortName>
 					<Path>SFX\Fail 4_56D34C19.wem</Path>
 				</File>
+				<File Id="894311608" Language="SFX">
+					<ShortName>FX_Cotards_6.wav</ShortName>
+					<Path>SFX\FX_Cotards_6_56D34C19.wem</Path>
+				</File>
+				<File Id="903509095" Language="SFX">
+					<ShortName>FX_Cotards_3.wav</ShortName>
+					<Path>SFX\FX_Cotards_3_56D34C19.wem</Path>
+				</File>
 				<File Id="916517450" Language="SFX">
 					<ShortName>Dialogue_Female_1_1.wav</ShortName>
 					<Path>SFX\Dialogue_Female_1_1_56D34C19.wem</Path>
@@ -292,6 +390,18 @@
 				<File Id="929703608" Language="SFX">
 					<ShortName>Dialogue_Male_2_1.wav</ShortName>
 					<Path>SFX\Dialogue_Male_2_1_56D34C19.wem</Path>
+				</File>
+				<File Id="931104764" Language="SFX">
+					<ShortName>FX_Bird_2.wav</ShortName>
+					<Path>SFX\FX_Bird_2_56D34C19.wem</Path>
+				</File>
+				<File Id="981752556" Language="SFX">
+					<ShortName>FX_Cow_9.wav</ShortName>
+					<Path>SFX\FX_Cow_9_56D34C19.wem</Path>
+				</File>
+				<File Id="985732511" Language="SFX">
+					<ShortName>FX_Cotards_2.wav</ShortName>
+					<Path>SFX\FX_Cotards_2_56D34C19.wem</Path>
 				</File>
 				<File Id="994789480" Language="SFX">
 					<ShortName>Button Press 8.wav</ShortName>
@@ -309,6 +419,18 @@
 					<ShortName>Dialogue_Male_1_10.wav</ShortName>
 					<Path>SFX\Dialogue_Male_1_10_56D34C19.wem</Path>
 				</File>
+				<File Id="1036984035" Language="SFX">
+					<ShortName>FX_Cow_7.wav</ShortName>
+					<Path>SFX\FX_Cow_7_56D34C19.wem</Path>
+				</File>
+				<File Id="1058545081" Language="SFX">
+					<ShortName>FX_Cotards_1.wav</ShortName>
+					<Path>SFX\FX_Cotards_1_56D34C19.wem</Path>
+				</File>
+				<File Id="1070513912" Language="SFX">
+					<ShortName>FX_Cotards_9.wav</ShortName>
+					<Path>SFX\FX_Cotards_9_56D34C19.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="3921499158" Language="SFX">
@@ -324,10 +446,6 @@
 					<ShortName>Forest ambience Track 3.wav</ShortName>
 					<Path>SFX\Forest ambience Track 3_8956FC97.wem</Path>
 				</File>
-				<File Id="509907097" Language="SFX">
-					<ShortName>building noise.wav</ShortName>
-					<Path>SFX\building noise_8956FC97.wem</Path>
-				</File>
 				<File Id="532243596" Language="SFX">
 					<ShortName>Forest ambience Track 1.wav</ShortName>
 					<Path>SFX\Forest ambience Track 1_8956FC97.wem</Path>
@@ -339,6 +457,10 @@
 				<File Id="889374317" Language="SFX">
 					<ShortName>wind loop.wav</ShortName>
 					<Path>SFX\wind loop_8956FC97.wem</Path>
+				</File>
+				<File Id="1055823013" Language="SFX">
+					<ShortName>BUILDING NOISE.wav</ShortName>
+					<Path>SFX\BUILDING NOISE_8956FC97.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -350,51 +472,39 @@
 				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Play_Ambience"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="642911673" Language="SFX">
-					<ShortName>Experiment Room ambience 1 v2 w. fades.wav</ShortName>
-					<Path>SFX\Experiment Room ambience 1 v2 w. fades_8956FC97.wem</Path>
+				<File Id="78807215" Language="SFX">
+					<ShortName>Ambience_Production_Room.wav</ShortName>
+					<Path>SFX\Ambience_Production_Room_8956FC97.wem</Path>
 				</File>
-				<File Id="657947365" Language="SFX">
-					<ShortName>ID Room ambience 1.wav</ShortName>
-					<Path>SFX\ID Room ambience 1_8956FC97.wem</Path>
+				<File Id="431781311" Language="SFX">
+					<ShortName>Ambience_Experiment_Room.wav</ShortName>
+					<Path>SFX\Ambience_Experiment_Room_8956FC97.wem</Path>
 				</File>
-				<File Id="738384050" Language="SFX">
-					<ShortName>Conference Room Ambience 1.wav</ShortName>
-					<Path>SFX\Conference Room Ambience 1_8956FC97.wem</Path>
+				<File Id="474254969" Language="SFX">
+					<ShortName>Ambience_Rec_Room.wav</ShortName>
+					<Path>SFX\Ambience_Rec_Room_8956FC97.wem</Path>
+				</File>
+				<File Id="657127034" Language="SFX">
+					<ShortName>Rec Room Music.wav</ShortName>
+					<Path>SFX\Rec Room Music_8956FC97.wem</Path>
 				</File>
 				<File Id="774988701" Language="SFX">
 					<ShortName>Ambience_Quarantine_Room.wav</ShortName>
 					<Path>SFX\Ambience_Quarantine_Room_8956FC97.wem</Path>
 				</File>
-				<File Id="1033296678" Language="SFX">
-					<ShortName>Rec Room Ambience 1.wav</ShortName>
-					<Path>SFX\Rec Room Ambience 1_8956FC97.wem</Path>
+				<File Id="1042655849" Language="SFX">
+					<ShortName>Ambience_ID_Room.wav</ShortName>
+					<Path>SFX\Ambience_ID_Room_8956FC97.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<ExcludedMemoryFiles>
-				<File Id="8553173" Language="SFX">
-					<ShortName>Forest ambience Track 4.wav</ShortName>
-					<Path>SFX\Forest ambience Track 4_8956FC97.wem</Path>
-				</File>
-				<File Id="9889232" Language="SFX">
-					<ShortName>Forest ambience Track 3.wav</ShortName>
-					<Path>SFX\Forest ambience Track 3_8956FC97.wem</Path>
-				</File>
-				<File Id="509907097" Language="SFX">
-					<ShortName>building noise.wav</ShortName>
-					<Path>SFX\building noise_8956FC97.wem</Path>
-				</File>
-				<File Id="532243596" Language="SFX">
-					<ShortName>Forest ambience Track 1.wav</ShortName>
-					<Path>SFX\Forest ambience Track 1_8956FC97.wem</Path>
-				</File>
-				<File Id="872071021" Language="SFX">
-					<ShortName>Forest ambience Track 2.wav</ShortName>
-					<Path>SFX\Forest ambience Track 2_8956FC97.wem</Path>
-				</File>
 				<File Id="889374317" Language="SFX">
 					<ShortName>wind loop.wav</ShortName>
 					<Path>SFX\wind loop_8956FC97.wem</Path>
+				</File>
+				<File Id="1055823013" Language="SFX">
+					<ShortName>BUILDING NOISE.wav</ShortName>
+					<Path>SFX\BUILDING NOISE_8956FC97.wem</Path>
 				</File>
 			</ExcludedMemoryFiles>
 		</SoundBank>

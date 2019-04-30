@@ -18,21 +18,21 @@ MonoBehaviour:
   AcousticTextureWwu:
   - Guid: '{009F92A6-69ED-4E4E-84CE-20657C011C29}'
     m_lastTimePart2: -1999201485
-    m_lastTimePsrt1: -131924648
+    m_lastTimePsrt1: -120108544
     ParentPhysicalPath: 
     PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     List: []
   AuxBusWwu:
   - Guid: '{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}'
-    m_lastTimePart2: -1999201485
-    m_lastTimePsrt1: -152785841
+    m_lastTimePart2: -1999188620
+    m_lastTimePsrt1: 1460595712
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{D3A9E9A7-B300-484E-BDB1-838FFA860A82}'
-    m_lastTimePart2: -1999196650
-    m_lastTimePsrt1: -192848090
+    m_lastTimePart2: -1999188791
+    m_lastTimePsrt1: 420003328
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -65,8 +65,8 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{6374D344-E35D-4D33-994F-103C8C9CA3D9}'
-    m_lastTimePart2: -1999196654
-    m_lastTimePsrt1: 1933301709
+    m_lastTimePart2: -1999188792
+    m_lastTimePsrt1: -1379996672
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -166,6 +166,44 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: d54af474c1a17d4a87402e2f4590fc66
+      ID: 809872068
+      Name: Play_Bird_FX
+      Path: Default Work Unit\Dialogue\Play_Bird_FX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Bird_FX
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 85dd8ab17d5ec847b5c60531d32f9484
+      ID: 285585700
+      Name: Play_Button_1_Back
+      Path: Default Work Unit\Play_Button_1_Back
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Button_1_Back
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8aa5d02c15e0284f8e9a25dda4845cc8
+      ID: -1029512488
+      Name: Play_Button_1_Forward
+      Path: Default Work Unit\Play_Button_1_Forward
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Button_1_Forward
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 2fd19cff7d4d0e49a1659e08bd5abb95
       ID: -1787734205
       Name: Play_Button_Press_MM
@@ -180,6 +218,76 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: a2760f8b1dcfe9448981130eb68d40fe
+      ID: -90477089
+      Name: Play_Cotards_FX
+      Path: Default Work Unit\Dialogue\Play_Cotards_FX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Cotards_FX
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 1e78835b89c931409e8f7b7cb565dcfc
+      ID: 2006714128
+      Name: Play_Cow_FX
+      Path: Default Work Unit\Dialogue\Play_Cow_FX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Cow_FX
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8906e998c168764787499412821dc62b
+      ID: 12037502
+      Name: Play_Female_1
+      Path: Default Work Unit\Dialogue\Play_Female_1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Female_1
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 9392fbf98e28684e9809805421754dd0
+      ID: 12037501
+      Name: Play_Female_2
+      Path: Default Work Unit\Dialogue\Play_Female_2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Female_2
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d3986fc6184be842a4e1d728b2f115cf
+      ID: -620921991
+      Name: Play_Incorrect_2_MM
+      Path: Default Work Unit\Mastermind\Play_Incorrect_2_MM
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mastermind
+        ObjectType: 4
+      - ElementName: Play_Incorrect_2_MM
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 48b95ed1d226024c91c5522916f9f685
       ID: 613200756
       Name: Play_Incorrect_MM
@@ -190,6 +298,34 @@ MonoBehaviour:
       - ElementName: Mastermind
         ObjectType: 4
       - ElementName: Play_Incorrect_MM
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d03c3a4f4aaeae4f91bff925976a086a
+      ID: -1643499051
+      Name: Play_Male_1
+      Path: Default Work Unit\Dialogue\Play_Male_1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Male_1
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a1334ae8d6dcbd46a0caf068f2baf644
+      ID: -1643499050
+      Name: Play_Male_2
+      Path: Default Work Unit\Dialogue\Play_Male_2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Play_Male_2
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -232,6 +368,18 @@ MonoBehaviour:
       - ElementName: Mastermind
         ObjectType: 4
       - ElementName: Play_Perfect_Success_MM
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 61d7905850d77542a988bd9e6a0e4244
+      ID: 1525146681
+      Name: Play_Room_Construction
+      Path: Default Work Unit\Play_Room_Construction
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Room_Construction
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -306,19 +454,33 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: dc5cf541ff89fe4c939789c414d23f98
+      ID: 137136592
+      Name: Stop_Timer_MM
+      Path: Default Work Unit\Mastermind\Stop_Timer_MM
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mastermind
+        ObjectType: 4
+      - ElementName: Stop_Timer_MM
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   ExpandedItems:
   - /LabRatZ_WwiseProject
   RtpcWwu:
   - Guid: '{130B3285-951B-41BA-A58A-A484FE9D5B61}'
     m_lastTimePart2: -1999201485
-    m_lastTimePsrt1: -207298959
+    m_lastTimePsrt1: -200108544
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   StateWwu:
   - Guid: '{84E291A4-9C90-4615-AC50-3474CD080280}'
-    m_lastTimePart2: -1999196650
-    m_lastTimePsrt1: -192868091
+    m_lastTimePart2: -1999188792
+    m_lastTimePsrt1: -1379996672
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List:
@@ -332,6 +494,7 @@ MonoBehaviour:
       - ElementName: Ambience_switch
         ObjectType: 9
       ValueGuids:
+      - bytes: fa200cdd04f55a4b970ee292739787d8
       - bytes: 9ba8a50bab77184c954ff0db40ce40d9
       - bytes: c382fa881f1e574098bbf1f3ca3c9feb
       - bytes: cf4793aef94d91459a24e88e55015be9
@@ -341,6 +504,8 @@ MonoBehaviour:
       - bytes: 92e40b970b209d478393b2801d2b112a
       - bytes: c64bbacbfa34a247bbc197b48b7c0aa2
       ValueIcons:
+      - ElementName: Building_Outside
+        ObjectType: 8
       - ElementName: Default_Room
         ObjectType: 8
       - ElementName: Experimentation
@@ -357,8 +522,9 @@ MonoBehaviour:
         ObjectType: 8
       - ElementName: Rec
         ObjectType: 8
-      valueIDs: 0eef247da39ac777a6207768bae676bcdb3ba32c50dd7e8265a0211b95d2723a
+      valueIDs: c90ab8750eef247da39ac777a6207768bae676bcdb3ba32c50dd7e8265a0211b95d2723a
       values:
+      - Building_Outside
       - Default_Room
       - Experimentation
       - ID
@@ -370,14 +536,14 @@ MonoBehaviour:
   SwitchWwu:
   - Guid: '{56857A99-5C06-45E7-B6A5-AC03B60EABB5}'
     m_lastTimePart2: -1999201485
-    m_lastTimePsrt1: -131924648
+    m_lastTimePsrt1: -120108544
     ParentPhysicalPath: 
     PhysicalPath: Switches\Default Work Unit.wwu
     List: []
   TriggerWwu:
   - Guid: '{ECDC4411-0B64-4485-94B2-53692E5A3B5B}'
     m_lastTimePart2: -1999201485
-    m_lastTimePsrt1: -131924648
+    m_lastTimePsrt1: -120108544
     ParentPhysicalPath: 
     PhysicalPath: Triggers\Default Work Unit.wwu
     List: []
