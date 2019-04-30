@@ -21,9 +21,9 @@ public class PatientScript : MonoBehaviour
     void Update ()
     {
         // Reset scientist rotation to be upright
-        var angles = transform.rotation.eulerAngles;
-        angles.x = -90.0f;
-        transform.rotation = Quaternion.Euler(angles);
+       //var angles = transform.rotation.eulerAngles;
+       //angles.x = -90.0f;
+       //transform.rotation = Quaternion.Euler(angles);
     }
 
     // Set the initial target destination

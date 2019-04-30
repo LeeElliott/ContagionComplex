@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 01ed78cd20d4bfe4db2a698423313202
+timeCreated: 1556568455
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: PipeOut_001
+    100002: PipeOut_002
+    100004: PipeOut_003
+    100006: //RootNode
+    100008: Rope_001
+    100010: Rope_002
+    100012: Rope_003
+    100014: Rope_004
+    100016: Rope_005
+    100018: Rope_006
+    100020: Rope_007
+    100022: Rope_008
+    100024: Rope_009
+    100026: Tent_001
+    100028: TentSupport_001
+    100030: TentSupport_002
+    100032: VentUnit_002
+    400000: PipeOut_001
+    400002: PipeOut_002
+    400004: PipeOut_003
+    400006: //RootNode
+    400008: Rope_001
+    400010: Rope_002
+    400012: Rope_003
+    400014: Rope_004
+    400016: Rope_005
+    400018: Rope_006
+    400020: Rope_007
+    400022: Rope_008
+    400024: Rope_009
+    400026: Tent_001
+    400028: TentSupport_001
+    400030: TentSupport_002
+    400032: VentUnit_002
+    2300000: PipeOut_001
+    2300002: PipeOut_002
+    2300004: PipeOut_003
+    2300006: Rope_001
+    2300008: Rope_002
+    2300010: Rope_003
+    2300012: Rope_004
+    2300014: Rope_005
+    2300016: Rope_006
+    2300018: Rope_007
+    2300020: Rope_008
+    2300022: Rope_009
+    2300024: Tent_001
+    2300026: TentSupport_001
+    2300028: TentSupport_002
+    2300030: VentUnit_002
+    3300000: PipeOut_001
+    3300002: PipeOut_002
+    3300004: PipeOut_003
+    3300006: Rope_001
+    3300008: Rope_002
+    3300010: Rope_003
+    3300012: Rope_004
+    3300014: Rope_005
+    3300016: Rope_006
+    3300018: Rope_007
+    3300020: Rope_008
+    3300022: Rope_009
+    3300024: Tent_001
+    3300026: TentSupport_001
+    3300028: TentSupport_002
+    3300030: VentUnit_002
+    4300000: Tent_001
+    4300002: PipeOut_002
+    4300004: PipeOut_003
+    4300006: VentUnit_002
+    4300008: PipeOut_001
+    4300010: Rope_001
+    4300012: Rope_002
+    4300014: Rope_003
+    4300016: Rope_004
+    4300018: Rope_005
+    4300020: Rope_006
+    4300022: Rope_007
+    4300024: Rope_008
+    4300026: Rope_009
+    4300028: TentSupport_001
+    4300030: TentSupport_002
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
