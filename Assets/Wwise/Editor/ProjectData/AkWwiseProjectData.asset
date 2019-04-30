@@ -24,8 +24,8 @@ MonoBehaviour:
     List: []
   AuxBusWwu:
   - Guid: '{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}'
-    m_lastTimePart2: -1999189429
-    m_lastTimePsrt1: 457815841
+    m_lastTimePart2: -1999188620
+    m_lastTimePsrt1: 1446069792
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
