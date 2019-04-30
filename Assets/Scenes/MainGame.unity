@@ -86,7 +86,7 @@ LightmapSettings:
     m_PVRFilteringAtrousColorSigma: 1
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
-  m_LightingDataAsset: {fileID: 112000298, guid: 596000d91ccd44b42a51debb01d3a931,
+  m_LightingDataAsset: {fileID: 112000314, guid: 596000d91ccd44b42a51debb01d3a931,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -942,6 +942,10 @@ Prefab:
     - target: {fileID: 100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
       propertyPath: m_Name
       value: ProductionFloor
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
@@ -3551,6 +3555,10 @@ Prefab:
       propertyPath: m_Name
       value: IdentificationWalls
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
   m_IsPrefabParent: 0
@@ -5812,6 +5820,10 @@ Prefab:
       propertyPath: m_Name
       value: ProductionWalls
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
   m_IsPrefabParent: 0
@@ -7135,6 +7147,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 726467efa133c3448a47328f948ebf80, type: 2}
+    - target: {fileID: 100000, guid: f0bc196960393d74c808561c71b42b87, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f0bc196960393d74c808561c71b42b87, type: 3}
   m_IsPrefabParent: 0
@@ -10695,6 +10711,10 @@ Prefab:
       propertyPath: m_Name
       value: RecreationFloor
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
   m_IsPrefabParent: 0
@@ -11809,6 +11829,10 @@ Prefab:
     - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
       propertyPath: m_Name
       value: RecreationWalls
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
@@ -14553,6 +14577,10 @@ Prefab:
       propertyPath: m_Name
       value: IdentificationFloor
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
   m_IsPrefabParent: 0
@@ -14761,6 +14789,10 @@ Prefab:
     - target: {fileID: 100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
       propertyPath: m_Name
       value: IdentificationFloor
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d3da8c2d4fc1a9742bb81d5df13c8aa3, type: 3}
