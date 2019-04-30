@@ -10381,7 +10381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b38ad3e4a9d1d48bf344129d908e93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scientist: {fileID: 4363964851890700, guid: e6d8bbdf0d25524498a3d4dd2c291c2a, type: 2}
+  scientist: {fileID: 4817873319827596, guid: fc8340cf331e8024fa67faef287494e5, type: 2}
   escort: {fileID: 4834300364869012, guid: aba2f98ae05db474d87457bec14bc376, type: 2}
   patient: {fileID: 4296051505058602, guid: 07c060006152914498e23e6fc1784d25, type: 2}
   currencyText: {fileID: 1977845025}

@@ -78,9 +78,9 @@ public class CharacterAI : MonoBehaviour
     void Start()
     {
         // Initialise speech text
-        speechText.text = " ";
-        speechText.color = Color.black;
-        speechCanvas.enabled = false;
+       //speechText.text = " ";
+       //speechText.color = Color.black;
+       //speechCanvas.enabled = false;
 
         controller = GameObject.Find("Controller");
 
@@ -122,32 +122,28 @@ public class CharacterAI : MonoBehaviour
                 break;
         }
 
-        // Reset scientist rotation to be upright
-        var angles = transform.rotation.eulerAngles;
-        angles.x = -90.0f;
-        transform.rotation = Quaternion.Euler(angles);
-
+ 
         // reverse any rotation applied by parent object
-        speechCanvas.transform.rotation = Quaternion.Euler(gameObject.transform.rotation.x * -1.0f,
-            gameObject.transform.rotation.y * -1.0f, gameObject.transform.rotation.z * -1.0f);
+       // speechCanvas.transform.rotation = Quaternion.Euler(gameObject.transform.rotation.x * -1.0f,
+       //     gameObject.transform.rotation.y * -1.0f, gameObject.transform.rotation.z * -1.0f);
     }
 
     private void IdleUpdate()
     {
         // Run speech function if char is visible
-        // Else ensures bubble and twxt are hidden
-        if (mainCamera.activeSelf)
-        {
-            if (GetComponentInChildren<Renderer>().IsVisibleFrom(mainCamera.GetComponent<Camera>()))
-            {
-                Chatter();
-            }
-            else
-            {
-                speechCanvas.enabled = false;
-                speechText.enabled = false;
-            }
-        }
+       //// Else ensures bubble and twxt are hidden
+       //if (mainCamera.activeSelf)
+       //{
+       //    if (GetComponentInChildren<Renderer>().IsVisibleFrom(mainCamera.GetComponent<Camera>()))
+       //    {
+       //        //Chatter();
+       //    }
+       //    else
+       //    {
+       //        speechCanvas.enabled = false;
+       //        speechText.enabled = false;
+       //    }
+       //}
         // Move around building
         
     }
@@ -174,18 +170,18 @@ public class CharacterAI : MonoBehaviour
     {
         // Run speech function if char is visible
         // Else ensures bubble and twxt are hidden
-        if (mainCamera.activeSelf)
-        {
-            if (GetComponent<Renderer>().IsVisibleFrom(mainCamera.GetComponent<Camera>()))
-            {
-                Chatter();
-            }
-            else
-            {
-                speechCanvas.enabled = false;
-                speechText.enabled = false;
-            }
-        }
+       // if (mainCamera.activeSelf)
+       // {
+       //     if (GetComponent<Renderer>().IsVisibleFrom(mainCamera.GetComponent<Camera>()))
+       //     {
+       //         //Chatter();
+       //     }
+       //     else
+       //     {
+       //         speechCanvas.enabled = false;
+       //         speechText.enabled = false;
+       //     }
+       // }
 
         // Move around room "interacting with objects"
         
@@ -195,18 +191,18 @@ public class CharacterAI : MonoBehaviour
     {
         // Run speech function if char is visible
         // Else ensures bubble and twxt are hidden
-        if (mainCamera.activeSelf)
-        {
-            if (GetComponentInChildren<Renderer>().IsVisibleFrom(mainCamera.GetComponent<Camera>()))
-            {
-                Chatter();
-            }
-            else
-            {
-                speechCanvas.enabled = false;
-                speechText.enabled = false;
-            }
-        }
+       // if (mainCamera.activeSelf)
+       // {
+       //     if (GetComponentInChildren<Renderer>().IsVisibleFrom(mainCamera.GetComponent<Camera>()))
+       //     {
+       //         //Chatter();
+       //     }
+       //     else
+       //     {
+       //         speechCanvas.enabled = false;
+       //         speechText.enabled = false;
+       //     }
+       // }
         // Move around room "interacting with objects"
        
     }
@@ -418,44 +414,44 @@ public class CharacterAI : MonoBehaviour
     }
 
     // Characters will randomly "speak" this is only to be visible when zoomed in to a room
-    private void Chatter()
-    {
-        if(speaking == 0)
-        {
-            // Reset speech to blank
-            speechCanvas.enabled = false;
-            speechText.enabled = false;
-
-            if(willSpeak == 0)
-            {
-                // Initialised as 0 to ensure not null
-                int room = roomType;
-                int variation = 1;// Random.Range(1, 5);
-
-                // Loads data from csv file and stores as a string
-                scriptA = GetComponent<LoadFromCSV>();
-                speech = scriptA.LoadSpeech(variation, room);
-
-                // Next step is getting speech to be dispayed on screen
-                speechCanvas.enabled = true;
-                speechText.text = speech;
-                speechText.enabled = true;
-                speaking = 500;
-                willSpeak = Random.Range(900, 2700);
-
-                // Audio
-
-            }
-            else
-            {
-                willSpeak--;
-            }
-        }
-        else
-        {
-            speaking--;
-        }
-    }
+   //private void Chatter()
+   //{
+   //    if(speaking == 0)
+   //    {
+   //        // Reset speech to blank
+   //        speechCanvas.enabled = false;
+   //        speechText.enabled = false;
+   //
+   //        if(willSpeak == 0)
+   //        {
+   //            // Initialised as 0 to ensure not null
+   //            int room = roomType;
+   //            int variation = 1;// Random.Range(1, 5);
+   //
+   //            // Loads data from csv file and stores as a string
+   //            scriptA = GetComponent<LoadFromCSV>();
+   //            speech = scriptA.LoadSpeech(variation, room);
+   //
+   //            // Next step is getting speech to be dispayed on screen
+   //            speechCanvas.enabled = true;
+   //            speechText.text = speech;
+   //            speechText.enabled = true;
+   //            speaking = 500;
+   //            willSpeak = Random.Range(900, 2700);
+   //
+   //            // Audio
+   //
+   //        }
+   //        else
+   //        {
+   //            willSpeak--;
+   //        }
+   //    }
+   //    else
+   //    {
+   //        speaking--;
+   //    }
+   //}
 
     private int GenerateRandomStat()
     {
