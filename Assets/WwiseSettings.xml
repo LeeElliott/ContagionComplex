@@ -8,6 +8,6 @@
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac />
-  <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise 2018.1.0.6714</WwiseInstallationPathWindows>
+  <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise Launcher</WwiseInstallationPathWindows>
   <WwiseProjectPath>../LabRatZ_WwiseProject/LabRatZ_WwiseProject.wproj</WwiseProjectPath>
 </WwiseSettings>
