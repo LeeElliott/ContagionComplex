@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	278617630	Play_Ambience			\Default Work Unit\Play_Ambience	
+	2477713992	Stop_Ambience			\Default Work Unit\Stop_Ambience	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1162348424	Ambience_switch			\Default Work Unit\Ambience_switch	
