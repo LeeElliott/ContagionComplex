@@ -24,15 +24,15 @@ MonoBehaviour:
     List: []
   AuxBusWwu:
   - Guid: '{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}'
-    m_lastTimePart2: -1999188475
-    m_lastTimePsrt1: -766267935
+    m_lastTimePart2: -1999188484
+    m_lastTimePsrt1: -1037404334
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{D3A9E9A7-B300-484E-BDB1-838FFA860A82}'
-    m_lastTimePart2: -1999188479
-    m_lastTimePsrt1: 405639409
+    m_lastTimePart2: -1999188791
+    m_lastTimePsrt1: 420003328
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -65,8 +65,8 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{6374D344-E35D-4D33-994F-103C8C9CA3D9}'
-    m_lastTimePart2: -1999188479
-    m_lastTimePsrt1: 155429046
+    m_lastTimePart2: -1999188792
+    m_lastTimePsrt1: -1379996672
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -470,8 +470,9 @@ MonoBehaviour:
       minDuration: 0
   ExpandedItems:
   - /LabRatZ_WwiseProject
-  - /LabRatZ_WwiseProject/Banks
-  - /LabRatZ_WwiseProject/Banks/Default Work Unit
+  - /LabRatZ_WwiseProject/States
+  - /LabRatZ_WwiseProject/States/Default Work Unit
+  - /LabRatZ_WwiseProject/States/Default Work Unit/Ambience_switch
   RtpcWwu:
   - Guid: '{130B3285-951B-41BA-A58A-A484FE9D5B61}'
     m_lastTimePart2: -1999201485
@@ -481,8 +482,8 @@ MonoBehaviour:
     List: []
   StateWwu:
   - Guid: '{84E291A4-9C90-4615-AC50-3474CD080280}'
-    m_lastTimePart2: -1999188479
-    m_lastTimePsrt1: 405719515
+    m_lastTimePart2: -1999188792
+    m_lastTimePsrt1: -1379996672
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List:
