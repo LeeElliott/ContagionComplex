@@ -5,13 +5,13 @@
 			<Language ID="393239870">
 				<File Name="FX" Hash="3176402273" Timestamp="1556746923"/>
 				<File Name="Init" Hash="2734178739" Timestamp="1556692057"/>
-				<File Name="MainAmbience" Hash="33924925" Timestamp="1556747161"/>
+				<File Name="MainAmbience" Hash="5015126" Timestamp="1556748226"/>
 				<File Name="Music" Hash="1355556832" Timestamp="1556747161"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2541163495" Timestamp="1556747161"/>
+				<File Name="" Hash="2541163495" Timestamp="1556748226"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -20,13 +20,13 @@
 			<Language ID="393239870">
 				<File Name="FX" Hash="3176402273" Timestamp="1556746944"/>
 				<File Name="Init" Hash="2523280865" Timestamp="1556692058"/>
-				<File Name="MainAmbience" Hash="33924925" Timestamp="1556747162"/>
-				<File Name="Music" Hash="1355556832" Timestamp="1556747161"/>
+				<File Name="MainAmbience" Hash="5015126" Timestamp="1556748227"/>
+				<File Name="Music" Hash="1355556832" Timestamp="1556748227"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="4179190539" Timestamp="1556747162"/>
+				<File Name="" Hash="4179190539" Timestamp="1556748227"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -35,13 +35,13 @@
 			<Language ID="393239870">
 				<File Name="FX" Hash="3176402273" Timestamp="1556746964"/>
 				<File Name="Init" Hash="305730595" Timestamp="1556692059"/>
-				<File Name="MainAmbience" Hash="33924925" Timestamp="1556747162"/>
-				<File Name="Music" Hash="1355556832" Timestamp="1556747162"/>
+				<File Name="MainAmbience" Hash="5015126" Timestamp="1556748228"/>
+				<File Name="Music" Hash="1355556832" Timestamp="1556748228"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3299703917" Timestamp="1556747162"/>
+				<File Name="" Hash="3299703917" Timestamp="1556748228"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

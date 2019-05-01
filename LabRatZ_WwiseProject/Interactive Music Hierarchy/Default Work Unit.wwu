@@ -915,7 +915,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-6</Value>
+																<Value>2</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -944,7 +944,7 @@
 																<MusicClip Name="Forest ambience Track 1" ID="{1DA493A0-BA4E-4C26-A823-3408C255B738}">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="104534.333333333"/>
-																		<Property Name="FadeInDuration" Type="Real64" Value="7646.30186845822"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3364.37282212162"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Forest ambience Track 1" ID="{20202B91-CF00-406F-BB7F-A9B105052BBC}"/>
@@ -1202,7 +1202,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-5</Value>
+																<Value>-7</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -1548,7 +1548,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-4</Value>
+																<Value>-7</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -1784,9 +1784,14 @@
 											<ChildrenList>
 												<MusicTrack Name="Forest ambience Track 4" ID="{7D173CB7-4C8A-4FE6-A9CA-2C6207B1EA37}" ShortID="30378155">
 													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>9</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-4</Value>
+																<Value>-8</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
