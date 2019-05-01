@@ -470,7 +470,7 @@
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
 				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Play_Ambience"/>
-				<Event Id="2477713992" Name="Stop_Ambience" ObjectPath="\Events\Default Work Unit\Stop_Ambience" MaxAttenuation="0.000000"/>
+				<Event Id="3673611221" Name="Stop_Ambience_MM" ObjectPath="\Events\Default Work Unit\Mastermind\Stop_Ambience_MM" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="78807215" Language="SFX">

@@ -276,6 +276,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_Ambience_MM" ID="{9A3338A1-0BCA-446C-92E2-920EAB55F35A}">
+							<ChildrenList>
+								<Action Name="" ID="{4D47C880-266F-4AD8-BAB3-0469255CF383}" ShortID="700034570">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_Room_Construction" ID="{5890D761-D750-4275-A988-BD9E6A0E4244}">
@@ -417,20 +431,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Button 1 Back" ID="{088D9581-1378-4B0E-AC53-FF658C1F639F}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Ambience" ID="{9A3338A1-0BCA-446C-92E2-920EAB55F35A}">
-					<ChildrenList>
-						<Action Name="" ID="{4D47C880-266F-4AD8-BAB3-0469255CF383}" ShortID="700034570">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambience Switch" ID="{7B71ABC5-46CC-43D7-A74E-93A482610BE1}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

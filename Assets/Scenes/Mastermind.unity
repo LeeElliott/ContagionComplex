@@ -1263,7 +1263,7 @@ MonoBehaviour:
   m_callbackData: {fileID: 0}
   playingId: 0
   soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
+  transitionDuration: 1.8
   valueGuid: 6c754e626b8d8648a6c48c348ac5c81e
   multiPositionArray: []
   MultiPositionType: 1

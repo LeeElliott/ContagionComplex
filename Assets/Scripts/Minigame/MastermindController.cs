@@ -285,7 +285,7 @@ public class MastermindController : MonoBehaviour
 			if (correct == chainLength)
 			{
 				AkSoundEngine.PostEvent ("Stop_Timer_MM", gameObject);
-
+                AkSoundEngine.PostEvent ("Stop_Ambience_MM", gameObject);
 				// Reset input and call the win condition
 				input = "";
 

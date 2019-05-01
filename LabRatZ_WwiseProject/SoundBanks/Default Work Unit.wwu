@@ -89,7 +89,7 @@
 						<ObjectRef Name="Conference Room Ambience 1" ID="{B2653BEC-30AA-4389-BC1A-7D99799E832B}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambience Switch" ID="{7B71ABC5-46CC-43D7-A74E-93A482610BE1}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Production Room" ID="{0994145A-9F38-4433-BDF9-F5B0C1B85E35}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Stop_Ambience" ID="{9A3338A1-0BCA-446C-92E2-920EAB55F35A}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Ambience_MM" ID="{9A3338A1-0BCA-446C-92E2-920EAB55F35A}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Experiment Room ambience 1 v2 w_ fades" ID="{CD35F869-6E88-4695-B8AA-65E7E7EE210E}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Ambience" ID="{624E756C-8D6B-4886-A6C4-8C348AC5C81E}" WorkUnitID="{6374D344-E35D-4D33-994F-103C8C9CA3D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Rec Room" ID="{D34D1510-4BD1-48D5-AC4F-8D27FBE63AC4}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}" Filter="7" Origin="Manual"/>

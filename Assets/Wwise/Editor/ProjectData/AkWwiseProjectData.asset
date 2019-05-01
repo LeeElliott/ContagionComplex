@@ -31,8 +31,8 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{D3A9E9A7-B300-484E-BDB1-838FFA860A82}'
-    m_lastTimePart2: -1999188479
-    m_lastTimePsrt1: 405639409
+    m_lastTimePart2: -1999188463
+    m_lastTimePsrt1: 30794005
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -65,8 +65,8 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{6374D344-E35D-4D33-994F-103C8C9CA3D9}'
-    m_lastTimePart2: -1999188479
-    m_lastTimePsrt1: 155429046
+    m_lastTimePart2: -1999188463
+    m_lastTimePsrt1: 30764003
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -440,6 +440,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: a138339aca0b6c4492e2920eab55f35a
+      ID: -621356075
+      Name: Stop_Ambience_MM
+      Path: Default Work Unit\Mastermind\Stop_Ambience_MM
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mastermind
+        ObjectType: 4
+      - ElementName: Stop_Ambience_MM
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 27dbd804bbe32642a29a8e04bb960feb
       ID: -1204369517
       Name: Stop_Timer
@@ -470,8 +484,9 @@ MonoBehaviour:
       minDuration: 0
   ExpandedItems:
   - /LabRatZ_WwiseProject
-  - /LabRatZ_WwiseProject/Events
-  - /LabRatZ_WwiseProject/Events/Default Work Unit
+  - /LabRatZ_WwiseProject/States
+  - /LabRatZ_WwiseProject/States/Default Work Unit
+  - /LabRatZ_WwiseProject/States/Default Work Unit/Ambience_switch
   RtpcWwu:
   - Guid: '{130B3285-951B-41BA-A58A-A484FE9D5B61}'
     m_lastTimePart2: -1999201485
