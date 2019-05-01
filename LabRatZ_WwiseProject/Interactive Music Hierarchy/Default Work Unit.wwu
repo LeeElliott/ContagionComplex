@@ -20,6 +20,16 @@
 							<ChildrenList>
 								<MusicPlaylistContainer Name="Experimentation room" ID="{F3EF37A5-D908-4AF0-96EA-B78168086891}" ShortID="665728529">
 									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>31</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-10</Value>
@@ -207,9 +217,19 @@
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="ID Room" ID="{D32957D9-5A04-4DDC-AD64-94F01F7FF575}" ShortID="500456653">
 									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>33</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-13</Value>
+												<Value>-18</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -392,6 +412,11 @@
 										<MusicSegment Name="Experiment Room ambience 1 v2 w_ fades" ID="{CD35F869-6E88-4695-B8AA-65E7E7EE210E}" ShortID="989191003">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="64000"/>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>34</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-9</Value>
@@ -524,6 +549,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="Rec Room Ambience 1" ID="{F613AB58-65F4-48C3-9044-95B939E05710}" ShortID="160368877">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
@@ -637,7 +669,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-4</Value>
+																<Value>-15</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -773,6 +805,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="wind loop" ID="{706FB3C8-D730-4329-A53C-EC14B445B5F5}" ShortID="933433701">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>14</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
@@ -910,6 +954,23 @@
 													</SequenceList>
 												</MusicTrack>
 												<MusicTrack Name="BUILDING NOISE" ID="{F403E60E-A7BF-4685-A8EB-A800BB95FECA}" ShortID="307624544">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>52</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>48</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
@@ -1030,6 +1091,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="wind loop" ID="{74B6205B-DA1B-4A3D-869D-BA9DB655B379}" ShortID="343279405">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>14</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
@@ -1129,7 +1202,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-4</Value>
+																<Value>-5</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -1227,6 +1300,23 @@
 													</SequenceList>
 												</MusicTrack>
 												<MusicTrack Name="BUILDING NOISE" ID="{67E428B7-0D28-44A2-89F9-0F65AD983AFD}" ShortID="1005527919">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>52</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>48</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
@@ -1347,6 +1437,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="wind loop" ID="{E421F08F-8ED6-491A-851D-6D88EEE24874}" ShortID="83625269">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>14</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
@@ -1544,6 +1646,23 @@
 													</SequenceList>
 												</MusicTrack>
 												<MusicTrack Name="BUILDING NOISE" ID="{4A23E9DD-4862-4B62-93F0-6D6734B5B286}" ShortID="864141462">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>52</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>48</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
@@ -1765,6 +1884,18 @@
 													</SequenceList>
 												</MusicTrack>
 												<MusicTrack Name="wind loop" ID="{F7874710-1CB2-40AD-A2B3-C7308C7CAC73}" ShortID="903310815">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>14</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
@@ -1859,6 +1990,23 @@
 													</SequenceList>
 												</MusicTrack>
 												<MusicTrack Name="BUILDING NOISE" ID="{E70FCA56-2A23-4AE8-BBAD-B9A60954BCDC}" ShortID="397395064">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>52</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>48</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
@@ -2044,6 +2192,23 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="BUILDING NOISE" ID="{D8BD9AC7-4301-4F89-BAAB-BD568FAD2C24}" ShortID="451369590">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>52</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>48</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
@@ -2180,6 +2345,16 @@
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="Quarantine Room" ID="{6AB83B10-6BBC-4BFD-ACC5-8E3B7F1536D2}" ShortID="862612094">
 									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>34</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>34</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-11</Value>
@@ -2309,6 +2484,16 @@
 											<ChildrenList>
 												<MusicTrack Name="BUILDING NOISE" ID="{325BDF5A-1C90-4E3A-94D5-A20A3E586359}" ShortID="565540623">
 													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>43</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>35</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-6</Value>
@@ -2412,6 +2597,18 @@
 													</SequenceList>
 												</MusicTrack>
 												<MusicTrack Name="wind loop" ID="{C3C0085E-1842-4D26-88E9-F679271C67CF}" ShortID="1041284394">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>14</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}"/>
