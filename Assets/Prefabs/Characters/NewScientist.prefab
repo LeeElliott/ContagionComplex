@@ -383,9 +383,9 @@ GameObject:
   - component: {fileID: 114613515941836722}
   - component: {fileID: 54496707526100680}
   - component: {fileID: 33003439725047280}
-  - component: {fileID: 64028753199669100}
   - component: {fileID: 195585173628373720}
   - component: {fileID: 114290988380604294}
+  - component: {fileID: 136085764708135358}
   m_Layer: 0
   m_Name: NewScientist
   m_TagString: Untagged
@@ -1400,7 +1400,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1576839374465022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.892717, y: -0.1, z: -9.727735}
+  m_LocalPosition: {x: -12.343244, y: -0.1, z: -18.245937}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4080539995268948}
@@ -1548,20 +1548,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64028753199669100
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1576839374465022}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 1
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: e5d74d2a70724954182b2a16cb59f410, type: 3}
 --- !u!95 &95261608226790378
 Animator:
   serializedVersion: 3
@@ -1613,6 +1599,19 @@ MonoBehaviour:
   wanderDelay: 10
   destination: {x: 0, y: 0, z: 0}
   wandering: 0
+--- !u!136 &136085764708135358
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1576839374465022}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.19
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!137 &137405735583663928
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
