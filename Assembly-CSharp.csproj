@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\RoomScript.cs" />
      <Compile Include="Assets\Scripts\SliderUpdater.cs" />
      <Compile Include="Assets\Scripts\SplashController.cs" />
+     <Compile Include="Assets\Scripts\TutorialScript.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkPlatformInitSettings_Android.cs" />
