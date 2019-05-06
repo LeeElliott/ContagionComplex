@@ -1,4 +1,4 @@
-WindowsStandalone
+Android
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 9f07aaefd0255462bb6e4f9e5da6b2d4 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -16,6 +16,7 @@ b2447dcd1839d8c167fbc65025398d59 Assembly-CSharp.dll:.AkRoom
 ba95d63226092031648e16d6f2a60914 Assembly-CSharp.dll:.AkRoomPortalObstruction
 d9024f4fd1a88598c30f6fc29ed5ddad Assembly-CSharp.dll:.EscortScript
 c9b2f54ee8748ad1c6b6da3876a1f890 Assembly-CSharp.dll:.Button
+d1a4021610ff2f03ca01ea9d2cafd429 Assembly-CSharp.dll:.MissionButtonScript
 8b64abaae8cbc4f07f8dfec8b06101ba Assembly-CSharp.dll:.AkRTPCTrack
 95eea8a854b85e9e029302cde4672b2c Assembly-CSharp.dll:.AkAndroidSettings
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -128,8 +129,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 c882b15b7dae702e9feede9c9a78d951 Assembly-CSharp.dll:.CameraScript
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AudioScript
-a4ff7f702409b1c7a069fac8001eeadc Assembly-CSharp.dll:.MissionController
+6af1cc47f101e49ad33bd80a84c6415b Assembly-CSharp.dll:.MissionController
 fdcc1459544d8c08b09ec437640c9465 Assembly-CSharp.dll:.AkAudioListener
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AkTriggerMouseUp
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AkTerminator
@@ -137,7 +137,7 @@ fdcc1459544d8c08b09ec437640c9465 Assembly-CSharp.dll:.AkAudioListener
 2a053a7690d251a29362ea400435c366 Assembly-CSharp.dll:.AkGameObjPosOffsetData
 f4c1c8c0a4c759a1cd6f1a71ef59d5b9 Assembly-CSharp.dll:.AkGameObj
 70273e58979b0b90b7d58ac1b6bb1d20 Assembly-CSharp.dll:.AkInitializer
-f915b01560291f5ef17ec5f4006d32a3 Assembly-CSharp.dll:.MastermindController
+d6d22eaca7393b365b01b80f0049bef2 Assembly-CSharp.dll:.MastermindController
 ad37dc40b50266e7dc49dee5669b85d2 Assembly-CSharp.dll:.AkTriggerEnter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AkTriggerMouseEnter
 0b73444596c84e194232ef157336d5c2 Assembly-CSharp.dll:.AkMacSettings
@@ -187,6 +187,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 b1029a9616ad7b52123ba44e6457d025 Assembly-CSharp.dll:.AkSpatialAudioEmitter
 ea80de6cf9a7fe2e2a0e0449b776f6b5 Assembly-CSharp.dll:.CharacterAI
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AkDragDropHelper
+4c018ab8bc7689eecb21cdcd071cae6b Assembly-CSharp.dll:.TutorialScript
 5a210764ae1ee6d8296b76eeab3dd835 Assembly-CSharp.dll:.SliderUpdater
 03b325cf737a582077f3a40573dece46 Assembly-CSharp.dll:.RoomScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AkTriggerEnable

@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 56
+  controlID: 10
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 11
+  controlID: 87
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 57
+  controlID: 11
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -390,14 +390,14 @@ MonoBehaviour:
     width: 715
     height: 378
   m_SceneLighting: 1
-  lastFramingTime: 4258.060825316869
+  lastFramingTime: 1000.7067257665198
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.1177413, y: 2.017054, z: -7.935584}
+    m_Target: {x: 0.21577644, y: -0.22171831, z: 2.7399635}
     speed: 2
-    m_Value: {x: -3.1177413, y: 2.017054, z: -7.935584}
+    m_Value: {x: 0.21577644, y: -0.22171831, z: 2.7399635}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -420,13 +420,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.0868713, y: 0.020918945, z: -0.0018245715, w: -0.9959983}
+    m_Target: {x: -0.044929847, y: -0.049429733, z: 0.0022258267, w: -0.9977641}
     speed: 2
-    m_Value: {x: -0.0868713, y: 0.020918947, z: -0.0018245716, w: -0.9959984}
+    m_Value: {x: -0.044929847, y: -0.049429733, z: 0.0022258267, w: -0.9977641}
   m_Size:
-    m_Target: 25.143944
+    m_Target: 21.588211
     speed: 2
-    m_Value: 25.143944
+    m_Value: 21.588211
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -508,10 +508,10 @@ MonoBehaviour:
     width: 423
     height: 285
   m_TreeViewState:
-    scrollPos: {x: 0, y: 36}
-    m_SelectedIDs: d8350000
-    m_LastClickedID: 13784
-    m_ExpandedIDs: 1afcffff00000000f0360000f0380000fa390000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 3e2a0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: f617fcff0019fcff3c1afcff441afcff481afcff4c1afcff541afcff5e1afcff641afcff6a1afcffa22effff9a30ffff6c4affff3656ffff3857ffff6a58ffff7658ffff7e58ffffca5dffffd85dfffff25dfffffc5dffff0e5effffb081ffff128bffff188cffff588dffff648dffff6c8dffffb892ffffc692ffffe092ffffe892fffff292ffff22f0ffff1afcffff0000000014680000667a00009c7b0000667c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -572,18 +572,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts/Minigame
+    - Assets/Prefabs/Characters
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Minigame
+  - Assets/Prefabs/Characters
   m_LastFoldersGridSize: -1
   m_LastProjectPath: G:\Uni work\Professional Project\GitHub Desktop\ContagionComplex
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 17}
-    m_SelectedIDs: ca2a0000
-    m_LastClickedID: 10954
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 822e0000
+    m_LastClickedID: 11906
     m_ExpandedIDs: 000000003a2a00008e2a0000cc2a0000f22a0000922b0000ee2b0000143100002e31000076330000b646000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -664,7 +664,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 119}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 149
 --- !u!114 &18
@@ -693,7 +693,7 @@ MonoBehaviour:
     y: 92
     width: 390
     height: 710
-  m_ScrollPosition: {x: 0, y: 47.95508}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 100
