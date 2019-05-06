@@ -1,4 +1,14 @@
-﻿using System.Collections;
+﻿//-------------------------------
+// Created by Lee Elliott
+// 01/03/2019
+//
+// A script designed to hold full
+// functionality of the escorted
+// patients
+//
+//-------------------------------
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
