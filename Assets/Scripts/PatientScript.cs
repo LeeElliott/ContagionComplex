@@ -35,7 +35,8 @@ public class PatientScript : MonoBehaviour
     void Update ()
     {
         // If zoomed in
-        if (Camera.main.GetComponent<CameraScript>().isZoomed && GetComponent<MeshRenderer>().IsVisibleFrom(Camera.main))
+        if (Camera.main.GetComponent<CameraScript>().isZoomed && 
+            gameObject.transform.GetChild(5).GetComponent<SkinnedMeshRenderer>().IsVisibleFrom(Camera.main))
         {
             // Generate random number
             int x = Random.Range(0, 999);

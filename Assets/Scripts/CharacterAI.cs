@@ -8,6 +8,9 @@
 // Edited by Lewis Hodgkin (Speech implementation)
 // 20/04/2019
 //
+// Edited by Lee Elliott (speech editing)
+// 02/05/2019
+//
 // A script designed to hold all
 // AI related functionality.
 //
@@ -130,9 +133,9 @@ public class CharacterAI : MonoBehaviour
         }
 
  
-        // reverse any rotation applied by parent object
-       // speechCanvas.transform.rotation = Quaternion.Euler(gameObject.transform.rotation.x * -1.0f,
-       //     gameObject.transform.rotation.y * -1.0f, gameObject.transform.rotation.z * -1.0f);
+        // Reverse any rotation applied by parent object
+        speechCanvas.transform.rotation = Quaternion.Euler(gameObject.transform.rotation.x * -1.0f,
+             gameObject.transform.rotation.y * -1.0f, gameObject.transform.rotation.z * -1.0f);
     }
 
     private void IdleUpdate()
@@ -141,9 +144,10 @@ public class CharacterAI : MonoBehaviour
         //// Else ensures bubble and twxt are hidden
         if (mainCamera.activeSelf)
         {
-            if (GetComponentInChildren<Renderer>().IsVisibleFrom(mainCamera.GetComponent<Camera>()))
+            if (Camera.main.GetComponent<CameraScript>().isZoomed &&
+                gameObject.transform.GetChild(6).GetComponent<SkinnedMeshRenderer>().IsVisibleFrom(Camera.main))
             {
-                //Chatter();
+                Chatter();
             }
             else
             {
