@@ -5,6 +5,15 @@
 // Edited by Christopher Pohler (scientist spawning)
 // 23/02/2019
 //
+// Edited by Lee Elliott (Patient delivery)
+// 01/03/2019
+//
+// Edited by Lee Elliott (UI)
+// 15/03/2019
+//
+// Edited by Lee Elliott (Voice)
+// 22/04/2019
+//
 // A script designed to hold all
 // functionality of the game
 // controller.
@@ -152,9 +161,9 @@ public class ControllerScript : MonoBehaviour
         scientists.name = "Scientists";
 
         // Three preset scientists spawned at game start
-        SpawnScientist(2, 1, 5, "Jordan Henderson", 42, "Male", 4);
-        SpawnScientist(5, 3, 1, "Kate Green", 26, "Female", 0);
-        SpawnScientist(1, 5, -1, "Mary Curran", 34, "Female", 2);
+        SpawnScientist(2, 1, 5, "Jordan Henderson", 42, "Male", 4, 1);
+        SpawnScientist(5, 3, 1, "Kate Green", 26, "Female", 0, 3);
+        SpawnScientist(1, 5, -1, "Mary Curran", 34, "Female", 2, 4);
 
         // Hide character panel
         charPanel.SetActive(false);
@@ -183,14 +192,14 @@ public class ControllerScript : MonoBehaviour
     }
 
     // Used for preset scientists
-    private void SpawnScientist(int ident, int form, int prod, string name, int age, string gender, int image)
+    private void SpawnScientist(int ident, int form, int prod, string name, int age, string gend, int image, int voice)
     {
         // Instantiate preset scientist in entrance room
         Transform temp = Instantiate(scientist, new Vector3(-20.0f, 1.0f, 0.0f),
             Quaternion.identity) as Transform;
 
         // Call function in character AI to set preset stats and details
-        temp.GetComponent<CharacterAI>().SetUniqueStats(ident, form, prod, name, age, gender, image);
+        temp.GetComponent<CharacterAI>().SetUniqueStats(ident, form, prod, name, age, gend, image, voice);
 
         // Set the object's tag
         temp.tag = "Scientist";
