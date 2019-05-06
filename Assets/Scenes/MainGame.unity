@@ -3241,6 +3241,10 @@ Prefab:
       propertyPath: m_TagString
       value: Room
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
   m_IsPrefabParent: 0
@@ -3688,6 +3692,10 @@ Prefab:
     - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
       propertyPath: m_TagString
       value: Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
@@ -5917,6 +5925,10 @@ Prefab:
       propertyPath: m_TagString
       value: Room
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
   m_IsPrefabParent: 0
@@ -7331,6 +7343,10 @@ Prefab:
     - target: {fileID: 100000, guid: f0bc196960393d74c808561c71b42b87, type: 3}
       propertyPath: m_TagString
       value: Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f0bc196960393d74c808561c71b42b87, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f0bc196960393d74c808561c71b42b87, type: 3}
@@ -9393,6 +9409,66 @@ Prefab:
     - target: {fileID: 100006, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
       propertyPath: m_TagString
       value: Quarantine
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
@@ -12143,6 +12219,10 @@ Prefab:
       propertyPath: m_TagString
       value: Room
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
   m_IsPrefabParent: 0
@@ -12564,6 +12644,10 @@ Prefab:
     - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
       propertyPath: m_TagString
       value: Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
@@ -14118,6 +14202,10 @@ Prefab:
     - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
       propertyPath: m_TagString
       value: Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
@@ -18838,6 +18926,10 @@ Prefab:
       propertyPath: m_TagString
       value: Room
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
   m_IsPrefabParent: 0
@@ -19020,6 +19112,10 @@ Prefab:
     - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
       propertyPath: m_TagString
       value: Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e353ddd1155f47e4a8654500e275638f, type: 3}
