@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="89">
-	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1556746914" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1557151541" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1551107676" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1551107676" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1551107676" DateHigh="0"/>
@@ -9,19 +9,19 @@
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1552531702" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1556285326" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Effects\Factory Effects.wwu" DateLow="1556285326" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Events\Default Work Unit.wwu" DateLow="1556700176" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Events\Default Work Unit.wwu" DateLow="1557151541" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1551107676" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1556747156" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\LabRatZ_WwiseProject.Lewis.wsettings" DateLow="1556747189" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1557151550" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\LabRatZ_WwiseProject.Lewis.wsettings" DateLow="1557151550" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\LabRatZ_WwiseProject.wproj" DateLow="1551107682" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1556691479" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1557151550" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1556285326" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1551107682" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1551107684" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1551107684" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Queries\Factory Queries.wwu" DateLow="1551107684" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1556700176" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1556746914" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1557151551" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1557151551" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\States\Default Work Unit.wwu" DateLow="1556559160" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1551107684" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\ContagionComplex\LabRatZ_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1551107684" DateHigh="0"/>
