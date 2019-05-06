@@ -1,6 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Minigame\Experimentation.cs">
+    <Files>
+      <File FileName="Assets\Scripts\ControllerScript.cs" Line="166" Column="71" />
+      <File FileName="Assets\Scripts\CharacterAI.cs" Line="280" Column="1" />
+      <File FileName="Assets\Scripts\Minigame\Identification.cs" Line="32" Column="74" />
+      <File FileName="Assets\Scripts\Minigame\Experimentation.cs" Line="245" Column="7" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

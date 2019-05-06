@@ -103,7 +103,7 @@ public class Experimentation : MonoBehaviour
         if(experimentationCount < identificationCount)
         {
             // If there are more patients in quarantine than ready experiments
-            if(GameObject.FindObjectOfType<Quarantine>().patientCount > experimentationCount)
+            if(GameObject.FindObjectOfType<Quarantine>().patientCount > 1)
             {
                 return true;
             }
@@ -236,12 +236,13 @@ public class Experimentation : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         // Checks if the scientist is in the experimentation room
-        if (other.tag == "Scientist")
+		if (other.tag == "Scientist" && !workingScientistInExperimentation)
         {
             // Checks if the scientist is working
             if (other.GetComponent<CharacterAI>().behaviourState == CharacterAI.BehaviourState.working)
             {
                 workingScientistInExperimentation = true;
+				//Debug.Log ("In!");
             }
         }
     }
@@ -253,9 +254,9 @@ public class Experimentation : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         // Checks if the scientist is no longer in the experimentation room
-        if (other.tag == "Scientist")
-        {
-            workingScientistInExperimentation = false;
-        }
+     //if (other.tag == "Scientist")
+     //{
+     //    workingScientistInExperimentation = false;
+     //}
     }
 }
