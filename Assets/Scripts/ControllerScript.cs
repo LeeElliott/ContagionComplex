@@ -124,6 +124,7 @@ public class ControllerScript : MonoBehaviour
             // Set mission start to false to avoid additional spawning
             missionStart = false;
         }
+
 		// Scientist spawning
 		if (timeUntilSpawn >= randomSpawnTime) 
 		{

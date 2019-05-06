@@ -63,7 +63,7 @@ GameObject:
   - component: {fileID: 114182132148943604}
   - component: {fileID: 54443687462957268}
   m_Layer: 0
-  m_Name: BirdFlu
+  m_Name: BirdFluCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
