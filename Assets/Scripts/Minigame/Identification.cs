@@ -36,6 +36,7 @@ public class Identification : MonoBehaviour
             if (state == CharacterAI.BehaviourState.working)
             {
                 workingScientistInIdentification = true;
+				Debug.Log("ScientistWorking");
             }
         }
     }
@@ -104,7 +105,8 @@ public class Identification : MonoBehaviour
         // Checks if the scientist is no longer in the experimentation room
         if (other.tag == "Scientist")
         {
-            workingScientistInIdentification = false;
+            //workingScientistInIdentification = false;
+			//Debug.Log("Scientist left");
         }
     }
 

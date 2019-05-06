@@ -161,9 +161,9 @@ public class ControllerScript : MonoBehaviour
         scientists.name = "Scientists";
 
         // Three preset scientists spawned at game start
-        SpawnScientist(2, 1, 5, "Jordan Henderson", 42, "Male", 4, 1, 20.0f);
-        SpawnScientist(5, 3, 1, "Kate Green", 26, "Female", 0, 3, 18.0f);
-        SpawnScientist(1, 5, -1, "Mary Curran", 34, "Female", 2, 4, 16.0f);
+        SpawnScientist(2, 1, 5, "Jordan Henderson", 42, "Male", 4, 1, 19.0f);
+        SpawnScientist(5, 3, 1, "Kate Green", 26, "Female", 0, 3, 17.0f);
+        SpawnScientist(1, 5, -1, "Mary Curran", 34, "Female", 2, 4, 15.0f);
 
         // Hide character panel
         charPanel.SetActive(false);

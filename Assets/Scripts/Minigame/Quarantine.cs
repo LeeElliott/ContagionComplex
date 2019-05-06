@@ -21,7 +21,7 @@ public class Quarantine : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         // If a patient leaves the room
-        if (other.tag == "Patient")
-            patientCount--;
+       // if (other.tag == "Patient")
+       //     patientCount--;
     }
 }
