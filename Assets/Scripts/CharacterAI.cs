@@ -158,19 +158,19 @@ public class CharacterAI : MonoBehaviour
     private void NotHiredUpdate()
     {
         // Move around room "interacting with objects"
-        if(!wandering)
-        {
-            if(wanderDelay > 0)
-            {
-                wanderDelay -= Time.deltaTime;
-            }
-            else
-            {
-                GetComponent<NavMeshAgent>().SetDestination(WanderRoom());
-                wanderDelay = 120.0f;
-                wandering = true;
-            }
-        }
+       //if(!wandering)
+       //{
+       //    if(wanderDelay > 0)
+       //    {
+       //        wanderDelay -= Time.deltaTime;
+       //    }
+       //    else
+       //    {
+       //        GetComponent<NavMeshAgent>().SetDestination(WanderRoom());
+       //        wanderDelay = 120.0f;
+       //        wandering = true;
+       //    }
+       //}
     }
 
     private void WorkingUpdate()

@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 74758093}
   m_Layer: 5
   m_Name: IdentifyButtonCanvas
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2125,9 +2125,10 @@ GameObject:
   m_Component:
   - component: {fileID: 203582151}
   - component: {fileID: 203582152}
+  - component: {fileID: 203582153}
   m_Layer: 0
   m_Name: Identification
-  m_TagString: Room
+  m_TagString: Identification
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 9
@@ -2168,6 +2169,24 @@ MonoBehaviour:
   identify: {fileID: 413723949}
   success: {fileID: 1548348869}
   failure: {fileID: 1324057416}
+--- !u!114 &203582153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 203582150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884b98afe4bda4e46b7632c7c4084102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomType: 1
+  scientist1: {fileID: 0}
+  scientist2: {fileID: 0}
+  assigned1: 0
+  assigned2: 0
+  totalStat: 0
+  roomTimer: 0
 --- !u!1 &204110443
 GameObject:
   m_ObjectHideFlags: 0
@@ -2548,7 +2567,7 @@ GameObject:
   - component: {fileID: 226654237}
   m_Layer: 0
   m_Name: Experimentation
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4163,7 +4182,7 @@ GameObject:
   - component: {fileID: 390092102}
   m_Layer: 0
   m_Name: Identification
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4234,7 +4253,7 @@ BoxCollider:
   m_GameObject: {fileID: 390092101}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 6.8, y: 4, z: 18}
   m_Center: {x: 0, y: 2.2, z: 10}
@@ -5122,7 +5141,7 @@ GameObject:
   - component: {fileID: 518823367}
   m_Layer: 0
   m_Name: NewBuilding
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6059,9 +6078,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 605303409}
+  - component: {fileID: 605303410}
   m_Layer: 0
   m_Name: Production
-  m_TagString: Room
+  m_TagString: Production
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 9
@@ -6082,6 +6102,24 @@ Transform:
   m_Father: {fileID: 1048246440}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &605303410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 605303408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884b98afe4bda4e46b7632c7c4084102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomType: 3
+  scientist1: {fileID: 0}
+  scientist2: {fileID: 0}
+  assigned1: 0
+  assigned2: 0
+  totalStat: 0
+  roomTimer: 0
 --- !u!1 &606463128 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: 01ed78cd20d4bfe4db2a698423313202, type: 3}
@@ -6098,6 +6136,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patientCount: 0
+--- !u!114 &606463131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 606463128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884b98afe4bda4e46b7632c7c4084102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomType: 5
+  scientist1: {fileID: 0}
+  scientist2: {fileID: 0}
+  assigned1: 0
+  assigned2: 0
+  totalStat: 0
+  roomTimer: 0
 --- !u!1 &618435268
 GameObject:
   m_ObjectHideFlags: 0
@@ -7874,9 +7930,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 837888520}
+  - component: {fileID: 837888521}
   m_Layer: 0
   m_Name: Entrance
-  m_TagString: Room
+  m_TagString: Entrance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 9
@@ -7896,6 +7953,24 @@ Transform:
   m_Father: {fileID: 1048246440}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &837888521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 837888519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884b98afe4bda4e46b7632c7c4084102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomType: 0
+  scientist1: {fileID: 0}
+  scientist2: {fileID: 0}
+  assigned1: 0
+  assigned2: 0
+  totalStat: 0
+  roomTimer: 0
 --- !u!1 &841752921
 GameObject:
   m_ObjectHideFlags: 0
@@ -10009,7 +10084,7 @@ GameObject:
   - component: {fileID: 1048246440}
   m_Layer: 0
   m_Name: GroundFloor
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 9
@@ -12568,9 +12643,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1391731867}
   - component: {fileID: 1391731868}
+  - component: {fileID: 1391731869}
   m_Layer: 0
   m_Name: Experimentation
-  m_TagString: Room
+  m_TagString: Experimentation
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 9
@@ -12613,6 +12689,24 @@ MonoBehaviour:
   identificationComplete: 0
   displayingButton: 0
   roomName: 
+--- !u!114 &1391731869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1391731866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884b98afe4bda4e46b7632c7c4084102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomType: 2
+  scientist1: {fileID: 0}
+  scientist2: {fileID: 0}
+  assigned1: 0
+  assigned2: 0
+  totalStat: 0
+  roomTimer: 0
 --- !u!1 &1396646433
 GameObject:
   m_ObjectHideFlags: 0
@@ -18188,9 +18282,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2050100993}
+  - component: {fileID: 2050100994}
   m_Layer: 0
   m_Name: Recreation
-  m_TagString: Room
+  m_TagString: Recreation
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 9
@@ -18211,6 +18306,24 @@ Transform:
   m_Father: {fileID: 1048246440}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2050100994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2050100992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884b98afe4bda4e46b7632c7c4084102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomType: 4
+  scientist1: {fileID: 0}
+  scientist2: {fileID: 0}
+  assigned1: 0
+  assigned2: 0
+  totalStat: 0
+  roomTimer: 0
 --- !u!1 &2059930990
 GameObject:
   m_ObjectHideFlags: 0

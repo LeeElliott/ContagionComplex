@@ -191,10 +191,10 @@ GameObject:
   - component: {fileID: 54923662183278744}
   - component: {fileID: 195871437717675966}
   - component: {fileID: 114177717113495398}
-  - component: {fileID: 23510498819483652}
+  - component: {fileID: 23205990777833762}
   m_Layer: 0
   m_Name: BirdFluCharacter
-  m_TagString: Untagged
+  m_TagString: Patient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1826,7 +1826,7 @@ Transform:
   m_Father: {fileID: 4296051505058602}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23510498819483652
+--- !u!23 &23205990777833762
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

@@ -161,9 +161,9 @@ public class ControllerScript : MonoBehaviour
         scientists.name = "Scientists";
 
         // Three preset scientists spawned at game start
-        SpawnScientist(2, 1, 5, "Jordan Henderson", 42, "Male", 4, 1);
-        SpawnScientist(5, 3, 1, "Kate Green", 26, "Female", 0, 3);
-        SpawnScientist(1, 5, -1, "Mary Curran", 34, "Female", 2, 4);
+        SpawnScientist(2, 1, 5, "Jordan Henderson", 42, "Male", 4, 1, 20.0f);
+        SpawnScientist(5, 3, 1, "Kate Green", 26, "Female", 0, 3, 18.0f);
+        SpawnScientist(1, 5, -1, "Mary Curran", 34, "Female", 2, 4, 16.0f);
 
         // Hide character panel
         charPanel.SetActive(false);
@@ -192,10 +192,10 @@ public class ControllerScript : MonoBehaviour
     }
 
     // Used for preset scientists
-    private void SpawnScientist(int ident, int form, int prod, string name, int age, string gend, int image, int voice)
+	private void SpawnScientist(int ident, int form, int prod, string name, int age, string gend, int image, int voice, float offset)
     {
         // Instantiate preset scientist in entrance room
-        Transform temp = Instantiate(scientist, new Vector3(-20.0f, 1.0f, 0.0f),
+        Transform temp = Instantiate(scientist, new Vector3(-offset, 1.0f, 0.0f),
             Quaternion.identity) as Transform;
 
         // Call function in character AI to set preset stats and details
