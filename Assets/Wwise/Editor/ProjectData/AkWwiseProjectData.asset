@@ -24,15 +24,15 @@ MonoBehaviour:
     List: []
   AuxBusWwu:
   - Guid: '{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}'
-    m_lastTimePart2: -1999188475
-    m_lastTimePsrt1: -766267935
+    m_lastTimePart2: -1999187413
+    m_lastTimePsrt1: -230336484
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{D3A9E9A7-B300-484E-BDB1-838FFA860A82}'
-    m_lastTimePart2: -1999188463
-    m_lastTimePsrt1: 30794005
+    m_lastTimePart2: -1999187413
+    m_lastTimePsrt1: -224796167
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -65,8 +65,8 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{6374D344-E35D-4D33-994F-103C8C9CA3D9}'
-    m_lastTimePart2: -1999188463
-    m_lastTimePsrt1: 30764003
+    m_lastTimePart2: -1999187413
+    m_lastTimePsrt1: -329342147
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:

@@ -775,17 +775,17 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>18</Value>
+										<Value>27</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>23</Value>
+										<Value>66</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-19</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1015,17 +1015,17 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>28</Value>
+										<Value>35</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>32</Value>
+										<Value>59</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-23</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1234,17 +1234,17 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>23</Value>
+										<Value>36</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>32</Value>
+										<Value>65</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1474,17 +1474,17 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>23</Value>
+										<Value>33</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>27</Value>
+										<Value>49</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>-20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
