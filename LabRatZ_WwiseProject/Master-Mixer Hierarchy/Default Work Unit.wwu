@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="BusVolume" Type="Real64">
 							<ValueList>
-								<Value>9</Value>
+								<Value>12</Value>
 							</ValueList>
 						</Property>
 						<Property Name="BypassEffect0" Type="bool">
@@ -22,6 +22,9 @@
 						</Reference>
 						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<ObjectRef Name="Gentle_Program_Compressor_Minus_20dB_RMS" ID="{D3F1F88E-4123-4C05-946B-1B036BAC2DFD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+							<ObjectRef Name="New_Wwise_Gain" ID="{309221BB-3968-4032-8E80-A809FD785188}" WorkUnitID="{F2BE7DB1-29D8-4DD7-85CF-BAD6A1273156}"/>
 						</Reference>
 					</ReferenceList>
 				</Bus>

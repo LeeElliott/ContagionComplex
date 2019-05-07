@@ -1733,9 +1733,14 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Bird FX" ID="{FAA55CFA-7BCB-4E6F-96D0-477B45425AD5}" ShortID="96020110">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>46</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-26</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1939,9 +1944,19 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Cow FX" ID="{81B84473-D7C4-4469-A604-8F6A92DBD3E8}" ShortID="468545639">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-30</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2246,12 +2261,17 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>20</Value>
+										<Value>27</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>36</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-42</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

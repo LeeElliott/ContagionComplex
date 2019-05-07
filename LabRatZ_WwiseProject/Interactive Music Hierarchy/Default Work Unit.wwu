@@ -394,9 +394,19 @@
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="Production Room" ID="{0994145A-9F38-4433-BDF9-F5B0C1B85E35}" ShortID="43876938">
 									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>18</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>11</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2352,17 +2362,17 @@
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
 											<ValueList>
-												<Value>34</Value>
+												<Value>38</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>34</Value>
+												<Value>47</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-17</Value>
+												<Value>-21</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
