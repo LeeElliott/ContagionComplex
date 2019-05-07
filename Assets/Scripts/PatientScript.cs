@@ -32,28 +32,31 @@ public class PatientScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update ()
+    void Update()
     {
-        // If zoomed in
-        if (Camera.main.GetComponent<CameraScript>().isZoomed && 
-            gameObject.transform.GetChild(5).GetComponent<SkinnedMeshRenderer>().IsVisibleFrom(Camera.main))
+        if (GameObject.FindGameObjectWithTag("Controller").GetComponent<ControllerScript>().GetPaused())
         {
-            // Generate random number
-            int x = Random.Range(0, 999);
-
-            if (x == 123)
+            // If zoomed in
+            if (Camera.main.GetComponent<CameraScript>().isZoomed &&
+                gameObject.transform.GetChild(5).GetComponent<SkinnedMeshRenderer>().IsVisibleFrom(Camera.main))
             {
-                switch(infection)
+                // Generate random number
+                int x = Random.Range(0, 999);
+
+                if (x == 123)
                 {
-                    case 0:
-                        AkSoundEngine.PostEvent("Play_Bird_FX", gameObject);                        
-                        break;
-                    case 1:
-                        AkSoundEngine.PostEvent("Play_Cotards_FX", gameObject);
-                        break;
-                    case 2:
-                        AkSoundEngine.PostEvent("Play_Cow_FX", gameObject);
-                        break;
+                    switch (infection)
+                    {
+                        case 0:
+                            AkSoundEngine.PostEvent("Play_Bird_FX", gameObject);
+                            break;
+                        case 1:
+                            AkSoundEngine.PostEvent("Play_Cotards_FX", gameObject);
+                            break;
+                        case 2:
+                            AkSoundEngine.PostEvent("Play_Cow_FX", gameObject);
+                            break;
+                    }
                 }
             }
         }
