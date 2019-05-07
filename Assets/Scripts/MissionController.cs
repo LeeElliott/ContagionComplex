@@ -87,11 +87,7 @@ public class MissionController : MonoBehaviour
 
     public void OptionsClicked()
     {
-        //FillMissionList();
-
-
-
         // Switch to options scene
-        //SceneManager.LoadScene("SettingsMenu", LoadSceneMode.Additive);
+        SceneManager.LoadScene("SettingsMenu", LoadSceneMode.Additive);
     }
 }

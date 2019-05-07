@@ -442,7 +442,7 @@ public class CharacterAI : MonoBehaviour
    
                // Loads data from csv file and stores as a string
                scriptA = GetComponent<LoadFromCSV>();
-               speech = scriptA.LoadSpeech(variation, room);
+               speech = scriptA.LoadTextFromFile(variation, room, "Speech");
    
                // Next step is getting speech to be dispayed on screen
                speechCanvas.enabled = true;
@@ -510,8 +510,8 @@ public class CharacterAI : MonoBehaviour
 
             // Loads data from csv file and stores as a string
             scriptA = GetComponent<LoadFromCSV>();
-            result = scriptA.LoadName(forename, 0);
-            result += scriptA.LoadName(surname, 2);
+            result = scriptA.LoadTextFromFile(forename, 0, "Names");
+            result += scriptA.LoadTextFromFile(surname, 2, "Names");
         }
         else
         {
@@ -520,8 +520,8 @@ public class CharacterAI : MonoBehaviour
 
             // Loads data from csv file and stores as a string
             scriptA = GetComponent<LoadFromCSV>();
-            result = scriptA.LoadName(forename, 1);
-            result += scriptA.LoadName(surname, 2);
+            result = scriptA.LoadTextFromFile(forename, 1, "Names");
+            result += scriptA.LoadTextFromFile(surname, 2, "Names");
         }
                 
         return result;

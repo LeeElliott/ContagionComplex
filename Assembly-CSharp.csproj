@@ -71,6 +71,8 @@
      <Compile Include="Assets\Scripts\RoomScript.cs" />
      <Compile Include="Assets\Scripts\SliderUpdater.cs" />
      <Compile Include="Assets\Scripts\SplashController.cs" />
+     <Compile Include="Assets\Scripts\SpotDifference\IdentificationController.cs" />
+     <Compile Include="Assets\Scripts\SpotDifference\ObjectScript.cs" />
      <Compile Include="Assets\Scripts\TutorialScript.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />
@@ -251,8 +253,6 @@
      <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseUp.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkUnityEventHandler.cs" />
      <Compile Include="Assets\Wwise\Extensions\AkSoundEngine.extensions.cs" />
-     <Compile Include="Assets\Wwise\SpotDifference\IdentificationController.cs" />
-     <Compile Include="Assets\Wwise\SpotDifference\ObjectScript.cs" />
      <None Include="Assets\Wwise\Version.txt" />
      <None Include="Assets\WwiseSettings.xml" />
      <None Include="Assets\Wwise\Deployment\Plugins\Mac\Release\AkSoundEngine.bundle\Contents\Resources\readme.txt" />

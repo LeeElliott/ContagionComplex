@@ -219,55 +219,55 @@ public class PopulatePanels : MonoBehaviour
                 case 0:
                     if(controller.GetComponent<ControllerScript>().GetIStars() > 0)
                     {
-                        outputString = scriptA.LoadData(1, 1);
+                        outputString = scriptA.LoadTextFromFile(1, 1, "VirusData");
                     }
                     break;
                 case 1:
                     if (controller.GetComponent<ControllerScript>().GetIStars() > 1)
                     {
-                        outputString = scriptA.LoadData(2, 1);
+                        outputString = scriptA.LoadTextFromFile(2, 1, "VirusData");
                     }
                     break;
                 case 2:
                     if (controller.GetComponent<ControllerScript>().GetIStars() > 2)
                     {
-                        outputString = scriptA.LoadData(3, 1);
+                        outputString = scriptA.LoadTextFromFile(3, 1, "VirusData");
                     }
                     break;
                 case 3:
                     if (controller.GetComponent<ControllerScript>().GetEStars() > 0)
                     {
-                        outputString = scriptA.LoadData(4, 1);
+                        outputString = scriptA.LoadTextFromFile(4, 1, "VirusData");
                     }
                     break;
                 case 4:
                     if (controller.GetComponent<ControllerScript>().GetEStars() > 1)
                     {
-                        outputString = scriptA.LoadData(5, 1);
+                        outputString = scriptA.LoadTextFromFile(5, 1, "VirusData");
                     }
                     break;
                 case 5:
                     if (controller.GetComponent<ControllerScript>().GetEStars() > 2)
                     {
-                        outputString = scriptA.LoadData(6, 1);
+                        outputString = scriptA.LoadTextFromFile(6, 1, "VirusData");
                     }
                     break;
                 case 6:
                     if (controller.GetComponent<ControllerScript>().GetPStars() > 0)
                     {
-                        outputString = scriptA.LoadData(7, 1);
+                        outputString = scriptA.LoadTextFromFile(7, 1, "VirusData");
                     }
                     break;
                 case 7:
                     if (controller.GetComponent<ControllerScript>().GetPStars() > 1)
                     {
-                        outputString = scriptA.LoadData(8, 1);
+                        outputString = scriptA.LoadTextFromFile(8, 1, "VirusData");
                     }
                     break;
                 case 8:
                     if (controller.GetComponent<ControllerScript>().GetPStars() > 2)
                     {
-                        outputString = scriptA.LoadData(9, 1);
+                        outputString = scriptA.LoadTextFromFile(9, 1, "VirusData");
                     }
                     break;
             }
