@@ -75,21 +75,23 @@ public class MissionController : MonoBehaviour
 
     public void MissionButtonClicked()
     {
+		//play button click sound
+		AkSoundEngine.PostEvent ("Play_Button_1_Forward", gameObject);
         // Display info text and start button
         toggle.SetActive(true);
      
         // Set the text
 		
-		//play button click sound
-		AkSoundEngine.PostEvent ("Play_Button_1_Forward", gameObject);
+		
     }
 
     public void StartClicked()
     {
-        // Switch scene to main game
-        SceneManager.LoadScene("MainGame");
 		//play button click sound
 		AkSoundEngine.PostEvent ("Play_Button_1_Forward", gameObject);
+        // Switch scene to main game
+        SceneManager.LoadScene("MainGame");
+		
     }
 
     public void OptionsClicked()

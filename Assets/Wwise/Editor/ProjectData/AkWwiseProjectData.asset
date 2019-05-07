@@ -24,8 +24,8 @@ MonoBehaviour:
     List: []
   AuxBusWwu:
   - Guid: '{339EB3A5-F74D-4AB5-A483-D4D23F4F0A4F}'
-    m_lastTimePart2: -1999187320
-    m_lastTimePsrt1: 1471410162
+    m_lastTimePart2: -1999187308
+    m_lastTimePsrt1: -180715627
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
@@ -484,9 +484,8 @@ MonoBehaviour:
       minDuration: 0
   ExpandedItems:
   - /LabRatZ_WwiseProject
-  - /LabRatZ_WwiseProject/States
-  - /LabRatZ_WwiseProject/States/Default Work Unit
-  - /LabRatZ_WwiseProject/States/Default Work Unit/Ambience_switch
+  - /LabRatZ_WwiseProject/Banks
+  - /LabRatZ_WwiseProject/Banks/Default Work Unit
   RtpcWwu:
   - Guid: '{130B3285-951B-41BA-A58A-A484FE9D5B61}'
     m_lastTimePart2: -1999201485

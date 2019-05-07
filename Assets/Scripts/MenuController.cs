@@ -2,6 +2,8 @@
 // Created by Lee Elliott
 // 15/11/2018
 //
+// edited by Lewis Hodgkin (button sound trigger added)
+// 07/05/2019
 // A script designed to hold all
 // functionality of the menu
 // controller.
@@ -23,6 +25,8 @@ public class MenuController : MonoBehaviour
 
 	public void MissionsClicked()
     {
+		//Play button click sound
+		AkSoundEngine.PostEvent ("Play_Button_1_Forward", gameObject);
         // Load mission menu
         SceneManager.LoadScene("MissionsMenu");
     }
