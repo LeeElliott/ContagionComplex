@@ -32,7 +32,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-14</Value>
+												<Value>-16</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3646,7 +3646,7 @@
 													<MusicFade Name="Destination Fade-in" ID="{A1CEE1CB-986D-4E58-8EA4-0A9AC352864C}">
 														<PropertyList>
 															<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
-															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.7"/>
 														</PropertyList>
 													</MusicFade>
 												</DestinationFadeIn>

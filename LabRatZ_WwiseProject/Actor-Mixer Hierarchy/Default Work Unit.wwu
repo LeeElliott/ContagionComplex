@@ -773,6 +773,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Male 1" ID="{AA3A68AB-F02E-4D01-8116-0CE1339F111E}" ShortID="264886711">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>27</Value>
@@ -1013,6 +1014,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Male 2" ID="{3D7AB569-AF03-4CBB-AA31-90D6D705EA42}" ShortID="835913072">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>35</Value>
@@ -1232,6 +1234,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Female 1" ID="{E375285A-C661-42C3-B233-B00C32AD06CF}" ShortID="111465910">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>36</Value>
@@ -1472,6 +1475,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Female 2" ID="{7F34F83E-EAF2-4EFE-8C79-9A9FD09CEB9B}" ShortID="1030814524">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>33</Value>
@@ -1733,6 +1737,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Bird FX" ID="{FAA55CFA-7BCB-4E6F-96D0-477B45425AD5}" ShortID="96020110">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
 										<Value>46</Value>
@@ -1944,6 +1949,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Cow FX" ID="{81B84473-D7C4-4469-A604-8F6A92DBD3E8}" ShortID="468545639">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>30</Value>
@@ -2259,6 +2265,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Cotards FX" ID="{56BCD9F0-4232-4DA1-A328-D383FB23DFF4}" ShortID="270300543">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>27</Value>
