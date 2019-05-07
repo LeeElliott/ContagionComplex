@@ -1,7 +1,9 @@
 ﻿//-------------------------------
 // Created by Lee Elliott
 // 21/01/2019
-//
+// 
+// Edited by Lewis Hodgkin (Button sound triggers added)
+// 07/05/2019
 // A script designed to hold all
 // functionality of the mission
 // screen controller.
@@ -73,22 +75,31 @@ public class MissionController : MonoBehaviour
 
     public void MissionButtonClicked()
     {
+		//play button click sound
+		AkSoundEngine.PostEvent ("Play_Button_1_Forward", gameObject);
         // Display info text and start button
         toggle.SetActive(true);
-
+     
         // Set the text
+		
+		
     }
 
     public void StartClicked()
     {
+		//play button click sound
+		AkSoundEngine.PostEvent ("Play_Button_1_Forward", gameObject);
         // Switch scene to main game
         SceneManager.LoadScene("MainGame");
+		
     }
 
     public void OptionsClicked()
     {
         //FillMissionList();
-
+		
+		//play button click sound
+         AkSoundEngine.PostEvent ("Play_Button_1_Forward", gameObject);
 
 
         // Switch to options scene

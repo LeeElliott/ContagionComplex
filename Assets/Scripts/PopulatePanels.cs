@@ -2,6 +2,8 @@
 // Created by Lee Elliott
 // 23/02/2019
 //
+// edited by Lewis Hodgkin (button sound triggers added)
+// 07/05/19
 // A script designed fill the scientist list
 // and mission data panel.
 //
@@ -50,9 +52,13 @@ public class PopulatePanels : MonoBehaviour
 
     public void StaffClicked()
     {
+		
         if (panel.activeSelf)
+			
         {
-            // Hide panel
+            //Play button click sound
+		    AkSoundEngine.PostEvent ("Play_Button_1_Back", gameObject);
+			// Hide panel
             panel.SetActive(false);
 
             // Clear scientist nodes
@@ -62,15 +68,20 @@ public class PopulatePanels : MonoBehaviour
             }
         }
         else
-        {
+        {   
+	    //Play button click sound
+		    AkSoundEngine.PostEvent ("Play_Button_1_Forward", gameObject);
             PopulateStaff();
         }
     }
 
     public void MissionClicked()
     {
+		
         if (panel.activeSelf)
         {
+			//Play button click sound
+		    AkSoundEngine.PostEvent ("Play_Button_1_Back", gameObject);
             // Hide panel
             panel.SetActive(false);
 
@@ -82,12 +93,16 @@ public class PopulatePanels : MonoBehaviour
         }
         else
         {
+			//Play button click sound
+		    AkSoundEngine.PostEvent ("Play_Button_1_Forward", gameObject);
             PopulateMission();
         }
     }
 
     public void BuildClicked()
     {
+		//Play button click sound
+		AkSoundEngine.PostEvent ("Play_Button_1_Forward", gameObject);
         // Reusing node and panel for neatness
         // Hide the button
         node.SetActive(false);

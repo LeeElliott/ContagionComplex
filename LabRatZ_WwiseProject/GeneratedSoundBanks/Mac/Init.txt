@@ -16,6 +16,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
+	1865172355	New_Wwise_Gain	Wwise Gain			
 	4286906788	Gentle_Program_Compressor_Minus_20dB_RMS	Wwise Compressor			
 
 Audio Devices	ID	Name	Type				Notes

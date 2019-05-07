@@ -4,9 +4,59 @@
 		<WorkUnit Name="Default Work Unit" ID="{2709148B-4F7A-4FD9-9265-25463ECA6399}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="New Soundcaster Session" ID="{091B6F68-34AD-42EC-A8C4-CDE4014AE9F2}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Bird FX" ID="{FAA55CFA-7BCB-4E6F-96D0-477B45425AD5}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Success Click" ID="{6AFF20A4-0B00-458D-8A4C-895DDA8AC99B}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Missed Click" ID="{C7BA971D-174C-4475-ACD6-EDC1B92861A2}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cotards FX" ID="{56BCD9F0-4232-4DA1-A328-D383FB23DFF4}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Achieved Star 1" ID="{E0E09C8E-9182-40F2-B933-EBE22F8AAA4F}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Perfect Success" ID="{F8D95726-BC60-4F46-9886-7446A2771314}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cow FX" ID="{81B84473-D7C4-4469-A604-8F6A92DBD3E8}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Achieved Star 2" ID="{E2B3E64C-EC73-4E0F-B34F-A625AA7159C9}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Timer" ID="{81BFBA96-8A5F-4B09-882A-9719BFC28224}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambience Switch" ID="{7B71ABC5-46CC-43D7-A74E-93A482610BE1}" WorkUnitID="{887E36D7-F9A0-4E4F-A38B-2F26779A0E9F}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Achieved Star 3" ID="{04367147-37A0-4F01-9B30-41703DE0B430}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Tray Change" ID="{03BF68BE-4BB1-4767-B7B8-C781D4226BFE}" WorkUnitID="{02B21110-5139-4F6F-8B42-1169370B8863}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Default_Room" ID="{0BA5A89B-77AB-4C18-954F-F0DB40CE40D9}"/>
+						<CurrentStateRef Name="ID" ID="{AE9347CF-4DF9-4591-9A24-E88E55015BE9}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
