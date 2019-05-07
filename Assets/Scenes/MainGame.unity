@@ -10734,7 +10734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scientist: {fileID: 4817873319827596, guid: fc8340cf331e8024fa67faef287494e5, type: 2}
   escort: {fileID: 4834300364869012, guid: aba2f98ae05db474d87457bec14bc376, type: 2}
-  patient: {fileID: 4296051505058602, guid: 07c060006152914498e23e6fc1784d25, type: 2}
+  patient: {fileID: 4279692785999864, guid: f2a3763ec1ef8d443a2f8f8c921fb287, type: 2}
   currencyText: {fileID: 1977845025}
   buildButton: {fileID: 217251052}
   buildPanel: {fileID: 147128841}
